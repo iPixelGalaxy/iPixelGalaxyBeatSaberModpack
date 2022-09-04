@@ -1,0 +1,31 @@
+{
+  "Regenerate": false,
+  "Debug": {
+    "ShowCallSource": false,
+    "ShowDebug": false,
+    "CondenseModLogs": false,
+    "CreateModLogs": false,
+    "ShowHandledErrorStackTraces": false,
+    "HideMessagesForPerformance": true,
+    "HideLogThreshold": 512,
+    "ShowTrace": false,
+    "SyncLogging": false
+  },
+  "AntiMalware": {
+    "UseIfAvailable": true,
+    "RunPartialThreatCode": false
+  },
+  "YeetMods": true,
+  "GameAssemblies": [
+    "Main.dll",
+    "Core.dll",
+    "HMLib.dll",
+    "HMUI.dll",
+    "HMRendering.dll",
+    "VRUI.dll",
+    "BeatmapCore.dll",
+    "GameplayCore.dll",
+    "HMLibAttributes.dll"
+  ],
+  "LastGameVersion": "1.24.1"
+}
