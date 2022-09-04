@@ -1,4 +1,4 @@
-# iPixelGalaxy-Beat-Saber-Modpack
+# iPixelGalaxy Beat Saber Modpack
 # Included Mods:
 - BeatLeader 0.4.2 by [BeatLeader Team](https://github.com/BeatLeader/beatleader-mod/releases)
 - BeatSaberPlus 5.0.1 by [HarpCPP](https://github.com/hardcpp/BeatSaberPlus/releases)
