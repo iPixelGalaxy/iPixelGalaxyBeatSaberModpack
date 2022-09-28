@@ -7,7 +7,7 @@
 - BetterSongList 0.3.3 by [Kinsi55](https://github.com/kinsi55/BeatSaber_BetterSongList/releases) (This Version Has a Small Tweak to Show Reaction Time Instead of Jump Distance)
 - BetterSongSearch 0.7.73 by [Kinsi55](https://github.com/kinsi55/BeatSaber_BetterSongSearch/releases)
 - BeatTogether 2.0.1 by [BeatTogether Team](https://github.com/BeatTogether/BeatTogether/releases)
-- Camera2 0.6.95 by [Kinsi55](https://github.com/kinsi55/CS_BeatSaber_Camera2/releases)
+- Camera2 0.6.97 by [Kinsi55](https://github.com/kinsi55/CS_BeatSaber_Camera2/releases)
 - CustomJSONData 2.4.1 by [Aeroluna](https://github.com/Aeroluna/CustomJSONData/releases)
 - Heck 1.4.3 by [Aeroluna](https://github.com/Aeroluna/Heck/releases)
 - Chroma 2.6.2 by [Aeroluna](https://github.com/Aeroluna/Heck/releases)
