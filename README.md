@@ -1,6 +1,6 @@
 # iPixelGalaxy Beat Saber Modpack
 # Included Mods:
-- BeatLeader 0.4.3 by [BeatLeader Team](https://github.com/BeatLeader/beatleader-mod/releases)
+- BeatLeader 0.4.4 by [BeatLeader Team](https://github.com/BeatLeader/beatleader-mod/releases)
 - BeatSaberPlus 5.0.1 by [HarpCPP](https://github.com/hardcpp/BeatSaberPlus/releases)
 - BeatSaverUpdater 1.1.0 by [PixelBoom](https://github.com/rithik-b/BeatSaverUpdater/releases)
 - BeatSaviorData 2.1.13 by [Mystogan98](https://github.com/Mystogan98/BeatSaviorData/releases)
@@ -8,10 +8,10 @@
 - BetterSongSearch 0.7.73 by [Kinsi55](https://github.com/kinsi55/BeatSaber_BetterSongSearch/releases)
 - BeatTogether 2.0.1 by [BeatTogether Team](https://github.com/BeatTogether/BeatTogether/releases)
 - Camera2 0.6.98 by [Kinsi55](https://github.com/kinsi55/CS_BeatSaber_Camera2/releases)
-- CustomJSONData 2.4.1 by [Aeroluna](https://github.com/Aeroluna/CustomJSONData/releases)
-- Heck 1.4.3 by [Aeroluna](https://github.com/Aeroluna/Heck/releases)
+- CustomJSONData 2.4.3 by [Aeroluna](https://github.com/Aeroluna/CustomJSONData/releases)
+- Heck 1.4.5 by [Aeroluna](https://github.com/Aeroluna/Heck/releases)
 - Chroma 2.6.2 by [Aeroluna](https://github.com/Aeroluna/Heck/releases)
-- NoodleExtensions 1.5.2 by [Aeroluna](https://github.com/Aeroluna/Heck/releases)
+- NoodleExtensions 1.5.4 by [Aeroluna](https://github.com/Aeroluna/Heck/releases)
 - LookupID 1.0.1 by [Aeroluna](https://github.com/Aeroluna/Heck/releases)
 - Counters+ 2.3.1 by [Caeden117](https://github.com/Caeden117/CountersPlus/releases)
 - ExtraBSLSorters 2.0.1 by [SuperSonic16](https://github.com/thesupersonic16/ExtraBSLSorters/releases)
