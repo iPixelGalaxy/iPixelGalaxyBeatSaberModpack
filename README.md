@@ -20,7 +20,7 @@
 - FCPercentage 1.4.4 by [ChirpyMisha](https://github.com/ChirpyMisha/FC-Percentage/releases)
 - GottaGoFast 0.2.0 by [Kinsi55](https://github.com/kinsi55/CS_BeatSaber_GottaGoFast/releases)
 - HitBloq 1.3.0 by [PixelBoom](https://github.com/PauseChampions/Hitbloq/releases)
-- LeaderboardCore 1.2.3 by [PixelBoom](https://github.com/rithik-b/LeaderboardCore/releases)
+- LeaderboardCore 1.3.1 by [PixelBoom](https://github.com/rithik-b/LeaderboardCore/releases)
 - HitSoundTweaks 1.1.0 by [GalaxyMaster](https://github.com/GalaxyMaster2/HitsoundTweaks/releases)
 - HitScoreVisualizer 3.3.3 by [Eris](https://github.com/ErisApps/HitScoreVisualizer/releases)
 - iForgor 1.3.0 by [ckosmic](https://github.com/ckosmic/IForgor/releases)
