@@ -37,7 +37,7 @@
 - ScorePercentage 1.4.13 by [IdleBob](https://github.com/Idlebawb/ScorePercentage/releases)
 - SearchFixes 1.0.0 by [PixelBoom](https://github.com/rithik-b/SearchFixes/releases)
 - ServerBrowser 1.1.0 by [roydejong](https://github.com/roydejong/BeatSaberServerBrowser/releases)
-- Shaffuru 0.1.4 by [Kinsi55](https://github.com/kinsi55/BeatSaber_Shaffuru/releases)
+- Shaffuru 0.2.0 by [Kinsi55](https://github.com/kinsi55/BeatSaber_Shaffuru/releases)
 - SliceDetails 1.3.1 by [ckosmic](https://github.com/ckosmic/SliceDetails/releases)
 - SmoothedController 0.0.1 by [Kinsi55](https://github.com/kinsi55/BeatSaber_SmoothedController/releases)
 - SongPlayHistoryContinued 1.6.2 by [Shadnix](https://github.com/Shadnix-was-taken/BeatSaber-SongPlayHistoryContinued/releases)
