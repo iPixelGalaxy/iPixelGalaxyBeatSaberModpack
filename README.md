@@ -19,7 +19,7 @@
 - FailButton 0.0.2 by Kinsi55 (Not on GitHub. "its like a 15 line plugin" -Kinsi55)
 - FastFail 2.0.5 by [PulseLane](https://github.com/PulseLane/FastFail/releases)
 - FCPercentage 1.4.4 by [ChirpyMisha](https://github.com/ChirpyMisha/FC-Percentage/releases)
-- GottaGoFast 0.2.0 by [Kinsi55](https://github.com/kinsi55/CS_BeatSaber_GottaGoFast/releases)
+- GottaGoFast 0.2.1 by [Kinsi55](https://github.com/kinsi55/CS_BeatSaber_GottaGoFast/releases)
 - HitBloq 1.3.0 by [PixelBoom](https://github.com/PauseChampions/Hitbloq/releases)
 - LeaderboardCore 1.3.1 by [PixelBoom](https://github.com/rithik-b/LeaderboardCore/releases)
 - HitSoundTweaks 1.1.0 by [GalaxyMaster](https://github.com/GalaxyMaster2/HitsoundTweaks/releases)
