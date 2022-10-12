@@ -1,7 +1,7 @@
 # iPixelGalaxy Beat Saber Modpack
 # Included Mods:
 - BeatLeader 0.4.4 by [BeatLeader Team](https://github.com/BeatLeader/beatleader-mod/releases)
-- BeatSaberPlus 5.0.1 by [HarpCPP](https://github.com/hardcpp/BeatSaberPlus/releases)
+- BeatSaberPlus 5.0.2 by [HarpCPP](https://github.com/hardcpp/BeatSaberPlus/releases)
 - BeatSaverUpdater 1.1.0 by [PixelBoom](https://github.com/rithik-b/BeatSaverUpdater/releases)
 - BeatSaviorData 2.1.13 by [Mystogan98](https://github.com/Mystogan98/BeatSaviorData/releases)
 - BetterSongList 0.3.3 by [Kinsi55](https://github.com/kinsi55/BeatSaber_BetterSongList/releases) (This Version Has a Small Tweak to Show Reaction Time Instead of Jump Distance)
