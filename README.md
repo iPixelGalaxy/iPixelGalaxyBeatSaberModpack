@@ -11,7 +11,7 @@
 - ControllerSettingsHelper 0.0.1 by [Kinsi55](https://github.com/kinsi55/BeatSaber_ControllerSettingsHelper/releases)
 - CustomJSONData 2.4.3 by [Aeroluna](https://github.com/Aeroluna/CustomJSONData/releases)
 - Heck 1.4.5 by [Aeroluna](https://github.com/Aeroluna/Heck/releases)
-- Chroma 2.7.0 by [Aeroluna](https://github.com/Aeroluna/Heck/releases)
+- Chroma 2.7.1 by [Aeroluna](https://github.com/Aeroluna/Heck/releases)
 - NoodleExtensions 1.5.4 by [Aeroluna](https://github.com/Aeroluna/Heck/releases)
 - LookupID 1.0.1 by [Aeroluna](https://github.com/Aeroluna/Heck/releases)
 - Counters+ 2.3.1 by [Caeden117](https://github.com/Caeden117/CountersPlus/releases)
