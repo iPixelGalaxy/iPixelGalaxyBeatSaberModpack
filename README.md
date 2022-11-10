@@ -1,7 +1,7 @@
 # iPixelGalaxy Beat Saber Modpack
 # Included Mods:
 - BeatLeader 0.5.0 by [BeatLeader Team](https://github.com/BeatLeader/beatleader-mod/releases)
-- BeatSaberPlus 5.0.2 by [HarpCPP](https://github.com/hardcpp/BeatSaberPlus/releases)
+- BeatSaberPlus 5.0.3 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases)
 - BeatSaverUpdater 1.1.0 by [PixelBoom](https://github.com/rithik-b/BeatSaverUpdater/releases)
 - BeatSaviorData 2.1.13 by [Mystogan98](https://github.com/Mystogan98/BeatSaviorData/releases)
 - BetterSongList 0.3.3 by [Kinsi55](https://github.com/kinsi55/BeatSaber_BetterSongList/releases)
@@ -15,6 +15,7 @@
 - NoodleExtensions 1.5.4 by [Aeroluna](https://github.com/Aeroluna/Heck/releases)
 - LookupID 1.0.1 by [Aeroluna](https://github.com/Aeroluna/Heck/releases)
 - Counters+ 2.3.1 by [Caeden117](https://github.com/Caeden117/CountersPlus/releases)
+- EasyOffset 2.1.0 by [Reezonate](https://github.com/Reezonate/EasyOffset/releases)
 - ExtraBSLSorters 2.0.1 by [SuperSonic16](https://github.com/thesupersonic16/ExtraBSLSorters/releases)
 - FailButton 0.0.2 by Kinsi55 (Not on GitHub. "its like a 15 line plugin" -Kinsi55)
 - FastFail 2.0.5 by [PulseLane](https://github.com/PulseLane/FastFail/releases)
