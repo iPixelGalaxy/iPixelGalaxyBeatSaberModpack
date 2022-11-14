@@ -48,6 +48,7 @@
 - TakeMeToResults 1.1.0 by [PixelBoom](https://github.com/rithik-b/TakeMeToResults/releases)
 - TrickSaber 1.1.3 by [ToniMacaroni](https://github.com/ToniMacaroni/TrickSaber/releases)
 - Tweaks55 0.3.8 by [Kinsi55](https://github.com/kinsi55/BeatSaber_Tweaks55/releases)
+- Vent 0.0.3 by [Kinsi55](https://github.com/kinsi55)
 
 # Counters+ Add-on Mods
 - EnhancedMissCounter 1.0.0 by [CatseTheCat](https://github.com/catsethecat/EnhancedMissCounter/releases)
