@@ -9,7 +9,7 @@
 - BeatTogether 2.0.1 by [BeatTogether Team](https://github.com/BeatTogether/BeatTogether/releases)
 - Camera2 0.6.100 by [Kinsi55](https://github.com/kinsi55/CS_BeatSaber_Camera2/releases)
 - ControllerSettingsHelper 0.0.1 by [Kinsi55](https://github.com/kinsi55/BeatSaber_ControllerSettingsHelper/releases)
-- CustomJSONData 2.4.4 by [Aeroluna](https://github.com/Aeroluna/CustomJSONData/releases)
+- CustomJSONData 2.4.5 by [Aeroluna](https://github.com/Aeroluna/CustomJSONData/releases)
 - Heck 1.4.5 by [Aeroluna](https://github.com/Aeroluna/Heck/releases)
 - Chroma 2.7.2 by [Aeroluna](https://github.com/Aeroluna/Heck/releases)
 - NoodleExtensions 1.5.4 by [Aeroluna](https://github.com/Aeroluna/Heck/releases)
