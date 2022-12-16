@@ -1,13 +1,13 @@
 # iPixelGalaxy Beat Saber Modpack
 # Included Mods:
-- BeatLeader 0.5.1 by [BeatLeader Team](https://github.com/BeatLeader/beatleader-mod/releases)
+- BeatLeader 0.5.2 by [BeatLeader Team](https://github.com/BeatLeader/beatleader-mod/releases)
 - BeatSaberPlus 5.0.3 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases)
 - BeatSaverUpdater 1.1.0 by [PixelBoom](https://github.com/rithik-b/BeatSaverUpdater/releases)
 - BeatSaviorData 2.1.14 by [Mystogan98](https://github.com/Mystogan98/BeatSaviorData/releases)
 - BetterSongList 0.3.3 by [Kinsi55](https://github.com/kinsi55/BeatSaber_BetterSongList/releases)
 - BetterSongSearch 0.7.73 by [Kinsi55](https://github.com/kinsi55/BeatSaber_BetterSongSearch/releases)
 - BeatTogether 2.0.1 by [BeatTogether Team](https://github.com/BeatTogether/BeatTogether/releases)
-- BS Utils 1.12.1 by [Kylemc1414](https://github.com/Kylemc1413/Beat-Saber-Utils)
+- BS Utils 1.12.1 by [Kylemc1413](https://github.com/Kylemc1413/Beat-Saber-Utils)
 - Camera2 0.6.100 by [Kinsi55](https://github.com/kinsi55/CS_BeatSaber_Camera2/releases)
 - ControllerSettingsHelper 0.0.1 by [Kinsi55](https://github.com/kinsi55/BeatSaber_ControllerSettingsHelper/releases)
 - CustomJSONData 2.4.5 by [Aeroluna](https://github.com/Aeroluna/CustomJSONData/releases)
