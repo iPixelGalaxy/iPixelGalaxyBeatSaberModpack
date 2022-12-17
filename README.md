@@ -29,7 +29,7 @@
 - iForgor 1.3.0 by [ckosmic](https://github.com/ckosmic/IForgor/releases)
 - ImBlindedByTheLights 0.0.6 by [Kinsi55](https://github.com/kinsi55/BeatSaber_ImBlindedByTheLights/releases)
 - MappingExtensions 1.7.4 by [Kyle1314](https://github.com/Kylemc1413/MappingExtensions)
-- MenuSaberColors 1.0.4 by [Exomanz](https://github.com/Exomanz/MenuSaberColors/releases)
+- MenuSaberColors 1.0.5 by [Exomanz](https://github.com/Exomanz/MenuSaberColors/releases)
 - MorePlaylists 2.0.0 by [PixelBoom](https://github.com/rithik-b/MorePlaylists/releases)
 - MultiplayerCore 1.1.1 by [Goobwabber](https://github.com/Goobwabber/MultiplayerCore/releases)
 - MultiplayerExtensions 1.0.3 by [Goobwabber](https://github.com/Goobwabber/MultiplayerExtensions/releases)
@@ -50,6 +50,7 @@
 - TrickSaber 1.1.3 by [ToniMacaroni](https://github.com/ToniMacaroni/TrickSaber/releases)
 - Tweaks55 0.3.8 by [Kinsi55](https://github.com/kinsi55/BeatSaber_Tweaks55/releases)
 - Vent 0.0.3 by [Kinsi55](https://github.com/kinsi55)
+- wipbot 1.11.0 by [catsethecat](https://github.com/catsethecat/wipbot/releases)
 
 # Counters+ Add-on Mods
 - EnhancedMissCounter 1.0.0 by [CatseTheCat](https://github.com/catsethecat/EnhancedMissCounter/releases)
