@@ -42,7 +42,7 @@
 	"message" : "There is a newer version of the pack for 1.27.0!"
 },
 	"1.25.1": {
-        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.25.x-latest/BeatSaberModpack.zip",
+        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.25.x-latest/BeatSaberModpack1.25.x.zip",
         "externalmods" : [
             "https://beatmods.com/uploads/6245fea53f368d47b27e975d/universal/BS%20Utils-1.12.0.zip",
             "https://github.com/rithik-b/BeatSaverUpdater/releases/latest/download/BeatSaverUpdater.dll",
@@ -63,7 +63,7 @@
 	"message" : "There is a newer version of the pack for 1.27.0!"
     },
 	"1.25.0": {
-        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.25.x-latest/BeatSaberModpack.zip",
+        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.25.x-latest/BeatSaberModpack1.25.x.zip",
         "externalmods" : [
             "https://beatmods.com/uploads/6245fea53f368d47b27e975d/universal/BS%20Utils-1.12.0.zip",
             "https://github.com/rithik-b/BeatSaverUpdater/releases/latest/download/BeatSaverUpdater.dll",
@@ -84,7 +84,7 @@
 	"message" : "There is a newer version of the pack for 1.27.0!"
 	},
 	"1.24.1": {
-        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.22.0-1.24.1-latest/BeatSaberModpack.zip",
+        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.22.0-1.24.1-latest/BeatSaberModpack1.22.0-1.24.1.zip",
         "externalmods" : [
             "https://beatmods.com/uploads/6245fea53f368d47b27e975d/universal/BS%20Utils-1.12.0.zip",
             "https://github.com/rithik-b/BeatSaverUpdater/releases/latest/download/BeatSaverUpdater.dll",
@@ -106,7 +106,7 @@
 	"message" : "There is a newer version of the pack for 1.27.0!"
 	},
 	"1.24.0": {
-        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.22.0-1.24.1-latest/BeatSaberModpack.zip",
+        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.22.0-1.24.1-latest/BeatSaberModpack1.22.0-1.24.1.zip",
         "externalmods" : [
             "https://beatmods.com/uploads/6245fea53f368d47b27e975d/universal/BS%20Utils-1.12.0.zip",
             "https://github.com/rithik-b/BeatSaverUpdater/releases/latest/download/BeatSaverUpdater.dll",
@@ -128,7 +128,7 @@
 	"message" : "There is a newer version of the pack for 1.27.0!"
 	},
 	"1.23.0": {
-        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.22.0-1.24.1-latest/BeatSaberModpack.zip",
+        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.22.0-1.24.1-latest/BeatSaberModpack1.22.0-1.24.1.zip",
         "externalmods" : [
             "https://beatmods.com/uploads/6245fea53f368d47b27e975d/universal/BS%20Utils-1.12.0.zip",
             "https://github.com/rithik-b/BeatSaverUpdater/releases/latest/download/BeatSaverUpdater.dll",
@@ -150,7 +150,7 @@
 	"message" : "There is a newer version of the pack for 1.27.0!"
 	},
 	"1.22.1": {
-        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.22.0-1.24.1-latest/BeatSaberModpack.zip",
+        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.22.0-1.24.1-latest/BeatSaberModpack1.22.0-1.24.1.zip",
         "externalmods" : [
             "https://beatmods.com/uploads/6245fea53f368d47b27e975d/universal/BS%20Utils-1.12.0.zip",
             "https://github.com/rithik-b/BeatSaverUpdater/releases/latest/download/BeatSaverUpdater.dll",
@@ -172,7 +172,29 @@
 	"message" : "There is a newer version of the pack for 1.27.0!"
 	},
 	"1.22.0": {
-        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.22.0-1.24.1-latest/BeatSaberModpack.zip",
+        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.22.0-1.24.1-latest/BeatSaberModpack1.22.0-1.24.1.zip",
+        "externalmods" : [
+            "https://beatmods.com/uploads/6245fea53f368d47b27e975d/universal/BS%20Utils-1.12.0.zip",
+            "https://github.com/rithik-b/BeatSaverUpdater/releases/latest/download/BeatSaverUpdater.dll",
+            "https://github.com/kinsi55/BeatSaber_BetterSongSearch/releases/latest/download/BetterSongSearch.dll",
+	    "https://beatmods.com/uploads/62f6f2c5fdabde6bb8311493/universal/BeatSaberMarkupLanguage-1.6.8.zip",
+            "https://beatmods.com/uploads/636ae3750c5c87297d5dab7f/universal/SiraUtil-3.1.2.zip",
+            "https://beatmods.com/uploads/636adcab0c5c87297d5daa99/universal/BeatSaverSharp-3.4.4.zip",
+            "https://beatmods.com/uploads/624602953f368d47b27e9775/universal/BeatSaverVoting-2.3.5.zip",
+            "https://beatmods.com/uploads/636ae3cd0c5c87297d5dac39/universal/SongDataCore-1.4.8.zip",
+            "https://beatmods.com/uploads/62851a50d384c3394fe53683/universal/SongCore-3.9.6.zip",
+            "https://beatmods.com/uploads/636adcb00c5c87297d5daaab/universal/Ini%20Parser-2.5.9.zip",
+            "https://beatmods.com/uploads/636ae3c60c5c87297d5dac27/universal/BeatSaverDownloader-5.8.2.zip",
+            "https://beatmods.com/uploads/636adcb10c5c87297d5daab1/universal/ScoreSaberSharp-0.1.0.zip",
+            "https://github.com/ScoreSaber/ScoreSaber-Plugin/releases/download/v3.2.13/ScoreSaber-3.2.13.zip",
+	    "https://github.com/Auros/DiTails/releases/latest/download/DiTails.zip",
+            "https://beatmods.com/uploads/636ae3940c5c87297d5dabca/universal/Intro%20Skip-4.0.3.zip",
+            "https://github.com/zeph-yr/JDFixer/releases/latest/download/JDFixer.dll"
+        ],
+	"message" : "There is a newer version of the pack for 1.27.0!"
+	},
+	"1.21.0": {
+        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.21.0-latest/BeatSaberModpack1.21.0.zip",
         "externalmods" : [
             "https://beatmods.com/uploads/6245fea53f368d47b27e975d/universal/BS%20Utils-1.12.0.zip",
             "https://github.com/rithik-b/BeatSaverUpdater/releases/latest/download/BeatSaverUpdater.dll",
