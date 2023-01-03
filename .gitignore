@@ -8,3 +8,9 @@ Beat Saber 1.24.1/Beat Saber 1.24.1.zip
 Beat Saber 1.25.0/BeatSaberModpack.zip
 Beat Saber 1.25.0/BeatSaberModpack.zip
 *.zip
+zip.vbs
+ZipRelease 1.21.bat
+ZipRelease 1.22.0-1.24.1.bat
+ZipRelease 1.25.x.bat
+ZipRelease 1.26.0.bat
+ZipRelease 1.27.0.bat

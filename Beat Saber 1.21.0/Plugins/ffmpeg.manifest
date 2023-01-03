@@ -1,0 +1,12 @@
+﻿{
+  "$schema": "https://raw.githubusercontent.com/bsmg/BSIPA-MetadataFileSchema/master/Schema.json",
+  "id": "ffmpeg",
+  "name": "FFmpeg",
+  "author": "FFmpeg team",
+  "version": "4.3.3",
+  "description": "FFmpeg is the leading multimedia framework, able to decode, encode, transcode, mux, demux, stream, filter and play pretty much anything that humans and machines have created.",
+  "gameVersion": "1.13.4",
+  "files": [
+    "Libs/ffmpeg.exe"
+  ]
+}
