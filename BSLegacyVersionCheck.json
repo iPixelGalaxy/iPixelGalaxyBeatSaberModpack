@@ -21,7 +21,7 @@
 	"message" : ""
     }, 
 	"1.26.0": {
-        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.26.0-latest/BeatSaberModpack1.26.0.zip",
+        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.26.0-latest/BeatSaberModpack.zip",
         "externalmods" : [
             "https://github.com/Auros/DiTails/releases/latest/download/DiTails.zip",
             "https://beatmods.com/uploads/636ae3940c5c87297d5dabca/universal/Intro%20Skip-4.0.3.zip",
