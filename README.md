@@ -35,6 +35,15 @@ BSLegacyGroup Discord can be found [here](https://discord.gg/MrwMx5e) Don't go t
 
 I also want to say a great thanks to Riski for integrating my modpack as a one click install button into the launcher even tho it's for such a small group of people! 😀
 
+# The Benefits of BSLegacyLauncher
+- no game auto updates
+- much more storage efficient
+- much faster to upgrade
+- many less points of failure
+- don't really need to touch mod assistant if you don't want to
+- mod stay more up to date than mod assistant
+- you get to discover new mods and don't have to worry about forgetting certain mods that aren't compatible or something of the sort as I make sure everything is functional before releasing a pack for the new version
+
 # Included Mods:
 - BeatLeader 0.5.4 by [BeatLeader Team](https://github.com/BeatLeader/beatleader-mod/releases)
 - BeatSaberPlus 5.0.3 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases)
