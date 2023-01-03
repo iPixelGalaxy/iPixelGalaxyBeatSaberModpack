@@ -1,0 +1,5 @@
+CScript  zip.vbs  "F:\iPixelGalaxy\Desktop\iPixelGalaxy Beat Saber Modpack\Beat Saber 1.21.0"  "F:\iPixelGalaxy\Desktop\iPixelGalaxy Beat Saber Modpack\BeatSaberModpack1.21.0.zip"
+CScript  zip.vbs  "F:\iPixelGalaxy\Desktop\iPixelGalaxy Beat Saber Modpack\Beat Saber 1.22.0-1.24.1"  "F:\iPixelGalaxy\Desktop\iPixelGalaxy Beat Saber Modpack\BeatSaberModpack1.22.0-1.24.1.zip"
+CScript  zip.vbs  "F:\iPixelGalaxy\Desktop\iPixelGalaxy Beat Saber Modpack\Beat Saber 1.25.x"  "F:\iPixelGalaxy\Desktop\iPixelGalaxy Beat Saber Modpack\BeatSaberModpack1.25.x.zip"
+CScript  zip.vbs  "F:\iPixelGalaxy\Desktop\iPixelGalaxy Beat Saber Modpack\Beat Saber 1.26.0"  "F:\iPixelGalaxy\Desktop\iPixelGalaxy Beat Saber Modpack\BeatSaberModpack1.26.0.zip"
+CScript  zip.vbs  "F:\iPixelGalaxy\Desktop\iPixelGalaxy Beat Saber Modpack\Beat Saber 1.27.0"  "F:\iPixelGalaxy\Desktop\iPixelGalaxy Beat Saber Modpack\BeatSaberModpack1.27.0.zip"
