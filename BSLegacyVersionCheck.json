@@ -2,9 +2,7 @@
 	"1.27.0": {
         "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.27.0-0.0.3/BeatSaberModpack.zip",
         "externalmods" : [
-            "https://github.com/Auros/DiTails/releases/latest/download/DiTails.zip",
-            "https://beatmods.com/uploads/636ae3940c5c87297d5dabca/universal/Intro%20Skip-4.0.3.zip",
-            "https://github.com/zeph-yr/JDFixer/releases/latest/download/JDFixer.dll",
+	    "https://beatmods.com/uploads/63990e5e0505da399146f0bf/universal/BS%20Utils-1.12.1.zip",
             "https://github.com/rithik-b/BeatSaverUpdater/releases/latest/download/BeatSaverUpdater.dll",
             "https://github.com/kinsi55/BeatSaber_BetterSongSearch/releases/latest/download/BetterSongSearch.dll",
             "https://beatmods.com/uploads/636ae3750c5c87297d5dab7f/universal/SiraUtil-3.1.2.zip",
@@ -15,7 +13,10 @@
             "https://beatmods.com/uploads/636adcb00c5c87297d5daaab/universal/Ini%20Parser-2.5.9.zip",
             "https://beatmods.com/uploads/636ae3c60c5c87297d5dac27/universal/BeatSaverDownloader-5.8.2.zip",
             "https://beatmods.com/uploads/636adcb10c5c87297d5daab1/universal/ScoreSaberSharp-0.1.0.zip",
-            "https://github.com/ScoreSaber/ScoreSaber-Plugin/releases/download/v3.2.13/ScoreSaber-3.2.13.zip"
+            "https://github.com/ScoreSaber/ScoreSaber-Plugin/releases/download/v3.2.13/ScoreSaber-3.2.13.zip",
+	    "https://github.com/Auros/DiTails/releases/latest/download/DiTails.zip",
+            "https://beatmods.com/uploads/636ae3940c5c87297d5dabca/universal/Intro%20Skip-4.0.3.zip",
+            "https://github.com/zeph-yr/JDFixer/releases/latest/download/JDFixer.dll"
         ],
 	"message" : ""
     }, 
@@ -43,9 +44,6 @@
 	"1.25.1": {
         "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.25.x-latest/BeatSaberModpack.zip",
         "externalmods" : [
-            "https://github.com/Auros/DiTails/releases/latest/download/DiTails.zip",
-            "https://beatmods.com/uploads/636ae3940c5c87297d5dabca/universal/Intro%20Skip-4.0.3.zip",
-            "https://github.com/zeph-yr/JDFixer/releases/latest/download/JDFixer.dll",
             "https://beatmods.com/uploads/6245fea53f368d47b27e975d/universal/BS%20Utils-1.12.0.zip",
             "https://github.com/rithik-b/BeatSaverUpdater/releases/latest/download/BeatSaverUpdater.dll",
             "https://github.com/kinsi55/BeatSaber_BetterSongSearch/releases/latest/download/BetterSongSearch.dll",
@@ -57,16 +55,16 @@
             "https://beatmods.com/uploads/636adcb00c5c87297d5daaab/universal/Ini%20Parser-2.5.9.zip",
             "https://beatmods.com/uploads/636ae3c60c5c87297d5dac27/universal/BeatSaverDownloader-5.8.2.zip",
             "https://beatmods.com/uploads/636adcb10c5c87297d5daab1/universal/ScoreSaberSharp-0.1.0.zip",
-            "https://github.com/ScoreSaber/ScoreSaber-Plugin/releases/download/v3.2.13/ScoreSaber-3.2.13.zip"
+            "https://github.com/ScoreSaber/ScoreSaber-Plugin/releases/download/v3.2.13/ScoreSaber-3.2.13.zip",
+	    "https://github.com/Auros/DiTails/releases/latest/download/DiTails.zip",
+            "https://beatmods.com/uploads/636ae3940c5c87297d5dabca/universal/Intro%20Skip-4.0.3.zip",
+            "https://github.com/zeph-yr/JDFixer/releases/latest/download/JDFixer.dll"
         ],
 	"message" : "There is a newer version of the pack for 1.27.0!"
     },
 	"1.25.0": {
         "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.25.x-latest/BeatSaberModpack.zip",
         "externalmods" : [
-            "https://github.com/Auros/DiTails/releases/latest/download/DiTails.zip",
-            "https://beatmods.com/uploads/636ae3940c5c87297d5dabca/universal/Intro%20Skip-4.0.3.zip",
-            "https://github.com/zeph-yr/JDFixer/releases/latest/download/JDFixer.dll",
             "https://beatmods.com/uploads/6245fea53f368d47b27e975d/universal/BS%20Utils-1.12.0.zip",
             "https://github.com/rithik-b/BeatSaverUpdater/releases/latest/download/BeatSaverUpdater.dll",
             "https://github.com/kinsi55/BeatSaber_BetterSongSearch/releases/latest/download/BetterSongSearch.dll",
@@ -78,16 +76,16 @@
             "https://beatmods.com/uploads/636adcb00c5c87297d5daaab/universal/Ini%20Parser-2.5.9.zip",
             "https://beatmods.com/uploads/636ae3c60c5c87297d5dac27/universal/BeatSaverDownloader-5.8.2.zip",
             "https://beatmods.com/uploads/636adcb10c5c87297d5daab1/universal/ScoreSaberSharp-0.1.0.zip",
-            "https://github.com/ScoreSaber/ScoreSaber-Plugin/releases/download/v3.2.13/ScoreSaber-3.2.13.zip"
+            "https://github.com/ScoreSaber/ScoreSaber-Plugin/releases/download/v3.2.13/ScoreSaber-3.2.13.zip",
+	    "https://github.com/Auros/DiTails/releases/latest/download/DiTails.zip",
+            "https://beatmods.com/uploads/636ae3940c5c87297d5dabca/universal/Intro%20Skip-4.0.3.zip",
+            "https://github.com/zeph-yr/JDFixer/releases/latest/download/JDFixer.dll"
         ],
 	"message" : "There is a newer version of the pack for 1.27.0!"
 	},
 	"1.24.1": {
         "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.22.0-1.24.1-latest/BeatSaberModpack.zip",
         "externalmods" : [
-            "https://github.com/Auros/DiTails/releases/latest/download/DiTails.zip",
-            "https://beatmods.com/uploads/636ae3940c5c87297d5dabca/universal/Intro%20Skip-4.0.3.zip",
-            "https://github.com/zeph-yr/JDFixer/releases/latest/download/JDFixer.dll",
             "https://beatmods.com/uploads/6245fea53f368d47b27e975d/universal/BS%20Utils-1.12.0.zip",
             "https://github.com/rithik-b/BeatSaverUpdater/releases/latest/download/BeatSaverUpdater.dll",
             "https://github.com/kinsi55/BeatSaber_BetterSongSearch/releases/latest/download/BetterSongSearch.dll",
@@ -100,16 +98,16 @@
             "https://beatmods.com/uploads/636adcb00c5c87297d5daaab/universal/Ini%20Parser-2.5.9.zip",
             "https://beatmods.com/uploads/636ae3c60c5c87297d5dac27/universal/BeatSaverDownloader-5.8.2.zip",
             "https://beatmods.com/uploads/636adcb10c5c87297d5daab1/universal/ScoreSaberSharp-0.1.0.zip",
-            "https://github.com/ScoreSaber/ScoreSaber-Plugin/releases/download/v3.2.13/ScoreSaber-3.2.13.zip"
+            "https://github.com/ScoreSaber/ScoreSaber-Plugin/releases/download/v3.2.13/ScoreSaber-3.2.13.zip",
+	    "https://github.com/Auros/DiTails/releases/latest/download/DiTails.zip",
+            "https://beatmods.com/uploads/636ae3940c5c87297d5dabca/universal/Intro%20Skip-4.0.3.zip",
+            "https://github.com/zeph-yr/JDFixer/releases/latest/download/JDFixer.dll"
         ],
 	"message" : "There is a newer version of the pack for 1.27.0!"
 	},
 	"1.24.0": {
         "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.22.0-1.24.1-latest/BeatSaberModpack.zip",
         "externalmods" : [
-            "https://github.com/Auros/DiTails/releases/latest/download/DiTails.zip",
-            "https://beatmods.com/uploads/636ae3940c5c87297d5dabca/universal/Intro%20Skip-4.0.3.zip",
-            "https://github.com/zeph-yr/JDFixer/releases/latest/download/JDFixer.dll",
             "https://beatmods.com/uploads/6245fea53f368d47b27e975d/universal/BS%20Utils-1.12.0.zip",
             "https://github.com/rithik-b/BeatSaverUpdater/releases/latest/download/BeatSaverUpdater.dll",
             "https://github.com/kinsi55/BeatSaber_BetterSongSearch/releases/latest/download/BetterSongSearch.dll",
@@ -122,16 +120,16 @@
             "https://beatmods.com/uploads/636adcb00c5c87297d5daaab/universal/Ini%20Parser-2.5.9.zip",
             "https://beatmods.com/uploads/636ae3c60c5c87297d5dac27/universal/BeatSaverDownloader-5.8.2.zip",
             "https://beatmods.com/uploads/636adcb10c5c87297d5daab1/universal/ScoreSaberSharp-0.1.0.zip",
-            "https://github.com/ScoreSaber/ScoreSaber-Plugin/releases/download/v3.2.13/ScoreSaber-3.2.13.zip"
+            "https://github.com/ScoreSaber/ScoreSaber-Plugin/releases/download/v3.2.13/ScoreSaber-3.2.13.zip",
+	    "https://github.com/Auros/DiTails/releases/latest/download/DiTails.zip",
+            "https://beatmods.com/uploads/636ae3940c5c87297d5dabca/universal/Intro%20Skip-4.0.3.zip",
+            "https://github.com/zeph-yr/JDFixer/releases/latest/download/JDFixer.dll"
         ],
 	"message" : "There is a newer version of the pack for 1.27.0!"
 	},
 	"1.23.0": {
         "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.22.0-1.24.1-latest/BeatSaberModpack.zip",
         "externalmods" : [
-            "https://github.com/Auros/DiTails/releases/latest/download/DiTails.zip",
-            "https://beatmods.com/uploads/636ae3940c5c87297d5dabca/universal/Intro%20Skip-4.0.3.zip",
-            "https://github.com/zeph-yr/JDFixer/releases/latest/download/JDFixer.dll",
             "https://beatmods.com/uploads/6245fea53f368d47b27e975d/universal/BS%20Utils-1.12.0.zip",
             "https://github.com/rithik-b/BeatSaverUpdater/releases/latest/download/BeatSaverUpdater.dll",
             "https://github.com/kinsi55/BeatSaber_BetterSongSearch/releases/latest/download/BetterSongSearch.dll",
@@ -144,16 +142,16 @@
             "https://beatmods.com/uploads/636adcb00c5c87297d5daaab/universal/Ini%20Parser-2.5.9.zip",
             "https://beatmods.com/uploads/636ae3c60c5c87297d5dac27/universal/BeatSaverDownloader-5.8.2.zip",
             "https://beatmods.com/uploads/636adcb10c5c87297d5daab1/universal/ScoreSaberSharp-0.1.0.zip",
-            "https://github.com/ScoreSaber/ScoreSaber-Plugin/releases/download/v3.2.13/ScoreSaber-3.2.13.zip"
+            "https://github.com/ScoreSaber/ScoreSaber-Plugin/releases/download/v3.2.13/ScoreSaber-3.2.13.zip",
+	    "https://github.com/Auros/DiTails/releases/latest/download/DiTails.zip",
+            "https://beatmods.com/uploads/636ae3940c5c87297d5dabca/universal/Intro%20Skip-4.0.3.zip",
+            "https://github.com/zeph-yr/JDFixer/releases/latest/download/JDFixer.dll"
         ],
 	"message" : "There is a newer version of the pack for 1.27.0!"
 	},
 	"1.22.1": {
         "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.22.0-1.24.1-latest/BeatSaberModpack.zip",
         "externalmods" : [
-            "https://github.com/Auros/DiTails/releases/latest/download/DiTails.zip",
-            "https://beatmods.com/uploads/636ae3940c5c87297d5dabca/universal/Intro%20Skip-4.0.3.zip",
-            "https://github.com/zeph-yr/JDFixer/releases/latest/download/JDFixer.dll",
             "https://beatmods.com/uploads/6245fea53f368d47b27e975d/universal/BS%20Utils-1.12.0.zip",
             "https://github.com/rithik-b/BeatSaverUpdater/releases/latest/download/BeatSaverUpdater.dll",
             "https://github.com/kinsi55/BeatSaber_BetterSongSearch/releases/latest/download/BetterSongSearch.dll",
@@ -166,16 +164,16 @@
             "https://beatmods.com/uploads/636adcb00c5c87297d5daaab/universal/Ini%20Parser-2.5.9.zip",
             "https://beatmods.com/uploads/636ae3c60c5c87297d5dac27/universal/BeatSaverDownloader-5.8.2.zip",
             "https://beatmods.com/uploads/636adcb10c5c87297d5daab1/universal/ScoreSaberSharp-0.1.0.zip",
-            "https://github.com/ScoreSaber/ScoreSaber-Plugin/releases/download/v3.2.13/ScoreSaber-3.2.13.zip"
+            "https://github.com/ScoreSaber/ScoreSaber-Plugin/releases/download/v3.2.13/ScoreSaber-3.2.13.zip",
+	    "https://github.com/Auros/DiTails/releases/latest/download/DiTails.zip",
+            "https://beatmods.com/uploads/636ae3940c5c87297d5dabca/universal/Intro%20Skip-4.0.3.zip",
+            "https://github.com/zeph-yr/JDFixer/releases/latest/download/JDFixer.dll"
         ],
 	"message" : "There is a newer version of the pack for 1.27.0!"
 	},
 	"1.22.0": {
         "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.22.0-1.24.1-latest/BeatSaberModpack.zip",
         "externalmods" : [
-            "https://github.com/Auros/DiTails/releases/latest/download/DiTails.zip",
-            "https://beatmods.com/uploads/636ae3940c5c87297d5dabca/universal/Intro%20Skip-4.0.3.zip",
-            "https://github.com/zeph-yr/JDFixer/releases/latest/download/JDFixer.dll",
             "https://beatmods.com/uploads/6245fea53f368d47b27e975d/universal/BS%20Utils-1.12.0.zip",
             "https://github.com/rithik-b/BeatSaverUpdater/releases/latest/download/BeatSaverUpdater.dll",
             "https://github.com/kinsi55/BeatSaber_BetterSongSearch/releases/latest/download/BetterSongSearch.dll",
@@ -188,7 +186,10 @@
             "https://beatmods.com/uploads/636adcb00c5c87297d5daaab/universal/Ini%20Parser-2.5.9.zip",
             "https://beatmods.com/uploads/636ae3c60c5c87297d5dac27/universal/BeatSaverDownloader-5.8.2.zip",
             "https://beatmods.com/uploads/636adcb10c5c87297d5daab1/universal/ScoreSaberSharp-0.1.0.zip",
-            "https://github.com/ScoreSaber/ScoreSaber-Plugin/releases/download/v3.2.13/ScoreSaber-3.2.13.zip"
+            "https://github.com/ScoreSaber/ScoreSaber-Plugin/releases/download/v3.2.13/ScoreSaber-3.2.13.zip",
+	    "https://github.com/Auros/DiTails/releases/latest/download/DiTails.zip",
+            "https://beatmods.com/uploads/636ae3940c5c87297d5dabca/universal/Intro%20Skip-4.0.3.zip",
+            "https://github.com/zeph-yr/JDFixer/releases/latest/download/JDFixer.dll"
         ],
 	"message" : "There is a newer version of the pack for 1.27.0!"
 	}
