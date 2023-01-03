@@ -80,7 +80,7 @@ I also want to say a great thanks to Riski for integrating my modpack as a one c
 - Shaffuru 0.2.0 by [Kinsi55](https://github.com/kinsi55/BeatSaber_Shaffuru/releases)
 - SliceDetails 1.3.1 by [ckosmic](https://github.com/ckosmic/SliceDetails/releases)
 - SmoothedController 0.0.1 by [Kinsi55](https://github.com/kinsi55/BeatSaber_SmoothedController/releases)
-- SongPlayHistoryContinued 1.6.2 by [Shadnix](https://github.com/Shadnix-was-taken/BeatSaber-SongPlayHistoryContinued/releases)
+- SongPlayHistoryContinued 1.6.4 by [Shadnix](https://github.com/Shadnix-was-taken/BeatSaber-SongPlayHistoryContinued/releases)
 - SoundReplacer 0.0.6 by [SamuelTulach](https://github.com/SamuelTulach/SoundReplacer/releases)
 - TakeMeToResults 1.1.0 by [PixelBoom](https://github.com/rithik-b/TakeMeToResults/releases)
 - TrickSaber 1.1.3 by [ToniMacaroni](https://github.com/ToniMacaroni/TrickSaber/releases)
