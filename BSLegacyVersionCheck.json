@@ -1,6 +1,6 @@
 {
-	"latest": {
-        "version" : "1.27.0",
+	"1.27.0": {
+        "versions" : "1.27.0",
         "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.27.0-0.0.3/BeatSaberModpack.zip",
         "externalmods" : [
             "https://github.com/Auros/DiTails/releases/latest/download/DiTails.zip",
@@ -17,10 +17,11 @@
             "https://beatmods.com/uploads/636ae3c60c5c87297d5dac27/universal/BeatSaverDownloader-5.8.2.zip",
             "https://beatmods.com/uploads/636adcb10c5c87297d5daab1/universal/ScoreSaberSharp-0.1.0.zip",
             "https://github.com/ScoreSaber/ScoreSaber-Plugin/releases/download/v3.2.13/ScoreSaber-3.2.13.zip"
-        ]
+        ],
+	"message" : ""
     }, 
 	"1.26.0": {
-        "version" : "1.26.0",
+        "versions" : "1.26.0",
         "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.26.0-latest/BeatSaberModpack.zip",
         "externalmods" : [
             "https://github.com/Auros/DiTails/releases/latest/download/DiTails.zip",
@@ -38,6 +39,7 @@
             "https://beatmods.com/uploads/636ae3c60c5c87297d5dac27/universal/BeatSaverDownloader-5.8.2.zip",
             "https://beatmods.com/uploads/636adcb10c5c87297d5daab1/universal/ScoreSaberSharp-0.1.0.zip",
             "https://github.com/ScoreSaber/ScoreSaber-Plugin/releases/download/v3.2.13/ScoreSaber-3.2.13.zip"
-        ]
+        ],
+	"message" : "There is a newer version of the pack for 1.27.0!"
     }
 }
