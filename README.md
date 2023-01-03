@@ -1,4 +1,32 @@
 # iPixelGalaxy Beat Saber Modpack
+
+# How to Install
+1. Download BSLegacyLauncher by [RiskiVR](https://riskivr.uwu.ai/) [here](https://link.bslegacy.com/bsll)
+2. Extract and place the Launcher in the root of one of your drives. e.g. You should end up with something like C:/BSLegacyLauncher (I suggest you put it on SSD for best Loading Times/Performance).
+3. Create a Shortcut to the launcher, then Right Click the shortcut and click Properties. Add --pixel after the quotation marks on the highlighed line when you click Properties. As Such:![image](https://user-images.githubusercontent.com/42526028/210357257-a8736d27-685d-457e-ba02-9706826bb49f.png)
+4. Use this shortcut to launch the launcher as it will add the one click button for mods in Advanced Settings (you can copy it to your desktop or drag it to your taskbar).
+5. Download a copy of Beat Saber (whatever the latest version of the pack is available).
+6. After it's done downloading, hit back, then hit Advanced Settings.
+7. Click "Install Latest IPA" then click any key on the prompt that comes up.
+8. Click "Pixel's Modpack" and wait for a few seconds while it downloads and installs it to your game.
+9. Done! I would suggest looking at the Optional Steps for Quality of Life below if you want to utilize the full power of the launcher to save space *and* make updating extremely easy.
+
+# Optional Steps for Quality of Life
+1. After you've installed everything, you can click "Shared Folders" and select CustomLevels, CustomWIPLevels (and DLC if you have any and want to move it over from your existing install). Click Create Folders.
+2. Next comes the tedious part (one time setup tho), you can type in every other folder you would want to link. My suggestions are UserData, CustomSabers, Playlists, CustomSubRain and CustomMenuSongs if you only plan to use the mods included in the modpack.
+3. Type each name (one at a time) and click Create Folders.
+4. After this is done, any new versions you download, you'll be able to click "Relink Folders" and every folder name you've entered before will be made automatically.
+5. All of your Beat Saber folders will then be shared across versions!
+
+# How to Update (if you did the Quality of Life steps)
+1. Download the Latest Version of Beat Saber.
+2. Install Latest IPA in Advanced Settings.
+3. Relink Folders.
+4. Hit the "Pixel's Mods" button in advanced settings.
+5. Enjoy game 🙂
+
+
+
 # Included Mods:
 - BeatLeader 0.5.4 by [BeatLeader Team](https://github.com/BeatLeader/beatleader-mod/releases)
 - BeatSaberPlus 5.0.3 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases)
