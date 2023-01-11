@@ -1,7 +1,7 @@
 # iPixelGalaxy Beat Saber Modpack
 
 # How to Install (Manual Method) (Fresh Install)
-1. Download Latest Modpack [Release](https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.27.0-0.0.3/BeatSaberModpack.zip)
+1. Download Latest Modpack [Release](https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/latest/download/BeatSaberModpack.zip)
 2. Open Mod Assistant and Install the "More Playlists" mod, this will grab every dependency not included in the modpack.
 3. Extract the contents of BeatSaberModpack.zip to the root of your Beat Saber Install typically C:\Program Files (x86)\Steam\steamapps\common\Beat Saber
 4. You should be done. Enjoy! And if you have any issues let me know in my [discord server](https://discord.gg/6nmXVPtNA6) and I'll try my best to sort out your problems 😀
