@@ -45,7 +45,7 @@ I also want to say a great thanks to Riski for integrating my modpack as a one c
 - you get to discover new mods and don't have to worry about forgetting certain mods that aren't compatible or something of the sort as I make sure everything is functional before releasing a pack for the new version
 
 # Included Mods:
-- BeatLeader 0.5.4 by [BeatLeader Team](https://github.com/BeatLeader/beatleader-mod/releases)
+- BeatLeader 0.6.0 by [BeatLeader Team](https://github.com/BeatLeader/beatleader-mod/releases)
 - BeatSaberPlus 5.0.3 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases)
 - BeatSaverUpdater 1.1.0 by [PixelBoom](https://github.com/rithik-b/BeatSaverUpdater/releases)
 - BeatSaviorData 2.1.14 by [Mystogan98](https://github.com/Mystogan98/BeatSaviorData/releases)
@@ -81,7 +81,7 @@ I also want to say a great thanks to Riski for integrating my modpack as a one c
 - OverrideEnviromentFix 1.1.1 by [Ryan](https://github.com/rfcaps/OverrideEnvironmentFix/releases)
 - PlaylistManager 1.6.5 by [PixelBoom](https://github.com/rithik-b/PlaylistManager/releases)
 - QuickMirrorToggle 0.0.1 by Kinsi55 (This is a mod I commisioned to quickly toggle the mirror shader)
-- SaberFactory 2.5.1 by [ToniMacoroni](https://github.com/ToniMacaroni/SaberFactory/releases)
+- SaberFactory 2.5.2 by [ToniMacoroni](https://github.com/ToniMacaroni/SaberFactory/releases)
 - SaberTailor 4.0.0 by [Shadnix/rondDev](https://github.com/rondDev/BeatSaber-SaberTailor/releases)
 - ScorePercentage 1.4.13 by [IdleBob](https://github.com/Idlebawb/ScorePercentage/releases)
 - SearchFixes 1.0.0 by [PixelBoom](https://github.com/rithik-b/SearchFixes/releases)
