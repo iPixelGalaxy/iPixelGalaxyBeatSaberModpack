@@ -71,7 +71,7 @@ I also want to say a great thanks to Riski for integrating my modpack as a one c
 - LeaderboardCore 1.3.1 by [PixelBoom](https://github.com/rithik-b/LeaderboardCore/releases)
 - HitSoundTweaks 1.1.0 by [GalaxyMaster](https://github.com/GalaxyMaster2/HitsoundTweaks/releases)
 - HitScoreVisualizer 3.3.3 by [Eris](https://github.com/ErisApps/HitScoreVisualizer/releases)
-- iForgor 1.3.0 by [ckosmic](https://github.com/ckosmic/IForgor/releases)
+- iForgor 1.3.1 by [ckosmic](https://github.com/ckosmic/IForgor/releases)
 - ImBlindedByTheLights 0.0.6 by [Kinsi55](https://github.com/kinsi55/BeatSaber_ImBlindedByTheLights/releases)
 - MappingExtensions 1.7.4 by [Kyle1314](https://github.com/Kylemc1413/MappingExtensions)
 - MenuSaberColors 1.0.5 by [Exomanz](https://github.com/Exomanz/MenuSaberColors/releases)
