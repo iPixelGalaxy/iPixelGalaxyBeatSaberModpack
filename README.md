@@ -10,10 +10,11 @@
 1. Download BSLegacyLauncher by [RiskiVR](https://riskivr.uwu.ai/) The latest version can be found [here](https://link.bslegacy.com/bsll)
 2. Extract and place the Launcher in the root of one of your drives. e.g. You should end up with something like C:\BSLegacyLauncher (I suggest you put it on SSD for best Loading Times/Performance).
 3. Create a Shortcut to the launcher, then Right Click the shortcut and click Properties. Add --pixel after the quotation marks on the highlighted line when you click Properties. As Such:![image](https://user-images.githubusercontent.com/42526028/210357257-a8736d27-685d-457e-ba02-9706826bb49f.png)
+3.5. With BSLegacy 1.7.0 there is now also a flag to prevent your Plugins folder from ever being renamed that I would suggest adding "--no-yeet".
 4. Use this shortcut to launch the launcher as it will add the one click button for mods in Advanced Settings (you can copy it to your desktop or drag it to your taskbar).
 5. Download a copy of Beat Saber (whatever the latest version of the pack is available).
 6. After it's done downloading, hit back, then hit Advanced Settings.
-7. Click "Install Latest IPA" then click any key on the prompt that comes up.
+7. Click "BSIPA 4".
 8. Click "Pixel's Modpack" and wait for a few seconds while it downloads and installs it to your game.
 9. Done! I would suggest looking at the Optional Steps for Quality of Life below if you want to utilize the full power of the launcher to save space *and* make updating extremely easy.
 
@@ -26,7 +27,7 @@
 
 # How to Update (if you did the Quality of Life steps)
 1. Download the Latest Version of Beat Saber.
-2. Install Latest IPA in Advanced Settings.
+2. Install BSIPA 4 in Advanced Settings.
 3. Relink Folders.
 4. Hit the "Pixel's Mods" button in advanced settings.
 5. Enjoy game 🙂
