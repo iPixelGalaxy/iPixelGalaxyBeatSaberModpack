@@ -61,7 +61,7 @@ I also want to say a great thanks to Riski for integrating my modpack as a one c
 - Chroma 2.7.2 by [Aeroluna](https://github.com/Aeroluna/Heck/releases)
 - NoodleExtensions 1.5.5 by [Aeroluna](https://github.com/Aeroluna/Heck/releases)
 - LookupID 1.0.1 by [Aeroluna](https://github.com/Aeroluna/Heck/releases)
-- Counters+ 2.3.1 by [Caeden117](https://github.com/Caeden117/CountersPlus/releases)
+- Counters+ 2.3.2 by [Caeden117](https://github.com/Caeden117/CountersPlus/releases)
 - EasyOffset 2.1.1 by [Reezonate](https://github.com/Reezonate/EasyOffset/releases)
 - ExtraBSLSorters 2.0.1 by [SuperSonic16](https://github.com/thesupersonic16/ExtraBSLSorters/releases)
 - FailButton 0.0.2 by Kinsi55 (Not on GitHub. "its like a 15 line plugin" -Kinsi55)
