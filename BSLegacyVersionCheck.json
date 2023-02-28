@@ -18,7 +18,7 @@
             "https://beatmods.com/uploads/636ae3940c5c87297d5dabca/universal/Intro%20Skip-4.0.3.zip",
             "https://github.com/zeph-yr/JDFixer/releases/latest/download/JDFixer.dll"
         ],
-	"message" : "ScoreSaber is not yet whitelisted"
+	"message" : "ScoreSaber is not yet whitelisted, This Modpack only works in FPFC for now"
     }, 
 	"1.27.0": {
         "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.27.0-0.0.6/BeatSaberModpack.zip",
