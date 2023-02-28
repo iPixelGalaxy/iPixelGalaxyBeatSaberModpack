@@ -1,1 +1,0 @@
-CScript  zip.vbs  "F:\iPixelGalaxy\Desktop\iPixelGalaxy Beat Saber Modpack\Beat Saber 1.27.0-1.28.0"  "F:\iPixelGalaxy\Desktop\iPixelGalaxy Beat Saber Modpack\BeatSaberModpack.zip"
