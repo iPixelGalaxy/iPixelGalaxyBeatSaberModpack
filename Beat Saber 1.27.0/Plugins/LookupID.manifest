@@ -1,0 +1,12 @@
+{
+  "$schema": "https://raw.githubusercontent.com/bsmg/BSIPA-MetadataFileSchema/master/Schema.json",
+  "author": "Aeroluna",
+  "description": "A single method written in C++ for Chroma because regex in mono is unbelievably slow. Also beatmods sucks.",
+  "gameVersion": "1.21.0",
+  "id": "LookupID",
+  "name": "LookupID",
+  "version": "1.0.1",
+  "files" : [
+     "Libs/Native/LookupID.dll"
+  ]
+}
