@@ -45,9 +45,17 @@ I also want to say a great thanks to Riski for integrating my modpack as a one c
 - mod stay more up to date than mod assistant
 - you get to discover new mods and don't have to worry about forgetting certain mods that aren't compatible or something of the sort as I make sure everything is functional before releasing a pack for the new version
 
+# Links to Latest Versions of the Pack
+
+- [1.27.0](https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/tag/1.27.0-latest)
+- [1.26.0](https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/tag/1.26.0-latest)
+- [1.25.x](https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/tag/1.25.x-latest)
+- [1.22.0-1.24.1](https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/tag/1.22.0-1.24.1-latest)
+- [1.21.0](https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/tag/1.21.0-latest)
+
 # Included Mods:
 - BeatLeader 0.6.0 by [BeatLeader Team](https://github.com/BeatLeader/beatleader-mod/releases)
-- BeatSaberPlus 5.0.3 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases)
+- BeatSaberPlus 5.0.4 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases)
 - BeatSaverUpdater 1.1.0 by [PixelBoom](https://github.com/rithik-b/BeatSaverUpdater/releases)
 - BeatSaviorData 2.1.14 by [Mystogan98](https://github.com/Mystogan98/BeatSaviorData/releases)
 - BetterSongList 0.3.3 by [Kinsi55](https://github.com/kinsi55/BeatSaber_BetterSongList/releases)
