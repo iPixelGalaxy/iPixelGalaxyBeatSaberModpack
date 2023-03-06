@@ -9,8 +9,7 @@
 # How to Install (BSLegacyLauncher)
 1. Download BSLegacyLauncher by [RiskiVR](https://riskivr.uwu.ai/) The latest version can be found [here](https://link.bslegacy.com/bsll)
 2. Extract and place the Launcher in the root of one of your drives. e.g. You should end up with something like C:\BSLegacyLauncher (I suggest you put it on SSD for best Loading Times/Performance).
-3. Create a Shortcut to the launcher, then Right Click the shortcut and click Properties. Add --pixel after the quotation marks on the highlighted line when you click Properties. As Such:![image](https://user-images.githubusercontent.com/42526028/210357257-a8736d27-685d-457e-ba02-9706826bb49f.png)
-3.5. With BSLegacy 1.7.0 there is now also a flag to prevent your Plugins folder from ever being renamed that I would suggest adding "--no-yeet".
+3. Create a Shortcut to the launcher, then Right Click the shortcut and click Properties. Add --pixel after the quotation marks on the highlighted line when you click Properties. (With BSLegacy 1.7.0 there is now also a flag to prevent your Plugins folder from ever being renamed that I would suggest adding "--no-yeet".) As Such:![image](https://user-images.githubusercontent.com/42526028/210357257-a8736d27-685d-457e-ba02-9706826bb49f.png)
 4. Use this shortcut to launch the launcher as it will add the one click button for mods in Advanced Settings (you can copy it to your desktop or drag it to your taskbar).
 5. Download a copy of Beat Saber (whatever the latest version of the pack is available).
 6. After it's done downloading, hit back, then hit Advanced Settings.
@@ -55,7 +54,7 @@ I also want to say a great thanks to Riski for integrating my modpack as a one c
 
 # Included Mods:
 - BeatLeader 0.6.0 by [BeatLeader Team](https://github.com/BeatLeader/beatleader-mod/releases)
-- BeatSaberPlus 5.0.4 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases)
+- BeatSaberPlus 5.0.6 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases)
 - BeatSaverUpdater 1.1.0 by [PixelBoom](https://github.com/rithik-b/BeatSaverUpdater/releases)
 - BeatSaviorData 2.1.14 by [Mystogan98](https://github.com/Mystogan98/BeatSaviorData/releases)
 - BetterSongList 0.3.3 by [Kinsi55](https://github.com/kinsi55/BeatSaber_BetterSongList/releases)
