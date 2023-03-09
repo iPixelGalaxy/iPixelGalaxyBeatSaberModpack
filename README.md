@@ -88,7 +88,7 @@ I also want to say a great thanks to Riski for integrating my modpack as a one c
 - OverrideEnviromentFix 1.1.1 by [Ryan](https://github.com/rfcaps/OverrideEnvironmentFix/releases)
 - PlaylistManager 1.6.5 by [PixelBoom](https://github.com/rithik-b/PlaylistManager/releases)
 - QuickMirrorToggle 0.0.1 by Kinsi55 (This is a mod I commissioned to quickly toggle the mirror shader)
-- SaberFactory 2.5.2 by [ToniMacoroni](https://github.com/ToniMacaroni/SaberFactory/releases)
+- SaberFactory 2.5.3 by [ToniMacoroni](https://github.com/ToniMacaroni/SaberFactory/releases)
 - SaberTailor 4.0.0 by [Shadnix/rondDev](https://github.com/rondDev/BeatSaber-SaberTailor/releases)
 - ScorePercentage 1.4.13 by [IdleBob](https://github.com/Idlebawb/ScorePercentage/releases)
 - SearchFixes 1.0.0 by [PixelBoom](https://github.com/rithik-b/SearchFixes/releases)
