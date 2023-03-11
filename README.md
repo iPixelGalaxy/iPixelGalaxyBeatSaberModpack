@@ -83,7 +83,7 @@ I also want to say a great thanks to Riski for integrating my modpack as a one c
 - MappingExtensions 1.7.4 by [Kyle1314](https://github.com/Kylemc1413/MappingExtensions)
 - MenuSaberColors 1.0.6 by [Exomanz](https://github.com/Exomanz/MenuSaberColors/releases)
 - MorePlaylists 2.0.0 by [PixelBoom](https://github.com/rithik-b/MorePlaylists/releases)
-- MultiplayerCore 1.1.1 by [Goobwabber](https://github.com/Goobwabber/MultiplayerCore/releases)
+- MultiplayerCore 1.2.0 by [Goobwabber](https://github.com/Goobwabber/MultiplayerCore/releases)
 - MultiplayerExtensions 1.0.3 by [Goobwabber](https://github.com/Goobwabber/MultiplayerExtensions/releases)
 - OverrideEnviromentFix 1.1.1 by [Ryan](https://github.com/rfcaps/OverrideEnvironmentFix/releases)
 - PlaylistManager 1.6.5 by [PixelBoom](https://github.com/rithik-b/PlaylistManager/releases)
