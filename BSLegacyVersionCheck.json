@@ -1,6 +1,6 @@
 {
 	"1.28.0": {
-        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.28.0-0.0.1/BeatSaberModpack.zip",
+        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.28.0-0.0.2/BeatSaberModpack.zip",
         "externalmods" : [
             "https://github.com/rithik-b/BeatSaverUpdater/releases/latest/download/BeatSaverUpdater.dll",
             "https://github.com/kinsi55/BeatSaber_BetterSongSearch/releases/latest/download/BetterSongSearch.dll",
