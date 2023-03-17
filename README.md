@@ -53,7 +53,7 @@ I also want to say a great thanks to Riski for integrating my modpack as a one c
 - [1.21.0](https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/tag/1.21.0-latest)
 
 # Included Mods:
-- BeatLeader 0.6.0 by [BeatLeader Team](https://github.com/BeatLeader/beatleader-mod/releases)
+- BeatLeader 0.6.1 by [BeatLeader Team](https://github.com/BeatLeader/beatleader-mod/releases)
 - BeatSaberPlus 5.0.6 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases)
 - BeatSaverUpdater 1.1.0 by [PixelBoom](https://github.com/rithik-b/BeatSaverUpdater/releases)
 - BeatSaviorData 2.1.14 by [Mystogan98](https://github.com/Mystogan98/BeatSaviorData/releases)
@@ -83,7 +83,7 @@ I also want to say a great thanks to Riski for integrating my modpack as a one c
 - MappingExtensions 1.7.4 by [Kyle1314](https://github.com/Kylemc1413/MappingExtensions)
 - MenuSaberColors 1.0.6 by [Exomanz](https://github.com/Exomanz/MenuSaberColors/releases)
 - MorePlaylists 2.0.0 by [PixelBoom](https://github.com/rithik-b/MorePlaylists/releases)
-- MultiplayerCore 1.1.1 by [Goobwabber](https://github.com/Goobwabber/MultiplayerCore/releases)
+- MultiplayerCore 1.2.0 by [Goobwabber](https://github.com/Goobwabber/MultiplayerCore/releases)
 - MultiplayerExtensions 1.0.3 by [Goobwabber](https://github.com/Goobwabber/MultiplayerExtensions/releases)
 - OverrideEnviromentFix 1.1.1 by [Ryan](https://github.com/rfcaps/OverrideEnvironmentFix/releases)
 - PlaylistManager 1.6.5 by [PixelBoom](https://github.com/rithik-b/PlaylistManager/releases)
