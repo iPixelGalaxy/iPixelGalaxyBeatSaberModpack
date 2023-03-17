@@ -103,7 +103,7 @@ I also want to say a great thanks to Riski for integrating my modpack as a one c
 - TrickSaber 1.1.3 by [ToniMacaroni](https://github.com/ToniMacaroni/TrickSaber/releases)
 - Tweaks55 0.3.8 by [Kinsi55](https://github.com/kinsi55/BeatSaber_Tweaks55/releases)
 - Vent 0.0.3 by [Kinsi55](https://github.com/kinsi55)
-- wipbot 1.11.0 by [catsethecat](https://github.com/catsethecat/wipbot/releases)
+- wipbot 1.13.1 by [catsethecat](https://github.com/catsethecat/wipbot/releases)
 
 # Counters+ Add-on Mods
 - EnhancedMissCounter 1.0.0 by [CatseTheCat](https://github.com/catsethecat/EnhancedMissCounter/releases)
