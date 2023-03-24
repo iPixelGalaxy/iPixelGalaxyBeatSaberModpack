@@ -96,7 +96,7 @@ I also want to say a great thanks to Riski for integrating my modpack as a one c
 - Shaffuru 0.2.0 by [Kinsi55](https://github.com/kinsi55/BeatSaber_Shaffuru/releases)
 - SliceDetails 1.3.1 by [ckosmic](https://github.com/ckosmic/SliceDetails/releases)
 - SmoothedController 0.0.1 by [Kinsi55](https://github.com/kinsi55/BeatSaber_SmoothedController/releases)
-- SongPlayHistoryContinued 1.6.4 by [Shadnix](https://github.com/Shadnix-was-taken/BeatSaber-SongPlayHistoryContinued/releases)
+- SongPlayHistoryContinued 1.6.5 by [qe201020335](https://github.com/qe201020335/BeatSaber-SongPlayHistoryContinued)
 - SoundReplacer 0.0.6 by [SamuelTulach](https://github.com/SamuelTulach/SoundReplacer/releases)
 - SongRankedBadge 1.0.0 by [qe201020335](https://github.com/qe201020335/SongRankedBadge/releases)
 - TakeMeToResults 1.1.0 by [PixelBoom](https://github.com/rithik-b/TakeMeToResults/releases)
