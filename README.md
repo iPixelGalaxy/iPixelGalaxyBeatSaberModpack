@@ -58,7 +58,7 @@ I also want to say a great thanks to Riski for integrating my modpack as a one c
 - BeatSaverUpdater 1.1.0 by [PixelBoom](https://github.com/rithik-b/BeatSaverUpdater/releases)
 - BeatSaviorData 2.1.14 by [Mystogan98](https://github.com/Mystogan98/BeatSaviorData/releases)
 - BetterSongList 0.3.3 by [Kinsi55](https://github.com/kinsi55/BeatSaber_BetterSongList/releases)
-- BetterSongSearch 0.7.73 by [Kinsi55](https://github.com/kinsi55/BeatSaber_BetterSongSearch/releases)
+- BetterSongSearch 0.7.75 by [Kinsi55](https://github.com/kinsi55/BeatSaber_BetterSongSearch/releases)
 - BeatTogether 2.0.1 by [BeatTogether Team](https://github.com/BeatTogether/BeatTogether/releases)
 - Camera2 0.6.100 by [Kinsi55](https://github.com/kinsi55/CS_BeatSaber_Camera2/releases)
 - ControllerSettingsHelper 0.0.1 by [Kinsi55](https://github.com/kinsi55/BeatSaber_ControllerSettingsHelper/releases)
