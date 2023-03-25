@@ -65,7 +65,7 @@ I also want to say a great thanks to Riski for integrating my modpack as a one c
 - CustomJSONData 2.4.7 by [Aeroluna](https://github.com/Aeroluna/CustomJSONData/releases)
 - Heck 1.4.7 by [Aeroluna](https://github.com/Aeroluna/Heck/releases)
 - Chroma 2.7.7 by [Aeroluna](https://github.com/Aeroluna/Heck/releases)
-- NoodleExtensions 1.5.7 by [Aeroluna](https://github.com/Aeroluna/Heck/releases)
+- NoodleExtensions 1.5.8 by [Aeroluna](https://github.com/Aeroluna/Heck/releases)
 - LookupID 1.0.1 by [Aeroluna](https://github.com/Aeroluna/Heck/releases)
 - Counters+ 2.3.2 by [Caeden117](https://github.com/Caeden117/CountersPlus/releases)
 - EasyOffset 2.1.1 by [Reezonate](https://github.com/Reezonate/EasyOffset/releases)
