@@ -54,7 +54,7 @@ I also want to say a great thanks to Riski for integrating my modpack as a one c
 
 # Included Mods:
 - BeatLeader 0.6.1 by [BeatLeader Team](https://github.com/BeatLeader/beatleader-mod/releases)
-- BeatSaberPlus 5.0.6 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases)
+- BeatSaberPlus 5.0.7 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases)
 - BeatSaverUpdater 1.1.0 by [PixelBoom](https://github.com/rithik-b/BeatSaverUpdater/releases)
 - BeatSaviorData 2.1.14 by [Mystogan98](https://github.com/Mystogan98/BeatSaviorData/releases)
 - BetterSongList 0.3.3 by [Kinsi55](https://github.com/kinsi55/BeatSaber_BetterSongList/releases)
