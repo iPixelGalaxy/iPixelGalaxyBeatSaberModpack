@@ -18,7 +18,7 @@
         ],
 	"message" : "Known Issues: BL Replays Borky, No Noodle/Chroma, No BeatTogether"
 	"1.28.0": {
-        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.28.0-0.0.4/BeatSaberModpack.zip",
+        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.28.0-latest/BeatSaberModpack1.28.0.zip",
         "externalmods" : [
 	    "https://beatmods.com/uploads/6403fa42fdb14f39fb57fd9a/universal/BeatSaberMarkupLanguage-1.6.9.zip",
             "https://beatmods.com/uploads/636ae3750c5c87297d5dab7f/universal/SiraUtil-3.1.2.zip",
