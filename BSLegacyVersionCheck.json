@@ -16,7 +16,7 @@
             "https://beatmods.com/uploads/636ae3940c5c87297d5dabca/universal/Intro%20Skip-4.0.3.zip",
             "https://github.com/zeph-yr/JDFixer/releases/latest/download/JDFixer.dll"
         ],
-	"message" : "Known Issues: BL Replays Borky, No Noodle/Chroma, No BeatTogether"
+	"message" : "Known Issues: BL Replays Borky, No Noodle/Chroma, No BeatTogether",
 	"1.28.0": {
         "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.28.0-latest/BeatSaberModpack1.28.0.zip",
         "externalmods" : [
