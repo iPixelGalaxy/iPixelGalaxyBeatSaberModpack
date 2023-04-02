@@ -46,6 +46,7 @@ I also want to say a great thanks to Riski for integrating my modpack as a one c
 
 # Links to Latest Versions of the Pack
 
+- [1.28.0](https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/tag/1.28.0-latest)
 - [1.27.0](https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/tag/1.27.0-latest)
 - [1.26.0](https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/tag/1.26.0-latest)
 - [1.25.x](https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/tag/1.25.x-latest)
