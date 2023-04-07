@@ -64,7 +64,7 @@ I also want to say a great thanks to Riski for integrating my modpack as a one c
 - Camera2 0.6.100 by [Kinsi55](https://github.com/kinsi55/CS_BeatSaber_Camera2/releases)
 - ControllerSettingsHelper 0.0.1 by [Kinsi55](https://github.com/kinsi55/BeatSaber_ControllerSettingsHelper/releases)
 - CustomJSONData 2.4.7 by [Aeroluna](https://github.com/Aeroluna/CustomJSONData/releases)
-- Heck 1.4.7 by [Aeroluna](https://github.com/Aeroluna/Heck/releases)
+- Heck 1.4.8 by [Aeroluna](https://github.com/Aeroluna/Heck/releases)
 - Chroma 2.7.7 by [Aeroluna](https://github.com/Aeroluna/Heck/releases)
 - NoodleExtensions 1.5.8 by [Aeroluna](https://github.com/Aeroluna/Heck/releases)
 - LookupID 1.0.1 by [Aeroluna](https://github.com/Aeroluna/Heck/releases)
