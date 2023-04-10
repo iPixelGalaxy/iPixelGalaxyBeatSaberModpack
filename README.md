@@ -54,7 +54,7 @@ I also want to say a great thanks to Riski for integrating my modpack as a one c
 - [1.21.0](https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/tag/1.21.0-latest)
 
 # Included Mods:
-- BeatLeader 0.6.1 by [BeatLeader Team](https://github.com/BeatLeader/beatleader-mod/releases)
+- BeatLeader 0.7.1 by [BeatLeader Team](https://github.com/BeatLeader/beatleader-mod/releases)
 - BeatSaberPlus 5.0.7 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases)
 - BeatSaverUpdater 1.1.0 by [PixelBoom](https://github.com/rithik-b/BeatSaverUpdater/releases)
 - BeatSaviorData 2.1.14 by [Mystogan98](https://github.com/Mystogan98/BeatSaviorData/releases)
@@ -76,7 +76,7 @@ I also want to say a great thanks to Riski for integrating my modpack as a one c
 - FCPercentage 1.4.4 by [ChirpyMisha](https://github.com/ChirpyMisha/FC-Percentage/releases)
 - GottaGoFast 0.2.1 by [Kinsi55](https://github.com/kinsi55/CS_BeatSaber_GottaGoFast/releases)
 - HitBloq 1.4.0 by [PixelBoom/SirSpam](https://github.com/PauseChampions/Hitbloq/releases)
-- LeaderboardCore 1.3.2 by [PixelBoom](https://github.com/rithik-b/LeaderboardCore/releases)
+- LeaderboardCore 1.3.3 by [PixelBoom](https://github.com/rithik-b/LeaderboardCore/releases)
 - HitSoundTweaks 1.1.0 by [GalaxyMaster](https://github.com/GalaxyMaster2/HitsoundTweaks/releases)
 - HitScoreVisualizer 3.3.3 by [Eris](https://github.com/ErisApps/HitScoreVisualizer/releases)
 - iForgor 1.3.1 by [ckosmic](https://github.com/ckosmic/IForgor/releases)
