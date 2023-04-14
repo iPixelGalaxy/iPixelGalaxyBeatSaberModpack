@@ -106,6 +106,6 @@ I also want to say a great thanks to Riski for integrating my modpack as a one c
 - wipbot 1.13.1 by [catsethecat](https://github.com/catsethecat/wipbot/releases)
 
 # Counters+ Add-on Mods
-- EnhancedMissCounter 1.0.0 by [CatseTheCat](https://github.com/catsethecat/EnhancedMissCounter/releases)
+- BetterMissCounter 1.1.0 by [CatseTheCat](https://github.com/catsethecat/BetterMissCounter/releases)
 - FPSCounter 3.1.0 by [Eris](https://github.com/ErisApps/FPS-Counter/releases)
 - PPCounter 1.5.2 by [PulseLane](https://github.com/PulseLane/PPCounter/releases)
