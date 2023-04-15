@@ -1,7 +1,7 @@
 # iPixelGalaxy Beat Saber Modpack
 
 # How to Install (Manual Method) (Fresh Install)
-1. Download Latest Modpack [Release 1.29.0](https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/latest/download/BeatSaberModpack.zip) 1.29.0 does currently have issues so if you are still on 1.28.0 grab: [1.28.0 Latest Release Here](https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/tag/1.28.0-latest)
+1. Download Latest Modpack [Release 1.29.x](https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/latest/download/BeatSaberModpack.zip)
 2. Open Mod Assistant and Install the "More Playlists" mod, this will grab every dependency not included in the modpack.
 3. Extract the contents of BeatSaberModpack.zip to the root of your Beat Saber Install typically C:\Program Files (x86)\Steam\steamapps\common\Beat Saber
 4. You should be done. Enjoy! And if you have any issues let me know in my [discord server](https://discord.gg/6nmXVPtNA6) and I'll try my best to sort out your problems 😀
@@ -54,7 +54,7 @@ I also want to say a great thanks to Riski for integrating my modpack as a one c
 - [1.21.0](https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/tag/1.21.0-latest)
 
 # Included Mods:
-- BeatLeader 0.6.1 by [BeatLeader Team](https://github.com/BeatLeader/beatleader-mod/releases)
+- BeatLeader 0.7.1 by [BeatLeader Team](https://github.com/BeatLeader/beatleader-mod/releases)
 - BeatSaberPlus 5.0.7 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases)
 - BeatSaverUpdater 1.1.0 by [PixelBoom](https://github.com/rithik-b/BeatSaverUpdater/releases)
 - BeatSaviorData 2.1.14 by [Mystogan98](https://github.com/Mystogan98/BeatSaviorData/releases)
@@ -76,13 +76,12 @@ I also want to say a great thanks to Riski for integrating my modpack as a one c
 - FCPercentage 1.4.4 by [ChirpyMisha](https://github.com/ChirpyMisha/FC-Percentage/releases)
 - GottaGoFast 0.2.1 by [Kinsi55](https://github.com/kinsi55/CS_BeatSaber_GottaGoFast/releases)
 - HitBloq 1.4.0 by [PixelBoom/SirSpam](https://github.com/PauseChampions/Hitbloq/releases)
-- LeaderboardCore 1.3.2 by [PixelBoom](https://github.com/rithik-b/LeaderboardCore/releases)
+- LeaderboardCore 1.3.3 by [PixelBoom](https://github.com/rithik-b/LeaderboardCore/releases)
 - HitSoundTweaks 1.1.0 by [GalaxyMaster](https://github.com/GalaxyMaster2/HitsoundTweaks/releases)
 - HitScoreVisualizer 3.3.3 by [Eris](https://github.com/ErisApps/HitScoreVisualizer/releases)
 - iForgor 1.3.1 by [ckosmic](https://github.com/ckosmic/IForgor/releases)
 - ImBlindedByTheLights 0.0.6 by [Kinsi55](https://github.com/kinsi55/BeatSaber_ImBlindedByTheLights/releases)
 - MappingExtensions 1.7.4 by [Kyle1314](https://github.com/Kylemc1413/MappingExtensions)
-- MenuSaberColors 1.0.6 by [Exomanz](https://github.com/Exomanz/MenuSaberColors/releases)
 - MorePlaylists 2.0.0 by [PixelBoom](https://github.com/rithik-b/MorePlaylists/releases)
 - MultiplayerCore 1.2.0 by [Goobwabber](https://github.com/Goobwabber/MultiplayerCore/releases)
 - MultiplayerExtensions 1.0.3 by [Goobwabber](https://github.com/Goobwabber/MultiplayerExtensions/releases)
@@ -107,6 +106,6 @@ I also want to say a great thanks to Riski for integrating my modpack as a one c
 - wipbot 1.13.1 by [catsethecat](https://github.com/catsethecat/wipbot/releases)
 
 # Counters+ Add-on Mods
-- EnhancedMissCounter 1.0.0 by [CatseTheCat](https://github.com/catsethecat/EnhancedMissCounter/releases)
+- BetterMissCounter 1.1.0 by [CatseTheCat](https://github.com/catsethecat/BetterMissCounter/releases)
 - FPSCounter 3.1.0 by [Eris](https://github.com/ErisApps/FPS-Counter/releases)
 - PPCounter 1.5.2 by [PulseLane](https://github.com/PulseLane/PPCounter/releases)
