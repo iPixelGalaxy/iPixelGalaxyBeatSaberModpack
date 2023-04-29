@@ -92,6 +92,7 @@ I also want to say a great thanks to Riski for integrating my modpack as a one c
 - SaberTailor 4.0.0 by [Shadnix/rondDev](https://github.com/rondDev/BeatSaber-SaberTailor/releases)
 - ScorePercentage 1.4.13 by [IdleBob](https://github.com/Idlebawb/ScorePercentage/releases)
 - SearchFixes 1.0.0 by [PixelBoom](https://github.com/rithik-b/SearchFixes/releases)
+- ServerBrowser 1.2.0 by [roydejong](https://github.com/roydejong/BeatSaberServerBrowser/releases)
 - Shaffuru 0.2.0 by [Kinsi55](https://github.com/kinsi55/BeatSaber_Shaffuru/releases)
 - SliceDetails 1.3.1 by [ckosmic](https://github.com/ckosmic/SliceDetails/releases)
 - SmoothedController 0.0.1 by [Kinsi55](https://github.com/kinsi55/BeatSaber_SmoothedController/releases)
@@ -106,7 +107,6 @@ I also want to say a great thanks to Riski for integrating my modpack as a one c
 - wipbot 1.13.1 by [catsethecat](https://github.com/catsethecat/wipbot/releases)
 
 # Not In Latest
-- ServerBrowser 1.1.0 by [roydejong](https://github.com/roydejong/BeatSaberServerBrowser/releases)
 - MultiplayerExtensions 1.0.3 by [Goobwabber](https://github.com/Goobwabber/MultiplayerExtensions/releases)
 
 # Counters+ Add-on Mods
