@@ -1,7 +1,7 @@
 # iPixelGalaxy Beat Saber Modpack
 
 # How to Install (Manual Method) (Fresh Install)
-1. Download Latest Modpack [Release 1.29.x](https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/latest/download/BeatSaberModpack.zip)
+1. Download Latest Modpack [Release 1.29.0-1.29.1](https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/latest/download/BeatSaberModpack.zip)
 2. Open Mod Assistant and Install the "More Playlists" mod, this will grab every dependency not included in the modpack.
 3. Extract the contents of BeatSaberModpack.zip to the root of your Beat Saber Install typically C:\Program Files (x86)\Steam\steamapps\common\Beat Saber
 4. You should be done. Enjoy! And if you have any issues let me know in my [discord server](https://discord.gg/6nmXVPtNA6) and I'll try my best to sort out your problems 😀
@@ -58,8 +58,8 @@ I also want to say a great thanks to Riski for integrating my modpack as a one c
 - BeatSaberPlus 5.0.7 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases)
 - BeatSaverUpdater 1.1.0 by [PixelBoom](https://github.com/rithik-b/BeatSaverUpdater/releases)
 - BeatSaviorData 2.1.15 by [Mystogan98](https://github.com/Mystogan98/BeatSaviorData/releases)
-- BetterSongList 0.3.3 by [Kinsi55](https://github.com/kinsi55/BeatSaber_BetterSongList/releases)
-- BetterSongSearch 0.7.75 by [Kinsi55](https://github.com/kinsi55/BeatSaber_BetterSongSearch/releases)
+- BetterSongList 0.3.4 by [Kinsi55](https://github.com/kinsi55/BeatSaber_BetterSongList/releases)
+- BetterSongSearch 0.7.80 by [Kinsi55](https://github.com/kinsi55/BeatSaber_BetterSongSearch/releases)
 - BeatTogether 2.1.1 by [BeatTogether Team](https://github.com/BeatTogether/BeatTogether/releases)
 - Camera2 0.6.100 by [Kinsi55](https://github.com/kinsi55/CS_BeatSaber_Camera2/releases)
 - ControllerSettingsHelper 0.0.1 by [Kinsi55](https://github.com/kinsi55/BeatSaber_ControllerSettingsHelper/releases)
