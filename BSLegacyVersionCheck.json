@@ -57,6 +57,7 @@
 	"1.27.0": {
         "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.27.0-latest/BeatSaberModpack1.27.0.zip",
         "externalmods" : [
+	    "",
             "https://beatmods.com/uploads/636ae3750c5c87297d5dab7f/universal/SiraUtil-3.1.2.zip",
             "https://beatmods.com/uploads/636adcab0c5c87297d5daa99/universal/BeatSaverSharp-3.4.4.zip",
             "https://beatmods.com/uploads/63a82c7e4b0db27fe5ef3f24/universal/BeatSaverVoting-2.4.0.zip",
