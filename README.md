@@ -31,6 +31,7 @@
 # Modpack Benefits
 - Mods Stay more Updated compared to ModAssistant
 - Some Mods Included cannot be found on ModAssistant
+- You Don't Have to remember Mods when updating between game versions as they are all included!
 
 # Links to Latest Versions of the Pack
 
