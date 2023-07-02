@@ -28,7 +28,7 @@
 - Many Less Points of Failure
 - ModAssistant Built In
 
-#Modpack Benefits
+# Modpack Benefits
 - Mods Stay more Updated compared to ModAssistant
 - Some Mods Included cannot be found on ModAssistant
 
