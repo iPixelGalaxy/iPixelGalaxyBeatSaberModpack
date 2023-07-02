@@ -1,6 +1,6 @@
 {
 	"1.29.1": {
-        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.29.x-0.0.4/BeatSaberModpack.zip",
+        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.29.0-1.29.1-0.0.5/BeatSaberModpack.zip",
         "externalmods" : [
 	    "https://beatmods.com/uploads/642b4f95368d841027494bed/universal/BeatSaberMarkupLanguage-1.6.10.zip",
             "https://beatmods.com/uploads/636ae3750c5c87297d5dab7f/universal/SiraUtil-3.1.2.zip",
@@ -18,7 +18,7 @@
 	"message" : ""
      },
 	"1.29.0": {
-        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.29.x-0.0.4/BeatSaberModpack.zip",
+        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download//1.29.0-1.29.1-0.0.5/BeatSaberModpack.zip",
         "externalmods" : [
 	    "https://beatmods.com/uploads/642b4f95368d841027494bed/universal/BeatSaberMarkupLanguage-1.6.10.zip",
             "https://beatmods.com/uploads/636ae3750c5c87297d5dab7f/universal/SiraUtil-3.1.2.zip",
@@ -33,7 +33,7 @@
             "https://beatmods.com/uploads/636ae3940c5c87297d5dabca/universal/Intro%20Skip-4.0.3.zip",
             "https://github.com/zeph-yr/JDFixer/releases/latest/download/JDFixer.dll"
         ],
-	"message" : "Newest Functional pack is for 1.29.1"
+	"message" : ""
      },
 	"1.28.0": {
         "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.28.0-latest/BeatSaberModpack1.28.0.zip",
@@ -57,6 +57,7 @@
 	"1.27.0": {
         "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.27.0-latest/BeatSaberModpack1.27.0.zip",
         "externalmods" : [
+	    "https://beatmods.com/uploads/63990e010505da399146efcf/universal/BeatSaberMarkupLanguage-1.6.8.zip",
             "https://beatmods.com/uploads/636ae3750c5c87297d5dab7f/universal/SiraUtil-3.1.2.zip",
             "https://beatmods.com/uploads/636adcab0c5c87297d5daa99/universal/BeatSaverSharp-3.4.4.zip",
             "https://beatmods.com/uploads/63a82c7e4b0db27fe5ef3f24/universal/BeatSaverVoting-2.4.0.zip",
@@ -75,6 +76,7 @@
 	"1.26.0": {
         "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.26.0-latest/BeatSaberModpack1.26.0.zip",
         "externalmods" : [
+	    "https://beatmods.com/uploads/63990e010505da399146efcf/universal/BeatSaberMarkupLanguage-1.6.8.zip",
             "https://github.com/Auros/DiTails/releases/latest/download/DiTails.zip",
             "https://beatmods.com/uploads/636ae3940c5c87297d5dabca/universal/Intro%20Skip-4.0.3.zip",
             "https://github.com/zeph-yr/JDFixer/releases/latest/download/JDFixer.dll",
@@ -93,6 +95,7 @@
 	"1.25.1": {
         "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.25.x-latest/BeatSaberModpack1.25.x.zip",
         "externalmods" : [
+	    "https://beatmods.com/uploads/63990e010505da399146efcf/universal/BeatSaberMarkupLanguage-1.6.8.zip",
             "https://beatmods.com/uploads/636ae3750c5c87297d5dab7f/universal/SiraUtil-3.1.2.zip",
             "https://beatmods.com/uploads/636adcab0c5c87297d5daa99/universal/BeatSaverSharp-3.4.4.zip",
             "https://beatmods.com/uploads/63a82c7e4b0db27fe5ef3f24/universal/BeatSaverVoting-2.4.0.zip",
@@ -111,6 +114,7 @@
 	"1.25.0": {
         "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.25.x-latest/BeatSaberModpack1.25.x.zip",
         "externalmods" : [
+	    "https://beatmods.com/uploads/63990e010505da399146efcf/universal/BeatSaberMarkupLanguage-1.6.8.zip",
             "https://beatmods.com/uploads/636ae3750c5c87297d5dab7f/universal/SiraUtil-3.1.2.zip",
             "https://beatmods.com/uploads/636adcab0c5c87297d5daa99/universal/BeatSaverSharp-3.4.4.zip",
             "https://beatmods.com/uploads/63a82c7e4b0db27fe5ef3f24/universal/BeatSaverVoting-2.4.0.zip",
