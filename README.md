@@ -44,7 +44,7 @@
 
 # Included Mods:
 - BeatLeader 0.7.1 by [BeatLeader Team](https://github.com/BeatLeader/beatleader-mod/releases)
-- BeatSaberPlus 6.0.5 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases)
+- BeatSaberPlus 6.0.7 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases)
 - BeatSaverUpdater 1.1.0 by [PixelBoom](https://github.com/rithik-b/BeatSaverUpdater/releases)
 - BeatSaviorData 2.1.15 by [Mystogan98](https://github.com/Mystogan98/BeatSaviorData/releases)
 - BetterSongList 0.3.4 by [Kinsi55 (Original)](https://github.com/kinsi55/BeatSaber_BetterSongList/releases) / [My Fork of it](https://github.com/iPixelGalaxy/BeatSaber_BetterSongList/releases)
@@ -75,6 +75,7 @@
 - MorePlaylists 2.0.0 by [PixelBoom](https://github.com/rithik-b/MorePlaylists/releases)
 - MultiplayerCore 1.3.0 by [Goobwabber](https://github.com/Goobwabber/MultiplayerCore/releases)
 - OverrideEnviromentFix 1.1.1 by [Ryan](https://github.com/rfcaps/OverrideEnvironmentFix/releases)
+- PauseCredit 1.0.0 by [futuremapper](https://github.com/Futuremappermydud/PauseCredit/releases)
 - PlaylistManager 1.6.6 by [PixelBoom](https://github.com/rithik-b/PlaylistManager/releases)
 - PPPredictor 1.0.0 by [No.1 Noob](https://github.com/no-1-noob/PPPredictor/releases)
 - PracticePlugin 6.1.5 by [denpadokei](https://github.com/denpadokei/PracticePlugin/releases)
