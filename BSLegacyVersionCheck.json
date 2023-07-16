@@ -1,6 +1,6 @@
 {
 	"1.29.1": {
-        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.29.0-1.29.1-0.0.5/BeatSaberModpack.zip",
+        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.29.0-1.29.1-0.0.6/BeatSaberModpack.zip",
         "externalmods" : [
 	    "https://beatmods.com/uploads/642b4f95368d841027494bed/universal/BeatSaberMarkupLanguage-1.6.10.zip",
             "https://beatmods.com/uploads/636ae3750c5c87297d5dab7f/universal/SiraUtil-3.1.2.zip",
