@@ -44,7 +44,7 @@
 
 # Included Mods:
 - BeatLeader 0.7.1 by [BeatLeader Team](https://github.com/BeatLeader/beatleader-mod/releases)
-- BeatSaberPlus 6.0.7 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases)
+- BeatSaberPlus 6.0.8 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases)
 - BeatSaverUpdater 1.1.0 by [PixelBoom](https://github.com/rithik-b/BeatSaverUpdater/releases)
 - BeatSaviorData 2.1.15 by [Mystogan98](https://github.com/Mystogan98/BeatSaviorData/releases)
 - BetterSongList 0.3.4 by [Kinsi55 (Original)](https://github.com/kinsi55/BeatSaber_BetterSongList/releases) / [My Fork of it](https://github.com/iPixelGalaxy/BeatSaber_BetterSongList/releases)
