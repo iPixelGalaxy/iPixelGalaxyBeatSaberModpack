@@ -51,7 +51,7 @@
 
 ## Multiplayer Mods:
 - BeatTogether 2.1.1 by [BeatTogether Team](https://github.com/BeatTogether/BeatTogether/releases)
-- BeatSaberPlus (Multiplayer+) 6.0.8 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases)
+- Multiplayer+ (A Component of BeatSaberPlus) 6.0.8 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases)
 - MultiplayerCore 1.3.0 by [Goobwabber](https://github.com/Goobwabber/MultiplayerCore/releases)
 - ServerBrowser 1.2.0 by [roydejong](https://github.com/roydejong/BeatSaberServerBrowser/releases)
 
