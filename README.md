@@ -56,9 +56,10 @@
 - ServerBrowser 1.2.0 by [roydejong](https://github.com/roydejong/BeatSaberServerBrowser/releases)
 
 ## Controller Settings Mods:
+### (Techinically these 3 mods conflict, however, they are included with the assumption that only one is being used for the sake of none being forgotten and the modpack being an easy one stop shop for all the mods you might ever think of.)
 - EasyOffset 2.1.1 by [Reezonate](https://github.com/Reezonate/EasyOffset/releases)
 - ControllerSettingsHelper 0.0.1 by [Kinsi55](https://github.com/kinsi55/BeatSaber_ControllerSettingsHelper/releases)
-- SaberTailor 4.0.0 by [Shadnix/rondDev](https://github.com/rondDev/BeatSaber-SaberTailor/releases)
+- SaberTailor 4.0.0 by [Shadnix/rondDev](https://github.com/Shadnix-was-taken/BeatSaber-SaberTailor/tree/v4.0.x)
 
 ## Info Mods:
 - BeatSaviorData 2.1.15 by [Mystogan98](https://github.com/Mystogan98/BeatSaviorData/releases)
