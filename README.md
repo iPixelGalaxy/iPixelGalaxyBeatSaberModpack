@@ -112,7 +112,7 @@
 - Shaffuru 0.2.0 by [Kinsi55](https://github.com/kinsi55/BeatSaber_Shaffuru/releases)
 
 
-## Costmetic Mods:
+## Cosmetic Mods:
 - MenuSaberColors 1.0.8 by [Exomanz](https://github.com/Exomanz/MenuSaberColors/releases)
 - SaberFactory 2.5.4 by [ToniMacoroni](https://github.com/ToniMacaroni/SaberFactory/releases)
 - SoundReplacer 0.0.6 by [SamuelTulach](https://github.com/SamuelTulach/SoundReplacer/releases)
