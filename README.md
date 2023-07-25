@@ -50,7 +50,7 @@
 - LeaderboardCore 1.3.3 by [PixelBoom](https://github.com/rithik-b/LeaderboardCore/releases)
 
 ## Multiplayer Mods:
-- BeatTogether 2.1.1 by [BeatTogether Team](https://github.com/BeatTogether/BeatTogether/releases)
+- BeatTogether 2.1.2 by [BeatTogether Team](https://github.com/BeatTogether/BeatTogether/releases)
 - Multiplayer+ (A Component of BeatSaberPlus) 6.0.8 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases)
 - MultiplayerCore 1.3.0 by [Goobwabber](https://github.com/Goobwabber/MultiplayerCore/releases)
 - ServerBrowser 1.2.0 by [roydejong](https://github.com/roydejong/BeatSaberServerBrowser/releases)
