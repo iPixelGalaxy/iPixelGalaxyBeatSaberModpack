@@ -85,12 +85,12 @@
 
 ## Small Tweak Mods:
 - ExtraBSLSorters 2.0.1 by [SuperSonic16](https://github.com/thesupersonic16/ExtraBSLSorters/releases)
-- FailButton 0.0.2 by Kinsi55 (Not on GitHub. "its like a 15 line plugin" -Kinsi55)
+- FailButton 0.0.2 by [Kinsi55](https://github.com/kinsi55) (Not on GitHub. "its like a 15 line plugin" -Kinsi55)
 - FastFail 2.0.5 by [PulseLane](https://github.com/PulseLane/FastFail/releases)
 - HitSoundTweaks 1.1.0 by [GalaxyMaster](https://github.com/GalaxyMaster2/HitsoundTweaks/releases)
 - OverrideEnviromentFix 1.1.1 by [Ryan](https://github.com/rfcaps/OverrideEnvironmentFix/releases)
 - PauseCredit 1.0.0 by [futuremapper](https://github.com/Futuremappermydud/PauseCredit/releases)
-- QuickMirrorToggle 0.0.1 by Kinsi55 (This is a mod I commissioned to quickly toggle the mirror shader)
+- QuickMirrorToggle 0.0.1 by [Kinsi55](https://github.com/kinsi55) (This is a mod I commissioned to quickly toggle the mirror shader)
 - SearchFixes 1.0.0 by [PixelBoom](https://github.com/rithik-b/SearchFixes/releases)
 - SmoothedController 0.0.1 by [Kinsi55](https://github.com/kinsi55/BeatSaber_SmoothedController/releases)
 - SongRankedBadge 1.0.1 by [qe201020335](https://github.com/qe201020335/SongRankedBadge/releases)
@@ -100,7 +100,7 @@
 
 ## Performance Mods:
 - GottaGoFast 0.2.1 by [Kinsi55](https://github.com/kinsi55/CS_BeatSaber_GottaGoFast/releases)
-- MaybeStutterFix 0.0.1 by Kinsi55
+- MaybeStutterFix 0.0.1 by [Kinsi55](https://github.com/kinsi55)
 
 ## Gameplay Mods:
 - CustomJSONData 2.4.7 by [Aeroluna](https://github.com/Aeroluna/CustomJSONData/releases)
