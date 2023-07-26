@@ -68,7 +68,7 @@
 - iForgor 1.3.1 by [ckosmic](https://github.com/ckosmic/IForgor/releases)
 - PPPredictor 1.0.0 by [No.1 Noob](https://github.com/no-1-noob/PPPredictor/releases)
 - ScorePercentage 1.4.13 by [IdleBob](https://github.com/Idlebawb/ScorePercentage/releases)
-- SliceDetails 1.3.1 by [ckosmic](https://github.com/ckosmic/SliceDetails/releases)
+- SliceDetails 1.3.2 by [ckosmic](https://github.com/ckosmic/SliceDetails/releases)
 
 ## Utility Mods:
 - BeatSaberPlus 6.0.8 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases)
