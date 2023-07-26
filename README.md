@@ -101,6 +101,7 @@
 ## Performance Mods:
 - GottaGoFast 0.2.1 by [Kinsi55](https://github.com/kinsi55/CS_BeatSaber_GottaGoFast/releases)
 - MaybeStutterFix 0.0.1 by [Kinsi55](https://github.com/kinsi55)
+- PioritySetter (High) 1.2.0 by [Arimodu](https://github.com/Arimodu/PrioritySetter/releases)
 
 ## Gameplay Mods:
 - CustomJSONData 2.4.7 by [Aeroluna](https://github.com/Aeroluna/CustomJSONData/releases)
