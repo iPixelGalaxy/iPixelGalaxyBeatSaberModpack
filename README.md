@@ -43,68 +43,91 @@
 - [1.21.0](https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/tag/1.21.0-latest)
 
 # Included Mods:
+
+## Leaderboard Mods:
 - BeatLeader 0.7.1 by [BeatLeader Team](https://github.com/BeatLeader/beatleader-mod/releases)
-- BeatSaberPlus 6.0.7 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases)
-- BeatSaverUpdater 1.1.0 by [PixelBoom](https://github.com/rithik-b/BeatSaverUpdater/releases)
+- HitBloq 1.4.0 by [PixelBoom/SirSpam](https://github.com/PauseChampions/Hitbloq/releases)
+- LeaderboardCore 1.3.3 by [PixelBoom](https://github.com/rithik-b/LeaderboardCore/releases)
+
+## Multiplayer Mods:
+- BeatTogether 2.1.2 by [BeatTogether Team](https://github.com/BeatTogether/BeatTogether/releases)
+- Multiplayer+ (A Component of BeatSaberPlus) 6.0.8 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases)
+- MultiplayerCore 1.3.0 by [Goobwabber](https://github.com/Goobwabber/MultiplayerCore/releases)
+- ServerBrowser 1.2.0 by [roydejong](https://github.com/roydejong/BeatSaberServerBrowser/releases)
+
+## Controller Settings Mods:
+### (Techinically these 3 mods conflict, however, they are included with the assumption that only one is being used for the sake of none being forgotten and the modpack being an easy one stop shop for all the mods you might ever think of.)
+- EasyOffset 2.1.1 by [Reezonate](https://github.com/Reezonate/EasyOffset/releases)
+- ControllerSettingsHelper 0.0.1 by [Kinsi55](https://github.com/kinsi55/BeatSaber_ControllerSettingsHelper/releases)
+- SaberTailor 4.0.0 by [Shadnix/rondDev](https://github.com/Shadnix-was-taken/BeatSaber-SaberTailor/tree/v4.0.x)
+
+## Info Mods:
 - BeatSaviorData 2.1.15 by [Mystogan98](https://github.com/Mystogan98/BeatSaviorData/releases)
+- Counters+ 2.3.3 by [Caeden117](https://github.com/Caeden117/CountersPlus/releases)
+- HitScoreVisualizer 3.3.3 by [Eris](https://github.com/ErisApps/HitScoreVisualizer/releases)
+- iForgor 1.3.1 by [ckosmic](https://github.com/ckosmic/IForgor/releases)
+- PPPredictor 1.0.0 by [No.1 Noob](https://github.com/no-1-noob/PPPredictor/releases)
+- ScorePercentage 1.4.13 by [IdleBob](https://github.com/Idlebawb/ScorePercentage/releases)
+- SliceDetails 1.3.2 by [ckosmic](https://github.com/ckosmic/SliceDetails/releases)
+
+## Utility Mods:
+- BeatSaberPlus 6.0.8 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases)
+- BeatSaverUpdater 1.1.0 by [PixelBoom](https://github.com/rithik-b/BeatSaverUpdater/releases)
 - BetterSongList 0.3.4 by [Kinsi55 (Original)](https://github.com/kinsi55/BeatSaber_BetterSongList/releases) / [My Fork of it](https://github.com/iPixelGalaxy/BeatSaber_BetterSongList/releases)
 - BetterSongSearch 0.7.80 by [Kinsi55](https://github.com/kinsi55/BeatSaber_BetterSongSearch/releases)
-- BeatTogether 2.1.1 by [BeatTogether Team](https://github.com/BeatTogether/BeatTogether/releases)
 - Camera2 0.6.100 by [Kinsi55](https://github.com/kinsi55/CS_BeatSaber_Camera2/releases)
-- ControllerSettingsHelper 0.0.1 by [Kinsi55](https://github.com/kinsi55/BeatSaber_ControllerSettingsHelper/releases)
+- ImBlindedByTheLights 0.0.6 by [Kinsi55](https://github.com/kinsi55/BeatSaber_ImBlindedByTheLights/releases)
+- MorePlaylists 2.0.0 by [PixelBoom](https://github.com/rithik-b/MorePlaylists/releases)
+- PlaylistManager 1.6.6 by [PixelBoom](https://github.com/rithik-b/PlaylistManager/releases)
+- PracticePlugin 6.1.5 by [denpadokei](https://github.com/denpadokei/PracticePlugin/releases)
+- SongPlayHistory 2.0.1 by [qe201020335](https://github.com/qe201020335/SongPlayHistory/releases)
+- wipbot 1.14.0 by [catsethecat](https://github.com/catsethecat/wipbot/releases)
+
+## Small Tweak Mods:
+- ExtraBSLSorters 2.0.1 by [SuperSonic16](https://github.com/thesupersonic16/ExtraBSLSorters/releases)
+- FailButton 0.0.2 by [Kinsi55](https://github.com/kinsi55) (Not on GitHub. "its like a 15 line plugin" -Kinsi55)
+- FastFail 2.0.5 by [PulseLane](https://github.com/PulseLane/FastFail/releases)
+- HitSoundTweaks 1.1.0 by [GalaxyMaster](https://github.com/GalaxyMaster2/HitsoundTweaks/releases)
+- OverrideEnviromentFix 1.1.1 by [Ryan](https://github.com/rfcaps/OverrideEnvironmentFix/releases)
+- PauseCredit 1.0.0 by [futuremapper](https://github.com/Futuremappermydud/PauseCredit/releases)
+- QuickMirrorToggle 0.0.1 by [Kinsi55](https://github.com/kinsi55) (This is a mod I commissioned to quickly toggle the mirror shader)
+- SearchFixes 1.0.0 by [PixelBoom](https://github.com/rithik-b/SearchFixes/releases)
+- SmoothedController 0.0.1 by [Kinsi55](https://github.com/kinsi55/BeatSaber_SmoothedController/releases)
+- SongRankedBadge 1.0.1 by [qe201020335](https://github.com/qe201020335/SongRankedBadge/releases)
+- TakeMeToResults 1.1.0 by [PixelBoom](https://github.com/rithik-b/TakeMeToResults/releases)
+- Tweaks55 0.3.8 by [Kinsi55](https://github.com/kinsi55/BeatSaber_Tweaks55/releases)
+- Unfunny 1.0.0 by [Kaitlyn](https://github.com/ItsKaitlyn03/Unfunny/releases)
+
+## Performance Mods:
+- GottaGoFast 0.2.1 by [Kinsi55](https://github.com/kinsi55/CS_BeatSaber_GottaGoFast/releases)
+- MaybeStutterFix 0.0.1 by [Kinsi55](https://github.com/kinsi55)
+- PioritySetter (High) 1.2.0 by [Arimodu](https://github.com/Arimodu/PrioritySetter/releases)
+
+## Gameplay Mods:
 - CustomJSONData 2.4.7 by [Aeroluna](https://github.com/Aeroluna/CustomJSONData/releases)
 - Heck 1.4.8 by [Aeroluna](https://github.com/Aeroluna/Heck/releases)
 - Chroma 2.7.7 by [Aeroluna](https://github.com/Aeroluna/Heck/releases)
 - NoodleExtensions 1.5.8 by [Aeroluna](https://github.com/Aeroluna/Heck/releases)
 - LookupID 1.0.1 by [Aeroluna](https://github.com/Aeroluna/Heck/releases)
-- Counters+ 2.3.3 by [Caeden117](https://github.com/Caeden117/CountersPlus/releases)
-- EasyOffset 2.1.1 by [Reezonate](https://github.com/Reezonate/EasyOffset/releases)
-- ExtraBSLSorters 2.0.1 by [SuperSonic16](https://github.com/thesupersonic16/ExtraBSLSorters/releases)
-- FailButton 0.0.2 by Kinsi55 (Not on GitHub. "its like a 15 line plugin" -Kinsi55)
-- FastFail 2.0.5 by [PulseLane](https://github.com/PulseLane/FastFail/releases)
-- FCPercentage 1.4.4 by [ChirpyMisha](https://github.com/ChirpyMisha/FC-Percentage/releases)
-- GottaGoFast 0.2.1 by [Kinsi55](https://github.com/kinsi55/CS_BeatSaber_GottaGoFast/releases)
-- HitBloq 1.4.0 by [PixelBoom/SirSpam](https://github.com/PauseChampions/Hitbloq/releases)
-- LeaderboardCore 1.3.3 by [PixelBoom](https://github.com/rithik-b/LeaderboardCore/releases)
-- HitSoundTweaks 1.1.0 by [GalaxyMaster](https://github.com/GalaxyMaster2/HitsoundTweaks/releases)
-- HitScoreVisualizer 3.3.3 by [Eris](https://github.com/ErisApps/HitScoreVisualizer/releases)
-- iForgor 1.3.1 by [ckosmic](https://github.com/ckosmic/IForgor/releases)
-- ImBlindedByTheLights 0.0.6 by [Kinsi55](https://github.com/kinsi55/BeatSaber_ImBlindedByTheLights/releases)
-- MenuSaberColors 1.0.8 by [Exomanz](https://github.com/Exomanz/MenuSaberColors/releases)
 - MappingExtensions 1.7.4 by [Kyle1314](https://github.com/Kylemc1413/MappingExtensions)
-- MorePlaylists 2.0.0 by [PixelBoom](https://github.com/rithik-b/MorePlaylists/releases)
-- MultiplayerCore 1.3.0 by [Goobwabber](https://github.com/Goobwabber/MultiplayerCore/releases)
-- OverrideEnviromentFix 1.1.1 by [Ryan](https://github.com/rfcaps/OverrideEnvironmentFix/releases)
-- PauseCredit 1.0.0 by [futuremapper](https://github.com/Futuremappermydud/PauseCredit/releases)
-- PlaylistManager 1.6.6 by [PixelBoom](https://github.com/rithik-b/PlaylistManager/releases)
-- PPPredictor 1.0.0 by [No.1 Noob](https://github.com/no-1-noob/PPPredictor/releases)
-- PracticePlugin 6.1.5 by [denpadokei](https://github.com/denpadokei/PracticePlugin/releases)
-- QuickMirrorToggle 0.0.1 by Kinsi55 (This is a mod I commissioned to quickly toggle the mirror shader)
-- SaberFactory 2.5.4 by [ToniMacoroni](https://github.com/ToniMacaroni/SaberFactory/releases)
-- SaberTailor 4.0.0 by [Shadnix/rondDev](https://github.com/rondDev/BeatSaber-SaberTailor/releases)
-- ScorePercentage 1.4.13 by [IdleBob](https://github.com/Idlebawb/ScorePercentage/releases)
-- SearchFixes 1.0.0 by [PixelBoom](https://github.com/rithik-b/SearchFixes/releases)
-- ServerBrowser 1.2.0 by [roydejong](https://github.com/roydejong/BeatSaberServerBrowser/releases)
 - Shaffuru 0.2.0 by [Kinsi55](https://github.com/kinsi55/BeatSaber_Shaffuru/releases)
-- SliceDetails 1.3.1 by [ckosmic](https://github.com/ckosmic/SliceDetails/releases)
-- SmoothedController 0.0.1 by [Kinsi55](https://github.com/kinsi55/BeatSaber_SmoothedController/releases)
-- SongPlayHistory 1.6.6 by [qe201020335](https://github.com/qe201020335/SongPlayHistory/releases)
+
+
+## Cosmetic Mods:
+- MenuSaberColors 1.0.8 by [Exomanz](https://github.com/Exomanz/MenuSaberColors/releases)
+- SaberFactory 2.5.4 by [ToniMacoroni](https://github.com/ToniMacaroni/SaberFactory/releases)
 - SoundReplacer 0.0.6 by [SamuelTulach](https://github.com/SamuelTulach/SoundReplacer/releases)
-- SongRankedBadge 1.0.1 by [qe201020335](https://github.com/qe201020335/SongRankedBadge/releases)
-- TakeMeToResults 1.1.0 by [PixelBoom](https://github.com/rithik-b/TakeMeToResults/releases)
 - TrickSaber 1.1.3 by [ToniMacaroni](https://github.com/ToniMacaroni/TrickSaber/releases)
-- Tweaks55 0.3.8 by [Kinsi55](https://github.com/kinsi55/BeatSaber_Tweaks55/releases)
-- Unfunny 1.0.0 by [Kaitlyn](https://github.com/ItsKaitlyn03/Unfunny/releases)
 - Vent 0.0.3 by [Kinsi55](https://github.com/kinsi55)
-- wipbot 1.14.0 by [catsethecat](https://github.com/catsethecat/wipbot/releases)
 
-# Not In Latest
-- MultiplayerExtensions 1.0.3 by [Goobwabber](https://github.com/Goobwabber/MultiplayerExtensions/releases)
-
-# Counters+ Add-on Mods
+## Counters+ Add-on Mods
+- FCPercentage 1.4.4 by [ChirpyMisha](https://github.com/ChirpyMisha/FC-Percentage/releases)
 - BetterMissCounter 1.1.0 by [CatseTheCat](https://github.com/catsethecat/BetterMissCounter/releases)
 - FPSCounter 3.1.0 by [Eris](https://github.com/ErisApps/FPS-Counter/releases)
 - PPCounter 2.0.1 by [PulseLane](https://github.com/PulseLane/PPCounter/releases)
+
+# Not In Latest
+- MultiplayerExtensions 1.0.3 by [Goobwabber](https://github.com/Goobwabber/MultiplayerExtensions/releases)
 
 # How to Install (BSLegacyLauncher)
 1. Download BSLegacyLauncher by [RiskiVR](https://riskivr.uwu.ai/) The latest version can be found [here](https://link.bslegacy.com/bsll)
