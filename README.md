@@ -45,7 +45,7 @@
 # Included Mods:
 
 ## Leaderboard Mods:
-- BeatLeader 0.7.1 by [BeatLeader Team](https://github.com/BeatLeader/beatleader-mod/releases)
+- BeatLeader 0.8.0 by [BeatLeader Team](https://github.com/BeatLeader/beatleader-mod/releases)
 - HitBloq 1.4.0 by [PixelBoom/SirSpam](https://github.com/PauseChampions/Hitbloq/releases)
 - LeaderboardCore 1.3.3 by [PixelBoom](https://github.com/rithik-b/LeaderboardCore/releases)
 
@@ -76,6 +76,7 @@
 - BetterSongList 0.3.4 by [Kinsi55 (Original)](https://github.com/kinsi55/BeatSaber_BetterSongList/releases) / [My Fork of it](https://github.com/iPixelGalaxy/BeatSaber_BetterSongList/releases)
 - BetterSongSearch 0.7.80 by [Kinsi55](https://github.com/kinsi55/BeatSaber_BetterSongSearch/releases)
 - Camera2 0.6.100 by [Kinsi55](https://github.com/kinsi55/CS_BeatSaber_Camera2/releases)
+- Clock and Volume 1.1.0 by [iPixelGalaxy](https://github.com/iPixelGalaxy/ClockAndVolume/releases) / Forked from Enhancements by [Auros](https://github.com/Auros/Enhancements/releases)
 - ImBlindedByTheLights 0.0.6 by [Kinsi55](https://github.com/kinsi55/BeatSaber_ImBlindedByTheLights/releases)
 - MorePlaylists 2.0.0 by [PixelBoom](https://github.com/rithik-b/MorePlaylists/releases)
 - PlaylistManager 1.6.6 by [PixelBoom](https://github.com/rithik-b/PlaylistManager/releases)
