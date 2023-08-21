@@ -46,8 +46,8 @@
 
 ## Leaderboard Mods:
 - BeatLeader 0.8.1 by [BeatLeader Team](https://github.com/BeatLeader/beatleader-mod/releases)
-- HitBloq 1.4.1 (Unofficial) by [PixelBoom/SirSpam](https://github.com/PauseChampions/Hitbloq/releases) Here is the [Fork](https://github.com/iPixelGalaxy/Hitbloq)
-- LeaderboardCore 1.3.3 by [PixelBoom](https://github.com/rithik-b/LeaderboardCore/releases)
+- HitBloq 1.4.2 (Unofficial) by [PixelBoom/SirSpam](https://github.com/PauseChampions/Hitbloq/releases) Here is the [Fork](https://github.com/iPixelGalaxy/Hitbloq)
+- LeaderboardCore 1.4.0 by [PixelBoom/SirSpam](https://github.com/rithik-b/LeaderboardCore/releases)
 
 ## Multiplayer Mods:
 - BeatTogether 2.1.2 by [BeatTogether Team](https://github.com/BeatTogether/BeatTogether/releases)
@@ -102,7 +102,7 @@
 ## Performance Mods:
 - GottaGoFast 0.2.1 by [Kinsi55](https://github.com/kinsi55/CS_BeatSaber_GottaGoFast/releases)
 - MaybeStutterFix 0.0.1 by [Kinsi55](https://github.com/kinsi55)
-- PioritySetter (High) 1.2.0 by [Arimodu](https://github.com/Arimodu/PrioritySetter/releases)
+- PioritySetter (High) 1.2.1 by [Arimodu](https://github.com/Arimodu/PrioritySetter/releases)
 
 ## Gameplay Mods:
 - CustomJSONData 2.4.7 by [Aeroluna](https://github.com/Aeroluna/CustomJSONData/releases)
