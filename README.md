@@ -45,7 +45,7 @@
 # Included Mods:
 
 ## Leaderboard Mods:
-- BeatLeader 0.8.0 by [BeatLeader Team](https://github.com/BeatLeader/beatleader-mod/releases)
+- BeatLeader 0.8.1 by [BeatLeader Team](https://github.com/BeatLeader/beatleader-mod/releases)
 - HitBloq 1.4.1 (Unofficial) by [PixelBoom/SirSpam](https://github.com/PauseChampions/Hitbloq/releases) Here is the [Fork](https://github.com/iPixelGalaxy/Hitbloq)
 - LeaderboardCore 1.3.3 by [PixelBoom](https://github.com/rithik-b/LeaderboardCore/releases)
 
