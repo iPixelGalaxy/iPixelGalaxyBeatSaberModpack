@@ -46,8 +46,8 @@
 
 ## Leaderboard Mods:
 - BeatLeader 0.8.1 by [BeatLeader Team](https://github.com/BeatLeader/beatleader-mod/releases)
-- HitBloq 1.4.1 (Unofficial) by [PixelBoom/SirSpam](https://github.com/PauseChampions/Hitbloq/releases) Here is the [Fork](https://github.com/iPixelGalaxy/Hitbloq)
-- LeaderboardCore 1.3.3 by [PixelBoom](https://github.com/rithik-b/LeaderboardCore/releases)
+- HitBloq 1.4.2 (Unofficial) by [PixelBoom/SirSpam](https://github.com/PauseChampions/Hitbloq/releases) Here is the [Fork](https://github.com/iPixelGalaxy/Hitbloq)
+- LeaderboardCore 1.4.0 by [PixelBoom/SirSpam](https://github.com/rithik-b/LeaderboardCore/releases)
 
 ## Multiplayer Mods:
 - BeatTogether 2.1.2 by [BeatTogether Team](https://github.com/BeatTogether/BeatTogether/releases)
@@ -102,7 +102,7 @@
 ## Performance Mods:
 - GottaGoFast 0.2.1 by [Kinsi55](https://github.com/kinsi55/CS_BeatSaber_GottaGoFast/releases)
 - MaybeStutterFix 0.0.1 by [Kinsi55](https://github.com/kinsi55)
-- PioritySetter (High) 1.2.0 by [Arimodu](https://github.com/Arimodu/PrioritySetter/releases)
+- PioritySetter (High) 1.2.1 by [Arimodu](https://github.com/Arimodu/PrioritySetter/releases)
 
 ## Gameplay Mods:
 - CustomJSONData 2.4.7 by [Aeroluna](https://github.com/Aeroluna/CustomJSONData/releases)
@@ -131,7 +131,7 @@
 - MultiplayerExtensions 1.0.3 by [Goobwabber](https://github.com/Goobwabber/MultiplayerExtensions/releases)
 
 # How to Install (BSLegacyLauncher)
-1. Download BSLegacyLauncher by [RiskiVR](https://riskivr.uwu.ai/) The latest version can be found [here](https://link.bslegacy.com/bsll)
+1. Download BSLegacyLauncher by [RiskiVR](https://riskivr.com/) The latest version can be found [here](https://github.com/RiskiVR/BSLegacyLauncher/releases)
 2. Extract and place the Launcher in the root of one of your drives. e.g. You should end up with something like C:\BSLegacyLauncher (I suggest you put it on SSD for best Loading Times/Performance).
 3. Create a Shortcut to the launcher, then Right Click the shortcut and click Properties. Add --pixel after the quotation marks on the highlighted line when you click Properties. (With BSLegacy 1.7.0 there is now also a flag to prevent your Plugins folder from ever being renamed that I would suggest adding "--no-yeet".) As Such:![image](https://user-images.githubusercontent.com/42526028/210357257-a8736d27-685d-457e-ba02-9706826bb49f.png)
 4. Use this shortcut to launch the launcher as it will add the one click button for mods in Advanced Settings (you can copy it to your desktop or drag it to your taskbar).
