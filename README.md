@@ -53,9 +53,10 @@
 
 ## Multiplayer Mods:
 - BeatTogether 2.1.2 by [BeatTogether Team](https://github.com/BeatTogether/BeatTogether/releases)
-- Multiplayer+ (A Component of BeatSaberPlus) 6.0.9 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases)
+- Multiplayer+ (A Component of BeatSaberPlus) 6.1.0 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases)
 - MultiplayerCore 1.3.0 by [Goobwabber](https://github.com/Goobwabber/MultiplayerCore/releases)
 - ServerBrowser 1.2.0 by [roydejong](https://github.com/roydejong/BeatSaberServerBrowser/releases)
+- MultiplayerExtensions 1.0.4 by [Goobwabber/ModdingPink](https://github.com/Goobwabber/MultiplayerExtensions/releases)
 
 ## Controller Settings Mods:
 ### (Techinically these 3 mods conflict, however, they are included with the assumption that only one is being used for the sake of none being forgotten and the modpack being an easy one stop shop for all the mods you might ever think of.)
@@ -73,7 +74,7 @@
 - SliceDetails 1.3.2 by [ckosmic](https://github.com/ckosmic/SliceDetails/releases)
 
 ## Utility Mods:
-- BeatSaberPlus 6.0.9 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases)
+- BeatSaberPlus 6.1.0 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases)
 - BeatSaverUpdater 1.1.0 by [PixelBoom](https://github.com/rithik-b/BeatSaverUpdater/releases)
 - BetterSongList 0.3.4 by [Kinsi55 (Original)](https://github.com/kinsi55/BeatSaber_BetterSongList/releases) / [My Fork of it](https://github.com/iPixelGalaxy/BeatSaber_BetterSongList/releases)
 - BetterSongSearch 0.7.80 by [Kinsi55](https://github.com/kinsi55/BeatSaber_BetterSongSearch/releases)
@@ -128,9 +129,6 @@
 - BetterMissCounter 1.1.0 by [CatseTheCat](https://github.com/catsethecat/BetterMissCounter/releases)
 - FPSCounter 3.1.0 by [Eris](https://github.com/ErisApps/FPS-Counter/releases)
 - PPCounter 2.0.1 by [PulseLane](https://github.com/PulseLane/PPCounter/releases)
-
-# Not In Latest
-- MultiplayerExtensions 1.0.3 by [Goobwabber](https://github.com/Goobwabber/MultiplayerExtensions/releases)
 
 # How to Install (BSLegacyLauncher)
 1. Download BSLegacyLauncher by [RiskiVR](https://riskivr.com/) The latest version can be found [here](https://github.com/RiskiVR/BSLegacyLauncher/releases)
