@@ -1,6 +1,6 @@
 # iPixelGalaxy Beat Saber Modpack
 
-# BSManager Method Highly Reccomended
+## [BSManager Method Highly Reccomended](https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack#how-to-install-bsmanager)
 
 # How to Install (Manual Method) (Fresh Install)
 1. Download Latest Modpack [Release 1.29.0-1.29.1](https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/latest/download/BeatSaberModpack.zip)
