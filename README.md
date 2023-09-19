@@ -1,6 +1,6 @@
 # iPixelGalaxy Beat Saber Modpack
 
-# BSManager Method Highly Reccomended
+## [BSManager Method Highly Reccomended](https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack#how-to-install-bsmanager)
 
 # How to Install (Manual Method) (Fresh Install)
 1. Download Latest Modpack [Release 1.29.0-1.29.1](https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/latest/download/BeatSaberModpack.zip)
@@ -78,7 +78,7 @@
 - BeatSaverUpdater 1.1.0 by [PixelBoom](https://github.com/rithik-b/BeatSaverUpdater/releases)
 - BetterSongList 0.3.4 by [Kinsi55 (Original)](https://github.com/kinsi55/BeatSaber_BetterSongList/releases) / [My Fork of it](https://github.com/iPixelGalaxy/BeatSaber_BetterSongList/releases)
 - BetterSongSearch 0.7.80 by [Kinsi55](https://github.com/kinsi55/BeatSaber_BetterSongSearch/releases)
-- Camera2 0.6.100 by [Kinsi55](https://github.com/kinsi55/CS_BeatSaber_Camera2/releases)
+- Camera2 0.6.107 by [Kinsi55](https://github.com/kinsi55/CS_BeatSaber_Camera2/releases)
 - Clock and Volume 1.1.0 by [iPixelGalaxy](https://github.com/iPixelGalaxy/ClockAndVolume/releases) / Forked from Enhancements by [Auros](https://github.com/Auros/Enhancements/releases)
 - ImBlindedByTheLights 0.0.6 by [Kinsi55](https://github.com/kinsi55/BeatSaber_ImBlindedByTheLights/releases)
 - MorePlaylists 2.0.0 by [PixelBoom](https://github.com/rithik-b/MorePlaylists/releases)
