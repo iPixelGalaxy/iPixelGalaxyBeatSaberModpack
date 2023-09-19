@@ -5,7 +5,7 @@
 # How to Install (Manual Method) (Fresh Install)
 1. Download Latest Modpack [Release 1.29.0-1.29.1](https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/latest/download/BeatSaberModpack.zip)
 2. Open Mod Assistant and Install the "More Playlists" mod as well as "JDFixer" and "Intro Skip" as those are not included at the request of modders, this will also grab every dependency not included in the modpack.
-3. Extract the contents of BeatSaberModpack.zip to the root of your Beat Saber Install typically C:\Program Files (x86)\Steam\steamapps\common\Beat Saber
+3. Extract the contents of BeatSaberModpack.zip to the root of your Beat Saber Install typically C:\Program Files (x86)\Steam\steamapps\common\Beat Saber. And click "Replace the files in the destination"
 4. You should be done. Enjoy! And if you have any issues let me know in my [discord server](https://discord.gg/6nmXVPtNA6) and I'll try my best to sort out your problems 😀
 
 # How to Install (BSManager)
@@ -14,7 +14,7 @@
 3. Click the "Mods" tab in BSManager and Install the "More Playlists" mod as well as "JDFixer" and "Intro Skip" as those are not included at the request of modders, this will also grab every dependency not included in the modpack.
 4. Launch the game once, *before installing the modpack*. (This ensures that all mods are moved from IPA/Pending)
 5. Close the game and click the settings gear in BSManager and click "Open Folder".
-6. Drag and drop the folders provided in [BeatSaberModpack.zip](https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases)
+6. Drag and drop the folders provided in [BeatSaberModpack.zip](https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases) and click "Replace the files in the destination".
 7. You should be good to go now!
 
 # Optional Steps for Quality of Life (BSManager)
