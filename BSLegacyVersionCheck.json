@@ -1,6 +1,6 @@
 {
 	"1.29.1": {
-        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.29.0-1.29.1-0.1.6/BeatSaberModpack.zip",
+        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/releases/download/1.29.0-1.29.1-0.1.6/BeatSaberModpack.zip",
         "externalmods" : [
 	    "",
             "https://beatmods.com/uploads/636ae3750c5c87297d5dab7f/universal/SiraUtil-3.1.2.zip",
@@ -18,7 +18,7 @@
 	"message" : ""
      },
 	"1.29.0": {
-        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.29.0-1.29.1-0.1.6/BeatSaberModpack.zip",
+        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/releases/download/1.29.0-1.29.1-0.1.6/BeatSaberModpack.zip",
         "externalmods" : [
             "",
             "https://beatmods.com/uploads/636ae3750c5c87297d5dab7f/universal/SiraUtil-3.1.2.zip",
@@ -36,7 +36,7 @@
 	"message" : ""
      },
 	"1.28.0": {
-        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.28.0-latest/BeatSaberModpack1.28.0.zip",
+        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/releases/download/1.28.0-latest/BeatSaberModpack1.28.0.zip",
         "externalmods" : [
 	    "https://beatmods.com/uploads/6403fa42fdb14f39fb57fd9a/universal/BeatSaberMarkupLanguage-1.6.9.zip",
             "https://beatmods.com/uploads/636ae3750c5c87297d5dab7f/universal/SiraUtil-3.1.2.zip",
@@ -55,7 +55,7 @@
 	"message" : "Newest Functional pack is for 1.29.1"
     }, 
 	"1.27.0": {
-        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.27.0-latest/BeatSaberModpack1.27.0.zip",
+        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/releases/download/1.27.0-latest/BeatSaberModpack1.27.0.zip",
         "externalmods" : [
 	    "https://beatmods.com/uploads/63990e010505da399146efcf/universal/BeatSaberMarkupLanguage-1.6.8.zip",
             "https://beatmods.com/uploads/636ae3750c5c87297d5dab7f/universal/SiraUtil-3.1.2.zip",
@@ -74,7 +74,7 @@
 	"message" : "Newest Functional pack is for 1.29.1"
     }, 
 	"1.26.0": {
-        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.26.0-latest/BeatSaberModpack1.26.0.zip",
+        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/releases/download/1.26.0-latest/BeatSaberModpack1.26.0.zip",
         "externalmods" : [
 	    "https://beatmods.com/uploads/63990e010505da399146efcf/universal/BeatSaberMarkupLanguage-1.6.8.zip",
             "https://github.com/Auros/DiTails/releases/latest/download/DiTails.zip",
@@ -93,7 +93,7 @@
 	"message" : "Newest Functional pack is for 1.29.1"
 },
 	"1.25.1": {
-        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.25.x-latest/BeatSaberModpack1.25.x.zip",
+        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/releases/download/1.25.x-latest/BeatSaberModpack1.25.x.zip",
         "externalmods" : [
 	    "https://beatmods.com/uploads/63990e010505da399146efcf/universal/BeatSaberMarkupLanguage-1.6.8.zip",
             "https://beatmods.com/uploads/636ae3750c5c87297d5dab7f/universal/SiraUtil-3.1.2.zip",
@@ -112,7 +112,7 @@
 	"message" : "Newest Functional pack is for 1.29.1"
     },
 	"1.25.0": {
-        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.25.x-latest/BeatSaberModpack1.25.x.zip",
+        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/releases/download/1.25.x-latest/BeatSaberModpack1.25.x.zip",
         "externalmods" : [
 	    "https://beatmods.com/uploads/63990e010505da399146efcf/universal/BeatSaberMarkupLanguage-1.6.8.zip",
             "https://beatmods.com/uploads/636ae3750c5c87297d5dab7f/universal/SiraUtil-3.1.2.zip",
@@ -131,7 +131,7 @@
 	"message" : "Newest Functional pack is for 1.29.1"
 	},
 	"1.24.1": {
-        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.22.0-1.24.1-latest/BeatSaberModpack1.22.0-1.24.1.zip",
+        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/releases/download/1.22.0-1.24.1-latest/BeatSaberModpack1.22.0-1.24.1.zip",
         "externalmods" : [
 	    "https://beatmods.com/uploads/62f6f2c5fdabde6bb8311493/universal/BeatSaberMarkupLanguage-1.6.8.zip",
             "https://beatmods.com/uploads/636ae3750c5c87297d5dab7f/universal/SiraUtil-3.1.2.zip",
@@ -150,7 +150,7 @@
 	"message" : "Newest Functional pack is for 1.29.1"
 	},
 	"1.24.0": {
-        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.22.0-1.24.1-latest/BeatSaberModpack1.22.0-1.24.1.zip",
+        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/releases/download/1.22.0-1.24.1-latest/BeatSaberModpack1.22.0-1.24.1.zip",
         "externalmods" : [
 	    "https://beatmods.com/uploads/62f6f2c5fdabde6bb8311493/universal/BeatSaberMarkupLanguage-1.6.8.zip",
             "https://beatmods.com/uploads/636ae3750c5c87297d5dab7f/universal/SiraUtil-3.1.2.zip",
@@ -169,7 +169,7 @@
 	"message" : "Newest Functional pack is for 1.29.1"
 	},
 	"1.23.0": {
-        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.22.0-1.24.1-latest/BeatSaberModpack1.22.0-1.24.1.zip",
+        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/releases/download/1.22.0-1.24.1-latest/BeatSaberModpack1.22.0-1.24.1.zip",
         "externalmods" : [
 	    "https://beatmods.com/uploads/62f6f2c5fdabde6bb8311493/universal/BeatSaberMarkupLanguage-1.6.8.zip",
             "https://beatmods.com/uploads/636ae3750c5c87297d5dab7f/universal/SiraUtil-3.1.2.zip",
@@ -188,7 +188,7 @@
 	"message" : "Newest Functional pack is for 1.29.1"
 	},
 	"1.22.1": {
-        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.22.0-1.24.1-latest/BeatSaberModpack1.22.0-1.24.1.zip",
+        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/releases/download/1.22.0-1.24.1-latest/BeatSaberModpack1.22.0-1.24.1.zip",
         "externalmods" : [
 	    "https://beatmods.com/uploads/62f6f2c5fdabde6bb8311493/universal/BeatSaberMarkupLanguage-1.6.8.zip",
             "https://beatmods.com/uploads/636ae3750c5c87297d5dab7f/universal/SiraUtil-3.1.2.zip",
@@ -207,7 +207,7 @@
 	"message" : "Newest Functional pack is for 1.29.1"
 	},
 	"1.22.0": {
-        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.22.0-1.24.1-latest/BeatSaberModpack1.22.0-1.24.1.zip",
+        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/releases/download/1.22.0-1.24.1-latest/BeatSaberModpack1.22.0-1.24.1.zip",
         "externalmods" : [
 	    "https://beatmods.com/uploads/62f6f2c5fdabde6bb8311493/universal/BeatSaberMarkupLanguage-1.6.8.zip",
             "https://beatmods.com/uploads/636ae3750c5c87297d5dab7f/universal/SiraUtil-3.1.2.zip",
@@ -226,7 +226,7 @@
 	"message" : "Newest Functional pack is for 1.29.1"
 	},
 	"1.21.0": {
-        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases/download/1.21.0-latest/BeatSaberModpack1.21.0.zip",
+        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/releases/download/1.21.0-latest/BeatSaberModpack1.21.0.zip",
         "externalmods" : [
 	    "https://beatmods.com/uploads/62f6f2c5fdabde6bb8311493/universal/BeatSaberMarkupLanguage-1.6.8.zip",
             "https://beatmods.com/uploads/636ae3750c5c87297d5dab7f/universal/SiraUtil-3.1.2.zip",
