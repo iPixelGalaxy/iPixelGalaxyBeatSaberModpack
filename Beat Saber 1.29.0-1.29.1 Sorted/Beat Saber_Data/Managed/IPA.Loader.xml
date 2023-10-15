@@ -666,11 +666,12 @@
             A storage for a config structure.
             </summary>
         </member>
-        <member name="P:IPA.Config.IConfigStore.SyncAction">
+        <member name="P:IPA.Config.IConfigStore.SyncObject">
             <summary>
-            An action that is gonna be called when a save is required
+            A synchronization object for the save thread to wait on for changes. 
             It should be signaled whenever the internal state of the object is changed.
-            The writer will never signal this. 
+            The writer will never signal this handle. 
+            This will be null for internally-implemented providers
             </summary>
         </member>
         <member name="P:IPA.Config.IConfigStore.WriteSyncObject">
