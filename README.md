@@ -47,7 +47,7 @@
 # Included Mods:
 
 ## Leaderboard Mods:
-- BeatLeader 0.8.3 by [BeatLeader Team](https://github.com/BeatLeader/beatleader-mod/releases)
+- BeatLeader 0.9.0 by [BeatLeader Team](https://github.com/BeatLeader/beatleader-mod/releases)
 - HitBloq 1.4.2 (Unofficial) by [PixelBoom/SirSpam](https://github.com/PauseChampions/Hitbloq/releases) Here is the [Fork](https://github.com/iPixelGalaxy/Hitbloq)
 - LeaderboardCore 1.4.2 by [PixelBoom/SirSpam](https://github.com/rithik-b/LeaderboardCore/releases)
 
@@ -74,11 +74,13 @@
 - SliceDetails 1.3.2 by [ckosmic](https://github.com/ckosmic/SliceDetails/releases)
 
 ## Utility Mods:
+- BetterPause 1.0.0 by [futuremapper](https://github.com/Futuremappermydud/BetterPause/releases)
 - BeatSaberPlus 6.1.0 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases)
 - BeatSaverUpdater 1.1.0 by [PixelBoom](https://github.com/rithik-b/BeatSaverUpdater/releases)
 - BetterSongList 0.3.4 by [Kinsi55 (Original)](https://github.com/kinsi55/BeatSaber_BetterSongList/releases) / [My Fork of it](https://github.com/iPixelGalaxy/BeatSaber_BetterSongList/releases)
 - BetterSongSearch 0.7.80 by [Kinsi55](https://github.com/kinsi55/BeatSaber_BetterSongSearch/releases)
-- Camera2 0.6.107 by [Kinsi55](https://github.com/kinsi55/CS_BeatSaber_Camera2/releases)
+- BookmarkViewer 1.0.0 by [ModdingPink](https://github.com/ModdingPink/BookmarkViewer/releases)
+- Camera2 0.6.108 by [Kinsi55](https://github.com/kinsi55/CS_BeatSaber_Camera2/releases)
 - Clock and Volume 1.1.0 by [iPixelGalaxy](https://github.com/iPixelGalaxy/ClockAndVolume/releases) / Forked from Enhancements by [Auros](https://github.com/Auros/Enhancements/releases)
 - ImBlindedByTheLights 0.0.6 by [Kinsi55](https://github.com/kinsi55/BeatSaber_ImBlindedByTheLights/releases)
 - MorePlaylists 2.0.0 by [PixelBoom](https://github.com/rithik-b/MorePlaylists/releases)
@@ -88,12 +90,12 @@
 - wipbot 1.14.0 by [catsethecat](https://github.com/catsethecat/wipbot/releases)
 
 ## Small Tweak Mods:
+- EditorColonThree 1.0.0 by [ModdingPink](https://github.com/ModdingPink/EditorColonThree/releases)
 - ExtraBSLSorters 2.0.1 by [SuperSonic16](https://github.com/thesupersonic16/ExtraBSLSorters/releases)
 - FailButton 0.0.2 by [Kinsi55](https://github.com/kinsi55) (Not on GitHub. "its like a 15 line plugin" -Kinsi55)
 - FastFail 2.0.5 by [PulseLane](https://github.com/PulseLane/FastFail/releases)
 - HitSoundTweaks 1.1.0 by [GalaxyMaster](https://github.com/GalaxyMaster2/HitsoundTweaks/releases)
 - OverrideEnviromentFix 1.1.1 by [Ryan](https://github.com/rfcaps/OverrideEnvironmentFix/releases)
-- PauseCredit 1.0.0 by [futuremapper](https://github.com/Futuremappermydud/PauseCredit/releases)
 - QuickMirrorToggle 0.0.1 by [Kinsi55](https://github.com/kinsi55) (This is a mod I commissioned to quickly toggle the mirror shader)
 - SearchFixes 1.0.0 by [PixelBoom](https://github.com/rithik-b/SearchFixes/releases)
 - SmoothedController 0.0.1 by [Kinsi55](https://github.com/kinsi55/BeatSaber_SmoothedController/releases)
