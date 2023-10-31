@@ -43,6 +43,8 @@
 - [1.21.0](https://github.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/releases/tag/1.21.0-latest)
 
 # Included Mods:
+## Core:
+- IPA.Loader 4.2.3 by [nike4613/Arimodu](https://github.com/Arimodu/BeatSaber-IPA-Reloaded/tree/Fix-64-config-limit)
 
 ## Leaderboard Mods:
 - BeatLeader 0.9.0 by [BeatLeader Team](https://github.com/BeatLeader/beatleader-mod/releases)
@@ -72,11 +74,11 @@
 - SliceDetails 1.3.2 by [ckosmic](https://github.com/ckosmic/SliceDetails/releases)
 
 ## Utility Mods:
-- BetterPause 1.0.0 by [futuremapper](https://github.com/Futuremappermydud/BetterPause/releases)
+- BetterPause 1.0.3 by [futuremapper](https://github.com/Futuremappermydud/BetterPause/releases)
 - BeatSaberPlus 6.1.0 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases)
 - BeatSaverUpdater 1.1.0 by [PixelBoom](https://github.com/rithik-b/BeatSaverUpdater/releases)
 - BetterSongList 0.3.4 by [Kinsi55 (Original)](https://github.com/kinsi55/BeatSaber_BetterSongList/releases) / [My Fork of it](https://github.com/iPixelGalaxy/BeatSaber_BetterSongList/releases)
-- BetterSongSearch 0.7.80 by [Kinsi55](https://github.com/kinsi55/BeatSaber_BetterSongSearch/releases)
+- BetterSongSearch 0.7.84 by [Kinsi55](https://github.com/kinsi55/BeatSaber_BetterSongSearch/releases)
 - BookmarkViewer 1.0.0 by [ModdingPink](https://github.com/ModdingPink/BookmarkViewer/releases)
 - Camera2 0.6.108 by [Kinsi55](https://github.com/kinsi55/CS_BeatSaber_Camera2/releases)
 - Clock and Volume 1.1.0 by [iPixelGalaxy](https://github.com/iPixelGalaxy/ClockAndVolume/releases) / Forked from Enhancements by [Auros](https://github.com/Auros/Enhancements/releases)
@@ -110,7 +112,7 @@
 ## Gameplay Mods:
 - CustomJSONData 2.5.2 by [Aeroluna](https://github.com/Aeroluna/CustomJSONData/releases)
 - Heck 1.4.11 by [Aeroluna](https://github.com/Aeroluna/Heck/releases)
-- Chroma 2.7.11 by [Aeroluna](https://github.com/Aeroluna/Heck/releases)
+- Chroma 2.7.12 by [Aeroluna](https://github.com/Aeroluna/Heck/releases)
 - NoodleExtensions 1.5.12 by [Aeroluna](https://github.com/Aeroluna/Heck/releases)
 - LookupID 1.0.1 by [Aeroluna](https://github.com/Aeroluna/Heck/releases)
 - MappingExtensions 1.7.4 by [Kyle1314](https://github.com/Kylemc1413/MappingExtensions)
