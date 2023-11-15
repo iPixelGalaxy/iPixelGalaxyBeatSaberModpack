@@ -100,14 +100,6 @@
                 "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/BS_Utils.dll"
             },
             {
-                "name": "ffmpeg.manifest",
-                "version": "Unknown",
-                "dependsOn": [
-                    "IPA.Loader"
-                ],
-                "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/ffmpeg.manifest"
-            },
-            {
                 "name": "protobuf-net.manifest",
                 "version": "3.0.102",
                 "dependsOn": [
