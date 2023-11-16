@@ -135,7 +135,7 @@
             "IPA.Loader"
         ],
         "path": "Plugins/Shaffuru.dll",
-        "category": "Core",
+        "category": "Gameplay",
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Shaffuru.dll"
     },
     "Shaffuru.Multiplayer.dll": {
@@ -145,7 +145,7 @@
             "IPA.Loader"
         ],
         "path": "Plugins/Shaffuru.Multiplayer.dll",
-        "category": "Core",
+        "category": "Gameplay",
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Shaffuru.Multiplayer.dll"
     },
     "SixLabors.ImageSharp.manifest": {
