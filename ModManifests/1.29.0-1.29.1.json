@@ -4,6 +4,7 @@
         "dependsOn": [],
         "path": "Beat Saber_Data/Managed/IPA.Loader.dll",
         "category": "Core",
+        "default": true,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Beat%20Saber_Data/Managed/IPA.Loader.dll"
     },
     "IPA.Loader.pdb": {
@@ -11,6 +12,7 @@
         "dependsOn": [],
         "path": "Beat Saber_Data/Managed/IPA.Loader.pdb",
         "category": "Core",
+        "default": true,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Beat%20Saber_Data/Managed/IPA.Loader.pdb"
     },
     "IPA.Loader.xml": {
@@ -18,6 +20,7 @@
         "dependsOn": [],
         "path": "Beat Saber_Data/Managed/IPA.Loader.xml",
         "category": "Core",
+        "default": true,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Beat%20Saber_Data/Managed/IPA.Loader.xml"
     },
     "BeatSaberPlaylistsLib.dll": {
@@ -27,6 +30,7 @@
         ],
         "path": "Libs/BeatSaberPlaylistsLib.dll",
         "category": "Core",
+        "default": true,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Libs/BeatSaberPlaylistsLib.dll"
     },
     "BeatSaberPlaylistsLib.xml": {
@@ -36,6 +40,7 @@
         ],
         "path": "Libs/BeatSaberPlaylistsLib.xml",
         "category": "Core",
+        "default": true,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Libs/BeatSaberPlaylistsLib.xml"
     },
     "protobuf-net.dll": {
@@ -45,6 +50,7 @@
         ],
         "path": "Libs/protobuf-net.dll",
         "category": "Core",
+        "default": true,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Libs/protobuf-net.dll"
     },
     "SixLabors.ImageSharp.dll": {
@@ -54,6 +60,7 @@
         ],
         "path": "Libs/SixLabors.ImageSharp.dll",
         "category": "Core",
+        "default": true,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Libs/SixLabors.ImageSharp.dll"
     },
     "SongDetailsCache.dll": {
@@ -63,6 +70,7 @@
         ],
         "path": "Libs/SongDetailsCache.dll",
         "category": "Core",
+        "default": true,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Libs/SongDetailsCache.dll"
     },
     "websocket-sharp.dll": {
@@ -72,6 +80,7 @@
         ],
         "path": "Libs/websocket-sharp.dll",
         "category": "Core",
+        "default": true,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Libs/websocket-sharp.dll"
     },
     "LookupID.dll": {
@@ -81,6 +90,7 @@
         ],
         "path": "Libs/Native/LookupID.dll",
         "category": "Core",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Libs/Native/LookupID.dll"
     },
     "BeatSaberPlaylistsLib.manifest": {
@@ -90,6 +100,7 @@
         ],
         "path": "Plugins/BeatSaberPlaylistsLib.manifest",
         "category": "Core",
+        "default": true,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/BeatSaberPlaylistsLib.manifest"
     },
     "BeatSaberPlus.dll": {
@@ -99,6 +110,7 @@
         ],
         "path": "Plugins/BeatSaberPlus.dll",
         "category": "Core",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/BeatSaberPlus.dll"
     },
     "BSML.dll": {
@@ -108,6 +120,7 @@
         ],
         "path": "Plugins/BSML.dll",
         "category": "Core",
+        "default": true,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/BSML.dll"
     },
     "BS_Utils.dll": {
@@ -117,6 +130,7 @@
         ],
         "path": "Plugins/BS_Utils.dll",
         "category": "Core",
+        "default": true,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/BS_Utils.dll"
     },
     "protobuf-net.manifest": {
@@ -126,6 +140,7 @@
         ],
         "path": "Plugins/protobuf-net.manifest",
         "category": "Core",
+        "default": true,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/protobuf-net.manifest"
     },
     "Shaffuru.dll": {
@@ -136,6 +151,7 @@
         ],
         "path": "Plugins/Shaffuru.dll",
         "category": "Gameplay",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Shaffuru.dll"
     },
     "Shaffuru.Multiplayer.dll": {
@@ -146,6 +162,7 @@
         ],
         "path": "Plugins/Shaffuru.Multiplayer.dll",
         "category": "Gameplay",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Shaffuru.Multiplayer.dll"
     },
     "SixLabors.ImageSharp.manifest": {
@@ -155,6 +172,7 @@
         ],
         "path": "Plugins/SixLabors.ImageSharp.manifest",
         "category": "Core",
+        "default": true,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/SixLabors.ImageSharp.manifest"
     },
     "SongDetailsCache.manifest": {
@@ -164,6 +182,7 @@
         ],
         "path": "Plugins/SongDetailsCache.manifest",
         "category": "Core",
+        "default": true,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/SongDetailsCache.manifest"
     },
     "websocket-sharp.manifest": {
@@ -173,6 +192,7 @@
         ],
         "path": "Plugins/websocket-sharp.manifest",
         "category": "Core",
+        "default": true,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/websocket-sharp.manifest"
     },
     "ControllerSettingsHelper.dll": {
@@ -182,6 +202,7 @@
         ],
         "path": "Plugins/ControllerSettings/ControllerSettingsHelper.dll",
         "category": "ControllerSettings",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/ControllerSettings/ControllerSettingsHelper.dll"
     },
     "EasyOffset.dll": {
@@ -191,6 +212,7 @@
         ],
         "path": "Plugins/ControllerSettings/EasyOffset.dll",
         "category": "ControllerSettings",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/ControllerSettings/EasyOffset.dll"
     },
     "SaberTailor.dll": {
@@ -200,6 +222,7 @@
         ],
         "path": "Plugins/ControllerSettings/SaberTailor.dll",
         "category": "ControllerSettings",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/ControllerSettings/SaberTailor.dll"
     },
     "CustomMenuPointers.dll": {
@@ -209,6 +232,7 @@
         ],
         "path": "Plugins/Cosmetic/CustomMenuPointers.dll",
         "category": "Cosmetic",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Cosmetic/CustomMenuPointers.dll"
     },
     "MenuSaberColors.dll": {
@@ -218,6 +242,7 @@
         ],
         "path": "Plugins/Cosmetic/MenuSaberColors.dll",
         "category": "Cosmetic",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Cosmetic/MenuSaberColors.dll"
     },
     "SaberFactory.dll": {
@@ -227,6 +252,7 @@
         ],
         "path": "Plugins/Cosmetic/SaberFactory.dll",
         "category": "Cosmetic",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Cosmetic/SaberFactory.dll"
     },
     "SoundReplacer.dll": {
@@ -236,6 +262,7 @@
         ],
         "path": "Plugins/Cosmetic/SoundReplacer.dll",
         "category": "Cosmetic",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Cosmetic/SoundReplacer.dll"
     },
     "TrickSaber.dll": {
@@ -245,6 +272,7 @@
         ],
         "path": "Plugins/Cosmetic/TrickSaber.dll",
         "category": "Cosmetic",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Cosmetic/TrickSaber.dll"
     },
     "Vent.dll": {
@@ -254,6 +282,7 @@
         ],
         "path": "Plugins/Cosmetic/Vent.dll",
         "category": "Cosmetic",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Cosmetic/Vent.dll"
     },
     "BetterMissCounter.dll": {
@@ -263,6 +292,7 @@
         ],
         "path": "Plugins/CountersAddons/BetterMissCounter.dll",
         "category": "CountersAddons",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/CountersAddons/BetterMissCounter.dll"
     },
     "FCPercentage.dll": {
@@ -272,6 +302,7 @@
         ],
         "path": "Plugins/CountersAddons/FCPercentage.dll",
         "category": "CountersAddons",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/CountersAddons/FCPercentage.dll"
     },
     "FPSCounter.dll": {
@@ -281,6 +312,7 @@
         ],
         "path": "Plugins/CountersAddons/FPSCounter.dll",
         "category": "CountersAddons",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/CountersAddons/FPSCounter.dll"
     },
     "PPCounter.dll": {
@@ -290,6 +322,7 @@
         ],
         "path": "Plugins/CountersAddons/PPCounter.dll",
         "category": "CountersAddons",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/CountersAddons/PPCounter.dll"
     },
     "BeatSaberPlus_NoteTweaker.dll": {
@@ -300,6 +333,7 @@
         ],
         "path": "Plugins/Gameplay/BeatSaberPlus_NoteTweaker.dll",
         "category": "Gameplay",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Gameplay/BeatSaberPlus_NoteTweaker.dll"
     },
     "Chroma.dll": {
@@ -311,6 +345,7 @@
         ],
         "path": "Plugins/Gameplay/Chroma.dll",
         "category": "Gameplay",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Gameplay/Chroma.dll"
     },
     "CustomJSONData.dll": {
@@ -320,6 +355,7 @@
         ],
         "path": "Plugins/Gameplay/CustomJSONData.dll",
         "category": "Gameplay",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Gameplay/CustomJSONData.dll"
     },
     "Heck.dll": {
@@ -330,6 +366,7 @@
         ],
         "path": "Plugins/Gameplay/Heck.dll",
         "category": "Gameplay",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Gameplay/Heck.dll"
     },
     "LookupID.manifest": {
@@ -339,6 +376,7 @@
         ],
         "path": "Plugins/Gameplay/LookupID.manifest",
         "category": "Gameplay",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Gameplay/LookupID.manifest"
     },
     "MappingExtensions.dll": {
@@ -348,6 +386,7 @@
         ],
         "path": "Plugins/Gameplay/MappingExtensions.dll",
         "category": "Gameplay",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Gameplay/MappingExtensions.dll"
     },
     "NoodleExtensions.dll": {
@@ -357,6 +396,7 @@
         ],
         "path": "Plugins/Gameplay/NoodleExtensions.dll",
         "category": "Gameplay",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Gameplay/NoodleExtensions.dll"
     },
     "BeatSaviorData.dll": {
@@ -366,6 +406,7 @@
         ],
         "path": "Plugins/Info/BeatSaviorData.dll",
         "category": "Info",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Info/BeatSaviorData.dll"
     },
     "Counters+.dll": {
@@ -375,6 +416,7 @@
         ],
         "path": "Plugins/Info/Counters+.dll",
         "category": "Info",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Info/Counters+.dll"
     },
     "HitScoreVisualizer.dll": {
@@ -384,6 +426,7 @@
         ],
         "path": "Plugins/Info/HitScoreVisualizer.dll",
         "category": "Info",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Info/HitScoreVisualizer.dll"
     },
     "IForgor.dll": {
@@ -393,6 +436,7 @@
         ],
         "path": "Plugins/Info/IForgor.dll",
         "category": "Info",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Info/IForgor.dll"
     },
     "PPPredictor.dll": {
@@ -402,6 +446,7 @@
         ],
         "path": "Plugins/Info/PPPredictor.dll",
         "category": "Info",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Info/PPPredictor.dll"
     },
     "ScorePercentage.dll": {
@@ -411,6 +456,7 @@
         ],
         "path": "Plugins/Info/ScorePercentage.dll",
         "category": "Info",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Info/ScorePercentage.dll"
     },
     "SliceDetails.dll": {
@@ -420,6 +466,7 @@
         ],
         "path": "Plugins/Info/SliceDetails.dll",
         "category": "Info",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Info/SliceDetails.dll"
     },
     "BeatLeader.dll": {
@@ -430,6 +477,7 @@
         ],
         "path": "Plugins/Leaderboard/BeatLeader.dll",
         "category": "Leaderboard",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Leaderboard/BeatLeader.dll"
     },
     "Hitbloq.dll": {
@@ -439,6 +487,7 @@
         ],
         "path": "Plugins/Leaderboard/Hitbloq.dll",
         "category": "Leaderboard",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Leaderboard/Hitbloq.dll"
     },
     "LeaderboardCore.dll": {
@@ -448,6 +497,7 @@
         ],
         "path": "Plugins/Leaderboard/LeaderboardCore.dll",
         "category": "Leaderboard",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Leaderboard/LeaderboardCore.dll"
     },
     "BeatSaberPlus_Multiplayer.dll": {
@@ -458,6 +508,7 @@
         ],
         "path": "Plugins/Multiplayer/BeatSaberPlus_Multiplayer.dll",
         "category": "Multiplayer",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Multiplayer/BeatSaberPlus_Multiplayer.dll"
     },
     "BeatTogether.dll": {
@@ -468,6 +519,7 @@
         ],
         "path": "Plugins/Multiplayer/BeatTogether.dll",
         "category": "Multiplayer",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Multiplayer/BeatTogether.dll"
     },
     "MultiplayerCore.dll": {
@@ -477,6 +529,7 @@
         ],
         "path": "Plugins/Multiplayer/MultiplayerCore.dll",
         "category": "Multiplayer",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Multiplayer/MultiplayerCore.dll"
     },
     "MultiplayerExtensions.dll": {
@@ -487,6 +540,7 @@
         ],
         "path": "Plugins/Multiplayer/MultiplayerExtensions.dll",
         "category": "Multiplayer",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Multiplayer/MultiplayerExtensions.dll"
     },
     "ServerBrowser.dll": {
@@ -497,6 +551,7 @@
         ],
         "path": "Plugins/Multiplayer/ServerBrowser.dll",
         "category": "Multiplayer",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Multiplayer/ServerBrowser.dll"
     },
     "GottaGoFast.dll": {
@@ -506,6 +561,7 @@
         ],
         "path": "Plugins/Performance/GottaGoFast.dll",
         "category": "Performance",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Performance/GottaGoFast.dll"
     },
     "MaybeStutterFix.dll": {
@@ -515,6 +571,7 @@
         ],
         "path": "Plugins/Performance/MaybeStutterFix.dll",
         "category": "Performance",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Performance/MaybeStutterFix.dll"
     },
     "PrioritySetter.dll": {
@@ -524,6 +581,7 @@
         ],
         "path": "Plugins/Performance/PrioritySetter.dll",
         "category": "Performance",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Performance/PrioritySetter.dll"
     },
     "BeatSaberPlus_Chat.dll": {
@@ -534,6 +592,7 @@
         ],
         "path": "Plugins/Streamer/BeatSaberPlus_Chat.dll",
         "category": "Streamer",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Streamer/BeatSaberPlus_Chat.dll"
     },
     "BeatSaberPlus_ChatEmoteRain.dll": {
@@ -544,6 +603,7 @@
         ],
         "path": "Plugins/Streamer/BeatSaberPlus_ChatEmoteRain.dll",
         "category": "Streamer",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Streamer/BeatSaberPlus_ChatEmoteRain.dll"
     },
     "BeatSaberPlus_ChatIntegrations.dll": {
@@ -554,6 +614,7 @@
         ],
         "path": "Plugins/Streamer/BeatSaberPlus_ChatIntegrations.dll",
         "category": "Streamer",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Streamer/BeatSaberPlus_ChatIntegrations.dll"
     },
     "BeatSaberPlus_ChatRequest.dll": {
@@ -564,6 +625,7 @@
         ],
         "path": "Plugins/Streamer/BeatSaberPlus_ChatRequest.dll",
         "category": "Streamer",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Streamer/BeatSaberPlus_ChatRequest.dll"
     },
     "BeatSaberPlus_SongOverlay.dll": {
@@ -574,6 +636,7 @@
         ],
         "path": "Plugins/Streamer/BeatSaberPlus_SongOverlay.dll",
         "category": "Streamer",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Streamer/BeatSaberPlus_SongOverlay.dll"
     },
     "BeatSaberPlus_GameTweaker.dll": {
@@ -584,6 +647,7 @@
         ],
         "path": "Plugins/Tweaks/BeatSaberPlus_GameTweaker.dll",
         "category": "Tweaks",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Tweaks/BeatSaberPlus_GameTweaker.dll"
     },
     "BeatSaberPlus_MenuMusic.dll": {
@@ -594,6 +658,7 @@
         ],
         "path": "Plugins/Tweaks/BeatSaberPlus_MenuMusic.dll",
         "category": "Tweaks",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Tweaks/BeatSaberPlus_MenuMusic.dll"
     },
     "EditorColonThree.dll": {
@@ -603,6 +668,7 @@
         ],
         "path": "Plugins/Tweaks/EditorColonThree.dll",
         "category": "Tweaks",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Tweaks/EditorColonThree.dll"
     },
     "ExtraBSLSorters.dll": {
@@ -612,6 +678,7 @@
         ],
         "path": "Plugins/Tweaks/ExtraBSLSorters.dll",
         "category": "Tweaks",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Tweaks/ExtraBSLSorters.dll"
     },
     "FailButton.dll": {
@@ -621,6 +688,7 @@
         ],
         "path": "Plugins/Tweaks/FailButton.dll",
         "category": "Tweaks",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Tweaks/FailButton.dll"
     },
     "FastFail.dll": {
@@ -630,6 +698,7 @@
         ],
         "path": "Plugins/Tweaks/FastFail.dll",
         "category": "Tweaks",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Tweaks/FastFail.dll"
     },
     "HitsoundTweaks.dll": {
@@ -639,6 +708,7 @@
         ],
         "path": "Plugins/Tweaks/HitsoundTweaks.dll",
         "category": "Tweaks",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Tweaks/HitsoundTweaks.dll"
     },
     "OverrideEnvironmentFix.dll": {
@@ -648,6 +718,7 @@
         ],
         "path": "Plugins/Tweaks/OverrideEnvironmentFix.dll",
         "category": "Tweaks",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Tweaks/OverrideEnvironmentFix.dll"
     },
     "QuickMirrorToggle.dll": {
@@ -657,6 +728,7 @@
         ],
         "path": "Plugins/Tweaks/QuickMirrorToggle.dll",
         "category": "Tweaks",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Tweaks/QuickMirrorToggle.dll"
     },
     "SearchFixes.dll": {
@@ -666,6 +738,7 @@
         ],
         "path": "Plugins/Tweaks/SearchFixes.dll",
         "category": "Tweaks",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Tweaks/SearchFixes.dll"
     },
     "SmoothedController.dll": {
@@ -675,6 +748,7 @@
         ],
         "path": "Plugins/Tweaks/SmoothedController.dll",
         "category": "Tweaks",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Tweaks/SmoothedController.dll"
     },
     "SongRankedBadge.dll": {
@@ -684,6 +758,7 @@
         ],
         "path": "Plugins/Tweaks/SongRankedBadge.dll",
         "category": "Tweaks",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Tweaks/SongRankedBadge.dll"
     },
     "TakeMeToResults.dll": {
@@ -693,6 +768,7 @@
         ],
         "path": "Plugins/Tweaks/TakeMeToResults.dll",
         "category": "Tweaks",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Tweaks/TakeMeToResults.dll"
     },
     "Tweaks55.dll": {
@@ -702,6 +778,7 @@
         ],
         "path": "Plugins/Tweaks/Tweaks55.dll",
         "category": "Tweaks",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Tweaks/Tweaks55.dll"
     },
     "Unfunny.dll": {
@@ -711,6 +788,7 @@
         ],
         "path": "Plugins/Tweaks/Unfunny.dll",
         "category": "Tweaks",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Tweaks/Unfunny.dll"
     },
     "BeatSaberPlus_SongChartVisualizer.dll": {
@@ -721,6 +799,7 @@
         ],
         "path": "Plugins/Utility/BeatSaberPlus_SongChartVisualizer.dll",
         "category": "Utility",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Utility/BeatSaberPlus_SongChartVisualizer.dll"
     },
     "BeatSaverUpdater.dll": {
@@ -730,6 +809,7 @@
         ],
         "path": "Plugins/Utility/BeatSaverUpdater.dll",
         "category": "Utility",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Utility/BeatSaverUpdater.dll"
     },
     "BetterPause.dll": {
@@ -739,6 +819,7 @@
         ],
         "path": "Plugins/Utility/BetterPause.dll",
         "category": "Utility",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Utility/BetterPause.dll"
     },
     "BetterSongList.dll": {
@@ -748,6 +829,7 @@
         ],
         "path": "Plugins/Utility/BetterSongList.dll",
         "category": "Utility",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Utility/BetterSongList.dll"
     },
     "BetterSongSearch.dll": {
@@ -757,6 +839,7 @@
         ],
         "path": "Plugins/Utility/BetterSongSearch.dll",
         "category": "Utility",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Utility/BetterSongSearch.dll"
     },
     "BookmarkViewer.dll": {
@@ -766,6 +849,7 @@
         ],
         "path": "Plugins/Utility/BookmarkViewer.dll",
         "category": "Utility",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Utility/BookmarkViewer.dll"
     },
     "Camera2.dll": {
@@ -775,6 +859,7 @@
         ],
         "path": "Plugins/Utility/Camera2.dll",
         "category": "Utility",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Utility/Camera2.dll"
     },
     "ClockAndVolume.dll": {
@@ -784,6 +869,7 @@
         ],
         "path": "Plugins/Utility/ClockAndVolume.dll",
         "category": "Utility",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Utility/ClockAndVolume.dll"
     },
     "ImBlindedByTheLights.dll": {
@@ -793,6 +879,7 @@
         ],
         "path": "Plugins/Utility/ImBlindedByTheLights.dll",
         "category": "Utility",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Utility/ImBlindedByTheLights.dll"
     },
     "MorePlaylists.dll": {
@@ -802,6 +889,7 @@
         ],
         "path": "Plugins/Utility/MorePlaylists.dll",
         "category": "Utility",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Utility/MorePlaylists.dll"
     },
     "PlaylistManager.dll": {
@@ -813,6 +901,7 @@
         ],
         "path": "Plugins/Utility/PlaylistManager.dll",
         "category": "Utility",
+        "default": true,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Utility/PlaylistManager.dll"
     },
     "PracticePlugin.dll": {
@@ -822,6 +911,7 @@
         ],
         "path": "Plugins/Utility/PracticePlugin.dll",
         "category": "Utility",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Utility/PracticePlugin.dll"
     },
     "SongPlayHistory.dll": {
@@ -831,6 +921,7 @@
         ],
         "path": "Plugins/Utility/SongPlayHistory.dll",
         "category": "Utility",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Utility/SongPlayHistory.dll"
     },
     "wipbot.dll": {
@@ -841,6 +932,7 @@
         ],
         "path": "Plugins/Utility/wipbot.dll",
         "category": "Utility",
+        "default": false,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Utility/wipbot.dll"
     }
 }
