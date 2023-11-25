@@ -133,6 +133,16 @@
         "default": true,
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/BS_Utils.dll"
     },
+    "FontNao-ru.dll": {
+        "version": "0.0.1",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Plugins/FontNao-ru.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/FontNao-ru.dll"
+    },
     "protobuf-net.manifest": {
         "version": "3.0.102",
         "dependsOn": [
@@ -833,7 +843,7 @@
         "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.29.0-1.29.1/Plugins/Utility/BetterSongList.dll"
     },
     "BetterSongSearch.dll": {
-        "version": "0.7.84",
+        "version": "0.7.82",
         "dependsOn": [
             "IPA.Loader"
         ],
