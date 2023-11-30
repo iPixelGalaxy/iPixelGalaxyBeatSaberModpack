@@ -48,8 +48,9 @@
 - FontNao-ru 0.1.4 by [denpadokei](https://github.com/denpadokei/FontNao-ru/releases) (I consider this core because it fixes a problem with invalid characters with BSML)
 
 ## Leaderboard Mods:
-- BeatLeader 0.9.0 by [BeatLeader Team](https://github.com/BeatLeader/beatleader-mod/releases)
+- BeatLeader 0.9.1 by [BeatLeader Team](https://github.com/BeatLeader/beatleader-mod/releases)
 - HitBloq 1.4.2 (Unofficial) by [PixelBoom/SirSpam](https://github.com/PauseChampions/Hitbloq/releases) Here is the [Fork](https://github.com/iPixelGalaxy/Hitbloq)
+- ScoreSaber 3.3.0 by [Umbranox](https://github.com/ScoreSaber/scoresaber-plugin/releases)
 - LeaderboardCore 1.4.2 by [PixelBoom/SirSpam](https://github.com/rithik-b/LeaderboardCore/releases)
 
 ## Multiplayer Mods:
@@ -79,7 +80,7 @@
 - BeatSaberPlus 6.1.0 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases)
 - BeatSaverUpdater 1.1.0 by [PixelBoom](https://github.com/rithik-b/BeatSaverUpdater/releases)
 - BetterSongList 0.3.4 by [Kinsi55 (Original)](https://github.com/kinsi55/BeatSaber_BetterSongList/releases) / [My Fork of it](https://github.com/iPixelGalaxy/BeatSaber_BetterSongList/releases)
-- BetterSongSearch 0.7.82 by [Kinsi55](https://github.com/kinsi55/BeatSaber_BetterSongSearch/releases)
+- BetterSongSearch 0.7.84 by [Kinsi55](https://github.com/kinsi55/BeatSaber_BetterSongSearch/releases)
 - BookmarkViewer 1.0.0 by [ModdingPink](https://github.com/ModdingPink/BookmarkViewer/releases)
 - Camera2 0.6.108 by [Kinsi55](https://github.com/kinsi55/CS_BeatSaber_Camera2/releases)
 - Clock and Volume 1.1.0 by [iPixelGalaxy](https://github.com/iPixelGalaxy/ClockAndVolume/releases) / Forked from Enhancements by [Auros](https://github.com/Auros/Enhancements/releases)
