@@ -48,9 +48,9 @@
 - FontNao-ru 0.1.4 by [denpadokei](https://github.com/denpadokei/FontNao-ru/releases) (I consider this core because it fixes a problem with invalid characters with BSML)
 
 ## Leaderboard Mods:
-- BeatLeader 0.9.1 by [BeatLeader Team](https://github.com/BeatLeader/beatleader-mod/releases)
+- BeatLeader 0.9.2 by [BeatLeader Team](https://github.com/BeatLeader/beatleader-mod/releases)
 - HitBloq 1.4.2 (Unofficial) by [PixelBoom/SirSpam](https://github.com/PauseChampions/Hitbloq/releases) Here is the [Fork](https://github.com/iPixelGalaxy/Hitbloq)
-- ScoreSaber 3.3.0 by [Umbranox](https://github.com/ScoreSaber/scoresaber-plugin/releases)
+- ScoreSaber 3.3.11 by [Umbranox](https://github.com/ScoreSaber/scoresaber-plugin/releases)
 - LeaderboardCore 1.4.2 by [PixelBoom/SirSpam](https://github.com/rithik-b/LeaderboardCore/releases)
 
 ## Multiplayer Mods:
