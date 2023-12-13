@@ -71,7 +71,7 @@
 - Counters+ 2.3.3 by [Caeden117](https://github.com/Caeden117/CountersPlus/releases)
 - HitScoreVisualizer 3.3.3 by [Eris](https://github.com/ErisApps/HitScoreVisualizer/releases)
 - iForgor 1.3.1 by [ckosmic](https://github.com/ckosmic/IForgor/releases)
-- PPPredictor 1.0.0 by [No.1 Noob](https://github.com/no-1-noob/PPPredictor/releases)
+- PPPredictor 1.0.1 by [No.1 Noob](https://github.com/no-1-noob/PPPredictor/releases)
 - ScorePercentage 1.4.13 by [IdleBob](https://github.com/Idlebawb/ScorePercentage/releases)
 - SliceDetails 1.3.2 by [ckosmic](https://github.com/ckosmic/SliceDetails/releases)
 
@@ -100,6 +100,7 @@
 - OverrideEnviromentFix 1.1.1 by [Ryan](https://github.com/rfcaps/OverrideEnvironmentFix/releases)
 - QuickMirrorToggle 0.0.1 by [Kinsi55](https://github.com/kinsi55) (This is a mod I commissioned to quickly toggle the mirror shader)
 - SearchFixes 1.0.0 by [PixelBoom](https://github.com/rithik-b/SearchFixes/releases)
+- SmallMenu 1.2.0 by [nicoco007](https://github.com/nicoco007/BeatSaberSmallMenu/releases)
 - SmoothedController 0.0.1 by [Kinsi55](https://github.com/kinsi55/BeatSaber_SmoothedController/releases)
 - SongRankedBadge 1.0.1 by [qe201020335](https://github.com/qe201020335/SongRankedBadge/releases)
 - TakeMeToResults 1.1.0 by [PixelBoom](https://github.com/rithik-b/TakeMeToResults/releases)
