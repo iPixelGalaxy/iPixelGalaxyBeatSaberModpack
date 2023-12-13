@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "tfm": "net472",
+    "configProperties": {
+      "System.Reflection.Metadata.MetadataUpdater.IsSupported": false
+    }
+  }
+}

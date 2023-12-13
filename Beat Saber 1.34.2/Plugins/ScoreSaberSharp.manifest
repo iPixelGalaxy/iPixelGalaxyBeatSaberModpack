@@ -1,0 +1,11 @@
+{
+  "$schema": "https://raw.githubusercontent.com/beat-saber-modding-group/BSIPA-MetadataFileSchema/master/Schema.json",
+  "author": "Umbranox",
+  "description": "Official C# Library to interact with the ScoreSaber API",
+  "gameVersion": "1.6.0",
+  "id": "ScoreSaberSharp",
+  "name": "ScoreSaberSharp",
+  "version": "0.1.0",
+  "features": [],
+  "dependsOn": {}
+}
