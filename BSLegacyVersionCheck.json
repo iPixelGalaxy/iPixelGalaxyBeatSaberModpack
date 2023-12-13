@@ -2,6 +2,7 @@
   "1.34.2": {
     "modpackurl": "https://github.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/releases/download/1.34.2-0.0.1/BeatSaberModpackLegacy.zip",
     "externalmods": [
+      "",
       "https://beatmods.com/uploads/65779cc15e029208799de510/universal/BS%20Utils-1.13.0.zip",
       "https://beatmods.com/uploads/65779cc05e029208799de50d/universal/SiraUtil-3.1.6.zip",
       "https://beatmods.com/uploads/65779cb55e029208799de4ec/universal/BeatSaverSharp-3.4.5.zip",
