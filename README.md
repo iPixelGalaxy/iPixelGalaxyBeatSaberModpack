@@ -42,7 +42,7 @@
 - [1.22.0-1.24.1](https://github.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/releases/tag/1.22.0-1.24.1-latest)
 - [1.21.0](https://github.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/releases/tag/1.21.0-latest)
 
-# Credits for mods for 1.34.2 can be found [here](https://github.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/](https://github.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/blob/main/1.34.2%20Mod%20Credits.md)
+# Credits for mods for 1.34.2 can be found [here](https://github.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/blob/main/1.34.2%20Mod%20Credits.md)
 # Included Mods (1.29.0-1.29.1):
 ## Core:
 - IPA.Loader 4.2.3 by [nike4613/Arimodu](https://github.com/Arimodu/BeatSaber-IPA-Reloaded/tree/Fix-64-config-limit)
