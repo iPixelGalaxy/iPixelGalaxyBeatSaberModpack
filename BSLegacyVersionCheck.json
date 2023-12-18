@@ -1,6 +1,23 @@
 {
+  "1.34.2": {
+    "modpackurl": "https://github.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/releases/download/1.34.2-0.0.1/BeatSaberModpackLegacy.zip",
+    "externalmods": [
+      "",
+      "https://beatmods.com/uploads/65779cc15e029208799de510/universal/BS%20Utils-1.13.0.zip",
+      "https://beatmods.com/uploads/65779cc05e029208799de50d/universal/SiraUtil-3.1.6.zip",
+      "https://beatmods.com/uploads/65779cb55e029208799de4ec/universal/BeatSaverSharp-3.4.5.zip",
+      "https://beatmods.com/uploads/65779ccb5e029208799de53d/universal/BeatSaverVoting-2.4.3.zip",
+      "https://beatmods.com/uploads/636ae3cd0c5c87297d5dac39/universal/SongDataCore-1.4.8.zip",
+      "https://beatmods.com/uploads/6577a2a75e029208799de582/universal/SongCore-3.12.1.zip",
+      "https://beatmods.com/uploads/65779cb75e029208799de4f5/universal/Ini%20Parser-2.5.9.zip",
+      "https://beatmods.com/uploads/65779ccc5e029208799de540/universal/BeatSaverDownloader-6.0.5.zip",
+      "https://beatmods.com/uploads/65779cb65e029208799de4f2/universal/ScoreSaberSharp-0.1.0.zip",
+      "https://github.com/zeph-yr/JDFixer/releases/download/v7.1.1/JDFixer.dll"
+    ],
+    "message": ""
+  },
   "1.29.1": {
-    "modpackurl": "https://github.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/releases/download/1.29.0-1.29.1-0.2.4/BeatSaberModpackLegacy.zip",
+    "modpackurl": "https://github.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/releases/download/1.29.0-1.29.1-0.2.5/BeatSaberModpackLegacy.zip",
     "externalmods": [
       "",
       "https://beatmods.com/uploads/636ae3750c5c87297d5dab7f/universal/SiraUtil-3.1.2.zip",
@@ -18,7 +35,7 @@
     "message": ""
   },
   "1.29.0": {
-    "modpackurl": "https://github.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/releases/download/1.29.0-1.29.1-0.2.4/BeatSaberModpackLegacy.zip",
+    "modpackurl": "https://github.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/releases/download/1.29.0-1.29.1-0.2.5/BeatSaberModpackLegacy.zip",
     "externalmods": [
       "",
       "https://beatmods.com/uploads/636ae3750c5c87297d5dab7f/universal/SiraUtil-3.1.2.zip",
