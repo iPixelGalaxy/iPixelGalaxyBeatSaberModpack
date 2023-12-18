@@ -56,7 +56,7 @@
 
 ## Multiplayer Mods:
 - BeatTogether 2.1.2 by [BeatTogether Team](https://github.com/BeatTogether/BeatTogether/releases)
-- Multiplayer+ (A Component of BeatSaberPlus) 6.1.0 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases)
+- Multiplayer+ (A Component of BeatSaberPlus) 6.2.1 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases)
 - MultiplayerCore 1.3.0 by [Goobwabber](https://github.com/Goobwabber/MultiplayerCore/releases)
 - ServerBrowser 1.2.0 by [roydejong](https://github.com/roydejong/BeatSaberServerBrowser/releases)
 - MultiplayerExtensions 1.0.4 by [Goobwabber/ModdingPink](https://github.com/Goobwabber/MultiplayerExtensions/releases)
@@ -78,7 +78,7 @@
 
 ## Utility Mods:
 - BetterPause 1.0.3 by [futuremapper](https://github.com/Futuremappermydud/BetterPause/releases)
-- BeatSaberPlus 6.1.0 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases)
+- ChatPlex SDK (BeatSaberPlus) 6.2.1 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases)
 - BeatSaverUpdater 1.1.0 by [PixelBoom](https://github.com/rithik-b/BeatSaverUpdater/releases)
 - BetterSongList 0.3.4 by [Kinsi55 (Original)](https://github.com/kinsi55/BeatSaber_BetterSongList/releases) / [My Fork of it](https://github.com/iPixelGalaxy/BeatSaber_BetterSongList/releases)
 - BetterSongSearch 0.7.84 by [Kinsi55](https://github.com/kinsi55/BeatSaber_BetterSongSearch/releases)
@@ -114,13 +114,13 @@
 - PioritySetter (High) 1.2.1 by [Arimodu](https://github.com/Arimodu/PrioritySetter/releases)
 
 ## Gameplay Mods:
-- CustomJSONData 2.5.2 by [Aeroluna](https://github.com/Aeroluna/CustomJSONData/releases)
-- Heck 1.4.11 by [Aeroluna](https://github.com/Aeroluna/Heck/releases)
-- Chroma 2.7.12 by [Aeroluna](https://github.com/Aeroluna/Heck/releases)
-- NoodleExtensions 1.5.12 by [Aeroluna](https://github.com/Aeroluna/Heck/releases)
+- CustomJSONData 2.5.5 by [Aeroluna](https://github.com/Aeroluna/CustomJSONData/releases)
+- Heck 1.4.14 by [Aeroluna](https://github.com/Aeroluna/Heck/releases)
+- Chroma 2.7.16 by [Aeroluna](https://github.com/Aeroluna/Heck/releases)
+- NoodleExtensions 1.5.16 by [Aeroluna](https://github.com/Aeroluna/Heck/releases)
 - LookupID 1.0.1 by [Aeroluna](https://github.com/Aeroluna/Heck/releases)
 - MappingExtensions 1.7.4 by [Kyle1314](https://github.com/Kylemc1413/MappingExtensions)
-- Shaffuru 0.2.0 by [Kinsi55](https://github.com/kinsi55/BeatSaber_Shaffuru/releases)
+- Shaffuru 0.2.1 by [Kinsi55](https://github.com/kinsi55/BeatSaber_Shaffuru/releases)
 
 
 ## Cosmetic Mods:
