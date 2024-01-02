@@ -9,6 +9,8 @@
 6. Drag and drop the folders provided in [BeatSaberModpack.zip](https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases) and click "Replace the files in the destination".
 7. You should be good to go now!
 
+# For support with the modpack join my discord [here](https://discord.gg/6nmXVPtNA6)!
+
 # How to Install (Manual Method) (Fresh Install)
 1. Download Latest Modpack [Release 1.29.0-1.29.1](https://github.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/releases/latest/download/BeatSaberModpack.zip)
 2. Open Mod Assistant and Install the "More Playlists" mod as well as "JDFixer" and "Intro Skip" as those are not included at the request of modders, this will also grab every dependency not included in the modpack.
