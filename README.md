@@ -9,11 +9,7 @@
 6. Drag and drop the folders provided in [BeatSaberModpack.zip](https://github.com/iPixelGalaxy/iPixelGalaxy-Beat-Saber-Modpack/releases) and click "Replace the files in the destination".
 7. You should be good to go now!
 
-# How to Install (Manual Method) (Fresh Install)
-1. Download Latest Modpack [Release 1.29.0-1.29.1](https://github.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/releases/latest/download/BeatSaberModpack.zip)
-2. Open Mod Assistant and Install the "More Playlists" mod as well as "JDFixer" and "Intro Skip" as those are not included at the request of modders, this will also grab every dependency not included in the modpack.
-3. Extract the contents of BeatSaberModpack.zip to the root of your Beat Saber Install typically C:\Program Files (x86)\Steam\steamapps\common\Beat Saber. And click "Replace the files in the destination"
-4. You should be done. Enjoy! And if you have any issues let me know in my [discord server](https://discord.gg/6nmXVPtNA6) and I'll try my best to sort out your problems 😀
+# For support with the modpack join my discord [here](https://discord.gg/6nmXVPtNA6)!
 
 # Optional Steps for Quality of Life (BSManager)
 1. After you've installed everything, you can click Settings -> "Shared Folders" and link any folders you wish to share across game versions. Simply Click "Add Folder" and select the folder you wish to add.
@@ -33,6 +29,12 @@
 - Some Mods Included cannot be found on ModAssistant
 - You Don't Have to remember Mods when updating between game versions as they are all included!
 
+# How to Install (Manual Method) (Fresh Install)
+1. Download Latest Modpack [Release 1.29.0-1.29.1](https://github.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/releases/latest/download/BeatSaberModpack.zip)
+2. Open Mod Assistant and Install the "More Playlists" mod as well as "JDFixer" and "Intro Skip" as those are not included at the request of modders, this will also grab every dependency not included in the modpack.
+3. Extract the contents of BeatSaberModpack.zip to the root of your Beat Saber Install typically C:\Program Files (x86)\Steam\steamapps\common\Beat Saber. And click "Replace the files in the destination"
+4. You should be done. Enjoy! And if you have any issues let me know in my [discord server](https://discord.gg/6nmXVPtNA6) and I'll try my best to sort out your problems 😀
+
 # Links to Latest Versions of the Pack
 
 - [1.28.0](https://github.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/releases/tag/1.28.0-latest)
@@ -49,10 +51,10 @@
 - FontNao-ru 0.1.4 by [denpadokei](https://github.com/denpadokei/FontNao-ru/releases) (I consider this core because it fixes a problem with invalid characters with BSML)
 
 ## Leaderboard Mods:
-- BeatLeader 0.9.2 by [BeatLeader Team](https://github.com/BeatLeader/beatleader-mod/releases)
+- BeatLeader 0.9.7 by [BeatLeader Team](https://github.com/BeatLeader/beatleader-mod/releases)
 - HitBloq 1.4.2 (Unofficial) by [PixelBoom/SirSpam](https://github.com/PauseChampions/Hitbloq/releases) Here is the [Fork](https://github.com/iPixelGalaxy/Hitbloq)
 - ScoreSaber 3.3.11 by [Umbranox](https://github.com/ScoreSaber/scoresaber-plugin/releases)
-- LeaderboardCore 1.4.2 by [PixelBoom/SirSpam](https://github.com/rithik-b/LeaderboardCore/releases)
+- LeaderboardCore 1.5.1 by [PixelBoom/SirSpam](https://github.com/rithik-b/LeaderboardCore/releases)
 
 ## Multiplayer Mods:
 - BeatTogether 2.1.2 by [BeatTogether Team](https://github.com/BeatTogether/BeatTogether/releases)
@@ -82,7 +84,7 @@
 - BeatSaverUpdater 1.1.0 by [PixelBoom](https://github.com/rithik-b/BeatSaverUpdater/releases)
 - BetterSongList 0.3.4 by [Kinsi55 (Original)](https://github.com/kinsi55/BeatSaber_BetterSongList/releases) / [My Fork of it](https://github.com/iPixelGalaxy/BeatSaber_BetterSongList/releases)
 - BetterSongSearch 0.7.84 by [Kinsi55](https://github.com/kinsi55/BeatSaber_BetterSongSearch/releases)
-- BookmarkViewer 1.0.0 by [ModdingPink](https://github.com/ModdingPink/BookmarkViewer/releases)
+- BookmarkViewer 1.1.0 by [ModdingPink](https://github.com/ModdingPink/BookmarkViewer/releases)
 - Camera2 0.6.108 by [Kinsi55](https://github.com/kinsi55/CS_BeatSaber_Camera2/releases)
 - Clock and Volume 1.1.0 by [iPixelGalaxy](https://github.com/iPixelGalaxy/ClockAndVolume/releases) / Forked from Enhancements by [Auros](https://github.com/Auros/Enhancements/releases)
 - ImBlindedByTheLights 0.0.6 by [Kinsi55](https://github.com/kinsi55/BeatSaber_ImBlindedByTheLights/releases)
