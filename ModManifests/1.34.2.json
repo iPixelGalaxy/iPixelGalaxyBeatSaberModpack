@@ -1,0 +1,779 @@
+{
+    "BeatSaberPlaylistsLib.dll": {
+        "version": "1.6.8",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Libs/BeatSaberPlaylistsLib.dll",
+        "category": "Core",
+        "default": true,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Libs/BeatSaberPlaylistsLib.dll"
+    },
+    "BeatSaberPlaylistsLib.xml": {
+        "version": "1.6.6",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Libs/BeatSaberPlaylistsLib.xml",
+        "category": "Core",
+        "default": true,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Libs/BeatSaberPlaylistsLib.xml"
+    },
+    "protobuf-net.dll": {
+        "version": "3.0.102",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Libs/protobuf-net.dll",
+        "category": "Core",
+        "default": true,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Libs/protobuf-net.dll"
+    },
+    "SixLabors.ImageSharp.dll": {
+        "version": "2.0.0",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Libs/SixLabors.ImageSharp.dll",
+        "category": "Core",
+        "default": true,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Libs/SixLabors.ImageSharp.dll"
+    },
+    "SongDetailsCache.dll": {
+        "version": "1.2.2",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Libs/SongDetailsCache.dll",
+        "category": "Core",
+        "default": true,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Libs/SongDetailsCache.dll"
+    },
+    "System.IO.Compression.dll": {
+        "version": "4.6.57",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Libs/System.IO.Compression.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Libs/System.IO.Compression.dll"
+    },
+    "System.IO.Compression.FileSystem.dll": {
+        "version": "4.7.3056",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Libs/System.IO.Compression.FileSystem.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Libs/System.IO.Compression.FileSystem.dll"
+    },
+    "LookupID.dll": {
+        "version": "1.0.1",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Libs/Native/LookupID.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Libs/Native/LookupID.dll"
+    },
+    "AssetBundleLoadingTools.dll": {
+        "version": "1.0.0",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Plugins/AssetBundleLoadingTools.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/AssetBundleLoadingTools.dll"
+    },
+    "BeatLeader.dll": {
+        "version": "0.9.5",
+        "dependsOn": [
+            "IPA.Loader",
+            "LeaderboardCore"
+        ],
+        "path": "Plugins/BeatLeader.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/BeatLeader.dll"
+    },
+    "BeatSaberPlaylistsLib.manifest": {
+        "version": "1.6.6",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Plugins/BeatSaberPlaylistsLib.manifest",
+        "category": "Core",
+        "default": true,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/BeatSaberPlaylistsLib.manifest"
+    },
+    "BeatSaberPlus_Chat.dll": {
+        "version": "6.2.1",
+        "dependsOn": [
+            "BeatSaberPlus",
+            "IPA.Loader"
+        ],
+        "path": "Plugins/BeatSaberPlus_Chat.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/BeatSaberPlus_Chat.dll"
+    },
+    "BeatSaberPlus_ChatEmoteRain.dll": {
+        "version": "6.2.1",
+        "dependsOn": [
+            "BeatSaberPlus",
+            "IPA.Loader"
+        ],
+        "path": "Plugins/BeatSaberPlus_ChatEmoteRain.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/BeatSaberPlus_ChatEmoteRain.dll"
+    },
+    "BeatSaberPlus_ChatIntegrations.dll": {
+        "version": "6.2.1",
+        "dependsOn": [
+            "BeatSaberPlus",
+            "IPA.Loader"
+        ],
+        "path": "Plugins/BeatSaberPlus_ChatIntegrations.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/BeatSaberPlus_ChatIntegrations.dll"
+    },
+    "BeatSaberPlus_ChatRequest.dll": {
+        "version": "6.2.1",
+        "dependsOn": [
+            "BeatSaberPlus",
+            "IPA.Loader"
+        ],
+        "path": "Plugins/BeatSaberPlus_ChatRequest.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/BeatSaberPlus_ChatRequest.dll"
+    },
+    "BeatSaberPlus_GameTweaker.dll": {
+        "version": "6.2.1",
+        "dependsOn": [
+            "BeatSaberPlus",
+            "IPA.Loader"
+        ],
+        "path": "Plugins/BeatSaberPlus_GameTweaker.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/BeatSaberPlus_GameTweaker.dll"
+    },
+    "BeatSaberPlus_MenuMusic.dll": {
+        "version": "6.2.1",
+        "dependsOn": [
+            "BeatSaberPlus",
+            "IPA.Loader"
+        ],
+        "path": "Plugins/BeatSaberPlus_MenuMusic.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/BeatSaberPlus_MenuMusic.dll"
+    },
+    "BeatSaberPlus_Multiplayer.dll": {
+        "version": "6.2.1",
+        "dependsOn": [
+            "BeatSaberPlus",
+            "IPA.Loader"
+        ],
+        "path": "Plugins/BeatSaberPlus_Multiplayer.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/BeatSaberPlus_Multiplayer.dll"
+    },
+    "BeatSaberPlus_NoteTweaker.dll": {
+        "version": "6.2.1",
+        "dependsOn": [
+            "BeatSaberPlus",
+            "IPA.Loader"
+        ],
+        "path": "Plugins/BeatSaberPlus_NoteTweaker.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/BeatSaberPlus_NoteTweaker.dll"
+    },
+    "BeatSaberPlus_SongChartVisualizer.dll": {
+        "version": "6.2.1",
+        "dependsOn": [
+            "BeatSaberPlus",
+            "IPA.Loader"
+        ],
+        "path": "Plugins/BeatSaberPlus_SongChartVisualizer.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/BeatSaberPlus_SongChartVisualizer.dll"
+    },
+    "BeatSaberPlus_SongOverlay.dll": {
+        "version": "6.2.1",
+        "dependsOn": [
+            "BeatSaberPlus",
+            "IPA.Loader"
+        ],
+        "path": "Plugins/BeatSaberPlus_SongOverlay.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/BeatSaberPlus_SongOverlay.dll"
+    },
+    "BeatSaverUpdater.dll": {
+        "version": "1.1.0",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Plugins/BeatSaverUpdater.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/BeatSaverUpdater.dll"
+    },
+    "BeatSaviorData.dll": {
+        "version": "2.1.15",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Plugins/BeatSaviorData.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/BeatSaviorData.dll"
+    },
+    "BetterMissCounter.dll": {
+        "version": "1.1.0",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Plugins/BetterMissCounter.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/BetterMissCounter.dll"
+    },
+    "BetterPause.dll": {
+        "version": "1.0.3",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Plugins/BetterPause.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/BetterPause.dll"
+    },
+    "BetterSongList.dll": {
+        "version": "0.3.9",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Plugins/BetterSongList.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/BetterSongList.dll"
+    },
+    "BetterSongSearch.dll": {
+        "version": "0.7.85",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Plugins/BetterSongSearch.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/BetterSongSearch.dll"
+    },
+    "BookmarkViewer.dll": {
+        "version": "1.0.0",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Plugins/BookmarkViewer.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/BookmarkViewer.dll"
+    },
+    "Camera2.dll": {
+        "version": "0.6.109",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Plugins/Camera2.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/Camera2.dll"
+    },
+    "CameraUtils.dll": {
+        "version": "1.0.7",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Plugins/CameraUtils.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/CameraUtils.dll"
+    },
+    "ChatPlexSDK_BS.dll": {
+        "version": "6.2.1",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Plugins/ChatPlexSDK_BS.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/ChatPlexSDK_BS.dll"
+    },
+    "Chroma.dll": {
+        "version": "2.7.17",
+        "dependsOn": [
+            "IPA.Loader",
+            "LookupID",
+            "CustomJSONData"
+        ],
+        "path": "Plugins/Chroma.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/Chroma.dll"
+    },
+    "ClockAndVolume.dll": {
+        "version": "1.0.0",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Plugins/ClockAndVolume.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/ClockAndVolume.dll"
+    },
+    "Counters+.dll": {
+        "version": "2.3.3",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Plugins/Counters+.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/Counters+.dll"
+    },
+    "CustomJSONData.dll": {
+        "version": "2.5.9",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Plugins/CustomJSONData.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/CustomJSONData.dll"
+    },
+    "EasyOffset.dll": {
+        "version": "2.1.7",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Plugins/EasyOffset.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/EasyOffset.dll"
+    },
+    "EditorColonThree.dll": {
+        "version": "1.0.0",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Plugins/EditorColonThree.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/EditorColonThree.dll"
+    },
+    "FCPercentage.dll": {
+        "version": "1.4.4",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Plugins/FCPercentage.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/FCPercentage.dll"
+    },
+    "FixPlayerData.dll": {
+        "version": "1.0.0",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Plugins/FixPlayerData.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/FixPlayerData.dll"
+    },
+    "GottaGoFast.dll": {
+        "version": "0.2.1",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Plugins/GottaGoFast.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/GottaGoFast.dll"
+    },
+    "Heck.dll": {
+        "version": "1.4.17",
+        "dependsOn": [
+            "IPA.Loader",
+            "CustomJSONData"
+        ],
+        "path": "Plugins/Heck.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/Heck.dll"
+    },
+    "Hitbloq.dll": {
+        "version": "1.4.2",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Plugins/Hitbloq.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/Hitbloq.dll"
+    },
+    "HitScoreVisualizer.dll": {
+        "version": "3.3.5",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Plugins/HitScoreVisualizer.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/HitScoreVisualizer.dll"
+    },
+    "HitsoundTweaks.dll": {
+        "version": "1.1.3",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Plugins/HitsoundTweaks.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/HitsoundTweaks.dll"
+    },
+    "IForgor.dll": {
+        "version": "1.3.1",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Plugins/IForgor.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/IForgor.dll"
+    },
+    "ImBlindedByTheLights.dll": {
+        "version": "0.0.7",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Plugins/ImBlindedByTheLights.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/ImBlindedByTheLights.dll"
+    },
+    "IntroSkip.dll": {
+        "version": "4.0.3",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Plugins/IntroSkip.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/IntroSkip.dll"
+    },
+    "LeaderboardCore.dll": {
+        "version": "1.4.2",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Plugins/LeaderboardCore.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/LeaderboardCore.dll"
+    },
+    "LookupID.manifest": {
+        "version": "1.0.1",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Plugins/LookupID.manifest",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/LookupID.manifest"
+    },
+    "MappingExtensions.dll": {
+        "version": "1.7.4",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Plugins/MappingExtensions.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/MappingExtensions.dll"
+    },
+    "MenuSaberColors.dll": {
+        "version": "1.0.9",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Plugins/MenuSaberColors.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/MenuSaberColors.dll"
+    },
+    "MorePlaylists.dll": {
+        "version": "2.0.0",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Plugins/MorePlaylists.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/MorePlaylists.dll"
+    },
+    "NoodleExtensions.dll": {
+        "version": "1.5.17",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Plugins/NoodleExtensions.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/NoodleExtensions.dll"
+    },
+    "OverrideEnvironmentFix.dll": {
+        "version": "1.1.1",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Plugins/OverrideEnvironmentFix.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/OverrideEnvironmentFix.dll"
+    },
+    "PlaylistManager.dll": {
+        "version": "1.6.9",
+        "dependsOn": [
+            "IPA.Loader",
+            "BeatSaberPlaylistsLib",
+            "SixLabors.ImageSharp"
+        ],
+        "path": "Plugins/PlaylistManager.dll",
+        "category": "Core",
+        "default": true,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/PlaylistManager.dll"
+    },
+    "PracticePlugin.dll": {
+        "version": "7.0.3",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Plugins/PracticePlugin.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/PracticePlugin.dll"
+    },
+    "PrioritySetter.dll": {
+        "version": "1.2.1",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Plugins/PrioritySetter.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/PrioritySetter.dll"
+    },
+    "protobuf-net.manifest": {
+        "version": "3.0.102",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Plugins/protobuf-net.manifest",
+        "category": "Core",
+        "default": true,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/protobuf-net.manifest"
+    },
+    "SaberFactory.dll": {
+        "version": "2.6.1",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Plugins/SaberFactory.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/SaberFactory.dll"
+    },
+    "ScorePercentage.dll": {
+        "version": "1.4.14",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Plugins/ScorePercentage.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/ScorePercentage.dll"
+    },
+    "ScoreSaber.dll": {
+        "version": "3.3.3",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Plugins/ScoreSaber.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/ScoreSaber.dll"
+    },
+    "ScoreSaberSharp.manifest": {
+        "version": "Unknown",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Plugins/ScoreSaberSharp.manifest",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/ScoreSaberSharp.manifest"
+    },
+    "SearchFixes.dll": {
+        "version": "1.0.0",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Plugins/SearchFixes.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/SearchFixes.dll"
+    },
+    "SixLabors.ImageSharp.manifest": {
+        "version": "2.0.0",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Plugins/SixLabors.ImageSharp.manifest",
+        "category": "Core",
+        "default": true,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/SixLabors.ImageSharp.manifest"
+    },
+    "SmallMenu.dll": {
+        "version": "1.2.0",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Plugins/SmallMenu.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/SmallMenu.dll"
+    },
+    "SongDetailsCache.manifest": {
+        "version": "1.2.2",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Plugins/SongDetailsCache.manifest",
+        "category": "Core",
+        "default": true,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/SongDetailsCache.manifest"
+    },
+    "SongPlayHistory.dll": {
+        "version": "2.0.2",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Plugins/SongPlayHistory.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/SongPlayHistory.dll"
+    },
+    "SongRankedBadge.dll": {
+        "version": "1.0.1",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Plugins/SongRankedBadge.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/SongRankedBadge.dll"
+    },
+    "SoundReplacer.dll": {
+        "version": "0.0.7",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Plugins/SoundReplacer.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/SoundReplacer.dll"
+    },
+    "System.IO.Compression.FileSystem.manifest": {
+        "version": "Unknown",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Plugins/System.IO.Compression.FileSystem.manifest",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/System.IO.Compression.FileSystem.manifest"
+    },
+    "System.IO.Compression.manifest": {
+        "version": "Unknown",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Plugins/System.IO.Compression.manifest",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/System.IO.Compression.manifest"
+    },
+    "TakeMeToResults.dll": {
+        "version": "1.1.0",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Plugins/TakeMeToResults.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/TakeMeToResults.dll"
+    },
+    "TrickSaber.dll": {
+        "version": "1.1.3",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Plugins/TrickSaber.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/TrickSaber.dll"
+    },
+    "Tweaks55.dll": {
+        "version": "0.3.13",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Plugins/Tweaks55.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/Tweaks55.dll"
+    },
+    "Unfunny.dll": {
+        "version": "1.0.0",
+        "dependsOn": [
+            "IPA.Loader"
+        ],
+        "path": "Plugins/Unfunny.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/Unfunny.dll"
+    },
+    "wipbot.dll": {
+        "version": "1.14.0",
+        "dependsOn": [
+            "BeatSaberPlus",
+            "IPA.Loader"
+        ],
+        "path": "Plugins/wipbot.dll",
+        "category": "Core",
+        "default": false,
+        "downloadURL": "https://raw.githubusercontent.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/main/Beat%20Saber%201.34.2%20Legacy/Plugins/wipbot.dll"
+    }
+}
