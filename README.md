@@ -58,7 +58,7 @@
 
 ## Multiplayer Mods:
 - BeatTogether 2.1.2 by [BeatTogether Team](https://github.com/BeatTogether/BeatTogether/releases)
-- Multiplayer+ (A Component of BeatSaberPlus) 6.2.1 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases)
+- Multiplayer+ (A Component of BeatSaberPlus) 6.2.2 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases)
 - MultiplayerCore 1.3.0 by [Goobwabber](https://github.com/Goobwabber/MultiplayerCore/releases)
 - ServerBrowser 1.2.0 by [roydejong](https://github.com/roydejong/BeatSaberServerBrowser/releases)
 - MultiplayerExtensions 1.0.4 by [Goobwabber/ModdingPink](https://github.com/Goobwabber/MultiplayerExtensions/releases)
@@ -80,7 +80,7 @@
 
 ## Utility Mods:
 - BetterPause 1.0.3 by [futuremapper](https://github.com/Futuremappermydud/BetterPause/releases)
-- ChatPlex SDK (BeatSaberPlus) 6.2.1 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases)
+- ChatPlex SDK (BeatSaberPlus) 6.2.2 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases)
 - BeatSaverUpdater 1.1.0 by [PixelBoom](https://github.com/rithik-b/BeatSaverUpdater/releases)
 - BetterSongList 0.3.4 by [Kinsi55 (Original)](https://github.com/kinsi55/BeatSaber_BetterSongList/releases) / [My Fork of it](https://github.com/iPixelGalaxy/BeatSaber_BetterSongList/releases)
 - BetterSongSearch 0.7.84 by [Kinsi55](https://github.com/kinsi55/BeatSaber_BetterSongSearch/releases)
