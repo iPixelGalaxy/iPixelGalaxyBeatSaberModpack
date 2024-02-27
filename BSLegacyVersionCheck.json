@@ -1,6 +1,6 @@
 {
   "1.34.2": {
-    "modpackurl": "https://github.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/releases/download/1.34.2-0.0.2/BeatSaberModpackLegacy.zip",
+    "modpackurl": "https://github.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/releases/download/1.34.2-0.0.4/BeatSaberModpackLegacy.zip",
     "externalmods": [
       "",
       "https://beatmods.com/uploads/65779cc15e029208799de510/universal/BS%20Utils-1.13.0.zip",
@@ -17,7 +17,7 @@
     "message": ""
   },
   "1.29.1": {
-    "modpackurl": "https://github.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/releases/download/1.29.1-0.2.6/BeatSaberModpackLegacy.zip",
+    "modpackurl": "https://github.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/releases/download/1.29.1-0.2.8/BeatSaberModpackLegacy.zip",
     "externalmods": [
       "",
       "https://beatmods.com/uploads/636ae3750c5c87297d5dab7f/universal/SiraUtil-3.1.2.zip",
