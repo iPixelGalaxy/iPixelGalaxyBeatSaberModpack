@@ -1,6 +1,6 @@
 {
 	"1.29.1": {
-        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/releases/download/1.29.1-0.2.6/BeatSaberModpackLegacy.zip",
+        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/releases/download/1.29.1-0.2.8/BeatSaberModpack.zip",
         "modules": [
             "https://github.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/releases/download/1.29.0-1.29.1-0.2.2/Required.zip",
             "https://github.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/releases/download/1.29.0-1.29.1-0.2.2/_Leaderboard.zip",
@@ -31,7 +31,7 @@
       	"message" : ""
      },
 	"1.29.0": {
-        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/releases/download/1.29.1-0.2.6/BeatSaberModpackLegacy.zip",
+        "modpackurl" : "https://github.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/releases/download/1.29.1-0.2.8/BeatSaberModpack.zip",
         "modules": [
             "https://github.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/releases/download/1.29.0-1.29.1-0.2.2/Required.zip",
             "https://github.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/releases/download/1.29.0-1.29.1-0.2.2/_Leaderboard.zip",
