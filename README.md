@@ -116,11 +116,11 @@
 - PioritySetter (High) 1.2.1 by [Arimodu](https://github.com/Arimodu/PrioritySetter/releases)
 
 ## Gameplay Mods:
-- CustomJSONData 2.5.5 by [Aeroluna](https://github.com/Aeroluna/CustomJSONData/releases)
-- Heck 1.4.14 by [Aeroluna](https://github.com/Aeroluna/Heck/releases)
-- Chroma 2.7.16 by [Aeroluna](https://github.com/Aeroluna/Heck/releases)
-- NoodleExtensions 1.5.16 by [Aeroluna](https://github.com/Aeroluna/Heck/releases)
-- LookupID 1.0.1 by [Aeroluna](https://github.com/Aeroluna/Heck/releases)
+- CustomJSONData 2.5.2 by [Aeroluna](https://github.com/Aeroluna/CustomJSONData/releases)
+- Heck 1.5.0 by [Aeroluna](https://github.com/Aeroluna/Heck/releases)
+- Chroma 2.8.0 by [Aeroluna](https://github.com/Aeroluna/Heck/releases)
+- NoodleExtensions 1.6.0 by [Aeroluna](https://github.com/Aeroluna/Heck/releases)
+- LookupID 1.0.3 by [Aeroluna](https://github.com/Aeroluna/Heck/releases)
 - MappingExtensions 1.7.4 by [Kyle1314](https://github.com/Kylemc1413/MappingExtensions)
 - Shaffuru 0.2.1 by [Kinsi55](https://github.com/kinsi55/BeatSaber_Shaffuru/releases)
 
