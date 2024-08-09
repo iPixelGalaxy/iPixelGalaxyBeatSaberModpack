@@ -74,7 +74,7 @@
 - Counters+ 2.3.3 by [Caeden117](https://github.com/Caeden117/CountersPlus/releases)
 - HitScoreVisualizer 3.3.3 by [Eris](https://github.com/ErisApps/HitScoreVisualizer/releases)
 - iForgor 1.3.1 by [ckosmic](https://github.com/ckosmic/IForgor/releases)
-- PPPredictor 1.0.1 by [No.1 Noob](https://github.com/no-1-noob/PPPredictor/releases)
+- PPPredictor 1.0.3 by [No.1 Noob](https://github.com/no-1-noob/PPPredictor/releases)
 - ScorePercentage 1.4.13 by [IdleBob](https://github.com/Idlebawb/ScorePercentage/releases)
 - SliceDetails 1.3.2 by [ckosmic](https://github.com/ckosmic/SliceDetails/releases)
 
