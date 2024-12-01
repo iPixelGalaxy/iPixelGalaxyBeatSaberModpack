@@ -1,0 +1,15 @@
+{
+  "$schema": "https://raw.githubusercontent.com/beat-saber-modding-group/BSIPA-MetadataFileSchema/master/Schema.json",
+  "author": "Auros",
+  "description": "A .NET library to interact with the BeatSaver API",
+  "id": "BeatSaverSharp",
+  "name": "BeatSaverSharp",
+  "version": "3.4.5",
+  "links": {
+    "project-home": "https://github.com/Auros/BeatSaverSharper",
+    "donate": "https://ko-fi.com/auros"
+  },
+  "files": [
+    "Libs/BeatSaverSharp.dll"
+  ]
+}

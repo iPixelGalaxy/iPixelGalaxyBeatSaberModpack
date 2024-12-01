@@ -1,0 +1,13 @@
+{
+    "$schema": "https://raw.githubusercontent.com/bsmg/BSIPA-MetadataFileSchema/master/Schema.json",
+    "id": "OpenVR",
+    "name": "OpenVR API",
+    "author": "Valve Software",
+    "version": "2.2.3",
+    "gameVersion": "1.29.4",
+    "description": "Provides API bindings to communicate with the OpenVR runtime (SteamVR). ",
+    "files": [
+        "Libs/Native/openvr_api.dll",
+        "Libs/OpenVR.dll"
+    ]
+}

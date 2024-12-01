@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OpenXRFeatureManager</name>
+    </assembly>
+    <members>
+        <member name="T:OpenXRFeatureManager.FeatureManager">
+            <summary>
+            Manages adding extra features to <see cref="T:UnityEngine.XR.OpenXR.OpenXRSettings"/> and restarting OpenXR so the changes apply.
+            </summary>
+        </member>
+        <member name="M:OpenXRFeatureManager.FeatureManager.#ctor(IPA.Logging.Logger)">
+            <summary>
+            Initializes a new instance of the <see cref="T:OpenXRFeatureManager.FeatureManager"/> class.
+            </summary>
+            <param name="logger">The logger that this instance will use.</param>
+        </member>
+        <member name="E:OpenXRFeatureManager.FeatureManager.afterOpenXRUnloaded">
+            <summary>
+            Invoked after OpenXR is unloaded and before new features are added during the restart procedure.
+            </summary>
+        </member>
+        <member name="E:OpenXRFeatureManager.FeatureManager.beforeOpenXRReloaded">
+            <summary>
+            Invoked after new features are added and before OpenXR is reloaded during the restart procedure.
+            </summary>
+        </member>
+        <member name="P:OpenXRFeatureManager.FeatureManager.instance">
+            <summary>
+            Gets the current instance of <see cref="T:OpenXRFeatureManager.FeatureManager"/>.
+            </summary>
+        </member>
+        <member name="P:OpenXRFeatureManager.FeatureManager.initialized">
+            <summary>
+            Gets a value indicating whether or not this instance of <see cref="T:OpenXRFeatureManager.FeatureManager"/> has been initialized.
+            </summary>
+        </member>
+        <member name="M:OpenXRFeatureManager.FeatureManager.CreateOpenXRFeature``1(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Boolean)">
+            <summary>
+            Instantiates and configures an <see cref="T:UnityEngine.XR.OpenXR.Features.OpenXRFeature"/> of type <typeparamref name="T"/>.
+            </summary>
+            <typeparam name="T">Type of the feature to create.</typeparam>
+            <param name="featureId">A well known string ID for the feature. It is recommended that this ID be in reverse DNS naming format (com.foo.bar.feature).</param>
+            <param name="name">Name of the feature.</param>
+            <param name="version">Version of the feature.</param>
+            <param name="company">Name of the company/developer(s) that created the feature.</param>
+            <param name="openXRExtensionStrings">A comma-separated list of OpenXR extensions that are necessary for the feature to work.</param>
+            <param name="priority">
+            Determines the order in which the feature will be called in both the GetInstanceProcAddr hook list and
+            when events such as OnInstanceCreate are called. Higher priority features will hook after lower priority features and
+            be called first in the event list.
+            </param>
+            <param name="required">True if this feature is required, false otherwise. Required features will cause the loader to fail to initialize if they fail to initialize or start.</param>
+            <returns>The newly created feature.</returns>
+        </member>
+        <member name="M:OpenXRFeatureManager.FeatureManager.RegisterFeature(UnityEngine.XR.OpenXR.Features.OpenXRFeature)">
+            <summary>
+            Registers an <see cref="T:UnityEngine.XR.OpenXR.Features.OpenXRFeature"/>. This operation is idempotent.
+            </summary>
+            <param name="openXRFeature">The <see cref="T:UnityEngine.XR.OpenXR.Features.OpenXRFeature"/> to register.</param>
+        </member>
+        <member name="M:OpenXRFeatureManager.FeatureManager.AddFeaturesAndRestartOpenXRAsync">
+            <summary>
+            Adds the features defined by <see cref="F:OpenXRFeatureManager.FeatureManager._registeredFeatures"/> to <see cref="F:UnityEngine.XR.OpenXR.OpenXRSettings.features"/> and restarts the OpenXR loader.
+            </summary>
+            <returns>A <see cref="T:System.Threading.Tasks.Task"/> representing the asynchronous operation.</returns>
+        </member>
+        <member name="T:OpenXRFeatureManager.Patches.SceneContext_Awake">
+            <summary>
+            Patch targeting <see cref="M:Zenject.SceneContext.Awake"/> so code can be run before basically anything else in a loaded scene.
+            </summary>
+            <remarks>
+            We need to run the OpenXR restart logic after the splash screen scene but before anything else.
+            Awake will run before before OnSceneLoaded gets invoked so we can make changes before the first SceneContext (PCInit) initializes.
+            </remarks>
+        </member>
+    </members>
+</doc>

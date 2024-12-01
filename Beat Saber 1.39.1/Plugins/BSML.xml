@@ -1,0 +1,1437 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BSML</name>
+    </assembly>
+    <members>
+        <member name="T:System.Runtime.CompilerServices.IsExternalInit">
+            <summary>
+                Reserved to be used by the compiler for tracking metadata.
+                This class should not be used by developers in source code.
+            </summary>
+            <remarks>
+                This definition is provided by the <i>IsExternalInit</i> NuGet package (https://www.nuget.org/packages/IsExternalInit).
+                Please see https://github.com/manuelroemer/IsExternalInit for more information.
+            </remarks>
+        </member>
+        <member name="T:BeatSaberMarkupLanguage.Animations.APNG.APNG">
+            <summary>
+            Animated PNG class.
+            </summary>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.Animations.APNG.APNG.IsSimplePNG">
+            <summary>
+            Gets a value indicating whether the file is a simple PNG.
+            </summary>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.Animations.APNG.APNG.DefaultImageIsAnimated">
+            <summary>
+            Gets a value indicating whether the default image is part of the animation.
+            </summary>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.Animations.APNG.APNG.DefaultImage">
+            <summary>
+            Gets the base image.
+            If IsSimplePNG = <see langword="true"/>, returns the only image;
+            if it is <see langword="false"/>, returns the default image.
+            </summary>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.Animations.APNG.APNG.Frames">
+            <summary>
+            Gets the frame array.
+            If IsSimplePNG = <see langword="true"/>, returns empty.
+            </summary>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.Animations.APNG.APNG.FrameCount">
+            <summary>
+            Gets the frame count.
+            </summary>
+            <value>The frame count.</value>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.Animations.APNG.APNG.FrameRate">
+            <summary>
+            Gets or sets the framerate.
+            Get returns the framerate of the first frame. Set applies the supplied framerate across all frames.
+            </summary>
+            <value>The global frame rate.</value>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.Animations.APNG.APNG.ViewSize">
+            <summary>
+            Gets or sets the size.
+            </summary>
+            <value>The size of the displayed animated image.</value>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.Animations.APNG.APNG.ActualSize">
+            <summary>
+            Gets or sets the actual size.
+            </summary>
+            <value>The actual size.</value>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.Animations.APNG.APNG.PlayCount">
+            <summary>
+            Gets or sets the play count.
+            </summary>
+            <value>The play count.</value>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.Animations.APNG.APNG.IHDRChunk">
+            <summary>
+            Gets the IHDR Chunk.
+            </summary>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.Animations.APNG.APNG.AcTLChunk">
+            <summary>
+            Gets the acTL Chunk.
+            </summary>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.Animations.APNG.APNG.Item(System.Int32)">
+            <summary>
+            Gets the bitmap at the specified index.
+            </summary>
+            <param name="index">The frame index.</param>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.APNG.FromFile(System.String)">
+            <summary>
+            Creates an Animated PNG from a file.
+            </summary>
+            <returns>The file.</returns>
+            <param name="filename">Filename.</param>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.APNG.FromStream(System.IO.MemoryStream)">
+            <summary>
+            Creates an Animated PNG from a stream.
+            </summary>
+            <returns>The file.</returns>
+            <param name="stream">The stream.</param>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.APNG.FromImage(System.Drawing.Image)">
+            <summary>
+            Creates an Animated PNG from a Image.
+            </summary>
+            <returns>The file.</returns>
+            <param name="image">Image.</param>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.APNG.Load(System.String)">
+            <summary>
+            Load the specified png.
+            </summary>
+            <param name="filename">The png filename.</param>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.APNG.Load(System.Byte[])">
+            <summary>
+            Load the specified png.
+            </summary>
+            <param name="fileBytes">Byte representation of the png file.</param>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.APNG.Save(System.String)">
+            <summary>
+            Save the APNG to file.
+            </summary>
+            <param name="filename">The filename to output to.</param>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.APNG.GetDisposeOperationFor(System.Int32)">
+            <summary>
+            Gets the dispose operation for the specified frame.
+            </summary>
+            <returns>The dispose operation for the specified frame.</returns>
+            <param name="index">Index.</param>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.APNG.GetBlendOperationFor(System.Int32)">
+            <summary>
+            Gets the blend operation for the specified frame.
+            </summary>
+            <returns>The blend operation for the specified frame.</returns>
+            <param name="index">Index.</param>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.APNG.GetDefaultImage">
+            <summary>
+            Gets the default image.
+            </summary>
+            <returns>The default image.</returns>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.APNG.GetFrameRate(System.Int32)">
+            <summary>
+            Gets the frame rate for a frame.
+            </summary>
+            <returns>The frame rate for a frame.</returns>
+            <param name="index">The frame index.</param>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.APNG.SetFrameRate(System.Int32,System.Int32)">
+            <summary>
+            Sets the frame rate for a frame.
+            </summary>
+            <param name="index">The frame index.</param>
+            <param name="frameRate">The desired frame rate.</param>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.APNG.SetDefaultImage(System.Drawing.Image)">
+            <summary>
+            Sets the default image if not a part of the animation.
+            </summary>
+            <param name="image">Default image.</param>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.APNG.AddFrame(System.Drawing.Image)">
+            <summary>
+            Adds an image as the next frame.
+            </summary>
+            <param name="image">Png frame.</param>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.APNG.RemoveFrame(System.Int32)">
+            <summary>
+            Removes the specified frame.
+            </summary>
+            <param name="index">The frame index.</param>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.APNG.ClearFrames">
+            <summary>
+            Clears all frames.
+            </summary>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.APNG.Load(System.IO.MemoryStream)">
+            <summary>
+            Load the specified stream.
+            </summary>
+            <param name="stream">Stream representation of the png file.</param>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.APNG.ImageToStream(System.Drawing.Image)">
+            <summary>
+            Image to stream.
+            </summary>
+            <returns>The to stream.</returns>
+            <param name="image">Image.</param>
+        </member>
+        <member name="T:BeatSaberMarkupLanguage.Animations.APNG.Chunks.AcTLChunk">
+            <summary>
+            Animation Control chunk.
+            </summary>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.Chunks.AcTLChunk.#ctor(System.Byte[])">
+            <summary>
+            Initializes a new instance of the <see cref="T:BeatSaberMarkupLanguage.Animations.APNG.Chunks.AcTLChunk"/> class.
+            </summary>
+            <param name="bytes">Byte array of chunk data.</param>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.Chunks.AcTLChunk.#ctor(System.IO.MemoryStream)">
+            <summary>
+            Initializes a new instance of the <see cref="T:BeatSaberMarkupLanguage.Animations.APNG.Chunks.AcTLChunk"/> class.
+            </summary>
+            <param name="ms">Memory stream of chunk data.</param>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.Chunks.AcTLChunk.#ctor(BeatSaberMarkupLanguage.Animations.APNG.Chunks.Chunk)">
+            <summary>
+            Initializes a new instance of the <see cref="T:BeatSaberMarkupLanguage.Animations.APNG.Chunks.AcTLChunk"/> class.
+            </summary>
+            <param name="chunk">Chunk object.</param>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.Chunks.AcTLChunk.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:BeatSaberMarkupLanguage.Animations.APNG.Chunks.AcTLChunk"/> class.
+            </summary>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.Animations.APNG.Chunks.AcTLChunk.FrameCount">
+            <summary>
+            Gets or sets the number frames.
+            </summary>
+            <value>The number frames.</value>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.Animations.APNG.Chunks.AcTLChunk.PlayCount">
+            <summary>
+            Gets or sets the number plays.
+            </summary>
+            <value>The number plays.</value>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.Chunks.AcTLChunk.ParseData(System.IO.MemoryStream)">
+            <summary>
+            Parses the data.
+            </summary>
+            <param name="ms">Memory stream to parse.</param>
+        </member>
+        <member name="T:BeatSaberMarkupLanguage.Animations.APNG.Chunks.Chunk">
+            <summary>
+            Base PNG Chunk object.
+            </summary>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.Chunks.Chunk.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:BeatSaberMarkupLanguage.Animations.APNG.Chunks.Chunk"/> class.
+            </summary>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.Chunks.Chunk.#ctor(System.Byte[])">
+            <summary>
+            Initializes a new instance of the <see cref="T:BeatSaberMarkupLanguage.Animations.APNG.Chunks.Chunk"/> class.
+            </summary>
+            <param name="bytes">Byte Array of chunk data.</param>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.Chunks.Chunk.#ctor(System.IO.MemoryStream)">
+            <summary>
+            Initializes a new instance of the <see cref="T:BeatSaberMarkupLanguage.Animations.APNG.Chunks.Chunk"/> class.
+            </summary>
+            <param name="ms">Memory Stream of chunk data.</param>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.Chunks.Chunk.#ctor(BeatSaberMarkupLanguage.Animations.APNG.Chunks.Chunk)">
+            <summary>
+            Initializes a new instance of the <see cref="T:BeatSaberMarkupLanguage.Animations.APNG.Chunks.Chunk"/> class.
+            </summary>
+            <param name="chunk">Chunk data.</param>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.Animations.APNG.Chunks.Chunk.Length">
+            <summary>
+            Gets or sets the length of the chunk data.
+            </summary>
+            <value>The length of the chunk data.</value>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.Animations.APNG.Chunks.Chunk.ChunkType">
+            <summary>
+            Gets or sets the type of the chunk.
+            </summary>
+            <value>The type of the chunk.</value>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.Animations.APNG.Chunks.Chunk.ChunkData">
+            <summary>
+            Gets or sets the chunk data.
+            </summary>
+            <value>The chunk data.</value>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.Animations.APNG.Chunks.Chunk.Crc">
+            <summary>
+            Gets or sets the crc.
+            </summary>
+            <value>The crc.</value>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.Animations.APNG.Chunks.Chunk.RawData">
+            <summary>
+            Gets raw data of the chunk.
+            </summary>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.Chunks.Chunk.ModifyChunkData(System.Int32,System.Byte[])">
+            <summary>
+            Modify the ChunkData part.
+            </summary>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.Chunks.Chunk.ModifyChunkData(System.Int32,System.UInt32)">
+            <summary>
+            Modify the ChunkData part.
+            </summary>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.Chunks.Chunk.Equals(System.Object)">
+            <summary>
+            Determines whether the specified <see cref="T:System.Object"/> is equal to the current <see cref="T:BeatSaberMarkupLanguage.Animations.APNG.Chunks.Chunk"/>.
+            </summary>
+            <param name="obj">The <see cref="T:System.Object"/> to compare with the current <see cref="T:BeatSaberMarkupLanguage.Animations.APNG.Chunks.Chunk"/>.</param>
+            <returns><c>true</c> if the specified <see cref="T:System.Object"/> is equal to the current
+            <see cref="T:BeatSaberMarkupLanguage.Animations.APNG.Chunks.Chunk"/>; otherwise, <c>false</c>.</returns>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.Chunks.Chunk.GetHashCode">
+            <summary>
+            Serves as a hash function for a <see cref="T:BeatSaberMarkupLanguage.Animations.APNG.Chunks.Chunk"/> object.
+            </summary>
+            <returns>A hash code for this instance that is suitable for use in hashing algorithms and data structures such as a
+            hash table.</returns>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.Chunks.Chunk.ParseData(System.IO.MemoryStream)">
+            <summary>
+            Parses the data.
+            </summary>
+            <param name="ms">Memory Stream of chunk data.</param>
+        </member>
+        <member name="T:BeatSaberMarkupLanguage.Animations.APNG.Chunks.DisposeOps">
+            <summary>
+            Enumeration of dispose operations.
+            </summary>
+        </member>
+        <member name="F:BeatSaberMarkupLanguage.Animations.APNG.Chunks.DisposeOps.APNGDisposeOpNone">
+            <summary>
+            Does not clear any of the previous drawing.
+            </summary>
+        </member>
+        <member name="F:BeatSaberMarkupLanguage.Animations.APNG.Chunks.DisposeOps.APNGDisposeOpBackground">
+            <summary>
+            Clears the background to transparent black before rendering.
+            </summary>
+        </member>
+        <member name="F:BeatSaberMarkupLanguage.Animations.APNG.Chunks.DisposeOps.APNGDisposeOpPrevious">
+            <summary>
+            Draws using the previous frame as the base.
+            </summary>
+        </member>
+        <member name="T:BeatSaberMarkupLanguage.Animations.APNG.Chunks.BlendOps">
+            <summary>
+            Enumeration of blend operations.
+            </summary>
+        </member>
+        <member name="F:BeatSaberMarkupLanguage.Animations.APNG.Chunks.BlendOps.APNGBlendOpSource">
+            <summary>
+            Do not blend use the source data.
+            </summary>
+        </member>
+        <member name="F:BeatSaberMarkupLanguage.Animations.APNG.Chunks.BlendOps.APNGBlendOpOver">
+            <summary>
+            Perform composite blending.
+            </summary>
+        </member>
+        <member name="T:BeatSaberMarkupLanguage.Animations.APNG.Chunks.FcTLChunk">
+            <summary>
+            Animated PNG Frame Control chunk.
+            </summary>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.Chunks.FcTLChunk.#ctor(System.Byte[])">
+            <summary>
+            Initializes a new instance of the <see cref="T:BeatSaberMarkupLanguage.Animations.APNG.Chunks.FcTLChunk"/> class.
+            </summary>
+            <param name="bytes">Byte Array of chunk data.</param>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.Chunks.FcTLChunk.#ctor(System.IO.MemoryStream)">
+            <summary>
+            Initializes a new instance of the <see cref="T:BeatSaberMarkupLanguage.Animations.APNG.Chunks.FcTLChunk"/> class.
+            </summary>
+            <param name="ms">Memory Stream of chunk data.</param>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.Chunks.FcTLChunk.#ctor(BeatSaberMarkupLanguage.Animations.APNG.Chunks.Chunk)">
+            <summary>
+            Initializes a new instance of the <see cref="T:BeatSaberMarkupLanguage.Animations.APNG.Chunks.FcTLChunk"/> class.
+            </summary>
+            <param name="chunk">Chunk data.</param>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.Chunks.FcTLChunk.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:BeatSaberMarkupLanguage.Animations.APNG.Chunks.FcTLChunk"/> class.
+            </summary>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.Animations.APNG.Chunks.FcTLChunk.SequenceNumber">
+            <summary>
+            Gets or sets the sequence number of the animation chunk, starting from 0.
+            </summary>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.Animations.APNG.Chunks.FcTLChunk.Width">
+            <summary>
+            Gets or sets the width of the following frame.
+            </summary>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.Animations.APNG.Chunks.FcTLChunk.Height">
+            <summary>
+            Gets or sets the height of the following frame.
+            </summary>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.Animations.APNG.Chunks.FcTLChunk.XOffset">
+            <summary>
+            Gets or sets the X position at which to render the following frame.
+            </summary>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.Animations.APNG.Chunks.FcTLChunk.YOffset">
+            <summary>
+            Gets or sets the Y position at which to render the following frame.
+            </summary>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.Animations.APNG.Chunks.FcTLChunk.DelayNumerator">
+            <summary>
+            Gets or sets the frame delay fraction numerator.
+            </summary>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.Animations.APNG.Chunks.FcTLChunk.DelayDenominator">
+            <summary>
+            Gets or sets the frame delay fraction denominator.
+            </summary>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.Animations.APNG.Chunks.FcTLChunk.DisposeOp">
+            <summary>
+            Gets or sets the type of frame area disposal to be done after rendering this frame.
+            </summary>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.Animations.APNG.Chunks.FcTLChunk.BlendOp">
+            <summary>
+            Gets or sets the type of frame area rendering for this frame.
+            </summary>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.Chunks.FcTLChunk.ParseData(System.IO.MemoryStream)">
+            <summary>
+            Parses the data.
+            </summary>
+            <param name="ms">Memory stream of chunk data.</param>
+        </member>
+        <member name="T:BeatSaberMarkupLanguage.Animations.APNG.Chunks.FdATChunk">
+            <summary>
+            Animated PNG FDAT Chunk.
+            </summary>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.Chunks.FdATChunk.#ctor(System.Byte[])">
+            <summary>
+            Initializes a new instance of the <see cref="T:BeatSaberMarkupLanguage.Animations.APNG.Chunks.FdATChunk"/> class.
+            </summary>
+            <param name="bytes">Byte array of chunk data.</param>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.Chunks.FdATChunk.#ctor(System.IO.MemoryStream)">
+            <summary>
+            Initializes a new instance of the <see cref="T:BeatSaberMarkupLanguage.Animations.APNG.Chunks.FdATChunk"/> class.
+            </summary>
+            <param name="ms">Memory stream of chunk data.</param>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.Chunks.FdATChunk.#ctor(BeatSaberMarkupLanguage.Animations.APNG.Chunks.Chunk)">
+            <summary>
+            Initializes a new instance of the <see cref="T:BeatSaberMarkupLanguage.Animations.APNG.Chunks.FdATChunk"/> class.
+            </summary>
+            <param name="chunk">Chunk data.</param>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.Animations.APNG.Chunks.FdATChunk.SequenceNumber">
+            <summary>
+            Gets or sets the frame sequence number.
+            </summary>
+            <value>The sequence number.</value>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.Animations.APNG.Chunks.FdATChunk.FrameData">
+            <summary>
+            Gets or sets the frame data.
+            </summary>
+            <value>The frame data.</value>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.Chunks.FdATChunk.FromIDATChunk(BeatSaberMarkupLanguage.Animations.APNG.Chunks.IDATChunk,System.UInt32)">
+            <summary>
+            Creates an FDAT Chunk from an IDAT Chunk.
+            </summary>
+            <returns>The FDAT chunk.</returns>
+            <param name="idatChunk">IDAT chunk.</param>
+            <param name="sequenceNumber">Sequence number.</param>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.Chunks.FdATChunk.ToIDATChunk">
+            <summary>
+            Converts an FDAT Chunk to an IDAT Chunk.
+            </summary>
+            <returns>The IDAT chunk.</returns>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.Chunks.FdATChunk.ParseData(System.IO.MemoryStream)">
+            <summary>
+            Parses the data.
+            </summary>
+            <param name="ms">Memory Stream of chunk data.</param>
+        </member>
+        <member name="T:BeatSaberMarkupLanguage.Animations.APNG.Chunks.IDATChunk">
+            <summary>
+            Standard IDAT PNG image data chunk.
+            </summary>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.Chunks.IDATChunk.#ctor(System.Byte[])">
+            <summary>
+            Initializes a new instance of the <see cref="T:BeatSaberMarkupLanguage.Animations.APNG.Chunks.IDATChunk"/> class.
+            </summary>
+            <param name="bytes">Bytes array representation.</param>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.Chunks.IDATChunk.#ctor(System.IO.MemoryStream)">
+            <summary>
+            Initializes a new instance of the <see cref="T:BeatSaberMarkupLanguage.Animations.APNG.Chunks.IDATChunk"/> class.
+            </summary>
+            <param name="ms">Memory stream representation..</param>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.Chunks.IDATChunk.#ctor(BeatSaberMarkupLanguage.Animations.APNG.Chunks.Chunk)">
+            <summary>
+            Initializes a new instance of the <see cref="T:BeatSaberMarkupLanguage.Animations.APNG.Chunks.IDATChunk"/> class.
+            </summary>
+            <param name="chunk">Chunk representation.</param>
+        </member>
+        <member name="T:BeatSaberMarkupLanguage.Animations.APNG.Chunks.IENDChunk">
+            <summary>
+            IEND chunk representing the end of the PNG.
+            </summary>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.Chunks.IENDChunk.#ctor(System.Byte[])">
+            <summary>
+            Initializes a new instance of the <see cref="T:BeatSaberMarkupLanguage.Animations.APNG.Chunks.IENDChunk"/> class.
+            </summary>
+            <param name="bytes">Bytes array representation.</param>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.Chunks.IENDChunk.#ctor(System.IO.MemoryStream)">
+            <summary>
+            Initializes a new instance of the <see cref="T:BeatSaberMarkupLanguage.Animations.APNG.Chunks.IENDChunk"/> class.
+            </summary>
+            <param name="ms">Memory Stream representation..</param>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.Chunks.IENDChunk.#ctor(BeatSaberMarkupLanguage.Animations.APNG.Chunks.Chunk)">
+            <summary>
+            Initializes a new instance of the <see cref="T:BeatSaberMarkupLanguage.Animations.APNG.Chunks.IENDChunk"/> class.
+            </summary>
+            <param name="chunk">Chunk representation.</param>
+        </member>
+        <member name="T:BeatSaberMarkupLanguage.Animations.APNG.Chunks.IHDRChunk">
+            <summary>
+            PNG Image header chunk.
+            </summary>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.Chunks.IHDRChunk.#ctor(System.Byte[])">
+            <summary>
+            Initializes a new instance of the <see cref="T:BeatSaberMarkupLanguage.Animations.APNG.Chunks.IHDRChunk"/> class.
+            </summary>
+            <param name="chunkBytes">Byte Array representation.</param>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.Chunks.IHDRChunk.#ctor(System.IO.MemoryStream)">
+            <summary>
+            Initializes a new instance of the <see cref="T:BeatSaberMarkupLanguage.Animations.APNG.Chunks.IHDRChunk"/> class.
+            </summary>
+            <param name="ms">Memory stream representation.</param>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.Chunks.IHDRChunk.#ctor(BeatSaberMarkupLanguage.Animations.APNG.Chunks.Chunk)">
+            <summary>
+            Initializes a new instance of the <see cref="T:BeatSaberMarkupLanguage.Animations.APNG.Chunks.IHDRChunk"/> class.
+            </summary>
+            <param name="chunk">Chunk representation.</param>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.Animations.APNG.Chunks.IHDRChunk.Width">
+            <summary>
+            Gets or sets the width.
+            </summary>
+            <value>The width.</value>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.Animations.APNG.Chunks.IHDRChunk.Height">
+            <summary>
+            Gets or sets the height.
+            </summary>
+            <value>The height.</value>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.Animations.APNG.Chunks.IHDRChunk.BitDepth">
+            <summary>
+            Gets or sets the bit depth.
+            </summary>
+            <value>The bit depth.</value>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.Animations.APNG.Chunks.IHDRChunk.ColorType">
+            <summary>
+            Gets or sets the type of the color.
+            </summary>
+            <value>The type of the color.</value>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.Animations.APNG.Chunks.IHDRChunk.CompressionMethod">
+            <summary>
+            Gets or sets the compression method.
+            </summary>
+            <value>The compression method.</value>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.Animations.APNG.Chunks.IHDRChunk.FilterMethod">
+            <summary>
+            Gets or sets the filter method.
+            </summary>
+            <value>The filter method.</value>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.Animations.APNG.Chunks.IHDRChunk.InterlaceMethod">
+            <summary>
+            Gets or sets the interlace method.
+            </summary>
+            <value>The interlace method.</value>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.Chunks.IHDRChunk.ParseData(System.IO.MemoryStream)">
+            <summary>
+            Parses the data.
+            </summary>
+            <param name="ms">Memory stream of chunk data.</param>
+        </member>
+        <member name="T:BeatSaberMarkupLanguage.Animations.APNG.Chunks.OtherChunk">
+            <summary>
+            Other PNG chunks.
+            </summary>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.Chunks.OtherChunk.#ctor(System.Byte[])">
+            <summary>
+            Initializes a new instance of the <see cref="T:BeatSaberMarkupLanguage.Animations.APNG.Chunks.OtherChunk"/> class.
+            </summary>
+            <param name="bytes">Byte Array of chunk data.</param>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.Chunks.OtherChunk.#ctor(System.IO.MemoryStream)">
+            <summary>
+            Initializes a new instance of the <see cref="T:BeatSaberMarkupLanguage.Animations.APNG.Chunks.OtherChunk"/> class.
+            </summary>
+            <param name="ms">Memory Stream of chunk data.</param>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.Chunks.OtherChunk.#ctor(BeatSaberMarkupLanguage.Animations.APNG.Chunks.Chunk)">
+            <summary>
+            Initializes a new instance of the <see cref="T:BeatSaberMarkupLanguage.Animations.APNG.Chunks.OtherChunk"/> class.
+            </summary>
+            <param name="chunk">Chunk data.</param>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.APNG.Chunks.OtherChunk.ParseData(System.IO.MemoryStream)">
+            <summary>
+            Parses the data.
+            </summary>
+            <param name="ms">Memory Stream of chunk data.</param>
+        </member>
+        <member name="T:BeatSaberMarkupLanguage.Animations.Frame">
+            <summary>
+                Describe a single frame.
+            </summary>
+        </member>
+        <member name="F:BeatSaberMarkupLanguage.Animations.Frame.Signature">
+            <summary>
+            The chunk signature.
+            </summary>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.Animations.Frame.FrameRate">
+            <summary>
+            Gets or sets the frame rate.
+            </summary>
+            <value>The frame rate in milliseconds.</value>
+            <remarks>Should not be less than 10 ms or animation will not occur.</remarks>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.Animations.Frame.IHDRChunk">
+            <summary>
+            Gets or sets the acTL chunk.
+            </summary>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.Animations.Frame.FcTLChunk">
+            <summary>
+            Gets or sets the fcTL chunk.
+            </summary>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.Animations.Frame.IENDChunk">
+            <summary>
+            Gets or sets the IEND chunk.
+            </summary>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.Animations.Frame.OtherChunks">
+            <summary>
+            Gets or sets the other chunks.
+            </summary>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.Animations.Frame.IDATChunks">
+            <summary>
+            Gets or sets the IDAT chunks.
+            </summary>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.Frame.GetStream">
+            <summary>
+            Gets the frame as PNG FileStream.
+            </summary>
+            <returns>The PNG file as a <see cref="T:System.IO.Stream"/>.</returns>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.Frame.ToBitmap">
+            <summary>
+            Converts the Frame to a Bitmap.
+            </summary>
+            <returns>The bitmap of the frame.</returns>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.Frame.AddOtherChunk(BeatSaberMarkupLanguage.Animations.APNG.Chunks.OtherChunk)">
+            <summary>
+            Add an Chunk to end end of existing list.
+            </summary>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.Frame.AddIDATChunk(BeatSaberMarkupLanguage.Animations.APNG.Chunks.IDATChunk)">
+            <summary>
+            Add an IDAT Chunk to end end of existing list.
+            </summary>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.Helper.IsBytesEqual(System.Byte[],System.Byte[])">
+            <summary>
+            Compare two byte arrays.
+            </summary>
+            <param name="byte1">First byte array.</param>
+            <param name="byte2">Second byte array.</param>
+            <returns>Value with endianness swapped.</returns>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.Helper.ConvertEndian(System.Byte[])">
+            <summary>
+            Convert big-endian to little-endian or reverse.
+            </summary>
+            <param name="i">Value to convert as an array of bytes.</param>
+            <returns>Value with endianness swapped.</returns>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.Helper.ConvertEndian(System.Int32)">
+            <summary>
+            Convert big-endian to little-endian or reverse.
+            </summary>
+            <param name="i">Value to convert.</param>
+            <returns>Value with endianness swapped.</returns>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.Helper.ConvertEndian(System.UInt32)">
+            <summary>
+            Convert big-endian to little-endian or reverse.
+            </summary>
+            <param name="i">Value to convert.</param>
+            <returns>Value with endianness swapped.</returns>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.Helper.ConvertEndian(System.Int16)">
+            <summary>
+            Convert big-endian to little-endian or reverse.
+            </summary>
+            <param name="i">Value to convert.</param>
+            <returns>Value with endianness swapped.</returns>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.Helper.ConvertEndian(System.UInt16)">
+            <summary>
+                Convert big-endian to little-endian or reverse.
+            </summary>
+            <param name="i">Value to convert.</param>
+            <returns>Value with endianness swapped.</returns>
+        </member>
+        <member name="T:BeatSaberMarkupLanguage.Animations.IAnimatedImage">
+            <summary>
+            Animated Image interface.
+            </summary>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.Animations.IAnimatedImage.FrameRate">
+            <summary>
+            Gets or sets the frame rate.
+            </summary>
+            <value>The frame rate.</value>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.Animations.IAnimatedImage.FrameCount">
+            <summary>
+            Gets the frame count.
+            </summary>
+            <value>The frame count.</value>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.Animations.IAnimatedImage.PlayCount">
+            <summary>
+            Gets or sets the play count.
+            </summary>
+            <value>The play count.</value>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.Animations.IAnimatedImage.ViewSize">
+            <summary>
+            Gets or sets the size.
+            </summary>
+            <value>The size of the displayed animated image.</value>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.Animations.IAnimatedImage.ActualSize">
+            <summary>
+            Gets or sets the actual size.
+            </summary>
+            <value>The actual size.</value>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.Animations.IAnimatedImage.Item(System.Int32)">
+            <summary>
+            Gets the bitmap at the specified index.
+            </summary>
+            <param name="index">Index of the animation frame.</param>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.IAnimatedImage.GetFrameRate(System.Int32)">
+            <summary>
+            Gets the frame rate of a specific frame.
+            </summary>
+            <returns>The frame rate of a specific frame.</returns>
+            <param name="index">The frame index.</param>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.IAnimatedImage.SetFrameRate(System.Int32,System.Int32)">
+            <summary>
+            Sets the frame rate of a specific frame.
+            </summary>
+            <param name="index">The frame index.</param>
+            <param name="frameRate">Frame rate in milliseconds.</param>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.IAnimatedImage.GetDisposeOperationFor(System.Int32)">
+            <summary>
+            Gets the dispose operation for the specified frame.
+            </summary>
+            <returns>The dispose operation for the specified frame.</returns>
+            <param name="index">Index of the animation frame.</param>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.IAnimatedImage.GetBlendOperationFor(System.Int32)">
+            <summary>
+            Gets the blend operation for the specified frame.
+            </summary>
+            <returns>The blend operation for the specified frame.</returns>
+            <param name="index">Index of the animation frame.</param>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Animations.IAnimatedImage.GetDefaultImage">
+            <summary>
+            Gets the default image.
+            </summary>
+            <returns>The default image.</returns>
+        </member>
+        <member name="F:BeatSaberMarkupLanguage.Attributes.FieldAccessOption.Auto">
+            <summary>
+            Fields not marked with <see cref="T:BeatSaberMarkupLanguage.Attributes.UIValue"/> can be used in BSML files using their property name.
+            If a <see cref="T:BeatSaberMarkupLanguage.Attributes.UIValue"/> has the same name as an unmarked field, the <see cref="T:BeatSaberMarkupLanguage.Attributes.UIValue"/> will be used.
+            </summary>
+        </member>
+        <member name="F:BeatSaberMarkupLanguage.Attributes.FieldAccessOption.OptIn">
+            <summary>
+            Only fields marked with <see cref="T:BeatSaberMarkupLanguage.Attributes.UIValue"/> can by used in BSML files.
+            </summary>
+        </member>
+        <member name="F:BeatSaberMarkupLanguage.Attributes.FieldAccessOption.AllowBoth">
+            <summary>
+            Fields marked with <see cref="T:BeatSaberMarkupLanguage.Attributes.UIValue"/> can be accessed by both the <see cref="P:BeatSaberMarkupLanguage.Attributes.UIValue.Id"/> and their field name.
+            </summary>
+        </member>
+        <member name="F:BeatSaberMarkupLanguage.Attributes.PropertyAccessOption.Auto">
+            <summary>
+            Properties not marked with <see cref="T:BeatSaberMarkupLanguage.Attributes.UIValue"/> can be used in BSML files using their property name.
+            If a <see cref="T:BeatSaberMarkupLanguage.Attributes.UIValue"/> has the same name as an unmarked property, the <see cref="T:BeatSaberMarkupLanguage.Attributes.UIValue"/> will be used.
+            </summary>
+        </member>
+        <member name="F:BeatSaberMarkupLanguage.Attributes.PropertyAccessOption.OptIn">
+            <summary>
+            Only properties marked with <see cref="T:BeatSaberMarkupLanguage.Attributes.UIValue"/> can by used in BSML files.
+            </summary>
+        </member>
+        <member name="F:BeatSaberMarkupLanguage.Attributes.PropertyAccessOption.AllowBoth">
+            <summary>
+            Properties marked with <see cref="T:BeatSaberMarkupLanguage.Attributes.UIValue"/> can be accessed by both the <see cref="P:BeatSaberMarkupLanguage.Attributes.UIValue.Id"/> and their property name.
+            </summary>
+        </member>
+        <member name="F:BeatSaberMarkupLanguage.Attributes.MethodAccessOption.Auto">
+            <summary>
+            Methods not marked with <see cref="T:BeatSaberMarkupLanguage.Attributes.UIAction"/> can be used in BSML files using their method name.
+            If a <see cref="T:BeatSaberMarkupLanguage.Attributes.UIAction"/> has the same name as an unmarked method, the <see cref="T:BeatSaberMarkupLanguage.Attributes.UIAction"/> will be used.
+            </summary>
+        </member>
+        <member name="F:BeatSaberMarkupLanguage.Attributes.MethodAccessOption.OptIn">
+            <summary>
+            Only methods marked with <see cref="T:BeatSaberMarkupLanguage.Attributes.UIAction"/> can by used in BSML files.
+            </summary>
+        </member>
+        <member name="F:BeatSaberMarkupLanguage.Attributes.MethodAccessOption.AllowBoth">
+            <summary>
+            Methods marked with <see cref="T:BeatSaberMarkupLanguage.Attributes.UIAction"/> can be accessed by both the <see cref="P:BeatSaberMarkupLanguage.Attributes.UIAction.Id"/> and their method name.
+            </summary>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.Attributes.HotReloadAttribute.PathMap">
+            <summary>
+            Gets or sets the path map. There should always be an even number of elements, where the first is the thing to map from, and the second of each pair is the target.
+            </summary>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.Attributes.HotReloadAttribute.RelativePathToLayout">
+            <summary>
+            Gets or sets the path to the layout (BSML) file relative to the path of class in which the attribute is being used.
+            </summary>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Attributes.ViewDefinitionAttribute.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:BeatSaberMarkupLanguage.Attributes.ViewDefinitionAttribute"/> class.
+            When applied to a BSMLAutomaticViewController, indicates that it uses the embedded resource <paramref name="definition"/> instead of the default name.
+            </summary>
+            <param name="definition">the name of the embedded resource to use.</param>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.BeatSaberUI.MainTextFont">
+            <summary>
+            Gets the main font used by the game for UI text.
+            </summary>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.BeatSaberUI.CreateViewController``1">
+            <summary>
+            Creates a ViewController of type T, and marks it to not be destroyed.
+            </summary>
+            <typeparam name="T">The variation of ViewController you want to create.</typeparam>
+            <returns>The newly created ViewController of type T.</returns>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.BeatSaberUI.CreateFlowCoordinator``1">
+            <summary>
+            Creates a <see cref="T:HMUI.FlowCoordinator"/> of type <typeparamref name="T"/>.
+            </summary>
+            <typeparam name="T">The variation of FlowCoordinator you want to create.</typeparam>
+            <returns>The newly created <see cref="T:HMUI.FlowCoordinator"/> of type <typeparamref name="T"/>.</returns>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.BeatSaberUI.CreateFixedUIFontClone(TMPro.TMP_FontAsset)">
+            <summary>
+            Creates a clone of the given font, with its material fixed to be a no-glow material suitable for use on UI elements.
+            </summary>
+            <param name="font">The font to clone and fix.</param>
+            <returns>The fixed clone.</returns>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.BeatSaberUI.SetName(TMPro.TMP_FontAsset,System.String)">
+            <summary>
+            Sets the <c>name</c> of the font, recalculating its hash code as necessary.
+            </summary>
+            <param name="font">The font to modify.</param>
+            <param name="name">The name to assign.</param>
+            <returns>The <paramref name="name"/> provided.</returns>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.BeatSaberUI.CreateTMPFont(UnityEngine.Font,System.String)">
+            <summary>
+            Creates a <see cref="T:TMPro.TMP_FontAsset"/> from a Unity <see cref="T:UnityEngine.Font"/>.
+            </summary>
+            <remarks>
+            The <see cref="T:TMPro.TMP_FontAsset"/> returned is not usable for UI text. Use <see cref="M:BeatSaberMarkupLanguage.BeatSaberUI.CreateFixedUIFontClone(TMPro.TMP_FontAsset)"/>
+            to get a usable font.
+            </remarks>
+            <param name="font">The Unity font to use.</param>
+            <param name="nameOverride">The name to use for the <see cref="T:TMPro.TMP_FontAsset"/>. Defaults to the name of <paramref name="font"/>.</param>
+            <returns>The new <see cref="T:TMPro.TMP_FontAsset"/>.</returns>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.BeatSaberUI.CreateText(UnityEngine.RectTransform,System.String,UnityEngine.Vector2)">
+            <summary>
+            Creates a TextMeshProUGUI component.
+            </summary>
+            <param name="parent">The transform to parent the new TextMeshProUGUI component to.</param>
+            <param name="text">The text to be displayed.</param>
+            <param name="anchoredPosition">The position the button should be anchored to.</param>
+            <returns>The newly created TextMeshProUGUI component.</returns>
+            <remarks>Proxied to the generic method, but kept for binary compatibility.</remarks>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.BeatSaberUI.CreateText(UnityEngine.RectTransform,System.String,UnityEngine.Vector2,UnityEngine.Vector2)">
+            <summary>
+            Creates a TextMeshProUGUI component.
+            </summary>
+            <param name="parent">The transform to parent the new TextMeshProUGUI component to.</param>
+            <param name="text">The text to be displayed.</param>
+            <param name="anchoredPosition">The position the text component should be anchored to.</param>
+            <param name="sizeDelta">The size of the text components RectTransform.</param>
+            <returns>The newly created <see cref="T:TMPro.TextMeshProUGUI"/> component.</returns>
+            <remarks>Proxied to the generic method, but kept for binary compatibility.</remarks>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.BeatSaberUI.CreateText``1(UnityEngine.RectTransform,System.String,UnityEngine.Vector2)">
+            <summary>
+            Creates a TMP_Text (or one of its inheritances) component.
+            </summary>
+            <param name="parent">The transform to parent the new TMP_Text (or one of its inheritances) component to.</param>
+            <param name="text">The text to be displayed.</param>
+            <param name="anchoredPosition">The position the button should be anchored to.</param>
+            <typeparam name="T">The type of <see cref="T:TMPro.TMP_Text"/> to create.</typeparam>
+            <returns>The newly created text component.</returns>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.BeatSaberUI.CreateText``1(UnityEngine.RectTransform,System.String,UnityEngine.Vector2,UnityEngine.Vector2)">
+            <summary>
+            Creates a TMP_Text (or one of its inheritances) component.
+            </summary>
+            <param name="parent">The transform to parent the new TMP_Text (or one of its inheritances) component to.</param>
+            <param name="text">The text to be displayed.</param>
+            <param name="anchoredPosition">The position the text component should be anchored to.</param>
+            <param name="sizeDelta">The size of the text components RectTransform.</param>
+            <typeparam name="T">The type of <see cref="T:TMPro.TMP_Text"/> to create.</typeparam>
+            <returns>The newly created text component.</returns>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.BeatSaberUI.SetImage(UnityEngine.UI.Image,System.String)">
+            <summary>
+            Sets an image or gif/apng from a resource path.
+            </summary>
+            <param name="image">Image component to set the image to.</param>
+            <param name="location">Resource path, file path, or url of image. Can prefix with # to find and use a base game sprite. May need to prefix resource paths with 'AssemblyName:'.</param>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.BeatSaberUI.SetImage(UnityEngine.UI.Image,System.String,System.Boolean,BeatSaberMarkupLanguage.BeatSaberUI.ScaleOptions)">
+            <summary>
+            Sets an image or gif/apng from a resource path.
+            </summary>
+            <param name="image">Image component to set the image to.</param>
+            <param name="location">Resource path, file path, or url of image. Can prefix with # to find and use a base game sprite. May need to prefix resource paths with 'AssemblyName:'.</param>
+            <param name="loadingAnimation">Whether a loading animation is shown as a placeholder until the image is loaded.</param>
+            <param name="scaleOptions">If the image should be downscaled and what it should be downscaled to.</param>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.BeatSaberUI.SetImage(UnityEngine.UI.Image,System.String,System.Boolean,BeatSaberMarkupLanguage.BeatSaberUI.ScaleOptions,System.Action)">
+            <summary>
+            Sets an image or gif/apng from a resource path.
+            </summary>
+            <param name="image">Image component to set the image to.</param>
+            <param name="location">Resource path, file path, or url of image. Can prefix with # to find and use a base game sprite. May need to prefix resource paths with 'AssemblyName:'.</param>
+            <param name="loadingAnimation">Whether a loading animation is shown as a placeholder until the image is loaded.</param>
+            <param name="scaleOptions">If the image should be downscaled and what it should be downscaled to.</param>
+            <param name="callback">Method to call once SetImage has finished.</param>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.BeatSaberUI.SetImageAsync(UnityEngine.UI.Image,System.String,System.Boolean,BeatSaberMarkupLanguage.BeatSaberUI.ScaleOptions)">
+            <summary>
+            Sets an image (PNG/JPEG/GIF/APNG/etc.) from a URL, local file, or resource path.
+            </summary>
+            <param name="image">Image component to set the image to.</param>
+            <param name="location">Resource path, file path, or URL of the image to load. Can prefix with # to find and use a base game sprite. May need to prefix resource paths with 'AssemblyName:'.</param>
+            <param name="loadingAnimation">Whether a loading animation is shown as a placeholder until the image is loaded.</param>
+            <param name="scaleOptions">If the image should be downscaled and what it should be downscaled to.</param>
+            <returns>A <see cref="T:System.Threading.Tasks.Task"/> representing the asynchronous operation.</returns>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.BeatSaberUI.DownscaleImage(System.Byte[],System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            Downscale the image in <paramref name="data"/> to the specified size. This method uses <see cref="N:System.Drawing"/> (CPU) so it can be run on a non-main thread.
+            </summary>
+            <param name="data">Byte array containing the image data.</param>
+            <param name="width">The maximum width of the scaled image.</param>
+            <param name="height">The maximum height of the scaled image.</param>
+            <param name="maintainAspectRatio">If true, the image will be scaled while maintaining its original aspect ratio. The image will be scaled to fit within the bounds defined by <paramref name="width"/> × <paramref name="height"/>.</param>
+            <returns>A byte array containing the image data.</returns>
+        </member>
+        <member name="T:BeatSaberMarkupLanguage.Components.NotifiableBase">
+            <summary>
+            Like <see cref="T:BeatSaberMarkupLanguage.Util.NotifiableSingleton`1"/>, but without the persistent singleton.
+            </summary>
+        </member>
+        <member name="T:BeatSaberMarkupLanguage.Components.WhitespaceIncludingCurvedTextMeshPro">
+            <summary>
+            This class is used in <see cref="T:BeatSaberMarkupLanguage.Components.KEYBOARD"/> so sizing works even with leading/trailing spaces. It does nothing on its own.
+            Functionality is provided by the <see cref="T:BeatSaberMarkupLanguage.Harmony_Patches.TMP_Text_CalculatePreferredValues"/> and <see cref="T:BeatSaberMarkupLanguage.Harmony_Patches.TextMeshProUGUI_GenerateTextMesh"/> patches.
+            </summary>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.FontManager.SystemFontLoadTask">
+            <summary>
+            Gets the <see cref="T:System.Threading.Tasks.Task"/> associated with an ongoing call to <see cref="M:BeatSaberMarkupLanguage.FontManager.AsyncLoadSystemFonts"/>.
+            </summary>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.FontManager.IsInitialized">
+            <summary>
+            Gets a value indicating whether or not <see cref="T:BeatSaberMarkupLanguage.FontManager"/> is initialized.
+            </summary>
+            <remarks>
+            You can <see langword="await"/> <see cref="M:BeatSaberMarkupLanguage.FontManager.AsyncLoadSystemFonts"/>, or <see cref="P:BeatSaberMarkupLanguage.FontManager.SystemFontLoadTask"/> if it is non-null.
+            When they complete, <see cref="T:BeatSaberMarkupLanguage.FontManager"/> will be initialized.
+            </remarks>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.FontManager.AsyncLoadSystemFonts">
+            <summary>
+            Asynchronously loads all of the installed system fonts into <see cref="T:BeatSaberMarkupLanguage.FontManager"/>.
+            </summary>
+            <remarks>
+            Only one of this may be running at a time. If this has already been called, this will simply return the existing task.
+            If <see cref="T:BeatSaberMarkupLanguage.FontManager"/> has been initialized, this completes immediately.
+            </remarks>
+            <returns>A task representing the async operation.</returns>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.FontManager.AddFontFile(System.String)">
+            <summary>
+            Adds a specified OpenType file to the font manager for lookup by name.
+            </summary>
+            <param name="path">The path to add to the manager.</param>
+            <returns>the <see cref="T:UnityEngine.Font"/> the file contained.</returns>
+            <exception cref="T:System.ArgumentException">If the file pointed to by <paramref name="path"/> is not an OpenType file or if <paramref name="path"/> is not a valid file path.</exception>
+            <exception cref="T:System.IO.FileNotFoundException">If the file does not exist.</exception>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.FontManager.TryGetFontByFamily(System.String,UnityEngine.Font@,System.String,System.Boolean)">
+            <summary>
+            Attempts to get a font given a family name, and optionally a subfamily name.
+            </summary>
+            <remarks>
+            When <paramref name="subfamily"/> is <see langword="null"/>, <paramref name="fallbackIfNoSubfamily"/> is ignored,
+            and always treated as if it were <see langword="true"/>.
+            </remarks>
+            <param name="family">The name of the font family to look for.</param>
+            <param name="font">The font with that family name, if any.</param>
+            <param name="subfamily">The font subfamily name.</param>
+            <param name="fallbackIfNoSubfamily">Whether or not to fallback to the first font with the given family name if the given subfamily name was not found.</param>
+            <returns><see langword="true"/> if the font was found, <see langword="false"/> otherwise.</returns>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.FontManager.TryGetFontByFullName(System.String,UnityEngine.Font@)">
+            <summary>
+            Attempts to get a font by its full name.
+            </summary>
+            <param name="fullName">The full name of the font to look for.</param>
+            <param name="font">The font identified by <paramref name="fullName"/>, if any.</param>
+            <returns><see langword="true"/> if the font was found, <see langword="false"/> otherwise.</returns>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.FontManager.GetOSFontFallbackList(System.String)">
+            <summary>
+            Gets the font fallback list provided by the OS for a given font name, if there is any.
+            </summary>
+            <remarks>
+            If the OS specifies no fallbacks, then the result of this function will be empty.
+            </remarks>
+            <param name="fullname">The full name of the font to look up the fallbacks for.</param>
+            <returns>A list of fallbacks defined by the OS.</returns>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.FontManager.TryGetTMPFontByFamily(System.String,TMPro.TMP_FontAsset@,System.String,System.Boolean,System.Boolean)">
+            <summary>
+            Attempts to get a <see cref="T:TMPro.TMP_FontAsset"/> with the given family name, and optionally subfamily.
+            </summary>
+            <param name="family">The name of the font family to look for.</param>
+            <param name="font">The font with that family name, if any.</param>
+            <param name="subfamily">The font subfamily name.</param>
+            <param name="fallbackIfNoSubfamily">Whether or not to fallback to the first font with the given family name if the given subfamily name was not found.</param>
+            <param name="setupOsFallbacks">Whether or not to set up the fallbacks specified by the OS.</param>
+            <returns><see langword="true"/> if the font was found, <see langword="false"/> otherwise.</returns>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.FontManager.TryGetTMPFontByFullName(System.String,TMPro.TMP_FontAsset@,System.Boolean)">
+            <summary>
+            Attempts to get a <see cref="T:TMPro.TMP_FontAsset"/> by its font's full name.
+            </summary>
+            <param name="fullName">The full name of the font to look for.</param>
+            <param name="font">The font identified by <paramref name="fullName"/>, if any.</param>
+            <param name="setupOsFallbacks">Whether or not to set up the fallbacks specified by the OS.</param>
+            <returns><see langword="true"/> if the font was found, <see langword="false"/> otherwise.</returns>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.GameplaySetup.GameplaySetup.RemoveTab(System.String)">
+            <summary>
+            Remove a tab.
+            </summary>
+            <param name="name">The name of the tab.</param>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.GameplaySetup.GameplaySetup.CellSize(System.Int32)">
+            <inheritdoc />
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.GameplaySetup.GameplaySetup.NumberOfCells">
+            <inheritdoc />
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.GameplaySetup.GameplaySetup.CellForIdx(HMUI.TableView,System.Int32)">
+            <inheritdoc />
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.GameplaySetup.GameplaySetup.Initialize">
+            <inheritdoc />
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.GameplaySetup.GameplaySetup.Dispose">
+            <inheritdoc />
+        </member>
+        <member name="E:BeatSaberMarkupLanguage.GameplaySetup.GameplaySetupCell.PropertyChanged">
+            <inheritdoc />
+        </member>
+        <member name="T:BeatSaberMarkupLanguage.Harmony_Patches.FixViewControllerModalHide">
+            <summary>
+            This patch makes modal views disable immediately when the parent view controller is deactivated no matter what.
+            The base game behavior is to only immediately disable them if the screen system is being disabled, which causes the view to stick around if the
+            view controller is simply being dismissed since the animation coroutine can't complete before the view controller GameObject is disabled.
+            </summary>
+            <remarks>
+            This currently replaces the <c>!screenSystemDisabling</c> passed as the argument for <c>animate</c> in the call to <see cref="M:HMUI.ModalView.Hide(System.Boolean,System.Action)"/> with just <c>false</c>.
+            </remarks>
+        </member>
+        <member name="T:BeatSaberMarkupLanguage.Harmony_Patches.FlowCoordinator_PresentFlowCoordinator">
+            <summary>
+            Since we add the <see cref="T:BeatSaberMarkupLanguage.MenuButtons.MenuButtonsViewController"/> on the left side of the main menu, the default horizontal animation makes the center view controller clip our view controller.
+            This forces the in/out animations of the <see cref="T:MainFlowCoordinator"/> to <see cref="F:HMUI.ViewController.AnimationDirection.Vertical"/> to avoid this.
+            </summary>
+        </member>
+        <member name="T:BeatSaberMarkupLanguage.Harmony_Patches.MainFlowCoordinator_DidActivate">
+            <summary>
+            This patch adds <see cref="T:BeatSaberMarkupLanguage.MenuButtons.MenuButtonsViewController"/> as the argument passed to <see cref="M:HMUI.FlowCoordinator.ProvideInitialViewControllers(HMUI.ViewController,HMUI.ViewController,HMUI.ViewController,HMUI.ViewController,HMUI.ViewController)"/>'s <c>leftScreenViewController</c>.
+            </summary>
+        </member>
+        <member name="T:BeatSaberMarkupLanguage.Harmony_Patches.MainFlowCoordinator_TopViewControllerWillChange">
+            <summary>
+            This patch passes <see cref="T:BeatSaberMarkupLanguage.MenuButtons.MenuButtonsViewController"/> to <see cref="M:HMUI.FlowCoordinator.SetLeftScreenViewController(HMUI.ViewController,HMUI.ViewController.AnimationType)"/> instead of <see langword="null" />.
+            </summary>
+        </member>
+        <member name="T:BeatSaberMarkupLanguage.Harmony_Patches.TableView_ctor">
+            <summary>
+            This patch simply adds a default value to the <see cref="F:HMUI.TableView._padding" /> field.
+            </summary>
+        </member>
+        <member name="T:BeatSaberMarkupLanguage.Harmony_Patches.TableView_ScrollToCellWithIdx">
+            <summary>
+            This fixes a base-game bug where <see cref="M:HMUI.TableView.ScrollToCellWithIdx(System.Int32,HMUI.TableView.ScrollPositionType,System.Boolean)"/> does not work as expected.
+            </summary>
+        </member>
+        <member name="T:BeatSaberMarkupLanguage.Harmony_Patches.TMP_Text_CreateMaterialInstance">
+            <summary>
+            This patch copies the new <see cref="P:UnityEngine.Material.enabledKeywords"/> since the version of TextMesh Pro that Beat Saber uses doesn't support it (yet).
+            </summary>
+        </member>
+        <member name="T:BeatSaberMarkupLanguage.MenuButtons.MenuButtonsViewController">
+            <summary>
+            This is the view controller presented to the left of the main menu.
+            </summary>
+            <remarks>
+            This view is presented by <see cref="T:MainFlowCoordinator"/> through the <see cref="T:BeatSaberMarkupLanguage.Harmony_Patches.MainFlowCoordinator_DidActivate"/> and <see cref="T:BeatSaberMarkupLanguage.Harmony_Patches.MainFlowCoordinator_TopViewControllerWillChange"/> patches.
+            </remarks>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.OpenType.OffsetTable.SearchRange">
+            <summary>
+            Gets or sets the search range (Maximum power of 2 &#x2264; numTables) x 16.
+            </summary>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.OpenType.OffsetTable.EntrySelector">
+            <summary>
+            Gets or sets the entry selector (log2(maximum power of 2 &#x2264; numTables)).
+            </summary>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.OpenType.OffsetTable.RangeShift">
+            <summary>
+            Gets or sets the range shift (NumTables x 16 - searchRange).
+            </summary>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.OpenType.OpenTypeNameTable.StringOffset">
+            <summary>
+            Gets the offset to start of string storage from table start.
+            </summary>
+        </member>
+        <member name="F:BeatSaberMarkupLanguage.OpenType.OpenTypeNameTable.NameRecord.NameType.CompatibleFull">
+            <summary>
+            This is a Macintosh only field.
+            </summary>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.OpenType.OpenTypeNameTable.LangTagRecord.Offset">
+            <summary>
+            Gets or sets the string offset from start of storage area.
+            </summary>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.OpenType.TableRecord.Offset">
+            <summary>
+            Gets or sets the offset from the beginning of the file.
+            </summary>
+        </member>
+        <member name="T:BeatSaberMarkupLanguage.Parse">
+            <summary>
+            String parsing utilities.
+            </summary>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Parse.Float(System.String)">
+            <summary>
+            Parse a string as an <see cref="T:System.Single"/>.
+            </summary>
+            <param name="s">String to parse.</param>
+            <returns>A <see cref="T:System.Single"/> representation of the string.</returns>
+            <exception cref="T:BeatSaberMarkupLanguage.ParseException">Thrown if the string cannot be parsed.</exception>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Parse.Bool(System.String)">
+            <summary>
+            Parse a string as an <see cref="T:System.Boolean"/>.
+            </summary>
+            <param name="s">String to parse.</param>
+            <returns>A <see cref="T:System.Boolean"/> representation of the string.</returns>
+            <exception cref="T:BeatSaberMarkupLanguage.ParseException">Thrown if the string cannot be parsed.</exception>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Parse.Int(System.String)">
+            <summary>
+            Parse a string as an <see cref="T:System.Int32"/>.
+            </summary>
+            <param name="s">String to parse.</param>
+            <returns>A <see cref="T:System.Int32"/> representation of the string.</returns>
+            <exception cref="T:BeatSaberMarkupLanguage.ParseException">Thrown if the string cannot be parsed.</exception>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Parse.Vector2(System.String)">
+            <summary>
+            Parse a string as a <see cref="T:UnityEngine.Vector2"/>.
+            </summary>
+            <param name="s">String to parse.</param>
+            <returns>A <see cref="T:UnityEngine.Vector2"/> representation of the string.</returns>
+            <exception cref="T:BeatSaberMarkupLanguage.ParseException">Thrown if the string cannot be parsed.</exception>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Parse.Vector3(System.String,System.Single)">
+            <summary>
+            Parse a string as a <see cref="T:UnityEngine.Vector3"/>.
+            </summary>
+            <param name="s">String to parse.</param>
+            <param name="defaultZ">Z value used if the string only has two components. Defaults to the same behaviour as when casting a <see cref="T:UnityEngine.Vector2"/> to a <see cref="T:UnityEngine.Vector3"/> (Z = 0).</param>
+            <returns>A <see cref="T:UnityEngine.Vector3"/> representation of the string.</returns>
+            <exception cref="T:BeatSaberMarkupLanguage.ParseException">Thrown if the string cannot be parsed.</exception>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Parse.Vector4(System.String)">
+            <summary>
+            Parse a string as a <see cref="T:UnityEngine.Vector4"/>.
+            </summary>
+            <param name="s">String to parse.</param>
+            <returns>A <see cref="T:UnityEngine.Vector4"/> representation of the string.</returns>
+            <exception cref="T:BeatSaberMarkupLanguage.ParseException">Thrown if the string cannot be parsed.</exception>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Parse.RectOffset(System.String)">
+            <summary>
+            Parse a string as a <see cref="T:UnityEngine.RectOffset"/>.
+            </summary>
+            <remarks>The order follows <see href="https://docs.unity3d.com/Packages/com.unity.ugui@1.0/api/UnityEngine.UI.RectMask2D.html#UnityEngine_UI_RectMask2D_padding">the apparent convention of Unity UI for Vector4 representation of padding</see> (X = Left, Y = Bottom, Z = Right, W = Top).</remarks>
+            <param name="s">String to parse.</param>
+            <returns>A <see cref="T:UnityEngine.RectOffset"/> representation of the string.</returns>
+            <exception cref="T:BeatSaberMarkupLanguage.ParseException">Thrown if the string cannot be parsed.</exception>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Parse.Color(System.String)">
+            <summary>
+            Parse a string as a <see cref="T:UnityEngine.Color"/>.
+            </summary>
+            <param name="s">String to parse.</param>
+            <returns>A <see cref="T:UnityEngine.Color"/> representation of the string.</returns>
+            <exception cref="T:BeatSaberMarkupLanguage.ParseException">Thrown if the string cannot be parsed.</exception>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Parse.Color(System.String,System.Single)">
+            <summary>
+            Parse a string as a <see cref="T:UnityEngine.Color"/>.
+            </summary>
+            <param name="s">String to parse.</param>
+            <param name="defaultAlpha">The default value to use for alpha if not specified.</param>
+            <returns>A <see cref="T:UnityEngine.Color"/> representation of the string.</returns>
+            <exception cref="T:BeatSaberMarkupLanguage.ParseException">Thrown if the string cannot be parsed.</exception>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Parse.InvariantToString(System.Object)">
+            <summary>
+            Culture Invariant ToString for BSML values.
+            </summary>
+            <param name="obj">The object to stringify.</param>
+            <returns>The string representation of the value.</returns>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Tags.BSMLTag.Initialize">
+            <summary>
+            Initialize the tag.
+            </summary>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Utilities.GetResourceContent(System.Reflection.Assembly,System.String)">
+            <summary>
+            Gets the content of a resource as a string.
+            </summary>
+            <param name="assembly">Assembly containing the resource.</param>
+            <param name="resource">Full path to the resource.</param>
+            <returns>The contents of the resource as a string.</returns>
+            <exception cref="T:System.IO.FileNotFoundException">Thrown if the resource specified by <paramref name="resource"/> cannot be found in <paramref name="assembly"/>.</exception>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Utilities.LoadTextureFromAssemblyAsync(System.String)">
+            <summary>
+            Load a texture from an embedded resource in the calling assembly.
+            </summary>
+            <param name="name">The name of the embedded resource.</param>
+            <returns>A <see cref="T:System.Threading.Tasks.Task`1"/> representing the asynchronous operation.</returns>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Utilities.LoadTextureFromAssemblyAsync(System.Reflection.Assembly,System.String)">
+            <summary>
+            Load a texture from an embedded resource in the specified assembly.
+            </summary>
+            <param name="assembly">The assembly from which to load the embedded resource.</param>
+            <param name="name">The name of the embedded resource.</param>
+            <returns>A <see cref="T:System.Threading.Tasks.Task`1"/> representing the asynchronous operation.</returns>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Utilities.LoadSpriteFromAssemblyAsync(System.String)">
+            <summary>
+            Load a sprite from an embedded resource in the calling assembly.
+            </summary>
+            <param name="name">The name of the embedded resource.</param>
+            <returns>A <see cref="T:System.Threading.Tasks.Task`1"/> representing the asynchronous operation.</returns>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Utilities.LoadSpriteFromAssemblyAsync(System.Reflection.Assembly,System.String)">
+            <summary>
+            Load a sprite from an embedded resource in the specified assembly.
+            </summary>
+            <param name="assembly">The assembly from which to load the embedded resource.</param>
+            <param name="name">The name of the embedded resource.</param>
+            <returns>A <see cref="T:System.Threading.Tasks.Task`1"/> representing the asynchronous operation.</returns>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Utilities.LoadImageAsync(System.String,System.Boolean,System.Boolean)">
+            <summary>
+            Similar to <see cref="M:UnityEngine.ImageConversion.LoadImage(UnityEngine.Texture2D,System.Byte[],System.Boolean)" /> except it uses <see cref="T:System.Drawing.Bitmap" /> to first load the image and convert it on a separate thread, then uploads the raw pixel data directly.
+            </summary>
+            <param name="path">The path to the image.</param>
+            <param name="updateMipmaps">Whether to create mipmaps for the image or not.</param>
+            <param name="makeNoLongerReadable">Whether the resulting texture should be made read-only or not.</param>
+            <returns>A <see cref="T:System.Threading.Tasks.Task`1"/> representing the asynchronous operation.</returns>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Utilities.LoadImageAsync(System.Byte[],System.Boolean,System.Boolean)">
+            <summary>
+            Similar to <see cref="M:UnityEngine.ImageConversion.LoadImage(UnityEngine.Texture2D,System.Byte[],System.Boolean)" /> except it uses <see cref="T:System.Drawing.Bitmap" /> to first load the image and convert it on a separate thread, then uploads the raw pixel data directly.
+            </summary>
+            <param name="data">The image data as a byte array.</param>
+            <param name="updateMipmaps">Whether to create mipmaps for the image or not.</param>
+            <param name="makeNoLongerReadable">Whether the resulting texture should be made read-only or not.</param>
+            <returns>A <see cref="T:System.Threading.Tasks.Task`1"/> representing the asynchronous operation.</returns>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Utilities.LoadImageAsync(System.IO.Stream,System.Boolean,System.Boolean)">
+            <summary>
+            Similar to <see cref="M:UnityEngine.ImageConversion.LoadImage(UnityEngine.Texture2D,System.Byte[],System.Boolean)" /> except it uses <see cref="T:System.Drawing.Bitmap" /> to first load the image and convert it on a separate thread, then uploads the raw pixel data directly.
+            </summary>
+            <param name="stream">The image data as a stream.</param>
+            <param name="updateMipmaps">Whether to create mipmaps for the image or not.</param>
+            <param name="makeNoLongerReadable">Whether the resulting texture should be made read-only or not.</param>
+            <returns>A <see cref="T:System.Threading.Tasks.Task`1"/> representing the asynchronous operation.</returns>
+        </member>
+        <member name="T:BeatSaberMarkupLanguage.Util.MainMenuAwaiter">
+            <summary>
+            Contains utilities to wait for the main menu to initialize.
+            </summary>
+            <remarks>If you are using Zenject, you should not need to use this class. Instead, create a class that implements <see cref="T:Zenject.IInitializable"/> and bind it to the main menu.</remarks>
+        </member>
+        <member name="E:BeatSaberMarkupLanguage.Util.MainMenuAwaiter.MainMenuInitializing">
+            <summary>
+            Occurs when the main menu is initializing.
+            </summary>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Util.MainMenuAwaiter.WaitForMainMenuAsync">
+            <summary>
+            Waits for the main menu to initialize asynchronously.
+            </summary>
+            <returns>A task that completes when the main menu is initializing.</returns>
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Util.MainMenuAwaiter.Initialize">
+            <inheritdoc />
+        </member>
+        <member name="M:BeatSaberMarkupLanguage.Util.MainMenuAwaiter.Dispose">
+            <inheritdoc />
+        </member>
+        <member name="T:BeatSaberMarkupLanguage.Util.SortedList`1">
+            <summary>
+            List that orders items using the provided <see cref="T:System.Collections.Generic.IComparer`1"/> when added.
+            </summary>
+            <typeparam name="T">List element type.</typeparam>
+        </member>
+        <member name="T:BeatSaberMarkupLanguage.Util.ZenjectSingleton`1">
+            <summary>
+            Allows access to a singleton managed by Zenject.
+            </summary>
+            <remarks>Avoid using this class directly. Instead, access <c>Instance</c> on the derived class directly.</remarks>
+            <typeparam name="T">The type that can be resolved by Zenject.</typeparam>
+        </member>
+        <member name="P:BeatSaberMarkupLanguage.Util.ZenjectSingleton`1.Instance">
+            <summary>
+            Gets the current instance of this class registered with Zenject.
+            </summary>
+            <exception cref="T:System.InvalidOperationException">Thrown if this property is accessed when the main menu hasn't yet initialized.</exception>
+            <remarks>If you are using Zenject, consider injecting the instance of this class directly rather than using this property.</remarks>
+        </member>
+    </members>
+</doc>
