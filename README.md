@@ -37,7 +37,7 @@
 
 # Link to Latest Version of the Pack for 1.29.1
 
-- [1.28.0](https://github.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/releases/tag/1.29.1-0.3.1)
+- [1.29.1](https://github.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/releases/tag/1.29.1-0.3.1)
 
 # Credits for mods for 1.29.1 can be found [here](https://github.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/blob/main/1.29.1%20Mod%20Credits.md)
 
@@ -67,7 +67,7 @@ Note: Will probably remove BeatTogether stuff as there is no reason to delay a r
 - HitScoreVisualizer 3.5.0 by [Eris/qqrz997](https://github.com/ErisApps/HitScoreVisualizer/releases) ✅
 - iForgor 1.4.1 by [ckosmic](https://github.com/ckosmic/IForgor/releases) ✅
 - PPPredictor 1.1.0 by [No.1 Noob](https://github.com/no-1-noob/PPPredictor/releases) ✅
-- ScorePercentage 1.4.13 by [IdleBob](https://github.com/Idlebawb/ScorePercentage/releases) ❌
+- ScorePercentage 1.4.15 by [IdleBob/Lollope](https://github.com/Loloppe/ScorePercentage) ✅
 - SliceDetails 1.3.3 by [ckosmic](https://github.com/ckosmic/SliceDetails/releases) ✅
 
 ## Utility Mods:
