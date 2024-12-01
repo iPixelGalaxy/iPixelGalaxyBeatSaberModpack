@@ -35,10 +35,7 @@
 3. Extract the contents of BeatSaberModpack.zip to the root of your Beat Saber Install typically C:\Program Files (x86)\Steam\steamapps\common\Beat Saber. And click "Replace the files in the destination"
 4. You should be done. Enjoy! And if you have any issues let me know in my [discord server](https://discord.gg/6nmXVPtNA6) and I'll try my best to sort out your problems 😀
 
-# Link to Latest Version of the Pack for 1.29.1
-
-- [1.29.1](https://github.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/releases/tag/1.29.1-0.3.1)
-
+# Link to Latest Version of the Pack for [1.29.1](https://github.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/releases/tag/1.29.1-0.3.1)
 # Credits for mods for 1.29.1 can be found [here](https://github.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/blob/main/1.29.1%20Mod%20Credits.md)
 
 # Included Mods (1.39.1):
