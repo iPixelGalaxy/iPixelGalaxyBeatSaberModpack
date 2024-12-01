@@ -84,7 +84,6 @@ Note: Will probably remove BeatTogether stuff as there is no reason to delay a r
 
 ## Small Tweak Mods:
 - FailButton 0.0.4 by [Kinsi55/qe201020335](https://github.com/qe201020335/FailButton/releases) ✅
-- FastFail 2.0.5 by [PulseLane](https://github.com/PulseLane/FastFail/releases) ❌
 - HitSoundTweaks 1.1.7 by [GalaxyMaster](https://github.com/GalaxyMaster2/HitsoundTweaks/releases) ✅
 - KeepMyOverridesPls 1.1.2 by [qqrz997](https://github.com/qqrz997/KeepMyOverridesPls/releases) ✅
 - QuickMirrorToggle 0.0.2 by [Kinsi55/Arimodu](https://github.com/Arimodu/QuickMirrorToggle) (Commissioned Mod) ❌
