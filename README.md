@@ -79,7 +79,7 @@ Note: Will probably remove BeatTogether stuff as there is no reason to delay a r
 - MorePlaylists 2.0.0 by [PixelBoom](https://github.com/rithik-b/MorePlaylists/releases) ❌
 - PlaylistManager 1.7.3 by [PixelBoom/nicoco007](https://github.com/nicoco007/PlaylistManager/tree/beat-saber-1.37.0) ✅
 - PracticePlugin 9.0.0 by [denpadokei](https://github.com/denpadokei/PracticePlugin/releases) ✅
-- SongPlayHistory 2.1.6 by [qe201020335](https://github.com/qe201020335/SongPlayHistory/releases) ✅
+- SongPlayHistory 2.2.0 by [qe201020335](https://github.com/qe201020335/SongPlayHistory/releases) ✅
 - wipbot 1.16.0 by [catsethecat](https://github.com/catsethecat/wipbot/releases) ❌
 
 ## Small Tweak Mods:
@@ -115,6 +115,6 @@ Note: Will probably remove BeatTogether stuff as there is no reason to delay a r
 - TrickSaber 1.1.3 by [ToniMacaroni/qqrz997](https://github.com/qqrz997/TrickSaber) ✅
 
 ## Counters+ Add-on Mods
-- FCPercentage 1.4.4 by [ChirpyMisha/Loloppe](https://github.com/Loloppe/FC-Percentage/releases) ✅
+- FCPercentage 1.4.5 by [ChirpyMisha/Loloppe](https://github.com/Loloppe/FC-Percentage/releases) ✅
 - BetterMissCounter 1.1.1 by [CatseTheCat](https://github.com/catsethecat/BetterMissCounter/releases) ✅
 - PPCounter 2.0.2 by [PulseLane/Loloppe](https://github.com/Loloppe/PPCounter/releases) ✅
