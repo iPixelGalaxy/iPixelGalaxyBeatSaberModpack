@@ -84,11 +84,10 @@ Note: Will probably remove BeatTogether stuff as there is no reason to delay a r
 
 ## Small Tweak Mods:
 - FailButton 0.0.4 by [Kinsi55/qe201020335](https://github.com/qe201020335/FailButton/releases) ✅
-- FastFail 2.0.5 by [PulseLane](https://github.com/PulseLane/FastFail/releases) ❌
 - HitSoundTweaks 1.1.7 by [GalaxyMaster](https://github.com/GalaxyMaster2/HitsoundTweaks/releases) ✅
 - KeepMyOverridesPls 1.1.2 by [qqrz997](https://github.com/qqrz997/KeepMyOverridesPls/releases) ✅
 - QuickMirrorToggle 0.0.2 by [Kinsi55/Arimodu](https://github.com/Arimodu/QuickMirrorToggle) (Commissioned Mod) ❌
-- SmallMenu 1.2.0 by [nicoco007](https://github.com/nicoco007/BeatSaberSmallMenu/releases) ✅
+- SmallMenu 1.2.1 by [nicoco007](https://github.com/nicoco007/BeatSaberSmallMenu/releases) ✅
 - SmoothedController 0.0.4 by [Kinsi55](https://github.com/kinsi55/BeatSaber_SmoothedController/releases) ✅
 - SongRankedBadge 1.0.4 by [qe201020335](https://github.com/qe201020335/SongRankedBadge/releases) ✅
 - TakeMeToResults 1.1.1 by [PixelBoom](https://github.com/rithik-b/TakeMeToResults/releases) ✅
