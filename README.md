@@ -44,8 +44,8 @@
 ❌ = Not Updated/Incompatible
 
 ## Leaderboard Mods:
-- BeatLeader 0.9.27 by [BeatLeader Team](https://github.com/BeatLeader/beatleader-mod/releases) ✅
-- HitBloq 1.4.2 (Unofficial) by [PixelBoom/SirSpam](https://github.com/PauseChampions/Hitbloq/releases) Here is the [Fork](https://github.com/iPixelGalaxy/Hitbloq) ✅
+- BeatLeader 0.9.28 by [BeatLeader Team](https://github.com/BeatLeader/beatleader-mod/releases) ✅
+- HitBloq 1.4.3 (UI mod) by [PixelBoom/SirSpam](https://github.com/PauseChampions/Hitbloq/releases) Here is the [UI Mod Fork](https://github.com/iPixelGalaxy/Hitbloq/tree/dev) ✅
 - ScoreSaber 3.3.15 by [Umbranox](https://github.com/ScoreSaber/scoresaber-plugin/releases) ✅
 - LeaderboardCore 1.7.0 by [PixelBoom/SirSpam](https://github.com/rithik-b/LeaderboardCore/releases) ✅
 
@@ -61,18 +61,17 @@ Note: Will probably remove BeatTogether stuff as there is no reason to delay a r
 - BeatSaviorData 2.1.16 by [Mystogan98](https://github.com/Mystogan98/BeatSaviorData/releases) ✅
 - Counters+ 2.3.10 by [Caeden117/NuggoDEV](https://github.com/Caeden117/CountersPlus/releases) ✅
 - EasyOffset 2.1.14 by [Reezonate](https://github.com/Reezonate/EasyOffset/releases) ✅
-- HitScoreVisualizer 3.5.0 by [Eris/qqrz997](https://github.com/ErisApps/HitScoreVisualizer/releases) ✅
+- HitScoreVisualizer 3.5.2 by [Eris/qqrz997](https://github.com/ErisApps/HitScoreVisualizer/releases) ✅
 - iForgor 1.4.1 by [ckosmic](https://github.com/ckosmic/IForgor/releases) ✅
 - PPPredictor 1.1.0 by [No.1 Noob](https://github.com/no-1-noob/PPPredictor/releases) ✅
-- ScorePercentage 1.4.15 by [IdleBob/Lollope](https://github.com/Loloppe/ScorePercentage) ✅
 - SliceDetails 1.3.3 by [ckosmic](https://github.com/ckosmic/SliceDetails/releases) ✅
 
 ## Utility Mods:
-- ChatPlex SDK (BeatSaberPlus) 6.3.0 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases) ✅
+- ChatPlex SDK (BeatSaberPlus) 6.3.1 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases) ✅
 - BeatSaverUpdater 1.2.4 by [PixelBoom/ibillingsley](https://github.com/ibillingsley/BeatSaverUpdater/releases) ✅
 - BetterPause 1.1.2 by [futuremapper](https://github.com/Futuremappermydud/BetterPause/releases) ✅
 - BetterSongList 0.4.0 by [Kinsi55 (Original)](https://github.com/kinsi55/BeatSaber_BetterSongList/releases) ✅ / [My Fork of it](https://github.com/iPixelGalaxy/BeatSaber_BetterSongList/releases) ✅
-- BetterSongSearch 0.7.87 by [Kinsi55](https://github.com/kinsi55/BeatSaber_BetterSongSearch/releases) ✅
+- BetterSongSearch 0.8.1 by [Kinsi55](https://github.com/kinsi55/BeatSaber_BetterSongSearch/releases) ✅
 - Camera2 0.6.116 by [Kinsi55](https://github.com/kinsi55/CS_BeatSaber_Camera2/releases) ✅
 - Clock and Volume 1.1.3 by [iPixelGalaxy](https://github.com/iPixelGalaxy/ClockAndVolume/releases) ✅/ Forked from Enhancements by [Auros](https://github.com/Auros/Enhancements/releases)
 - ImBlindedByTheLights 0.0.7 by [Kinsi55](https://github.com/kinsi55/BeatSaber_ImBlindedByTheLights/releases) ✅
@@ -109,12 +108,12 @@ Note: Will probably remove BeatTogether stuff as there is no reason to delay a r
 
 ## Cosmetic Mods:
 - MenuSaberColors 1.0.10 by [Exomanz/qqrz997](https://github.com/qqrz997/MenuSaberColors/releases) ✅
-- AssetBundleLoadingTools 1.1.7 by [nicoco07](https://github.com/nicoco007/AssetBundleLoadingTools/releases) ✅
+- AssetBundleLoadingTools 1.1.9 by [nicoco07](https://github.com/nicoco007/AssetBundleLoadingTools/releases) ✅
 - CustomSabersLite 0.12.4 by [qqrz997](https://github.com/qqrz997/CustomSabersLite/releases) ✅
 - SoundReplacer 1.0.0 by [SamuelTulach/Meivyn](https://github.com/Meivyn/SoundReplacer) ✅
 - TrickSaber 1.1.3 by [ToniMacaroni/qqrz997](https://github.com/qqrz997/TrickSaber) ✅
 
 ## Counters+ Add-on Mods
-- FCPercentage 1.4.5 by [ChirpyMisha/Loloppe](https://github.com/Loloppe/FC-Percentage/releases) ✅
+- FCPercentage 1.4.9 by [ChirpyMisha/Loloppe](https://github.com/Loloppe/FC-Percentage/releases) ✅
 - BetterMissCounter 1.1.1 by [CatseTheCat](https://github.com/catsethecat/BetterMissCounter/releases) ✅
 - PPCounter 2.0.2 by [PulseLane/Loloppe](https://github.com/Loloppe/PPCounter/releases) ✅
