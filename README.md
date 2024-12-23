@@ -2,7 +2,7 @@
 
 # How to Install (BSManager)
 1. Download and install BSManager [here](https://github.com/Zagrios/bs-manager/releases).
-2. Once setup download the version you wish to mod. (At the time of writing I suggest 1.29.1)
+2. Once setup download the version you wish to mod. (At the time of writing I suggest 1.39.1)
 3. Click the "Mods" tab in BSManager and Install the "JDFixer" and "DiTails" mods as those are not included at the request of modders, this will also grab every dependency not included in the modpack.
 4. Launch the game once, *before installing the modpack*. (This ensures that all mods are moved from IPA/Pending), alternatively, move them manually.
 5. Close the game and click the settings gear in BSManager and click "Open Folder".
@@ -64,7 +64,7 @@
 - SliceDetails 1.3.3 by [ckosmic](https://github.com/ckosmic/SliceDetails/releases) ✅
 
 ## Utility Mods:
-- ChatPlex SDK (BeatSaberPlus) 6.3.1 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases) ✅
+- ChatPlex SDK (BeatSaberPlus) 6.3.2 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases) ✅
 - BeatSaverUpdater 1.2.4 by [PixelBoom/ibillingsley](https://github.com/ibillingsley/BeatSaverUpdater/releases) ✅
 - BetterPause 1.1.2 by [futuremapper](https://github.com/Futuremappermydud/BetterPause/releases) ✅
 - BetterSongList 0.4.0 by [Kinsi55 (Original)](https://github.com/kinsi55/BeatSaber_BetterSongList/releases) ✅ / [My Fork of it](https://github.com/iPixelGalaxy/BeatSaber_BetterSongList/releases) ✅
@@ -75,14 +75,14 @@
 - MorePlaylists 2.0.0 by [PixelBoom](https://github.com/rithik-b/MorePlaylists/releases) ❌
 - PlaylistManager 1.7.3 by [PixelBoom/nicoco007](https://github.com/nicoco007/PlaylistManager/tree/beat-saber-1.37.0) ✅
 - PracticePlugin 9.0.0 by [denpadokei](https://github.com/denpadokei/PracticePlugin/releases) ✅
-- SongPlayHistory 2.2.0 by [qe201020335](https://github.com/qe201020335/SongPlayHistory/releases) ✅
-- wipbot 1.16.0 by [catsethecat](https://github.com/catsethecat/wipbot/releases) ❌
+- SongPlayHistory 2.2.1 by [qe201020335](https://github.com/qe201020335/SongPlayHistory/releases) ✅
+- wipbot 1.17.0 by [catsethecat](https://github.com/Arimodu/wipbot) ✅
 
 ## Small Tweak Mods:
 - FailButton 0.0.4 by [Kinsi55/qe201020335](https://github.com/qe201020335/FailButton/releases) ✅
 - HitSoundTweaks 1.1.7 by [GalaxyMaster](https://github.com/GalaxyMaster2/HitsoundTweaks/releases) ✅
 - KeepMyOverridesPls 1.1.2 by [qqrz997](https://github.com/qqrz997/KeepMyOverridesPls/releases) ✅
-- QuickMirrorToggle 0.0.2 by [Kinsi55/Arimodu](https://github.com/Arimodu/QuickMirrorToggle) (Commissioned Mod) ❌
+- QuickMirrorToggle 1.0.2 by [Kinsi55/Arimodu](https://github.com/Arimodu/QuickMirrorToggle) ✅
 - SmallMenu 1.2.1 by [nicoco007](https://github.com/nicoco007/BeatSaberSmallMenu/releases) ✅
 - SmoothedController 0.0.4 by [Kinsi55](https://github.com/kinsi55/BeatSaber_SmoothedController/releases) ✅
 - SongRankedBadge 1.0.4 by [qe201020335](https://github.com/qe201020335/SongRankedBadge/releases) ✅
@@ -96,9 +96,9 @@
 
 ## Gameplay Mods:
 - CustomJSONData 2.6.6 by [Aeroluna](https://github.com/Aeroluna/CustomJSONData/releases) ✅
-- Heck 1.7.0 by [Aeroluna](https://github.com/Aeroluna/Heck/releases) ✅
-- Chroma 2.9.10 by [Aeroluna](https://github.com/Aeroluna/Heck/releases) ✅
-- NoodleExtensions 1.7.7 by [Aeroluna](https://github.com/Aeroluna/Heck/releases) ✅
+- Heck 1.7.2 by [Aeroluna](https://github.com/Aeroluna/Heck/releases) ✅
+- Chroma 2.9.12 by [Aeroluna](https://github.com/Aeroluna/Heck/releases) ✅
+- NoodleExtensions 1.7.8 by [Aeroluna](https://github.com/Aeroluna/Heck/releases) ✅
 - LookupID 1.0.1 by [Aeroluna](https://github.com/Aeroluna/Heck/releases) ✅
 - MappingExtensions 1.7.5 by [Kyle1314](https://github.com/Kylemc1413/MappingExtensions) ✅
 
