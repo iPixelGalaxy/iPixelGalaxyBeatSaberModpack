@@ -1,0 +1,13 @@
+{
+    "$schema": "https://raw.githubusercontent.com/bsmg/BSIPA-MetadataFileSchema/master/Schema.json",
+    "id": "Unity.XR.Hands",
+    "name": "XR Hands",
+    "author": "Unity",
+    "version": "1.1.0",
+    "gameVersion": "1.29.4",
+    "description": "Defines an API that allows you to access hand tracking data from devices that support hand tracking.",
+    "files": [
+        "Libs/Unity.XR.Hands.dll",
+        "Libs/Native/UnityOpenXRHands.dll"
+    ]
+}

@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AssetBundleLoadingTools</name>
+    </assembly>
+    <members>
+        <member name="T:AssetBundleLoadingTools.Models.Shaders.ShaderReplacementInfo">
+            <summary>
+            Information regarding a shader replacement operation.
+            </summary>
+        </member>
+        <member name="P:AssetBundleLoadingTools.Models.Shaders.ShaderReplacementInfo.AllShadersReplaced">
+            <summary>
+            Gets whether or not all shaders used by the object were replaced.
+            </summary>
+        </member>
+        <member name="P:AssetBundleLoadingTools.Models.Shaders.ShaderReplacementInfo.MissingShaderNames">
+            <summary>
+            Gets the names of the shaders that could not be replaced.
+            </summary>
+        </member>
+        <member name="T:AssetBundleLoadingTools.Patches.MirrorRendererSOMultiPass">
+            <summary>
+            This patch makes base game mirrors work properly when the stereo rendering mode is multi-pass.
+            </summary>
+        </member>
+        <member name="T:AssetBundleLoadingTools.Patches.PersistentCall_OnAfterDeserialize">
+            <summary>
+            This patch removes any serialized m_TargetAssemblyTypeName since that field can be used for bad things, potentially including arbitrary code execution.
+            See https://blog.includesecurity.com/2021/06/hacking-unity-games-malicious-unity-game-objects/ for details.
+            </summary>
+        </member>
+        <member name="P:AssetBundleLoadingTools.Plugin.Log">
+            <summary>
+            Use to send log messages through BSIPA.
+            </summary>
+        </member>
+        <member name="T:AssetBundleLoadingTools.Utilities.AssetBundleExtensions">
+            <summary>
+            Extensions to load asset bundles and the assets within them.
+            </summary>
+        </member>
+        <member name="M:AssetBundleLoadingTools.Utilities.AssetBundleExtensions.LoadFromFileAsync(System.String)">
+            <summary>
+            Asynchronously loads an AssetBundle from a file on disk.
+            </summary>
+            <param name="path">Path of the file on disk.</param>
+            <returns>The task object representing the asynchronous operation.</returns>
+        </member>
+        <member name="M:AssetBundleLoadingTools.Utilities.AssetBundleExtensions.LoadFromMemoryAsync(System.Byte[])">
+            <summary>
+            Asynchronously create an AssetBundle from a memory region.
+            </summary>
+            <param name="binary">Array of bytes with the AssetBundle data.</param>
+            <returns>The task object representing the asynchronous operation.</returns>
+        </member>
+        <member name="M:AssetBundleLoadingTools.Utilities.AssetBundleExtensions.LoadFromStreamAsync(System.IO.Stream)">
+            <summary>
+            Asynchronously loads an AssetBundle from a managed Stream.
+            </summary>
+            <param name="stream">The managed Stream object. Unity calls Read(), Seek() and the Length property on this object to load the AssetBundle data.</param>
+            <returns>The task object representing the asynchronous operation.</returns>
+        </member>
+        <member name="M:AssetBundleLoadingTools.Utilities.AssetBundleExtensions.LoadAssetAsync``1(UnityEngine.AssetBundle,System.String)">
+            <summary>
+            Asynchronously loads asset with name of type <typeparamref name="T"/> from the bundle.
+            </summary>
+            <typeparam name="T">The type of the asset to load.</typeparam>
+            <param name="assetBundle">The asset bundle from which to load the asset.</param>
+            <param name="path">The path of the asset in the asset bundle.</param>
+            <returns>The task object representing the asynchronous operation.</returns>
+        </member>
+        <member name="T:AssetBundleLoadingTools.Utilities.ShaderReader">
+            <summary>
+            Class for reading shader data and checking of SPI support.
+            Adapted from <see href="https://github.com/ToniMacaroni/UnsafeShaderTools">UnsafeShaderTools</see>.
+            </summary>
+            <remarks>
+            The pointer offsets may change from one Unity version to the next. This was tested against Unity 2022.3.33f1.
+            </remarks>
+        </member>
+        <member name="T:AssetBundleLoadingTools.Utilities.ShaderRepair">
+            <summary>
+            Helpers to replace legacy shaders on loaded assets.
+            </summary>
+        </member>
+        <member name="M:AssetBundleLoadingTools.Utilities.ShaderRepair.FixShadersOnGameObject(UnityEngine.GameObject)">
+            <summary>
+            Replace legacy shaders on the given <see cref="T:UnityEngine.GameObject"/>.
+            </summary>
+            <param name="gameObject">The <see cref="T:UnityEngine.GameObject"/> on which to replace shaders.</param>
+            <returns>A <see cref="T:AssetBundleLoadingTools.Models.Shaders.ShaderReplacementInfo"/> instance containing information on the result of the operation.</returns>
+        </member>
+        <member name="M:AssetBundleLoadingTools.Utilities.ShaderRepair.FixShadersOnGameObjectAsync(UnityEngine.GameObject)">
+            <summary>
+            Replace legacy shaders on the given <see cref="T:UnityEngine.GameObject"/> asynchronously.
+            </summary>
+            <param name="gameObject">The <see cref="T:UnityEngine.GameObject"/> on which to replace shaders.</param>
+            <returns>The task object representing the asynchronous operation.</returns>
+        </member>
+        <member name="M:AssetBundleLoadingTools.Utilities.ShaderRepair.FixShaderOnMaterial(UnityEngine.Material)">
+            <summary>
+            Replace the shader on the given <see cref="T:UnityEngine.Material"/> if it is a legacy shader.
+            </summary>
+            <param name="material">The material on which the shader will be replaced, if necessary.</param>
+            <returns>A <see cref="T:AssetBundleLoadingTools.Models.Shaders.ShaderReplacementInfo"/> instance containing information on the result of the operation.</returns>
+        </member>
+        <member name="M:AssetBundleLoadingTools.Utilities.ShaderRepair.FixShadersOnMaterials(System.Collections.Generic.List{UnityEngine.Material})">
+            <summary>
+            Replace legacy shaders on the given <see cref="T:UnityEngine.Material"/>s.
+            </summary>
+            <param name="materials">The <see cref="T:UnityEngine.Material"/>s on which to replace shaders.</param>
+            <returns>A <see cref="T:AssetBundleLoadingTools.Models.Shaders.ShaderReplacementInfo"/> instance containing information on the result of the operation.</returns>
+        </member>
+        <member name="M:AssetBundleLoadingTools.Utilities.ShaderRepair.FixShaderOnMaterialAsync(UnityEngine.Material)">
+            <summary>
+            Replace the shader on the given <see cref="T:UnityEngine.Material"/> if it is a legacy shader.
+            </summary>
+            <param name="material">The material on which the shader will be replaced, if necessary.</param>
+            <returns>The task object representing the asynchronous operation.</returns>
+        </member>
+        <member name="M:AssetBundleLoadingTools.Utilities.ShaderRepair.FixShadersOnMaterialsAsync(System.Collections.Generic.List{UnityEngine.Material})">
+            <summary>
+            Replace legacy shaders on the given <see cref="T:UnityEngine.Material"/>s.
+            </summary>
+            <param name="materials">The <see cref="T:UnityEngine.Material"/>s on which to replace shaders.</param>
+            <returns>The task object representing the asynchronous operation.</returns>
+        </member>
+        <member name="M:AssetBundleLoadingTools.Utilities.ShaderRepair.GetMaterialsFromGameObjectRenderers(UnityEngine.GameObject)">
+            <summary>
+            Gets all the materials used by components on the given <see cref="T:UnityEngine.GameObject"/>.
+            </summary>
+            <param name="gameObject">The <see cref="T:UnityEngine.GameObject"/> on which to look for materials.</param>
+            <returns>The list of <see cref="T:UnityEngine.Material"/>s found.</returns>
+        </member>
+    </members>
+</doc>
