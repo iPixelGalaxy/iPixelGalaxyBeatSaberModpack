@@ -38,15 +38,15 @@
 # Link to Latest Version of the Pack for [1.29.1](https://github.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/releases/tag/1.29.1-0.3.1)
 # Credits for mods for 1.29.1 can be found [here](https://github.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/blob/main/1.29.1%20Mod%20Credits.md)
 
-# Included Mods (1.39.1):
+# Included Mods (1.40.4):
 
 ✅ = Compatible
 ❌ = Not Updated/Incompatible
 
 ## Leaderboard Mods:
-- BeatLeader 0.9.28 by [BeatLeader Team](https://github.com/BeatLeader/beatleader-mod/releases) ✅
+- BeatLeader 0.9.32 by [BeatLeader Team](https://github.com/BeatLeader/beatleader-mod/releases) ✅
 - HitBloq 1.4.3 (UI mod) by [PixelBoom/SirSpam](https://github.com/PauseChampions/Hitbloq/releases) Here is the [UI Mod Fork](https://github.com/iPixelGalaxy/Hitbloq/tree/dev) ✅
-- ScoreSaber 3.3.15 by [Umbranox](https://github.com/ScoreSaber/scoresaber-plugin/releases) ✅
+- ScoreSaber 3.3.15 by [Umbranox](https://github.com/ScoreSaber/scoresaber-plugin/releases) ❌
 - LeaderboardCore 1.7.0 by [PixelBoom/SirSpam](https://github.com/rithik-b/LeaderboardCore/releases) ✅
 
 ## Multiplayer Mods:
@@ -55,27 +55,27 @@
 - MultiplayerCore 1.5.4 by [Goobwabber](https://github.com/Goobwabber/MultiplayerCore/releases) ✅
 
 ## Info Mods:
-- BeatSaviorData 2.1.16 by [Mystogan98](https://github.com/Mystogan98/BeatSaviorData/releases) ✅
-- Counters+ 2.3.10 by [Caeden117/NuggoDEV](https://github.com/Caeden117/CountersPlus/releases) ✅
-- EasyOffset 2.1.14 by [Reezonate](https://github.com/Reezonate/EasyOffset/releases) ✅
-- HitScoreVisualizer 3.5.2 by [Eris/qqrz997](https://github.com/ErisApps/HitScoreVisualizer/releases) ✅
+- BeatSaviorUI 1.0.1 by [Mystogan98/qqrz997](https://github.com/qqrz997/BeatSaviorUI) ✅
+- Counters+ 2.3.11 by [Caeden117/NuggoDEV](https://github.com/Caeden117/CountersPlus/releases) ✅
+- EasyOffset 2.1.15 by [Reezonate](https://github.com/Reezonate/EasyOffset/releases) ✅
+- HitScoreVisualizer 3.5.3 by [Eris/qqrz997](https://github.com/ErisApps/HitScoreVisualizer/releases) ✅
 - iForgor 1.4.1 by [ckosmic](https://github.com/ckosmic/IForgor/releases) ✅
 - PPPredictor 1.1.0 by [No.1 Noob](https://github.com/no-1-noob/PPPredictor/releases) ✅
 - SliceDetails 1.3.3 by [ckosmic](https://github.com/ckosmic/SliceDetails/releases) ✅
 
 ## Utility Mods:
-- ChatPlex SDK (BeatSaberPlus) 6.3.2 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases) ✅
-- BeatSaverUpdater 1.2.4 by [PixelBoom/ibillingsley](https://github.com/ibillingsley/BeatSaverUpdater/releases) ✅
+- ChatPlex SDK (BeatSaberPlus) 6.3.3 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases) ✅
+- BeatSaverUpdater 1.2.11 by [PixelBoom/ibillingsley](https://github.com/ibillingsley/BeatSaverUpdater/releases) ✅
 - BetterPause 1.1.2 by [futuremapper](https://github.com/Futuremappermydud/BetterPause/releases) ✅
-- BetterSongList 0.4.0 by [Kinsi55 (Original)](https://github.com/kinsi55/BeatSaber_BetterSongList/releases) ✅ / [My Fork of it](https://github.com/iPixelGalaxy/BeatSaber_BetterSongList/releases) ✅
+- BetterSongList 0.4.2 by [Kinsi55 (Original)](https://github.com/kinsi55/BeatSaber_BetterSongList/releases) ✅ / [My Fork of it (Included in Modpack)](https://github.com/iPixelGalaxy/BeatSaber_BetterSongList/releases) ✅
 - BetterSongSearch 0.8.1 by [Kinsi55](https://github.com/kinsi55/BeatSaber_BetterSongSearch/releases) ✅
-- Camera2 0.6.116 by [Kinsi55](https://github.com/kinsi55/CS_BeatSaber_Camera2/releases) ✅
+- Camera2 0.6.117 by [Kinsi55](https://github.com/kinsi55/CS_BeatSaber_Camera2/releases) ✅
 - Clock and Volume 1.1.3 by [iPixelGalaxy](https://github.com/iPixelGalaxy/ClockAndVolume/releases) ✅/ Forked from Enhancements by [Auros](https://github.com/Auros/Enhancements/releases)
 - ImBlindedByTheLights 0.0.7 by [Kinsi55](https://github.com/kinsi55/BeatSaber_ImBlindedByTheLights/releases) ✅
 - MorePlaylists 2.0.0 by [PixelBoom](https://github.com/rithik-b/MorePlaylists/releases) ❌
 - PlaylistManager 1.7.3 by [PixelBoom/nicoco007](https://github.com/nicoco007/PlaylistManager/tree/beat-saber-1.37.0) ✅
 - PracticePlugin 9.0.0 by [denpadokei](https://github.com/denpadokei/PracticePlugin/releases) ✅
-- SongPlayHistory 2.2.1 by [qe201020335](https://github.com/qe201020335/SongPlayHistory/releases) ✅
+- SongPlayHistory 2.2.2 by [qe201020335](https://github.com/qe201020335/SongPlayHistory/releases) ✅
 - wipbot 1.17.0 by [catsethecat](https://github.com/Arimodu/wipbot) ✅
 
 ## Small Tweak Mods:
@@ -87,7 +87,7 @@
 - SmoothedController 0.0.4 by [Kinsi55](https://github.com/kinsi55/BeatSaber_SmoothedController/releases) ✅
 - SongRankedBadge 1.0.4 by [qe201020335](https://github.com/qe201020335/SongRankedBadge/releases) ✅
 - TakeMeToResults 1.1.1 by [PixelBoom](https://github.com/rithik-b/TakeMeToResults/releases) ✅
-- Tweaks55 0.3.14 by [Kinsi55](https://github.com/kinsi55/BeatSaber_Tweaks55/releases) ✅
+- Tweaks55 0.3.17 by [Kinsi55](https://github.com/kinsi55/BeatSaber_Tweaks55/releases) ✅
 - Unfunny 1.0.0 by [Kaitlyn](https://github.com/ItsKaitlyn03/Unfunny/releases) ✅
 
 ## Performance Mods:
@@ -95,22 +95,22 @@
 - PioritySetter (High) 1.2.1 by [Arimodu](https://github.com/Arimodu/PrioritySetter/releases) ✅
 
 ## Gameplay Mods:
-- CustomJSONData 2.6.6 by [Aeroluna](https://github.com/Aeroluna/CustomJSONData/releases) ✅
-- Heck 1.7.2 by [Aeroluna](https://github.com/Aeroluna/Heck/releases) ✅
-- Chroma 2.9.12 by [Aeroluna](https://github.com/Aeroluna/Heck/releases) ✅
-- NoodleExtensions 1.7.8 by [Aeroluna](https://github.com/Aeroluna/Heck/releases) ✅
+- CustomJSONData 2.6.8 by [Aeroluna](https://github.com/Aeroluna/CustomJSONData/releases) ✅
+- Heck 1.7.14 by [Aeroluna](https://github.com/Aeroluna/Heck/releases) ✅
+- Chroma 2.9.20 by [Aeroluna](https://github.com/Aeroluna/Heck/releases) ✅
+- NoodleExtensions 1.7.18 by [Aeroluna](https://github.com/Aeroluna/Heck/releases) ✅
 - LookupID 1.0.1 by [Aeroluna](https://github.com/Aeroluna/Heck/releases) ✅
+- Vivify 1.0.4 by [Aeroluna](https://github.com/Aeroluna/Vivify) ✅
 - MappingExtensions 1.7.5 by [Kyle1314](https://github.com/Kylemc1413/MappingExtensions) ✅
 
 
 ## Cosmetic Mods:
-- MenuSaberColors 1.0.10 by [Exomanz/qqrz997](https://github.com/qqrz997/MenuSaberColors/releases) ✅
+- MenuSaberColors 1.0.12 by [Exomanz/qqrz997](https://github.com/qqrz997/MenuSaberColors/releases) ✅
 - AssetBundleLoadingTools 1.1.9 by [nicoco07](https://github.com/nicoco007/AssetBundleLoadingTools/releases) ✅
-- CustomSabersLite 0.12.4 by [qqrz997](https://github.com/qqrz997/CustomSabersLite/releases) ✅
-- SoundReplacer 1.0.0 by [SamuelTulach/Meivyn](https://github.com/Meivyn/SoundReplacer) ✅
-- TrickSaber 1.1.3 by [ToniMacaroni/qqrz997](https://github.com/qqrz997/TrickSaber) ✅
+- CustomSabersLite 0.13.2 by [qqrz997](https://github.com/qqrz997/CustomSabersLite/releases) ✅
+- SoundReplacer 2.0.1 by [SamuelTulach/Meivyn](https://github.com/Meivyn/SoundReplacer) ✅
+- TrickSaber 1.1.7 by [ToniMacaroni/qqrz997](https://github.com/qqrz997/TrickSaber) ✅
 
 ## Counters+ Add-on Mods
 - FCPercentage 1.4.9 by [ChirpyMisha/Loloppe](https://github.com/Loloppe/FC-Percentage/releases) ✅
 - BetterMissCounter 1.1.1 by [CatseTheCat](https://github.com/catsethecat/BetterMissCounter/releases) ✅
-- PPCounter 2.0.2 by [PulseLane/Loloppe](https://github.com/Loloppe/PPCounter/releases) ✅
