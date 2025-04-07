@@ -51,8 +51,8 @@
 
 ## Multiplayer Mods:
 - Multiplayer+ (A Component of BeatSaberPlus) 6.3.3 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases) ✅
-- BeatTogether 2.2.1 by [BeatTogether Team](https://github.com/BeatTogether/BeatTogether/releases) ✅
-- MultiplayerCore 1.5.4 by [Goobwabber](https://github.com/Goobwabber/MultiplayerCore/releases) ✅
+- BeatTogether 2.2.1 by [BeatTogether Team](https://github.com/BeatTogether/BeatTogether/releases) ❌
+- MultiplayerCore 1.5.4 by [Goobwabber](https://github.com/Goobwabber/MultiplayerCore/releases) ❌
 
 ## Info Mods:
 - BeatSaviorUI 1.0.1 by [Mystogan98/qqrz997](https://github.com/qqrz997/BeatSaviorUI) ✅
@@ -76,7 +76,7 @@
 - PlaylistManager 1.7.3 by [PixelBoom/nicoco007](https://github.com/nicoco007/PlaylistManager/tree/beat-saber-1.37.0) ✅
 - PracticePlugin 9.0.0 by [denpadokei](https://github.com/denpadokei/PracticePlugin/releases) ✅
 - SongPlayHistory 2.2.2 by [qe201020335](https://github.com/qe201020335/SongPlayHistory/releases) ✅
-- wipbot 1.17.0 by [catsethecat](https://github.com/Arimodu/wipbot) ✅
+- wipbot 1.17.1 by [catsethecat](https://github.com/Arimodu/wipbot) ✅
 
 ## Small Tweak Mods:
 - FailButton 0.0.4 by [Kinsi55/qe201020335](https://github.com/qe201020335/FailButton/releases) ✅
@@ -100,8 +100,9 @@
 - Chroma 2.9.20 by [Aeroluna](https://github.com/Aeroluna/Heck/releases) ✅
 - NoodleExtensions 1.7.18 by [Aeroluna](https://github.com/Aeroluna/Heck/releases) ✅
 - LookupID 1.0.1 by [Aeroluna](https://github.com/Aeroluna/Heck/releases) ✅
-- Vivify 1.0.4 by [Aeroluna](https://github.com/Aeroluna/Vivify) ✅
-- MappingExtensions 1.7.5 by [Kyle1314](https://github.com/Kylemc1413/MappingExtensions) ✅
+- Vivify 1.0.4 by [Aeroluna](https://github.com/Aeroluna/Vivify/releases) ✅
+- Synapse 1.1.13 by [Aeroluna](https://github.com/Aeroluna/Synapse/releases) ✅
+- MappingExtensions 1.7.6 by [Kyle1314](https://github.com/Kylemc1413/MappingExtensions) ✅
 
 
 ## Cosmetic Mods:
