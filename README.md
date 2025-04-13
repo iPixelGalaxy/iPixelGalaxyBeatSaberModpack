@@ -50,7 +50,7 @@
 - LeaderboardCore 1.7.0 by [PixelBoom/SirSpam](https://github.com/rithik-b/LeaderboardCore/releases) ✅
 
 ## Multiplayer Mods:
-- Multiplayer+ (A Component of BeatSaberPlus) 6.3.3 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases) ✅
+- Multiplayer+ (A Component of BeatSaberPlus) 6.4.0 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases) ✅
 - BeatTogether 2.2.1 by [BeatTogether Team](https://github.com/BeatTogether/BeatTogether/releases) ❌
 - MultiplayerCore 1.5.4 by [Goobwabber](https://github.com/Goobwabber/MultiplayerCore/releases) ❌
 
@@ -64,7 +64,7 @@
 - SliceDetails 1.3.3 by [ckosmic](https://github.com/ckosmic/SliceDetails/releases) ✅
 
 ## Utility Mods:
-- ChatPlex SDK (BeatSaberPlus) 6.3.3 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases) ✅
+- ChatPlex SDK (BeatSaberPlus) 6.4.0 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases) ✅
 - BeatSaverUpdater 1.2.11 by [PixelBoom/ibillingsley](https://github.com/ibillingsley/BeatSaverUpdater/releases) ✅
 - BetterPause 1.1.2 by [futuremapper](https://github.com/Futuremappermydud/BetterPause/releases) ✅
 - BetterSongList 0.4.2 by [Kinsi55 (Original)](https://github.com/kinsi55/BeatSaber_BetterSongList/releases) ✅ / [My Fork of it (Included in Modpack)](https://github.com/iPixelGalaxy/BeatSaber_BetterSongList/releases) ✅
