@@ -44,18 +44,18 @@
 ❌ = Not Updated/Incompatible
 
 ## Leaderboard Mods:
-- BeatLeader 0.9.32 by [BeatLeader Team](https://github.com/BeatLeader/beatleader-mod/releases) ✅
+- BeatLeader 0.9.33 by [BeatLeader Team](https://github.com/BeatLeader/beatleader-mod/releases) ✅
 - HitBloq 1.4.3 (UI mod) by [PixelBoom/SirSpam](https://github.com/PauseChampions/Hitbloq/releases) Here is the [UI Mod Fork](https://github.com/iPixelGalaxy/Hitbloq/tree/dev) ✅
 - ScoreSaber 3.3.15 by [Umbranox](https://github.com/ScoreSaber/scoresaber-plugin/releases) ❌
 - LeaderboardCore 1.7.0 by [PixelBoom/SirSpam](https://github.com/rithik-b/LeaderboardCore/releases) ✅
 
 ## Multiplayer Mods:
 - Multiplayer+ (A Component of BeatSaberPlus) 6.4.0 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases) ✅
-- BeatTogether 2.2.1 by [BeatTogether Team](https://github.com/BeatTogether/BeatTogether/releases) ❌
-- MultiplayerCore 1.5.4 by [Goobwabber](https://github.com/Goobwabber/MultiplayerCore/releases) ❌
+- BeatTogether 2.2.1 by [BeatTogether Team](https://github.com/BeatTogether/BeatTogether/releases) ✅
+- MultiplayerCore 1.6.1 by [Goobwabber](https://github.com/Goobwabber/MultiplayerCore/releases) ✅
 
 ## Info Mods:
-- BeatSaviorUI 1.0.1 by [Mystogan98/qqrz997](https://github.com/qqrz997/BeatSaviorUI) ✅
+- BeatSaviorUI 1.0.3 by [Mystogan98/qqrz997](https://github.com/qqrz997/BeatSaviorUI) ✅
 - Counters+ 2.3.11 by [Caeden117/NuggoDEV](https://github.com/Caeden117/CountersPlus/releases) ✅
 - EasyOffset 2.1.15 by [Reezonate](https://github.com/Reezonate/EasyOffset/releases) ✅
 - HitScoreVisualizer 3.5.3 by [Eris/qqrz997](https://github.com/ErisApps/HitScoreVisualizer/releases) ✅
@@ -75,12 +75,12 @@
 - MorePlaylists 2.0.0 by [PixelBoom](https://github.com/rithik-b/MorePlaylists/releases) ❌
 - PlaylistManager 1.7.3 by [PixelBoom/nicoco007](https://github.com/nicoco007/PlaylistManager/tree/beat-saber-1.37.0) ✅
 - PracticePlugin 9.0.0 by [denpadokei](https://github.com/denpadokei/PracticePlugin/releases) ✅
-- SongPlayHistory 2.2.2 by [qe201020335](https://github.com/qe201020335/SongPlayHistory/releases) ✅
+- SongPlayHistory 2.2.3 by [qe201020335](https://github.com/qe201020335/SongPlayHistory/releases) ✅
 - wipbot 1.17.1 by [catsethecat](https://github.com/Arimodu/wipbot) ✅
 
 ## Small Tweak Mods:
 - FailButton 0.0.4 by [Kinsi55/qe201020335](https://github.com/qe201020335/FailButton/releases) ✅
-- HitSoundTweaks 1.1.7 by [GalaxyMaster](https://github.com/GalaxyMaster2/HitsoundTweaks/releases) ✅
+- HitSoundTweaks 1.1.8 by [GalaxyMaster](https://github.com/GalaxyMaster2/HitsoundTweaks/releases) ✅
 - KeepMyOverridesPls 1.1.2 by [qqrz997](https://github.com/qqrz997/KeepMyOverridesPls/releases) ✅
 - QuickMirrorToggle 1.0.2 by [Kinsi55/Arimodu](https://github.com/Arimodu/QuickMirrorToggle) ✅
 - SmallMenu 1.2.1 by [nicoco007](https://github.com/nicoco007/BeatSaberSmallMenu/releases) ✅
