@@ -50,7 +50,7 @@
 - LeaderboardCore 1.7.0 by [PixelBoom/SirSpam](https://github.com/rithik-b/LeaderboardCore/releases) ✅
 
 ## Multiplayer Mods:
-- Multiplayer+ (A Component of BeatSaberPlus) 6.4.0 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases) ✅
+- Multiplayer+ (A Component of BeatSaberPlus) 6.4.1 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases) ✅
 - BeatTogether 2.2.1 by [BeatTogether Team](https://github.com/BeatTogether/BeatTogether/releases) ✅
 - MultiplayerCore 1.6.1 by [Goobwabber](https://github.com/Goobwabber/MultiplayerCore/releases) ✅
 
@@ -64,7 +64,7 @@
 - SliceDetails 1.3.3 by [ckosmic](https://github.com/ckosmic/SliceDetails/releases) ✅
 
 ## Utility Mods:
-- ChatPlex SDK (BeatSaberPlus) 6.4.0 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases) ✅
+- ChatPlex SDK (BeatSaberPlus) 6.4.1 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases) ✅
 - BeatSaverUpdater 1.2.11 by [PixelBoom/ibillingsley](https://github.com/ibillingsley/BeatSaverUpdater/releases) ✅
 - BetterPause 1.1.2 by [futuremapper](https://github.com/Futuremappermydud/BetterPause/releases) ✅
 - BetterSongList 0.4.2 by [Kinsi55 (Original)](https://github.com/kinsi55/BeatSaber_BetterSongList/releases) ✅ / [My Fork of it (Included in Modpack)](https://github.com/iPixelGalaxy/BeatSaber_BetterSongList/releases) ✅
@@ -74,7 +74,7 @@
 - ImBlindedByTheLights 0.0.7 by [Kinsi55](https://github.com/kinsi55/BeatSaber_ImBlindedByTheLights/releases) ✅
 - MorePlaylists 2.0.0 by [PixelBoom](https://github.com/rithik-b/MorePlaylists/releases) ❌
 - PlaylistManager 1.7.3 by [PixelBoom/nicoco007](https://github.com/nicoco007/PlaylistManager/tree/beat-saber-1.37.0) ✅
-- PracticePlugin 9.0.0 by [denpadokei](https://github.com/denpadokei/PracticePlugin/releases) ✅
+- PracticePlugin 9.1.0 by [denpadokei](https://github.com/denpadokei/PracticePlugin/releases) ✅
 - SongPlayHistory 2.2.3 by [qe201020335](https://github.com/qe201020335/SongPlayHistory/releases) ✅
 - wipbot 1.17.1 by [catsethecat](https://github.com/Arimodu/wipbot) ✅
 
