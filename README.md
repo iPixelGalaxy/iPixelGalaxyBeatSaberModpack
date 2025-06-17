@@ -2,7 +2,7 @@
 
 # How to Install (BSManager)
 1. Download and install BSManager [here](https://github.com/Zagrios/bs-manager/releases).
-2. Once setup download the version you wish to mod. (At the time of writing I suggest 1.39.1)
+2. Once setup download the version you wish to mod. (At the time of writing I suggest 1.40.4)
 3. Click the "Mods" tab in BSManager and Install the "JDFixer" and "DiTails" mods as those are not included at the request of modders, this will also grab every dependency not included in the modpack.
 4. Launch the game once, *before installing the modpack*. (This ensures that all mods are moved from IPA/Pending), alternatively, move them manually.
 5. Close the game and click the settings gear in BSManager and click "Open Folder".
