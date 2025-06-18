@@ -46,7 +46,7 @@
 ## Leaderboard Mods:
 - BeatLeader 0.9.33 by [BeatLeader Team](https://github.com/BeatLeader/beatleader-mod/releases) ✅
 - HitBloq 1.4.3 (UI mod) by [PixelBoom/SirSpam](https://github.com/PauseChampions/Hitbloq/releases) Here is the [UI Mod Fork](https://github.com/iPixelGalaxy/Hitbloq/tree/dev) ✅
-- ScoreSaber 3.3.15 by [Umbranox](https://github.com/ScoreSaber/scoresaber-plugin/releases) ❌
+- ScoreSaber 3.3.17 by [Umbranox](https://github.com/ScoreSaber/scoresaber-plugin/releases) ✅
 - LeaderboardCore 1.7.0 by [PixelBoom/SirSpam](https://github.com/rithik-b/LeaderboardCore/releases) ✅
 
 ## Multiplayer Mods:
