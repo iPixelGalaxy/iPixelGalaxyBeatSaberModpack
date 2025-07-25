@@ -2,7 +2,7 @@
 
 # How to Install (BSManager)
 1. Download and install BSManager [here](https://github.com/Zagrios/bs-manager/releases).
-2. Once setup download the version you wish to mod. (At the time of writing I suggest 1.40.6)
+2. Once setup download the version you wish to mod. (At the time of writing I suggest 1.40.8)
 3. Click the "Mods" tab in BSManager and Install the "JDFixer" and "DiTails" mods as those are not included at the request of modders, this will also grab every dependency not included in the modpack.
 4. Launch the game once, *before installing the modpack*. (This ensures that all mods are moved from IPA/Pending), alternatively, move them manually.
 5. Close the game and click the settings gear in BSManager and click "Open Folder".
@@ -38,7 +38,7 @@
 # Link to Latest Version of the Pack for [1.29.1](https://github.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/releases/tag/1.29.1-0.3.1)
 # Credits for mods for 1.29.1 can be found [here](https://github.com/iPixelGalaxy/iPixelGalaxyBeatSaberModpack/blob/main/1.29.1%20Mod%20Credits.md)
 
-# Included Mods (1.40.6):
+# Included Mods (1.40.8):
 
 ✅ = Compatible
 ❌ = Not Updated/Incompatible
