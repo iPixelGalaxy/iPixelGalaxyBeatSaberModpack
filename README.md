@@ -108,7 +108,7 @@
 ## Cosmetic Mods:
 - MenuSaberColors 1.0.12 by [Exomanz/qqrz997](https://github.com/qqrz997/MenuSaberColors/releases) ✅
 - AssetBundleLoadingTools 1.1.10 by [nicoco07](https://github.com/nicoco007/AssetBundleLoadingTools/releases) ✅
-- CustomSabersLite 0.13.2 by [qqrz997](https://github.com/qqrz997/CustomSabersLite/releases) ✅
+- CustomSabersLite 1.0.3 by [qqrz997](https://github.com/qqrz997/CustomSabersLite/releases) ✅
 - SoundReplacer 2.0.1 by [SamuelTulach/Meivyn](https://github.com/Meivyn/SoundReplacer) ✅
 - TrickSaber 1.1.7 by [ToniMacaroni/qqrz997](https://github.com/qqrz997/TrickSaber) ✅
 
