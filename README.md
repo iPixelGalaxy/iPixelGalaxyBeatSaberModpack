@@ -41,13 +41,13 @@
 # Included Mods (1.40.8):
 
 ## Leaderboard Mods:
-- BeatLeader 0.9.33 by [BeatLeader Team](https://github.com/BeatLeader/beatleader-mod/releases)
+- BeatLeader 0.9.34 by [BeatLeader Team](https://github.com/BeatLeader/beatleader-mod/releases)
 - HitBloq 1.4.3 (UI mod) by [PixelBoom/SirSpam](https://github.com/PauseChampions/Hitbloq/releases) Here is the [UI Mod Fork](https://github.com/iPixelGalaxy/Hitbloq/tree/dev)
 - ScoreSaber 3.3.17 by [Umbranox](https://github.com/ScoreSaber/scoresaber-plugin/releases)
 - LeaderboardCore 1.7.0 by [PixelBoom/SirSpam](https://github.com/rithik-b/LeaderboardCore/releases)
 
 ## Multiplayer Mods:
-- Multiplayer+ (A Component of BeatSaberPlus) 6.4.1 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases)
+- Multiplayer+ (A Component of BeatSaberPlus) 6.4.2 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases)
 - BeatTogether 2.2.1 by [BeatTogether Team](https://github.com/BeatTogether/BeatTogether/releases)
 - MultiplayerCore 1.6.1 by [Goobwabber](https://github.com/Goobwabber/MultiplayerCore/releases)
 
@@ -61,7 +61,7 @@
 - SliceDetails 1.3.3 by [ckosmic](https://github.com/ckosmic/SliceDetails/releases)
 
 ## Utility Mods:
-- ChatPlex SDK (BeatSaberPlus) 6.4.1 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases)
+- ChatPlex SDK (BeatSaberPlus) 6.4.2 by [HardCPP](https://github.com/hardcpp/BeatSaberPlus/releases)
 - BeatSaverUpdater 1.2.11 by [PixelBoom/ibillingsley](https://github.com/ibillingsley/BeatSaverUpdater/releases)
 - BetterPause 1.1.2 by [futuremapper](https://github.com/Futuremappermydud/BetterPause/releases)
 - BetterSongList 0.4.2 by [Kinsi55 (Original)](https://github.com/kinsi55/BeatSaber_BetterSongList/releases) / [My Fork of it (Included in Modpack)](https://github.com/iPixelGalaxy/BeatSaber_BetterSongList/releases)
