@@ -55,9 +55,9 @@
 - BeatSaviorUI 1.0.3 by [Mystogan98/qqrz997](https://github.com/qqrz997/BeatSaviorUI)
 - Counters+ 2.3.11 by [Caeden117/NuggoDEV](https://github.com/Caeden117/CountersPlus/releases)
 - EasyOffset 2.1.15 by [Reezonate](https://github.com/Reezonate/EasyOffset/releases)
-- HitScoreVisualizer 3.5.3 by [Eris/qqrz997](https://github.com/ErisApps/HitScoreVisualizer/releases)
+- HitScoreVisualizer 3.7.1 by [Eris/qqrz997](https://github.com/ErisApps/HitScoreVisualizer/releases)
 - iForgor 1.4.1 by [ckosmic](https://github.com/ckosmic/IForgor/releases)
-- PPPredictor 1.1.0 by [No.1 Noob](https://github.com/no-1-noob/PPPredictor/releases)
+- PPPredictor 1.2.1 by [No.1 Noob](https://github.com/no-1-noob/PPPredictor/releases)
 - SliceDetails 1.3.3 by [ckosmic](https://github.com/ckosmic/SliceDetails/releases)
 
 ## Utility Mods:
@@ -71,7 +71,7 @@
 - ImBlindedByTheLights 0.0.7 by [Kinsi55](https://github.com/kinsi55/BeatSaber_ImBlindedByTheLights/releases)
 - PlaylistManager 1.7.3 by [PixelBoom/nicoco007](https://github.com/nicoco007/PlaylistManager/tree/beat-saber-1.37.0)
 - PracticePlugin 9.1.0 by [denpadokei](https://github.com/denpadokei/PracticePlugin/releases)
-- SongPlayHistory 2.2.3 by [qe201020335](https://github.com/qe201020335/SongPlayHistory/releases)
+- SongPlayHistory 2.2.5 by [qe201020335](https://github.com/qe201020335/SongPlayHistory/releases)
 - wipbot 1.17.1 by [catsethecat](https://github.com/Arimodu/wipbot)
 
 ## Small Tweak Mods:
