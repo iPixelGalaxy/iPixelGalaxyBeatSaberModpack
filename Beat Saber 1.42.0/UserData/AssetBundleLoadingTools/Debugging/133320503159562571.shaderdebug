@@ -1,0 +1,972 @@
+[
+  {
+    "ShaderInfo": {
+      "Name": "ossocore/DistortionFlow",
+      "Properties": [
+        {
+          "Name": "_Color",
+          "DisplayName": "Color",
+          "PropertyType": 0
+        },
+        {
+          "Name": "_CustomColors",
+          "DisplayName": "Custom Colors",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_EmissionStrength",
+          "DisplayName": "Emission Strength",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_BackgroundTexture",
+          "DisplayName": "Background Texture",
+          "PropertyType": 4
+        },
+        {
+          "Name": "_BackgroundTextureTiling",
+          "DisplayName": "Background Texture Tiling",
+          "PropertyType": 1
+        },
+        {
+          "Name": "_Grayscale",
+          "DisplayName": "Grayscale",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_DistortionTexX",
+          "DisplayName": "Distortion Tex X",
+          "PropertyType": 4
+        },
+        {
+          "Name": "_IntensityDistortionX",
+          "DisplayName": "Intensity Distortion X",
+          "PropertyType": 3
+        },
+        {
+          "Name": "_SpeedDistortionX",
+          "DisplayName": "Speed Distortion X",
+          "PropertyType": 1
+        },
+        {
+          "Name": "_TilingDistortionX",
+          "DisplayName": "Tiling Distortion X",
+          "PropertyType": 1
+        },
+        {
+          "Name": "_DistortionTexY",
+          "DisplayName": "Distortion Tex Y",
+          "PropertyType": 4
+        },
+        {
+          "Name": "_IntensityDistortionY",
+          "DisplayName": "Intensity Distortion Y",
+          "PropertyType": 3
+        },
+        {
+          "Name": "_SpeedDistortionY",
+          "DisplayName": "Speed Distortion Y",
+          "PropertyType": 1
+        },
+        {
+          "Name": "_TilingDistortionY",
+          "DisplayName": "Tiling Distortion Y",
+          "PropertyType": 1
+        },
+        {
+          "Name": "_Fresnel",
+          "DisplayName": "Fresnel",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_Fresnelstrength",
+          "DisplayName": "Fresnel strength",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_VectorDisplacmenttexture",
+          "DisplayName": "Vector Displacment texture",
+          "PropertyType": 4
+        },
+        {
+          "Name": "_VectorDisplacmentStrength",
+          "DisplayName": "Vector Displacment Strength",
+          "PropertyType": 3
+        }
+      ],
+      "VariantInfo": {
+        "Keywords": [
+          "UNITY_SINGLE_PASS_STEREO"
+        ],
+        "Platforms": [
+          0
+        ]
+      }
+    },
+    "ShaderMatchInfo": {
+      "PropertiesMissingFromShader": [],
+      "PropertiesMissingFromMatchShader": [],
+      "PropertyConflictInfos": []
+    }
+  },
+  {
+    "ShaderInfo": {
+      "Name": "BeatSaber/Unlit Glow",
+      "Properties": [
+        {
+          "Name": "_Color",
+          "DisplayName": "Color",
+          "PropertyType": 0
+        },
+        {
+          "Name": "_CustomColors",
+          "DisplayName": "Custom Colors",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_MainTex",
+          "DisplayName": "Texture",
+          "PropertyType": 4
+        },
+        {
+          "Name": "_Glow",
+          "DisplayName": "Glow",
+          "PropertyType": 3
+        }
+      ],
+      "VariantInfo": {
+        "Keywords": [
+          "UNITY_SINGLE_PASS_STEREO"
+        ],
+        "Platforms": [
+          0
+        ]
+      }
+    },
+    "ShaderMatchInfo": {
+      "PropertiesMissingFromShader": [],
+      "PropertiesMissingFromMatchShader": [],
+      "PropertyConflictInfos": []
+    }
+  },
+  {
+    "ShaderInfo": {
+      "Name": "BeatSaber/Fresnel",
+      "Properties": [
+        {
+          "Name": "_Color",
+          "DisplayName": "Color",
+          "PropertyType": 0
+        },
+        {
+          "Name": "_OtherColor",
+          "DisplayName": "Other Color",
+          "PropertyType": 0
+        },
+        {
+          "Name": "_DistortionMap",
+          "DisplayName": "Distortion Map",
+          "PropertyType": 4
+        },
+        {
+          "Name": "_FresnelPower",
+          "DisplayName": "Fresnel Power",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_Distortion",
+          "DisplayName": "Distortion",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_Speed",
+          "DisplayName": "Speed",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_CubeMap",
+          "DisplayName": "Cube Map",
+          "PropertyType": 4
+        },
+        {
+          "Name": "_Glow",
+          "DisplayName": "Glow",
+          "PropertyType": 3
+        },
+        {
+          "Name": "_CustomColors",
+          "DisplayName": "Custom Colors",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_texcoord",
+          "DisplayName": "",
+          "PropertyType": 4
+        }
+      ],
+      "VariantInfo": {
+        "Keywords": [
+          "UNITY_SINGLE_PASS_STEREO"
+        ],
+        "Platforms": [
+          0
+        ]
+      }
+    },
+    "ShaderMatchInfo": null
+  },
+  {
+    "ShaderInfo": {
+      "Name": "ossocore/MatCap(TkVersion)",
+      "Properties": [
+        {
+          "Name": "_Color",
+          "DisplayName": "Color",
+          "PropertyType": 0
+        },
+        {
+          "Name": "_CustomColors",
+          "DisplayName": "Custom Colors",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_MatCapTexture",
+          "DisplayName": "MatCap Texture",
+          "PropertyType": 4
+        },
+        {
+          "Name": "_Grayscale",
+          "DisplayName": "Grayscale",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_ColormaskRange",
+          "DisplayName": "Colormask Range",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_Glow",
+          "DisplayName": "Glow",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_ColormaskFuzziness",
+          "DisplayName": "Colormask Fuzziness",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_Contrast",
+          "DisplayName": "Contrast",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_LightSoftness",
+          "DisplayName": "LightSoftness",
+          "PropertyType": 2
+        }
+      ],
+      "VariantInfo": {
+        "Keywords": [
+          "UNITY_SINGLE_PASS_STEREO"
+        ],
+        "Platforms": [
+          0
+        ]
+      }
+    },
+    "ShaderMatchInfo": null
+  },
+  {
+    "ShaderInfo": {
+      "Name": "BeatSaber Tach/Complete",
+      "Properties": [
+        {
+          "Name": "_Color",
+          "DisplayName": "Auto Color [Used by CustomColors]",
+          "PropertyType": 0
+        },
+        {
+          "Name": "_CustomColors",
+          "DisplayName": "Custom Colors",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_GlowCol",
+          "DisplayName": "Glow Color",
+          "PropertyType": 0
+        },
+        {
+          "Name": "_GlowAuto",
+          "DisplayName": "CutomColors -> Glow",
+          "PropertyType": 3
+        },
+        {
+          "Name": "_GlowTex",
+          "DisplayName": "Glow Texture",
+          "PropertyType": 4
+        },
+        {
+          "Name": "_DiffCol",
+          "DisplayName": "Diffuse Color",
+          "PropertyType": 0
+        },
+        {
+          "Name": "_DiffAuto",
+          "DisplayName": "CutomColors -> Diffuse",
+          "PropertyType": 3
+        },
+        {
+          "Name": "_DiffTex",
+          "DisplayName": "Diffuse Texture",
+          "PropertyType": 4
+        },
+        {
+          "Name": "_SpecCol",
+          "DisplayName": "Reflection Color",
+          "PropertyType": 0
+        },
+        {
+          "Name": "_SpecAuto",
+          "DisplayName": "CutomColors -> Reflection",
+          "PropertyType": 3
+        },
+        {
+          "Name": "_SpecAmount",
+          "DisplayName": "Specularity",
+          "PropertyType": 3
+        },
+        {
+          "Name": "_SpecTex",
+          "DisplayName": "Specular Texture",
+          "PropertyType": 4
+        },
+        {
+          "Name": "_Normal",
+          "DisplayName": "Normal Map",
+          "PropertyType": 4
+        },
+        {
+          "Name": "_LightDir",
+          "DisplayName": "Light Direction",
+          "PropertyType": 1
+        },
+        {
+          "Name": "_Ambient",
+          "DisplayName": "Ambient Lighting",
+          "PropertyType": 3
+        },
+        {
+          "Name": "_Metl",
+          "DisplayName": "Metallic",
+          "PropertyType": 3
+        },
+        {
+          "Name": "_CubeMap",
+          "DisplayName": "Reflection Map",
+          "PropertyType": 4
+        },
+        {
+          "Name": "_TexSize",
+          "DisplayName": "Texture Pixels",
+          "PropertyType": 3
+        },
+        {
+          "Name": "_CubeMapTexSize",
+          "DisplayName": "Reflection Pixels",
+          "PropertyType": 3
+        },
+        {
+          "Name": "_GlowCutDiff",
+          "DisplayName": "Cut Diffuse <-> Glow [Texture]",
+          "PropertyType": 3
+        },
+        {
+          "Name": "_GlowCutSpec",
+          "DisplayName": "Cut Diffuse <-> Glow [Reflection]",
+          "PropertyType": 3
+        },
+        {
+          "Name": "_ClipDiff",
+          "DisplayName": "Cut Invisible <-> Visible [Texture]",
+          "PropertyType": 3
+        },
+        {
+          "Name": "_ClipSpec",
+          "DisplayName": "Cut Invisible <-> Visible [Reflection]",
+          "PropertyType": 3
+        },
+        {
+          "Name": "_Eye",
+          "DisplayName": "Visible in Eyes: Left <-Both-> Right",
+          "PropertyType": 3
+        },
+        {
+          "Name": "_Glow",
+          "DisplayName": "Makes Custom Colors work",
+          "PropertyType": 3
+        }
+      ],
+      "VariantInfo": {
+        "Keywords": [
+          "UNITY_SINGLE_PASS_STEREO"
+        ],
+        "Platforms": [
+          0
+        ]
+      }
+    },
+    "ShaderMatchInfo": {
+      "PropertiesMissingFromShader": [],
+      "PropertiesMissingFromMatchShader": [],
+      "PropertyConflictInfos": []
+    }
+  },
+  {
+    "ShaderInfo": {
+      "Name": "Okachamie/FireFresnel",
+      "Properties": [
+        {
+          "Name": "_Texture",
+          "DisplayName": "Texture",
+          "PropertyType": 4
+        },
+        {
+          "Name": "_CustomColors",
+          "DisplayName": "Custom Colors",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_Displacement",
+          "DisplayName": "Displacement",
+          "PropertyType": 4
+        },
+        {
+          "Name": "_Color",
+          "DisplayName": "Color",
+          "PropertyType": 0
+        },
+        {
+          "Name": "_DistortionSpeed",
+          "DisplayName": "Distortion Speed",
+          "PropertyType": 1
+        },
+        {
+          "Name": "_Glow",
+          "DisplayName": "Glow",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_FresnelPower",
+          "DisplayName": "Fresnel Power",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_FresnelSize",
+          "DisplayName": "Fresnel Size",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_Intensity",
+          "DisplayName": "Intensity",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_AltGlow",
+          "DisplayName": "Alt Glow",
+          "PropertyType": 3
+        }
+      ],
+      "VariantInfo": {
+        "Keywords": [
+          "UNITY_SINGLE_PASS_STEREO"
+        ],
+        "Platforms": [
+          0
+        ]
+      }
+    },
+    "ShaderMatchInfo": null
+  },
+  {
+    "ShaderInfo": {
+      "Name": "BeatSaber/Uber",
+      "Properties": [
+        {
+          "Name": "_Color",
+          "DisplayName": "Custom Color Tint",
+          "PropertyType": 0
+        },
+        {
+          "Name": "_LightColor",
+          "DisplayName": "Light Color",
+          "PropertyType": 0
+        },
+        {
+          "Name": "_LightDir",
+          "DisplayName": "Light Direction",
+          "PropertyType": 1
+        },
+        {
+          "Name": "_AmbientLight",
+          "DisplayName": "Ambient Light",
+          "PropertyType": 0
+        },
+        {
+          "Name": "_Glow",
+          "DisplayName": "Glow Power",
+          "PropertyType": 3
+        },
+        {
+          "Name": "_DistortionMap",
+          "DisplayName": "Distortion",
+          "PropertyType": 4
+        },
+        {
+          "Name": "_DistortionIntensity",
+          "DisplayName": "Distortion Intensity",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_AlbedoColor",
+          "DisplayName": "Color",
+          "PropertyType": 0
+        },
+        {
+          "Name": "_MainTex",
+          "DisplayName": "Albedo",
+          "PropertyType": 4
+        },
+        {
+          "Name": "_Cutoff",
+          "DisplayName": "Alpha Cutoff",
+          "PropertyType": 3
+        },
+        {
+          "Name": "_Glossiness",
+          "DisplayName": "Smoothness",
+          "PropertyType": 3
+        },
+        {
+          "Name": "_GlossMapScale",
+          "DisplayName": "Smoothness Scale",
+          "PropertyType": 3
+        },
+        {
+          "Name": "_SmoothnessTextureChannel",
+          "DisplayName": "Smoothness texture channel",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_Metallic",
+          "DisplayName": "Metallic",
+          "PropertyType": 3
+        },
+        {
+          "Name": "_MetallicGlossMap",
+          "DisplayName": "Metallic",
+          "PropertyType": 4
+        },
+        {
+          "Name": "_SpecularHighlights",
+          "DisplayName": "Specular Highlights",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_GlossyReflections",
+          "DisplayName": "Glossy Reflections",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_CustomColors",
+          "DisplayName": "Enable Custom Colors",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_CustomColorsAlbedo",
+          "DisplayName": "Tint albedo",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_CustomColorsEmissive",
+          "DisplayName": "Tint emission",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_BumpScale",
+          "DisplayName": "Scale",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_BumpMap",
+          "DisplayName": "Normal Map",
+          "PropertyType": 4
+        },
+        {
+          "Name": "_Parallax",
+          "DisplayName": "Height Scale",
+          "PropertyType": 3
+        },
+        {
+          "Name": "_ParallaxMap",
+          "DisplayName": "Height Map",
+          "PropertyType": 4
+        },
+        {
+          "Name": "_OcclusionStrength",
+          "DisplayName": "Strength",
+          "PropertyType": 3
+        },
+        {
+          "Name": "_OcclusionMap",
+          "DisplayName": "Occlusion",
+          "PropertyType": 4
+        },
+        {
+          "Name": "_EmissionColor",
+          "DisplayName": "Color",
+          "PropertyType": 0
+        },
+        {
+          "Name": "_EmissionMap",
+          "DisplayName": "Emission",
+          "PropertyType": 4
+        },
+        {
+          "Name": "_DetailMask",
+          "DisplayName": "Detail Mask",
+          "PropertyType": 4
+        },
+        {
+          "Name": "_DetailAlbedoMap",
+          "DisplayName": "Detail Albedo x2",
+          "PropertyType": 4
+        },
+        {
+          "Name": "_DetailNormalMapScale",
+          "DisplayName": "Scale",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_DetailNormalMap",
+          "DisplayName": "Normal Map",
+          "PropertyType": 4
+        },
+        {
+          "Name": "_UVSec",
+          "DisplayName": "UV Set for secondary textures",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_Culling",
+          "DisplayName": "Cull",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_Mode",
+          "DisplayName": "__mode",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_SrcBlend",
+          "DisplayName": "__src",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_DstBlend",
+          "DisplayName": "__dst",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_ZWrite",
+          "DisplayName": "__zw",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_ColorMask",
+          "DisplayName": "__colormask",
+          "PropertyType": 2
+        }
+      ],
+      "VariantInfo": {
+        "Keywords": [
+          "UNITY_SINGLE_PASS_STEREO"
+        ],
+        "Platforms": [
+          0
+        ]
+      }
+    },
+    "ShaderMatchInfo": {
+      "PropertiesMissingFromShader": [],
+      "PropertiesMissingFromMatchShader": [],
+      "PropertyConflictInfos": []
+    }
+  },
+  {
+    "ShaderInfo": {
+      "Name": "ossocore/MatCap",
+      "Properties": [
+        {
+          "Name": "_Color",
+          "DisplayName": "Color",
+          "PropertyType": 0
+        },
+        {
+          "Name": "_CustomColors",
+          "DisplayName": "Custom Colors",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_EmissionStrength",
+          "DisplayName": "Emission Strength",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_MatCapImage",
+          "DisplayName": "MatCapImage",
+          "PropertyType": 4
+        },
+        {
+          "Name": "_Grayscale",
+          "DisplayName": "Grayscale",
+          "PropertyType": 2
+        }
+      ],
+      "VariantInfo": {
+        "Keywords": [
+          "UNITY_SINGLE_PASS_STEREO"
+        ],
+        "Platforms": [
+          0
+        ]
+      }
+    },
+    "ShaderMatchInfo": null
+  },
+  {
+    "ShaderInfo": {
+      "Name": "Standard",
+      "Properties": [
+        {
+          "Name": "_Color",
+          "DisplayName": "Color",
+          "PropertyType": 0
+        },
+        {
+          "Name": "_MainTex",
+          "DisplayName": "Albedo",
+          "PropertyType": 4
+        },
+        {
+          "Name": "_Cutoff",
+          "DisplayName": "Alpha Cutoff",
+          "PropertyType": 3
+        },
+        {
+          "Name": "_Glossiness",
+          "DisplayName": "Smoothness",
+          "PropertyType": 3
+        },
+        {
+          "Name": "_GlossMapScale",
+          "DisplayName": "Smoothness Scale",
+          "PropertyType": 3
+        },
+        {
+          "Name": "_SmoothnessTextureChannel",
+          "DisplayName": "Smoothness texture channel",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_Metallic",
+          "DisplayName": "Metallic",
+          "PropertyType": 3
+        },
+        {
+          "Name": "_MetallicGlossMap",
+          "DisplayName": "Metallic",
+          "PropertyType": 4
+        },
+        {
+          "Name": "_SpecularHighlights",
+          "DisplayName": "Specular Highlights",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_GlossyReflections",
+          "DisplayName": "Glossy Reflections",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_BumpScale",
+          "DisplayName": "Scale",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_BumpMap",
+          "DisplayName": "Normal Map",
+          "PropertyType": 4
+        },
+        {
+          "Name": "_Parallax",
+          "DisplayName": "Height Scale",
+          "PropertyType": 3
+        },
+        {
+          "Name": "_ParallaxMap",
+          "DisplayName": "Height Map",
+          "PropertyType": 4
+        },
+        {
+          "Name": "_OcclusionStrength",
+          "DisplayName": "Strength",
+          "PropertyType": 3
+        },
+        {
+          "Name": "_OcclusionMap",
+          "DisplayName": "Occlusion",
+          "PropertyType": 4
+        },
+        {
+          "Name": "_EmissionColor",
+          "DisplayName": "Color",
+          "PropertyType": 0
+        },
+        {
+          "Name": "_EmissionMap",
+          "DisplayName": "Emission",
+          "PropertyType": 4
+        },
+        {
+          "Name": "_DetailMask",
+          "DisplayName": "Detail Mask",
+          "PropertyType": 4
+        },
+        {
+          "Name": "_DetailAlbedoMap",
+          "DisplayName": "Detail Albedo x2",
+          "PropertyType": 4
+        },
+        {
+          "Name": "_DetailNormalMapScale",
+          "DisplayName": "Scale",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_DetailNormalMap",
+          "DisplayName": "Normal Map",
+          "PropertyType": 4
+        },
+        {
+          "Name": "_UVSec",
+          "DisplayName": "UV Set for secondary textures",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_Mode",
+          "DisplayName": "__mode",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_SrcBlend",
+          "DisplayName": "__src",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_DstBlend",
+          "DisplayName": "__dst",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_ZWrite",
+          "DisplayName": "__zw",
+          "PropertyType": 2
+        }
+      ],
+      "VariantInfo": {
+        "Keywords": [
+          "UNITY_SINGLE_PASS_STEREO"
+        ],
+        "Platforms": [
+          0
+        ]
+      }
+    },
+    "ShaderMatchInfo": {
+      "PropertiesMissingFromShader": [],
+      "PropertiesMissingFromMatchShader": [],
+      "PropertyConflictInfos": []
+    }
+  },
+  {
+    "ShaderInfo": {
+      "Name": "Okachamie/TrailWithFadeDistortion",
+      "Properties": [
+        {
+          "Name": "_Color",
+          "DisplayName": "Color",
+          "PropertyType": 0
+        },
+        {
+          "Name": "_AlphaTexture",
+          "DisplayName": "Alpha Texture",
+          "PropertyType": 4
+        },
+        {
+          "Name": "_Displacement",
+          "DisplayName": "Displacement",
+          "PropertyType": 4
+        },
+        {
+          "Name": "_DisplacementIntensity",
+          "DisplayName": "Displacement Intensity",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_DisplacementSpeed",
+          "DisplayName": "Displacement Speed",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_Opacity",
+          "DisplayName": "Opacity",
+          "PropertyType": 3
+        },
+        {
+          "Name": "_Glow",
+          "DisplayName": "Glow",
+          "PropertyType": 3
+        },
+        {
+          "Name": "_DisplacementOffset",
+          "DisplayName": "Displacement Offset",
+          "PropertyType": 1
+        },
+        {
+          "Name": "_CustomColors",
+          "DisplayName": "Custom Colors",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_FadeMask",
+          "DisplayName": "Fade Mask",
+          "PropertyType": 4
+        },
+        {
+          "Name": "_Cutoff",
+          "DisplayName": "Alpha cutoff",
+          "PropertyType": 3
+        }
+      ],
+      "VariantInfo": {
+        "Keywords": [
+          "UNITY_SINGLE_PASS_STEREO"
+        ],
+        "Platforms": [
+          0
+        ]
+      }
+    },
+    "ShaderMatchInfo": null
+  }
+]

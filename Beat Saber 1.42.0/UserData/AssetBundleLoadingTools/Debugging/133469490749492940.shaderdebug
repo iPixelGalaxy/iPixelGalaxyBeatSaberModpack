@@ -1,0 +1,362 @@
+[
+  {
+    "ShaderInfo": {
+      "Name": "BeatSaber Tach/Complete",
+      "Properties": [
+        {
+          "Name": "_Color",
+          "DisplayName": "Auto Color [Used by CustomColors]",
+          "PropertyType": 0
+        },
+        {
+          "Name": "_CustomColors",
+          "DisplayName": "Custom Colors",
+          "PropertyType": 3
+        },
+        {
+          "Name": "_UseColorScheme",
+          "DisplayName": "Use Colorscheme",
+          "PropertyType": 3
+        },
+        {
+          "Name": "_GlowCol",
+          "DisplayName": "Glow Color",
+          "PropertyType": 0
+        },
+        {
+          "Name": "_GlowAlpha",
+          "DisplayName": "Glow Alpha",
+          "PropertyType": 3
+        },
+        {
+          "Name": "_GlowAuto",
+          "DisplayName": "CutomColors -> Glow",
+          "PropertyType": 3
+        },
+        {
+          "Name": "_GlowTex",
+          "DisplayName": "Glow Texture",
+          "PropertyType": 4
+        },
+        {
+          "Name": "_DiffCol",
+          "DisplayName": "Diffuse Color",
+          "PropertyType": 0
+        },
+        {
+          "Name": "_DiffAlpha",
+          "DisplayName": "Diffuse Alpha",
+          "PropertyType": 3
+        },
+        {
+          "Name": "_DiffAuto",
+          "DisplayName": "CutomColors -> Diffuse",
+          "PropertyType": 3
+        },
+        {
+          "Name": "_DiffTex",
+          "DisplayName": "Diffuse Texture",
+          "PropertyType": 4
+        },
+        {
+          "Name": "_SpecCol",
+          "DisplayName": "Reflection Color",
+          "PropertyType": 0
+        },
+        {
+          "Name": "_SpecAlpha",
+          "DisplayName": "Reflection Alpha",
+          "PropertyType": 3
+        },
+        {
+          "Name": "_SpecAuto",
+          "DisplayName": "CutomColors -> Reflection",
+          "PropertyType": 3
+        },
+        {
+          "Name": "_SpecAmount",
+          "DisplayName": "Specularity",
+          "PropertyType": 3
+        },
+        {
+          "Name": "_SpecTex",
+          "DisplayName": "Specular Texture",
+          "PropertyType": 4
+        },
+        {
+          "Name": "_Normal",
+          "DisplayName": "Normal Map",
+          "PropertyType": 4
+        },
+        {
+          "Name": "_LightDir",
+          "DisplayName": "Light Direction",
+          "PropertyType": 1
+        },
+        {
+          "Name": "_Ambient",
+          "DisplayName": "Ambient Lighting",
+          "PropertyType": 3
+        },
+        {
+          "Name": "_Metl",
+          "DisplayName": "Metallic",
+          "PropertyType": 3
+        },
+        {
+          "Name": "_CubeMap",
+          "DisplayName": "Reflection Map",
+          "PropertyType": 4
+        },
+        {
+          "Name": "_TexSize",
+          "DisplayName": "Texture Pixels",
+          "PropertyType": 3
+        },
+        {
+          "Name": "_CubeMapTexSize",
+          "DisplayName": "Reflection Pixels",
+          "PropertyType": 3
+        },
+        {
+          "Name": "_GlowCutDiff",
+          "DisplayName": "Cut Diffuse <-> Glow [Texture]",
+          "PropertyType": 3
+        },
+        {
+          "Name": "_GlowCutSpec",
+          "DisplayName": "Cut Diffuse <-> Glow [Reflection]",
+          "PropertyType": 3
+        },
+        {
+          "Name": "_ClipDiff",
+          "DisplayName": "Cut Invisible <-> Visible [Texture]",
+          "PropertyType": 3
+        },
+        {
+          "Name": "_ClipSpec",
+          "DisplayName": "Cut Invisible <-> Visible [Reflection]",
+          "PropertyType": 3
+        },
+        {
+          "Name": "_Eye",
+          "DisplayName": "Visible in Eyes: Left <-Both-> Right",
+          "PropertyType": 3
+        }
+      ],
+      "VariantInfo": {
+        "Keywords": [
+          "UNITY_SINGLE_PASS_STEREO"
+        ],
+        "Platforms": [
+          0
+        ]
+      }
+    },
+    "ShaderMatchInfo": {
+      "PropertiesMissingFromShader": [],
+      "PropertiesMissingFromMatchShader": [],
+      "PropertyConflictInfos": []
+    }
+  },
+  {
+    "ShaderInfo": {
+      "Name": "BeatSaber/Cosmic Fresnel",
+      "Properties": [
+        {
+          "Name": "_Color",
+          "DisplayName": "Color",
+          "PropertyType": 0
+        },
+        {
+          "Name": "_CustomColors",
+          "DisplayName": "Custom Colors",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_Glow",
+          "DisplayName": "Glow",
+          "PropertyType": 3
+        },
+        {
+          "Name": "_OverallIntensity",
+          "DisplayName": "Overall Intensity",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_CosmicFieldIntensity",
+          "DisplayName": "Cosmic Field Intensity",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_CosmicFieldTex",
+          "DisplayName": "Cosmic Field Tex",
+          "PropertyType": 4
+        },
+        {
+          "Name": "_CosmicFieldSize",
+          "DisplayName": "Cosmic Field Size",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_FieldSpeed",
+          "DisplayName": "Field Speed",
+          "PropertyType": 1
+        },
+        {
+          "Name": "_StarMapIntensity",
+          "DisplayName": "Star Map Intensity",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_StarMapTex",
+          "DisplayName": "Star Map Tex",
+          "PropertyType": 4
+        },
+        {
+          "Name": "_StarMapSize",
+          "DisplayName": "Star Map Size",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_StarSpeed",
+          "DisplayName": "Star Speed",
+          "PropertyType": 1
+        },
+        {
+          "Name": "_FresnelIntensity",
+          "DisplayName": "Fresnel Intensity",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_FresnelTex",
+          "DisplayName": "Fresnel Tex",
+          "PropertyType": 4
+        },
+        {
+          "Name": "_FresnelRadius",
+          "DisplayName": "Fresnel Radius",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_FresnelBias",
+          "DisplayName": "Fresnel Bias",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_FresnelSpeed",
+          "DisplayName": "Fresnel Speed",
+          "PropertyType": 1
+        }
+      ],
+      "VariantInfo": {
+        "Keywords": [
+          "UNITY_SINGLE_PASS_STEREO"
+        ],
+        "Platforms": [
+          0
+        ]
+      }
+    },
+    "ShaderMatchInfo": {
+      "PropertiesMissingFromShader": [],
+      "PropertiesMissingFromMatchShader": [],
+      "PropertyConflictInfos": []
+    }
+  },
+  {
+    "ShaderInfo": {
+      "Name": "BeatSaber/Unlit Glow",
+      "Properties": [
+        {
+          "Name": "_Color",
+          "DisplayName": "Color",
+          "PropertyType": 0
+        },
+        {
+          "Name": "_CustomColors",
+          "DisplayName": "Custom Colors",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_MainTex",
+          "DisplayName": "Texture",
+          "PropertyType": 4
+        },
+        {
+          "Name": "_Glow",
+          "DisplayName": "Glow",
+          "PropertyType": 3
+        }
+      ],
+      "VariantInfo": {
+        "Keywords": [
+          "UNITY_SINGLE_PASS_STEREO"
+        ],
+        "Platforms": [
+          0
+        ]
+      }
+    },
+    "ShaderMatchInfo": {
+      "PropertiesMissingFromShader": [],
+      "PropertiesMissingFromMatchShader": [],
+      "PropertyConflictInfos": []
+    }
+  },
+  {
+    "ShaderInfo": {
+      "Name": "BeatSaber/Fire Trail",
+      "Properties": [
+        {
+          "Name": "_AlphaTex",
+          "DisplayName": "Alpha texture",
+          "PropertyType": 4
+        },
+        {
+          "Name": "_DisplaceTex",
+          "DisplayName": "Displace Texture",
+          "PropertyType": 4
+        },
+        {
+          "Name": "_MaskTex",
+          "DisplayName": "Fade Mask",
+          "PropertyType": 4
+        },
+        {
+          "Name": "_DispPower",
+          "DisplayName": "Displacement Intensity",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_DispSpeed",
+          "DisplayName": "Displacement Speed",
+          "PropertyType": 2
+        },
+        {
+          "Name": "_TexOffset",
+          "DisplayName": "Displacement Offset",
+          "PropertyType": 1
+        },
+        {
+          "Name": "_Glow",
+          "DisplayName": "Glow",
+          "PropertyType": 3
+        }
+      ],
+      "VariantInfo": {
+        "Keywords": [
+          "UNITY_SINGLE_PASS_STEREO"
+        ],
+        "Platforms": [
+          0
+        ]
+      }
+    },
+    "ShaderMatchInfo": {
+      "PropertiesMissingFromShader": [],
+      "PropertiesMissingFromMatchShader": [],
+      "PropertyConflictInfos": []
+    }
+  }
+]
