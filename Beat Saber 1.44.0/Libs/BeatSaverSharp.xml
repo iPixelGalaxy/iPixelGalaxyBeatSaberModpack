@@ -1,0 +1,839 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BeatSaverSharp</name>
+    </assembly>
+    <members>
+        <member name="T:BeatSaverSharp.BeatSaver">
+            <summary>
+            A client for interfacing with the BeatSaver API
+            </summary>
+        </member>
+        <member name="M:BeatSaverSharp.BeatSaver.Vote(System.String,BeatSaverSharp.Models.Vote.Type,BeatSaverSharp.Models.Vote.Platform,System.String,System.String,System.Threading.CancellationToken)">
+            <summary>
+            Submits a vote on a map.
+            </summary>
+            <param name="levelHash">The hash of the map to vote on.</param>
+            <param name="voteType">The voting type (whether it's an upvote or downvote).</param>
+            <param name="platform">The platform in which the vote is coming from. This should be related to the <paramref name="platformID"/></param>
+            <param name="platformID">The platform ID of the user submitting this vote. This should correspond to <paramref name="platform"/></param>
+            <param name="proof">The proof (secret, auth ticket, etc) which can be used to verify people.</param>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="M:BeatSaverSharp.BeatSaver.GetOrAddBeatmapToCache(BeatSaverSharp.Models.Beatmap,BeatSaverSharp.Models.Beatmap@,System.String)">
+            <summary>
+            Gets or adds a map to the cache. This will give the beatmap properties their client object if necessary.
+            </summary>
+            <param name="beatmap">The beatmap to get or add.</param>
+            <param name="cachedAndOrBeatmap">The added or fetched Beatmap</param>
+            <param name="hash">The hash used to find this beatmap if different from that returned</param>
+            <returns>Returns true if it was added. Returns false if it was already cached.</returns>
+        </member>
+        <member name="P:BeatSaverSharp.BeatSaverOptions.MaximumCacheSize">
+            <summary>
+            If the amount of items in a specific cache goes past this number, the first item in the cache is removed.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Http.IHttpResponse.Code">
+            <summary>
+            The HTTP status code of the response.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Http.IHttpResponse.Successful">
+            <summary>
+            Whether or not the request was successful or not.
+            </summary>
+        </member>
+        <member name="M:BeatSaverSharp.Http.IHttpResponse.ReadAsStringAsync">
+            <summary>
+            Read the body as a string.
+            </summary>
+            <returns>The body represented as a string.</returns>
+        </member>
+        <member name="M:BeatSaverSharp.Http.IHttpResponse.ReadAsByteArrayAsync">
+            <summary>
+            Read the body as a byte array.
+            </summary>
+            <returns>The body represented as an array of bytes.</returns>
+        </member>
+        <member name="M:BeatSaverSharp.Http.IHttpResponse.ReadAsObjectAsync``1">
+            <summary>
+            Reads the body and deserializes it.
+            </summary>
+            <typeparam name="T"></typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:BeatSaverSharp.Http.IHttpResponse.PopulateObjectAsync(System.Object)">
+            <summary>
+            Reads the body and deserializes it into an existing object.
+            </summary>
+            <param name="target"></param>
+            <returns></returns>
+        </member>
+        <member name="T:BeatSaverSharp.Models.Beatmap">
+            <summary>
+            A BeatSaver beatmap.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.Beatmap.ID">
+            <summary>
+            The ID of the map.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.Beatmap.Name">
+            <summary>
+            The name (or title) of the map.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.Beatmap.Description">
+            <summary>
+            The description of the map.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.Beatmap.Uploader">
+            <summary>
+            The uploader of this map.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.Beatmap.Metadata">
+            <summary>
+            The metadata for this map.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.Beatmap.Stats">
+            <summary>
+            The stats for this map.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.Beatmap.Tags">
+            <summary>
+            The tags (genres) for this map.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.Beatmap.Uploaded">
+            <summary>
+            The time at which this map was uploaded.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.Beatmap.Automapper">
+            <summary>
+            Was this map made by an auto-mapper?
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.Beatmap.Ranked">
+            <summary>
+            Is this map ranked on ScoreSaber?
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.Beatmap.Qualified">
+            <summary>
+            Is this map qualified on ScoreSaber?
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.Beatmap.Versions">
+            <summary>
+            The versions of this map.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.Beatmap.Curator">
+            <summary>
+            The person who curated this map.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.Beatmap.CuratedAt">
+            <summary>
+            The time at which this playlist was curated.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.Beatmap.DeletedAt">
+            <summary>
+            The time at which this map was deleted.
+            </summary>
+        </member>
+        <member name="T:BeatSaverSharp.Models.BeatmapDifficulty">
+            <summary>
+            A difficulty for a beatmap.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.BeatmapDifficulty.Bombs">
+            <summary>
+            The amount of bombs in the difficulty.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.BeatmapDifficulty.Characteristic">
+            <summary>
+            The characteristic of the difficulty.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.BeatmapDifficulty.Chroma">
+            <summary>
+            Does this difficulty have Chroma support?
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.BeatmapDifficulty.Cinema">
+            <summary>
+            Does this difficulty have Cinema support?
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.BeatmapDifficulty.Difficulty">
+            <summary>
+            The difficulty of this difficulty.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.BeatmapDifficulty.Events">
+            <summary>
+            The amount of mapping events in this difficulty.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.BeatmapDifficulty.Length">
+            <summary>
+            The length of this song.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.BeatmapDifficulty.MappingExtensions">
+            <summary>
+            Does this difficulty support mapping extensions?
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.BeatmapDifficulty.NoodleExtensions">
+            <summary>
+            Does this difficulty support noodle extensions?
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.BeatmapDifficulty.NJS">
+            <summary>
+            The Note Jump Speed of this difficulty.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.BeatmapDifficulty.Notes">
+            <summary>
+            The amount of notes in this difficulty.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.BeatmapDifficulty.NPS">
+            <summary>
+            The notes per second of this difficulty.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.BeatmapDifficulty.Obstacles">
+            <summary>
+            The amount of obstacles in this difficulty.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.BeatmapDifficulty.Offset">
+            <summary>
+            The spawn offset for this difficulty.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.BeatmapDifficulty.Parity">
+            <summary>
+            Parity information for this difficulty.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.BeatmapDifficulty.Seconds">
+            <summary>
+            The length of this song in seconds.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.BeatmapDifficulty.Stars">
+            <summary>
+            The star rating of this difficulty.
+            </summary>
+        </member>
+        <member name="T:BeatSaverSharp.Models.BeatmapMetadata">
+            <summary>
+            Contains map detail metadata. The information stored here is inferred from map's Info.dat file.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.BeatmapMetadata.BPM">
+            <summary>
+            The beats per minute (BPM) of the map, as defined in the map's Info.dat
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.BeatmapMetadata.Duration">
+            <summary>
+            The song duration in (beats? seconds).
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.BeatmapMetadata.SongName">
+            <summary>
+            The name of the song, as defined in the map's Info.dat
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.BeatmapMetadata.SongSubName">
+            <summary>
+            The song's sub name, as defined in the map's Info.dat
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.BeatmapMetadata.SongAuthorName">
+            <summary>
+            The name of the song author, as defined in the map's Info.dat
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.BeatmapMetadata.LevelAuthorName">
+            <summary>
+            The name of the level author, as defined in the map's Info.dat
+            </summary>
+        </member>
+        <member name="T:BeatSaverSharp.Models.BeatmapParitySummary">
+            <summary>
+            Contains parity information of a beatmap.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.BeatmapParitySummary.Errors">
+            <summary>
+            The amount of errors in the map.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.BeatmapParitySummary.Resets">
+            <summary>
+            The amount of resets in the map.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.BeatmapParitySummary.Warns">
+            <summary>
+            The amount of warnings in the map.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.BeatmapStats.Plays">
+            <summary>
+            The amount of plays this map has.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.BeatmapStats.Downloads">
+            <summary>
+            How many times this map was downloaded.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.BeatmapStats.Upvotes">
+            <summary>
+            How many upvotes this map has.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.BeatmapStats.Downvotes">
+            <summary>
+            How many downvotes this map has.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.BeatmapStats.Score">
+            <summary>
+            The score/rating of this map, expressed as a normalized float.
+            This should be treated as a percentage.
+            </summary>
+        </member>
+        <member name="T:BeatSaverSharp.Models.BeatmapTestplay">
+            <summary>
+            Represents a playtest of a beatmap.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.BeatmapTestplay.CreatedAt">
+            <summary>
+            The time the testplay was initialized.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.BeatmapTestplay.Feedback">
+            <summary>
+            The the time feedback was given.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.BeatmapTestplay.FeedbackAt">
+            <summary>
+            The time at which feedback was given.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.BeatmapTestplay.Video">
+            <summary>
+            A video related to the feedback.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.BeatmapTestplay.User">
+            <summary>
+            The user who submitted the testplay.
+            </summary>
+        </member>
+        <member name="T:BeatSaverSharp.Models.BeatmapVersion">
+            <summary>
+            Represents a specific version of a Beatmap
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.BeatmapVersion.CreatedAt">
+            <summary>
+            The time this version was creeated.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.BeatmapVersion.Feedback">
+            <summary>
+            The feedback for this version.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.BeatmapVersion.SageScore">
+            <summary>
+            The sage score.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.BeatmapVersion.Hash">
+            <summary>
+            The map's hash.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.BeatmapVersion.Key">
+            <summary>
+            The map's key.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.BeatmapVersion.State">
+            <summary>
+            The state of this version.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.BeatmapVersion.TestplayAt">
+            <summary>
+            The time at which the most recent testplay was set for this version.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.BeatmapVersion.Testplays">
+            <summary>
+            The testplays associated with this version.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.BeatmapVersion.CoverURL">
+            <summary>
+            The relative URL of where the cover image is stored.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.BeatmapVersion.Difficulties">
+            <summary>
+            The difficulties in this map.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.BeatmapVersion.DownloadURL">
+            <summary>
+            The relative URL of where to download this version.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.BeatmapVersion.PreviewURL">
+            <summary>
+            The relative URL to find the audio preview file for this map.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.Curator.Id">
+            <summary>
+            Id of the curator.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.Curator.Name">
+            <summary>
+            Name of the curator.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.Curator.Avatar">
+            <summary>
+            Link of the avatar of the curator.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.Curator.Type">
+            <summary>
+            User account type of the curator.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.OrderedBeatmap.Order">
+            <summary>
+            The order of the beatmap in the playlist.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.Playlist.CreatedAt">
+            <summary>
+            The time at which this playlist was created.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.Playlist.CuratedAt">
+            <summary>
+            The time at which this playlist was curated.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.Playlist.Curator">
+            <summary>
+            The user who curated this map.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.Playlist.DeletedAt">
+            <summary>
+            The time at which this playlist was deleted.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.Playlist.Description">
+            <summary>
+            The description of the playlist.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.Playlist.Name">
+            <summary>
+            The name of the playlist.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.Playlist.Owner">
+            <summary>
+            The owner of the playlist.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.Playlist.ID">
+            <summary>
+            The ID of the playlist.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.Playlist.CoverURL">
+            <summary>
+            The relative URL of where the cover image is stored.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.Playlist.DownloadURL">
+            <summary>
+            The relative URL of where to download this playlist
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.Playlist.Public">
+            <summary>
+            If the playlist is public or not.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.Playlist.SongsChangedAt">
+            <summary>
+            The last time one of the songs in the playlist was updated.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.Playlist.UpdatedAt">
+            <summary>
+            The time at which the playlist was last updated.
+            </summary>
+        </member>
+        <member name="T:BeatSaverSharp.Models.User">
+            <summary>
+            A BeatSaver user.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.User.ID">
+            <summary>
+            The unique ID of the user.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.User.Name">
+            <summary>
+            The name of the user.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.User.Hash">
+            <summary>
+            The hash of the avatar URL.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.User.Avatar">
+            <summary>
+            The avatar URL of the user.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.User.Curator">
+            <summary>
+            Is this user a curator?
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.User.Type">
+            <summary>
+            User account type.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.User.Stats">
+            <summary>
+            The mapping stats of the user.
+            </summary>
+        </member>
+        <member name="M:BeatSaverSharp.Models.User.Beatmaps(System.Int32,System.Threading.CancellationToken)">
+            <summary>
+            Gets the beatmaps uploaded by the user.
+            </summary>
+            <param name="page">The page to get/</param>
+            <param name="token"></param>
+            <returns></returns>
+        </member>
+        <member name="T:BeatSaverSharp.Models.UserDifficultyStats">
+            <summary>
+            Contains statistics containing the quantity of maps a user has uploaded.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.UserDifficultyStats.Total">
+            <summary>
+            The total amount of maps a user has uploaded.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.UserDifficultyStats.Easy">
+            <summary>
+            The amount of easy maps a user has uploaded.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.UserDifficultyStats.Normal">
+            <summary>
+            The amount of normal maps a user has uploaded.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.UserDifficultyStats.Hard">
+            <summary>
+            The amount of hard maps a user has uploaded.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.UserDifficultyStats.Expert">
+            <summary>
+            The amount of expert maps a user has uploaded.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.UserDifficultyStats.ExpertPlus">
+            <summary>
+            The amount of expert plus maps a user has uploaded.
+            </summary>
+        </member>
+        <member name="T:BeatSaverSharp.Models.UserStats">
+            <summary>
+            User stats.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.UserStats.TotalUpvotes">
+            <summary>
+            The total amount of upvotes that have accumulated on a user's profile.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.UserStats.TotalDownvotes">
+            <summary>
+            The total amount of downvotes that have accumulated on a user's profile.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.UserStats.TotalMaps">
+            <summary>
+            The total amount of maps a user has uploaded.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.UserStats.RankedMaps">
+            <summary>
+            The amount of ranked maps a user has uploaded.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.UserStats.AverageBPM">
+            <summary>
+            The averaged beats per minute (BPM) of all of a user's uploaded maps.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.UserStats.AverageScore">
+            <summary>
+            The averaged score (or rating) of all of a user's uploaded maps.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.UserStats.AverageDuration">
+            <summary>
+            The averaged duration of all of a user's uploaded maps.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.UserStats.FirstUpload">
+            <summary>
+            The time that the user's first map was uploaded.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.UserStats.LastUpload">
+            <summary>
+            The time that the user's most recent map was uploaded.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.Models.UserStats.DifficultyStats">
+            <summary>
+            The difficulty statistics of all of a user's uploaded maps.
+            </summary>
+        </member>
+        <member name="T:BeatSaverSharp.SearchTextFilterOption">
+            <summary>
+            Options for filtering through BeatSaver. All properties are nullable by default. Setting one to a value
+            will make it so maps have to meet that value. For example, setting Chroma to true will return only Chroma maps.
+            Setting it to false will make it so Chroma maps are never returned. Setting it to null will include all maps,
+            whether they use Chroma or not.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.SearchTextFilterOption.IncludeAutomappers">
+            <summary>
+            Is a map automatically generated?
+            </summary>
+            <remarks>
+            Setting this to null (default) will make it so only human-made maps are returned. Setting it to false will only return
+            auto-mapped songs. Setting it to true will include both.
+            </remarks>
+        </member>
+        <member name="P:BeatSaverSharp.SearchTextFilterOption.Chroma">
+            <summary>
+            Does a map have Chroma effects?
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.SearchTextFilterOption.Cinema">
+            <summary>
+            Does a map support the Cinema mod?
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.SearchTextFilterOption.From">
+            <summary>
+            Start the search with this date.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.SearchTextFilterOption.FullSpread">
+            <summary>
+            Does a map have a "full spread"? (Easy, Normal, Hard, Expert, and Expert+ maps)
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.SearchTextFilterOption.MaxBPM">
+            <summary>
+            The maximum BPM (beats per minute) of a map.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.SearchTextFilterOption.MaxDuration">
+            <summary>
+            The maximum length (in seconds) of a map.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.SearchTextFilterOption.MaxNPS">
+            <summary>
+            The maximum NPS (notes per second) of a map.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.SearchTextFilterOption.MaxRating">
+            <summary>
+            The maximum rating of a map.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.SearchTextFilterOption.MappingExtensions">
+            <summary>
+            Does a map support Mapping Extensions effects?
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.SearchTextFilterOption.MinBPM">
+            <summary>
+            The minimum BPM of a map.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.SearchTextFilterOption.MinDuration">
+            <summary>
+            The minum duration (in seconds) of a map.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.SearchTextFilterOption.MinNPS">
+            <summary>
+            The minimum NPS (notes per second) of a map.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.SearchTextFilterOption.MinRating">
+            <summary>
+            The minimum rating of a map.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.SearchTextFilterOption.NoodleExtensions">
+            <summary>
+            Does this map support Noodle Extensions effects?
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.SearchTextFilterOption.Query">
+            <summary>
+            Keywords to search with.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.SearchTextFilterOption.Ranked">
+            <summary>
+            Is a map ranked on ScoreSaber?
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.SearchTextFilterOption.SortOrder">
+            <summary>
+            How to sort the search.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.SearchTextFilterOption.To">
+            <summary>
+            End the search after this date.
+            </summary>
+        </member>
+        <member name="T:BeatSaverSharp.SearchTextPlaylistFilterOptions">
+            <summary>
+            Options for filtering playlists through BeatSaver. All properties are nullable by default. Setting one to a value
+            will make it so maps have to meet that value. For example, setting Curated to true will return only curated playlists.
+            Setting it to false will make it so curated playlists are never returned. Setting it to null will include all playlists,
+            whether they are curated or not.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.SearchTextPlaylistFilterOptions.From">
+            <summary>
+            Start the search with this date.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.SearchTextPlaylistFilterOptions.To">
+            <summary>
+            End the search after this date.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.SearchTextPlaylistFilterOptions.IsCurated">
+            <summary>
+            Is a playlist curated
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.SearchTextPlaylistFilterOptions.IncludeEmpty">
+            <summary>
+            Include empty playlists.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.SearchTextPlaylistFilterOptions.Query">
+            <summary>
+            Keywords to search with.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.SearchTextPlaylistFilterOptions.SortOrder">
+            <summary>
+            How to sort the search.
+            </summary>
+        </member>
+        <member name="T:BeatSaverSharp.UploadedFilterOptions">
+            <summary>
+            Provides options for filtering BeatSaver by Latest
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.UploadedFilterOptions.StartDate">
+            <summary>
+            Start searching for songs that released before or during this date.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.UploadedFilterOptions.Before">
+            <summary>
+            Returns maps before the time specified. 
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.UploadedFilterOptions.IncludeAutomappers">
+            <summary>
+            Whether or not to include automapped beatmaps in your search.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.UploadedFilterOptions.Sort">
+            <summary>
+            The sorting applied to the search.
+            </summary>
+        </member>
+        <member name="T:BeatSaverSharp.UploadedPlaylistFilterOptions">
+            <summary>
+            Provides options for filtering BeatSaver playlists by Latest
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.UploadedPlaylistFilterOptions.StartDate">
+            <summary>
+             Start searching for playlists that released before or during this date.
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.UploadedPlaylistFilterOptions.Before">
+            <summary>
+            Returns playlists before the time specified. 
+            </summary>
+        </member>
+        <member name="P:BeatSaverSharp.UploadedPlaylistFilterOptions.Sort">
+            <summary>
+            The sorting applied to the search.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,14 @@
+{
+  "$schema": "https://raw.githubusercontent.com/bsmg/BSIPA-MetadataFileSchema/master/Schema.json",
+  "author": "rickyah",
+  "description": "A .NET, Mono and Unity3d compatible(*) library for reading/writing INI data from IO streams, file streams, and strings written in C#.",
+  "id": "Ini Parser",
+  "name": "INI Parser",
+  "version": "2.5.9",
+  "files" : [
+      "Libs/INIParser.dll"
+   ],
+   "links" : {
+      "project-source" : "https://github.com/rickyah/ini-parser"
+   }
+}

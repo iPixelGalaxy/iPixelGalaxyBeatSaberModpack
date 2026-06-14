@@ -1,0 +1,14 @@
+{
+   "$schema" : "https://raw.githubusercontent.com/bsmg/BSIPA-MetadataFileSchema/master/Schema.json",
+   "id" : "SixLabors.ImageSharp",
+   "name" : "ImageSharp",
+   "author" : "SixLabors",
+   "version" : "2.0.0",
+   "description" : "A modern, cross-platform, 2D Graphics library for .NET",
+   "files" : [
+      "Libs/SixLabors.ImageSharp.dll"
+   ],
+   "links" : {
+      "project-source" : "https://github.com/SixLabors/ImageSharp/"
+   }
+}

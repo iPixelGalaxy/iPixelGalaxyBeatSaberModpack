@@ -1,0 +1,1853 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SiraUtil</name>
+    </assembly>
+    <members>
+        <member name="T:SiraUtil.Affinity.AffinityArgumentType">
+            <summary>
+            A mirror to <see cref="T:HarmonyLib.ArgumentType" />.
+            </summary>
+        </member>
+        <member name="F:SiraUtil.Affinity.AffinityArgumentType.Normal">
+            <summary>
+            A normal argument type.
+            </summary>
+        </member>
+        <member name="F:SiraUtil.Affinity.AffinityArgumentType.Ref">
+            <summary>
+            A reference argument type.
+            </summary>
+        </member>
+        <member name="F:SiraUtil.Affinity.AffinityArgumentType.Out">
+            <summary>
+            An out argument type.
+            </summary>
+        </member>
+        <member name="F:SiraUtil.Affinity.AffinityArgumentType.Pointer">
+            <summary>
+            A pointer argument type.
+            </summary>
+        </member>
+        <member name="T:SiraUtil.Affinity.AffinityMethodType">
+            <summary>
+            A mirror to <see cref="T:HarmonyLib.MethodType" />.
+            </summary>
+        </member>
+        <member name="F:SiraUtil.Affinity.AffinityMethodType.Normal">
+            <summary>
+            A normal method.
+            </summary>
+        </member>
+        <member name="F:SiraUtil.Affinity.AffinityMethodType.Getter">
+            <summary>
+            The getter of a property.
+            </summary>
+        </member>
+        <member name="F:SiraUtil.Affinity.AffinityMethodType.Setter">
+            <summary>
+            The setter of a property.
+            </summary>
+        </member>
+        <member name="F:SiraUtil.Affinity.AffinityMethodType.Constructor">
+            <summary>
+            The construtor of a class.
+            </summary>
+        </member>
+        <member name="F:SiraUtil.Affinity.AffinityMethodType.StaticConstructor">
+            <summary>
+            The static constructor of a class.
+            </summary>
+        </member>
+        <member name="T:SiraUtil.Affinity.AffinityAfterAttribute">
+            <summary>
+            Have an affinity patch run after other patches.
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Affinity.AffinityAfterAttribute.#ctor(System.String[])">
+            <summary>
+            Construct an Affinity After
+            </summary>
+            <param name="after">The IDs of the patches to run after.</param>
+        </member>
+        <member name="T:SiraUtil.Affinity.AffinityBeforeAttribute">
+            <summary>
+            Have an affinity patch run before other patches.
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Affinity.AffinityBeforeAttribute.#ctor(System.String[])">
+            <summary>
+            Construct an Affinity Before
+            </summary>
+            <param name="before">The IDs of the patches to run before.</param>
+        </member>
+        <member name="T:SiraUtil.Affinity.AffinityFinalizerAttribute">
+            <summary>
+            Marks this as an Affinity Finalizer method.
+            </summary>
+        </member>
+        <member name="T:SiraUtil.Affinity.AffinityPatchAttribute">
+            <summary>
+            An attribute for defining Affinity patch data.
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Affinity.AffinityPatchAttribute.#ctor(System.Type,System.String,SiraUtil.Affinity.AffinityMethodType,SiraUtil.Affinity.AffinityArgumentType[],System.Type[])">
+            <summary>
+            The constructor for an Affinity patch.
+            </summary>
+            <param name="declaringType">The type that the method is on.</param>
+            <param name="methodName">The name of the method.</param>
+            <param name="methodType">The type of the method.</param>
+            <param name="argumentVariations">The argument variations of the method.</param>
+            <param name="argumentTypes">The argument types of the method (for overloads).</param>
+        </member>
+        <member name="M:SiraUtil.Affinity.AffinityPatchAttribute.#ctor">
+            <summary>
+            Marks this as an affinity patch.
+            </summary>
+        </member>
+        <member name="T:SiraUtil.Affinity.AffinityPostfixAttribute">
+            <summary>
+            Marks this as an Affinity Postfix method.
+            </summary>
+        </member>
+        <member name="T:SiraUtil.Affinity.AffinityPrefixAttribute">
+            <summary>
+            Marks this as an Affinity Prefix method.
+            </summary>
+        </member>
+        <member name="T:SiraUtil.Affinity.AffinityPriorityAttribute">
+            <summary>
+            Assign an affinity patch a priority.
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Affinity.AffinityPriorityAttribute.#ctor(System.Int32)">
+            <summary>
+            Constructs an Affinity Priority
+            </summary>
+            <param name="priority">An arbitrary number representing the level of priority this patch should receive.</param>
+        </member>
+        <member name="T:SiraUtil.Affinity.AffinityTranspilerAttribute">
+            <summary>
+            Marks this as an Affinity Transpile method.
+            </summary>
+        </member>
+        <member name="T:SiraUtil.Affinity.IAffinity">
+            <summary>
+            A marking interface used to collect Affinity registrations in Zenject.
+            </summary>
+        </member>
+        <member name="T:SiraUtil.Attributes.BindAttribute">
+            <summary>
+            Allows the ability to install Zenject bindings through an attribute. This can help with rapid development and make Zenject setup easier. The default settings
+            for this attribute are <see cref="F:SiraUtil.Zenject.Location.App"/>, no special contracts, and binds as as Single (Lazy).
+            Make sure to call zenjector.UseAutoBinder() to set it up. If the class this is placed on inherits <see cref="T:Zenject.IInitializable"/>, <see cref="T:Zenject.ITickable"/>,
+            <see cref="T:Zenject.IFixedTickable"/>, <see cref="T:Zenject.ILateTickable"/>, <see cref="T:System.IDisposable"/>, <see cref="T:Zenject.ILateDisposable"/>, <see cref="T:SiraUtil.Zenject.IAsyncInitializable"/>, 
+            <see cref="T:HMUI.ViewController"/>, <see cref="T:HMUI.FlowCoordinator"/>, or <see cref="T:SiraUtil.Affinity.IAffinity"/> it will bind those appropriately unless you provide a custom type contract array.
+            </summary>
+            <remarks>
+            This simplifies binding, but that doesn't mean <see cref="T:Zenject.Installer"/>s are suddenly useless.
+            Installers are a great way of organization and conditional binding (when you only want to install something if a setting is enabled, etc).
+            </remarks>
+        </member>
+        <member name="P:SiraUtil.Attributes.BindAttribute.NonLazy">
+            <summary>
+            Whether or not the binding is NonLazy
+            </summary>
+        </member>
+        <member name="P:SiraUtil.Attributes.BindAttribute.Location">
+            <summary>
+            The location to bind to.
+            </summary>
+        </member>
+        <member name="P:SiraUtil.Attributes.BindAttribute.Contracts">
+            <summary>
+            The type contracts for this binding.
+            </summary>
+        </member>
+        <member name="P:SiraUtil.Attributes.BindAttribute.BindType">
+            <summary>
+            The Zenject bind type.
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Attributes.BindAttribute.#ctor">
+            <summary>
+            Creates a attributed-binding.
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Attributes.BindAttribute.#ctor(SiraUtil.Zenject.Location)">
+            <summary>
+            Creates a attributed-binding.
+            </summary>
+            <param name="location">The location to install to.</param>
+        </member>
+        <member name="M:SiraUtil.Attributes.BindAttribute.#ctor(System.Type[])">
+            <summary>
+            Creates a attributed-binding.
+            </summary>
+            <param name="contracts">The type contracts for this binding.</param>
+        </member>
+        <member name="M:SiraUtil.Attributes.BindAttribute.#ctor(SiraUtil.Zenject.Location,System.Type[])">
+            <summary>
+            Creates a attributed-binding.
+            </summary>
+            <param name="location">The location to install to.</param>
+            <param name="contracts">The type contracts for this binding.</param>
+        </member>
+        <member name="M:SiraUtil.Attributes.BindAttribute.#ctor(SiraUtil.Zenject.Location,SiraUtil.Zenject.BindType,System.Boolean,System.Type[])">
+            <summary>
+            Creates a attributed-binding.
+            </summary>
+            <param name="location">The location to install to.</param>
+            <param name="bindType">The Zenject bind type.</param>
+            <param name="nonLazy">Whether or not this binding is NonLazy</param>
+            <param name="contracts">The type contracts for this binding.</param>
+        </member>
+        <member name="T:SiraUtil.Attributes.SlogAttribute">
+            <summary>
+            Allows SiraUtil to detect if plugins are built for release.
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Attributes.SlogAttribute.#ctor">
+            <summary>
+            An empty constructor.
+            </summary>
+        </member>
+        <member name="T:SiraUtil.Converters.FileInfoConverter">
+            <summary>
+            A config converter for BSIPA which can serialize and deserialize IO <see cref="T:System.IO.FileInfo"/> values.
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Converters.FileInfoConverter.FromValue(IPA.Config.Data.Value,System.Object)">
+            <summary>
+            Converts a config value to a <see cref="T:System.IO.FileInfo"/> instance.
+            </summary>
+            <param name="value"></param>
+            <param name="parent"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SiraUtil.Converters.FileInfoConverter.ToValue(System.IO.FileInfo,System.Object)">
+            <summary>
+            Converts a <see cref="T:System.IO.FileInfo"/> instance into a string.
+            </summary>
+            <param name="obj"></param>
+            <param name="parent"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SiraUtil.Converters.VersionConverter">
+            <summary>
+            A config converter for BSIPA which can serialize and deserialize Hive.Versioning <see cref="T:Hive.Versioning.Version"/> values.
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Converters.VersionConverter.FromValue(IPA.Config.Data.Value,System.Object)">
+            <summary>
+            Converts a config value text to a Hive.Versioning <see cref="T:Hive.Versioning.Version"/>.
+            </summary>
+            <param name="value"></param>
+            <param name="parent"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SiraUtil.Converters.VersionConverter.ToValue(Hive.Versioning.Version,System.Object)">
+            <summary>
+            Converts a Hive.Versioning <see cref="T:Hive.Versioning.Version"/> into a config value text.
+            </summary>
+            <param name="obj"></param>
+            <param name="parent"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SiraUtil.Extras.Extensions">
+            <summary>
+            Some public extensions.
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Extras.Extensions.RegisterRedecorator``1(Zenject.DiContainer,``0)">
+            <summary>
+            Registers a redecorator for the object API.
+            </summary>
+            <remarks>
+            This cannot be called on the App scene, please only call this as you're installing your game related bindings.
+            </remarks>
+            <typeparam name="TRegistrator"></typeparam>
+            <param name="container"></param>
+            <param name="registrator"></param>
+        </member>
+        <member name="M:SiraUtil.Extras.Extensions.ScoreSubmissionEnabled(LevelCompletionResults)">
+            <summary>
+            Is score submission enabled?
+            </summary>
+            <param name="levelCompletionResults">The level completion results of the play.</param>
+            <returns>Whether or not score submission was disabled by SiraUtil.</returns>
+        </member>
+        <member name="T:SiraUtil.Extras.Utilities">
+            <summary>
+            A collection of utilities used in SiraUtil.
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Extras.Utilities.OpCodeSequence(System.Collections.Generic.List{HarmonyLib.CodeInstruction},System.Collections.Generic.List{System.Reflection.Emit.OpCode},System.Int32)">
+            <summary>
+            Check if the following code instructions starting from a given index match a list of opcodes.
+            </summary>
+            <param name="codes">A list of code instructions to check</param>
+            <param name="toCheck">A list of op codes that is expected to match</param>
+            <param name="startIndex">Index to start checking from (inclusive)</param>
+            <returns>Whether or not the op codes found in the code instructions match.</returns>
+        </member>
+        <member name="P:SiraUtil.Extras.Utilities.PauseChamp">
+            <summary>
+            A simple Task which awaits for 100ms. Mainly used to make UI feel more "natural" and for testing purposes.
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Extras.Utilities.AwaitSleep(System.Int32)">
+            <summary>
+            Returns a task which awaits for a time in milliseconds.
+            </summary>
+            <param name="ms">The time in milliseconds to await for.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SiraUtil.Extras.Utilities.GetResourceContent(System.Reflection.Assembly,System.String)">
+            <summary>
+            Gets the Embedded Asset at a specific path in an Assembly.
+            </summary>
+            <param name="assembly">The Assembly that contains the resource.</param>
+            <param name="resource">The path to the resource in the assembly.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SiraUtil.Extras.Utilities.AssemblyFromPath(System.String,System.Reflection.Assembly@,System.String@)">
+            <summary>
+            Gets an assembly from a path.
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Extras.Utilities.GetResource(System.Reflection.Assembly,System.String)">
+            <summary>
+            Gets the raw resource from an Assembly.
+            </summary>
+            <param name="asm">The assembly that contains the resource.</param>
+            <param name="ResourceName">The path to the resource in the assembly.</param>
+            <returns>The raw byte data of the resource.</returns>
+        </member>
+        <member name="T:SiraUtil.Interfaces.ICallback`1">
+            <summary>
+            Interface for having a callback with a parent who manages type <typeparamref name="T"/>
+            </summary>
+            <typeparam name="T">The type (of self) that the parent manages.</typeparam>
+        </member>
+        <member name="E:SiraUtil.Interfaces.ICallback`1.Callback">
+            <summary>
+            The callback for the parent to subscribe to.
+            </summary>
+        </member>
+        <member name="T:SiraUtil.Interfaces.IColorable">
+            <summary>
+            An interface which describes that an object can be described by a color and can be colored.
+            </summary>
+        </member>
+        <member name="P:SiraUtil.Interfaces.IColorable.Color">
+            <summary>
+            The color of this <see cref="T:SiraUtil.Interfaces.IColorable" />
+            </summary>
+        </member>
+        <member name="T:SiraUtil.Interfaces.IDismissable">
+            <summary>
+            Interface for dismissing objects.
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Interfaces.IDismissable.Dismiss">
+            <summary>
+            Dismisses an object.
+            </summary>
+        </member>
+        <member name="T:SiraUtil.Interfaces.IPostSaberModelInit">
+            <summary>
+            Defines for something to be run after a saber model initializes.
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Interfaces.IPostSaberModelInit.PostInit(UnityEngine.Transform,Saber)">
+            <summary>
+            Runs after model initialization.
+            </summary>
+            <param name="parent">The parent of the saber model.</param>
+            <param name="saber">The saber component associated with the current model.</param>
+        </member>
+        <member name="T:SiraUtil.Interfaces.IPreSaberModelInit">
+            <summary>
+            Defines for something to be run before a saber model initializes.
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Interfaces.IPreSaberModelInit.PreInit(UnityEngine.Transform,Saber)">
+            <summary>
+            Runs before model initialization.
+            </summary>
+            <param name="parent">The parent of the saber model.</param>
+            <param name="saber">The saber component associated with the current model.</param>
+            <returns>Do you want the original Init to run?</returns>
+        </member>
+        <member name="T:SiraUtil.Interfaces.IRegistrar`1">
+            <summary>
+            A generic interface which defines a registration.
+            </summary>
+            <typeparam name="T">The type to register.</typeparam>
+        </member>
+        <member name="M:SiraUtil.Interfaces.IRegistrar`1.Add(`0)">
+            <summary>
+            Adds a registration to this registrar.
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="M:SiraUtil.Interfaces.IRegistrar`1.Remove(`0)">
+            <summary>
+            Removes a registration from this registrar.
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="T:SiraUtil.Logging.SiraLog">
+            <summary>
+            A simple multiplexed sub-logger for Dependency Injection
+            </summary>
+        </member>
+        <member name="P:SiraUtil.Logging.SiraLog.Logger">
+            <summary>
+            The logger that's being wrapped around.
+            </summary>
+        </member>
+        <member name="P:SiraUtil.Logging.SiraLog.DebugMode">
+            <summary>
+            Debug Mode will elevate debug logs to info logs.
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Logging.SiraLog.Info(System.Object)">
+            <summary>
+            Log with a <see cref="T:IPA.Logging.Logger.Level"/> of info.
+            </summary>
+            <param name="obj">The object to log.</param>
+        </member>
+        <member name="M:SiraUtil.Logging.SiraLog.Warn(System.Object)">
+            <summary>
+            Log with a <see cref="T:IPA.Logging.Logger.Level"/> of warning.
+            </summary>
+            <param name="obj">The object to log.</param>
+        </member>
+        <member name="M:SiraUtil.Logging.SiraLog.Error(System.Object)">
+            <summary>
+            Log with a <see cref="T:IPA.Logging.Logger.Level"/> of error.
+            </summary>
+            <param name="obj">The object to log.</param>
+        </member>
+        <member name="M:SiraUtil.Logging.SiraLog.Trace(System.Object)">
+            <summary>
+            Log with a <see cref="T:IPA.Logging.Logger.Level"/> of trace.
+            </summary>
+            <param name="obj">The object to log.</param>
+        </member>
+        <member name="M:SiraUtil.Logging.SiraLog.Notice(System.Object)">
+            <summary>
+            Log with a <see cref="T:IPA.Logging.Logger.Level"/> of notice.
+            </summary>
+            <param name="obj">The object to log.</param>
+        </member>
+        <member name="M:SiraUtil.Logging.SiraLog.Critical(System.Object)">
+            <summary>
+            Log with a <see cref="T:IPA.Logging.Logger.Level"/> of critical.
+            </summary>
+            <param name="obj">The object to log.</param>
+        </member>
+        <member name="M:SiraUtil.Logging.SiraLog.Debug(System.Object)">
+            <summary>
+            Log with a <see cref="T:IPA.Logging.Logger.Level"/> of debug.
+            </summary>
+            <param name="obj">The object to log.</param>
+        </member>
+        <member name="M:SiraUtil.Logging.SiraLog.Null(System.Object)">
+            <summary>
+            Quickly perform a null check on an object and log the results.
+            </summary>
+            <param name="obj">The object to null check.</param>
+        </member>
+        <member name="T:SiraUtil.Objects.Beatmap.BasicNoteRegistration">
+            <summary>
+            Registers a redecorator for the basic note.
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Objects.Beatmap.BasicNoteRegistration.#ctor(System.Func{GameNoteController,GameNoteController},System.Int32,System.Boolean)">
+            <summary>
+            Creates a new redecorator registration.
+            </summary>
+            <param name="redecorateCall">This is called when the object is being redecorated.</param>
+            <param name="priority">The redecoration priority.</param>
+            <param name="chain">Whether to chain this redecoration with others. Every redecoration is now aggregated.
+            The chain will start if the highest priority object has chaining enabled and will stop once a registration
+            in the aggregate has chaining disabled.</param>
+        </member>
+        <member name="T:SiraUtil.Objects.Beatmap.BombNoteRegistration">
+            <summary>
+            Registers a redecorator for the basic bomb.
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Objects.Beatmap.BombNoteRegistration.#ctor(System.Func{BombNoteController,BombNoteController},System.Int32,System.Boolean)">
+            <summary>
+            Creates a new redecorator registration.
+            </summary>
+            <param name="redecorateCall">This is called when the object is being redecorated.</param>
+            <param name="priority">The redecoration priority.</param>
+            <param name="chain">Whether to chain this redecoration with others. Every redecoration is now aggregated.
+            The chain will start if the highest priority object has chaining enabled and will stop once a registration
+            in the aggregate has chaining disabled.</param>
+        </member>
+        <member name="T:SiraUtil.Objects.Beatmap.BurstSliderHeadNoteRegistration">
+            <summary>
+            Registers a redecorator for the burst slider head (i.e. head in the chain).
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Objects.Beatmap.BurstSliderHeadNoteRegistration.#ctor(System.Func{GameNoteController,GameNoteController},System.Int32,System.Boolean)">
+            <summary>
+            Creates a new redecorator registration.
+            </summary>
+            <param name="redecorateCall">This is called when the object is being redecorated.</param>
+            <param name="priority">The redecoration priority.</param>
+            <param name="chain">Whether to chain this redecoration with others. Every redecoration is now aggregated.
+            The chain will start if the highest priority object has chaining enabled and will stop once a registration
+            in the aggregate has chaining disabled.</param>
+        </member>
+        <member name="T:SiraUtil.Objects.Beatmap.BurstSliderNoteRegistration">
+            <summary>
+            Registers a redecorator for the burst slider notes (i.e. links in the chain).
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Objects.Beatmap.BurstSliderNoteRegistration.#ctor(System.Func{BurstSliderGameNoteController,BurstSliderGameNoteController},System.Int32,System.Boolean)">
+            <summary>
+            Creates a new redecorator registration.
+            </summary>
+            <param name="redecorateCall">This is called when the object is being redecorated.</param>
+            <param name="priority">The redecoration priority.</param>
+            <param name="chain">Whether to chain this redecoration with others. Every redecoration is now aggregated.
+            The chain will start if the highest priority object has chaining enabled and will stop once a registration
+            in the aggregate has chaining disabled.</param>
+        </member>
+        <member name="T:SiraUtil.Objects.Beatmap.ConnectedPlayerNoteRegistration">
+            <summary>
+            Registers a redecorator for the connected multiplayer note.
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Objects.Beatmap.ConnectedPlayerNoteRegistration.#ctor(System.Func{MultiplayerConnectedPlayerGameNoteController,MultiplayerConnectedPlayerGameNoteController},System.Int32,System.Boolean)">
+            <summary>
+            Creates a new redecorator registration.
+            </summary>
+            <param name="redecorateCall">This is called when the object is being redecorated.</param>
+            <param name="priority">The redecoration priority.</param>
+            <param name="chain">Whether to chain this redecoration with others. Every redecoration is now aggregated.
+            The chain will start if the highest priority object has chaining enabled and will stop once a registration
+            in the aggregate has chaining disabled.</param>
+        </member>
+        <member name="T:SiraUtil.Objects.Beatmap.Debris.BurstSliderElementNoteHDRegistration">
+            <summary>
+            Registers a redecorator for the high-quality burst slider element notes (i.e. links in the chain) debris.
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Objects.Beatmap.Debris.BurstSliderElementNoteHDRegistration.#ctor(System.Func{NoteDebris,NoteDebris},System.Int32,System.Boolean)">
+            <summary>
+            Creates a new redecorator registration.
+            </summary>
+            <param name="redecorateCall">This is called when the object is being redecorated.</param>
+            <param name="priority">The redecoration priority.</param>
+            <param name="chain">Whether to chain this redecoration with others. Every redecoration is now aggregated.
+            The chain will start if the highest priority object has chaining enabled and will stop once a registration
+            in the aggregate has chaining disabled.</param>
+        </member>
+        <member name="T:SiraUtil.Objects.Beatmap.Debris.BurstSliderElementNoteLWRegistration">
+            <summary>
+            Registers a redecorator for the low-quality burst slider element notes (i.e. links in the chain) debris.
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Objects.Beatmap.Debris.BurstSliderElementNoteLWRegistration.#ctor(System.Func{NoteDebris,NoteDebris},System.Int32,System.Boolean)">
+            <summary>
+            Creates a new redecorator registration.
+            </summary>
+            <param name="redecorateCall">This is called when the object is being redecorated.</param>
+            <param name="priority">The redecoration priority.</param>
+            <param name="chain">Whether to chain this redecoration with others. Every redecoration is now aggregated.
+            The chain will start if the highest priority object has chaining enabled and will stop once a registration
+            in the aggregate has chaining disabled.</param>
+        </member>
+        <member name="T:SiraUtil.Objects.Beatmap.Debris.BurstSliderHeadNoteDebrisHDRegistration">
+            <summary>
+            Registers a redecorator for the high-quality burst slider head (i.e. head in the chain) debris.
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Objects.Beatmap.Debris.BurstSliderHeadNoteDebrisHDRegistration.#ctor(System.Func{NoteDebris,NoteDebris},System.Int32,System.Boolean)">
+            <summary>
+            Creates a new redecorator registration.
+            </summary>
+            <param name="redecorateCall">This is called when the object is being redecorated.</param>
+            <param name="priority">The redecoration priority.</param>
+            <param name="chain">Whether to chain this redecoration with others. Every redecoration is now aggregated.
+            The chain will start if the highest priority object has chaining enabled and will stop once a registration
+            in the aggregate has chaining disabled.</param>
+        </member>
+        <member name="T:SiraUtil.Objects.Beatmap.Debris.BurstSliderHeadNoteDebrisLWRegistration">
+            <summary>
+            Registers a redecorator for the low-quality burst slider head (i.e. head in the chain) debris.
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Objects.Beatmap.Debris.BurstSliderHeadNoteDebrisLWRegistration.#ctor(System.Func{NoteDebris,NoteDebris},System.Int32,System.Boolean)">
+            <summary>
+            Creates a new redecorator registration.
+            </summary>
+            <param name="redecorateCall">This is called when the object is being redecorated.</param>
+            <param name="priority">The redecoration priority.</param>
+            <param name="chain">Whether to chain this redecoration with others. Every redecoration is now aggregated.
+            The chain will start if the highest priority object has chaining enabled and will stop once a registration
+            in the aggregate has chaining disabled.</param>
+        </member>
+        <member name="T:SiraUtil.Objects.Beatmap.Debris.NormalNoteDebrisHDRegistration">
+            <summary>
+            Registers a redecorator for the high-quality normal note debris.
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Objects.Beatmap.Debris.NormalNoteDebrisHDRegistration.#ctor(System.Func{NoteDebris,NoteDebris},System.Int32,System.Boolean)">
+            <summary>
+            Creates a new redecorator registration.
+            </summary>
+            <param name="redecorateCall">This is called when the object is being redecorated.</param>
+            <param name="priority">The redecoration priority.</param>
+            <param name="chain">Whether to chain this redecoration with others. Every redecoration is now aggregated.
+            The chain will start if the highest priority object has chaining enabled and will stop once a registration
+            in the aggregate has chaining disabled.</param>
+        </member>
+        <member name="T:SiraUtil.Objects.Beatmap.Debris.NormalNoteDebrisLWRegistration">
+            <summary>
+            Registers a redecorator for the low-quality normal note debris.
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Objects.Beatmap.Debris.NormalNoteDebrisLWRegistration.#ctor(System.Func{NoteDebris,NoteDebris},System.Int32,System.Boolean)">
+            <summary>
+            Creates a new redecorator registration.
+            </summary>
+            <param name="redecorateCall">This is called when the object is being redecorated.</param>
+            <param name="priority">The redecoration priority.</param>
+            <param name="chain">Whether to chain this redecoration with others. Every redecoration is now aggregated.
+            The chain will start if the highest priority object has chaining enabled and will stop once a registration
+            in the aggregate has chaining disabled.</param>
+        </member>
+        <member name="T:SiraUtil.Objects.Beatmap.LongSliderNoteRegistration">
+            <summary>
+            Registers a redecorator for a long slider note (arc)
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Objects.Beatmap.LongSliderNoteRegistration.#ctor(System.Func{SliderController,SliderController},System.Int32,System.Boolean)">
+            <summary>
+            Creates a new redecorator registration.
+            </summary>
+            <param name="redecorateCall">This is called when the object is being redecorated.</param>
+            <param name="priority">The redecoration priority.</param>
+            <param name="chain">Whether to chain this redecoration with others. Every redecoration is now aggregated.
+            The chain will start if the highest priority object has chaining enabled and will stop once a registration
+            in the aggregate has chaining disabled.</param>
+        </member>
+        <member name="T:SiraUtil.Objects.Beatmap.MediumSliderNoteRegistration">
+            <summary>
+            Registers a redecorator for a medium slider note (arc)
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Objects.Beatmap.MediumSliderNoteRegistration.#ctor(System.Func{SliderController,SliderController},System.Int32,System.Boolean)">
+            <summary>
+            Creates a new redecorator registration.
+            </summary>
+            <param name="redecorateCall">This is called when the object is being redecorated.</param>
+            <param name="priority">The redecoration priority.</param>
+            <param name="chain">Whether to chain this redecoration with others. Every redecoration is now aggregated.
+            The chain will start if the highest priority object has chaining enabled and will stop once a registration
+            in the aggregate has chaining disabled.</param>
+        </member>
+        <member name="T:SiraUtil.Objects.Beatmap.ObstacleRegistration">
+            <summary>
+            Registers a redecorator for an obstacle/wall
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Objects.Beatmap.ObstacleRegistration.#ctor(System.Func{ObstacleController,ObstacleController},System.Int32,System.Boolean)">
+            <summary>
+            Creates a new redecorator registration.
+            </summary>
+            <param name="redecorateCall">This is called when the object is being redecorated.</param>
+            <param name="priority">The redecoration priority.</param>
+            <param name="chain">Whether to chain this redecoration with others. Every redecoration is now aggregated.
+            The chain will start if the highest priority object has chaining enabled and will stop once a registration
+            in the aggregate has chaining disabled.</param>
+        </member>
+        <member name="T:SiraUtil.Objects.Beatmap.ProModeNoteRegistration">
+            <summary>
+            Registers a redecorator for pro mode notes.
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Objects.Beatmap.ProModeNoteRegistration.#ctor(System.Func{GameNoteController,GameNoteController},System.Int32,System.Boolean)">
+            <summary>
+            Creates a new redecorator registration.
+            </summary>
+            <param name="redecorateCall">This is called when the object is being redecorated.</param>
+            <param name="priority">The redecoration priority.</param>
+            <param name="chain">Whether to chain this redecoration with others. Every redecoration is now aggregated.
+            The chain will start if the highest priority object has chaining enabled and will stop once a registration
+            in the aggregate has chaining disabled.</param>
+        </member>
+        <member name="T:SiraUtil.Objects.Beatmap.ShortSliderNoteRegistration">
+            <summary>
+            Registers a redecorator for a short slider note (arc)
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Objects.Beatmap.ShortSliderNoteRegistration.#ctor(System.Func{SliderController,SliderController},System.Int32,System.Boolean)">
+            <summary>
+            Creates a new redecorator registration.
+            </summary>
+            <param name="redecorateCall">This is called when the object is being redecorated.</param>
+            <param name="priority">The redecoration priority.</param>
+            <param name="chain">Whether to chain this redecoration with others. Every redecoration is now aggregated.
+            The chain will start if the highest priority object has chaining enabled and will stop once a registration
+            in the aggregate has chaining disabled.</param>
+        </member>
+        <member name="T:SiraUtil.Objects.Multiplayer.ConnectedPlayerDuelRegistration">
+            <summary>
+            Registers a redecorator for the connected player in the duel.
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Objects.Multiplayer.ConnectedPlayerDuelRegistration.#ctor(System.Func{MultiplayerConnectedPlayerFacade,MultiplayerConnectedPlayerFacade},System.Int32,System.Boolean)">
+            <summary>
+            Creates a new redecorator registration.
+            </summary>
+            <param name="redecorateCall">This is called when the object is being redecorated.</param>
+            <param name="priority">The redecoration priority.</param>
+            <param name="chain">Whether to chain this redecoration with others. Every redecoration is now aggregated.
+            The chain will start if the highest priority object has chaining enabled and will stop once a registration
+            in the aggregate has chaining disabled.</param>
+        </member>
+        <member name="T:SiraUtil.Objects.Multiplayer.ConnectedPlayerRegistration">
+            <summary>
+            Registers a redecorator for the connected player.
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Objects.Multiplayer.ConnectedPlayerRegistration.#ctor(System.Func{MultiplayerConnectedPlayerFacade,MultiplayerConnectedPlayerFacade},System.Int32,System.Boolean)">
+            <summary>
+            Creates a new redecorator registration.
+            </summary>
+            <param name="redecorateCall">This is called when the object is being redecorated.</param>
+            <param name="priority">The redecoration priority.</param>
+            <param name="chain">Whether to chain this redecoration with others. Every redecoration is now aggregated.
+            The chain will start if the highest priority object has chaining enabled and will stop once a registration
+            in the aggregate has chaining disabled.</param>
+        </member>
+        <member name="T:SiraUtil.Objects.Multiplayer.LobbyAvatarPlaceRegistration">
+            <summary>
+            Registers a redecorator for the lobby avatar place.
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Objects.Multiplayer.LobbyAvatarPlaceRegistration.#ctor(System.Func{MultiplayerLobbyAvatarPlace,MultiplayerLobbyAvatarPlace},System.Int32,System.Boolean)">
+            <summary>
+            Creates a new redecorator registration.
+            </summary>
+            <param name="redecorateCall">This is called when the object is being redecorated.</param>
+            <param name="priority">The redecoration priority.</param>
+            <param name="chain">Whether to chain this redecoration with others. Every redecoration is now aggregated.
+            The chain will start if the highest priority object has chaining enabled and will stop once a registration
+            in the aggregate has chaining disabled.</param>
+        </member>
+        <member name="T:SiraUtil.Objects.Multiplayer.LobbyAvatarRegistration">
+            <summary>
+            Registers a redecorator for the lobby avatar controller.
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Objects.Multiplayer.LobbyAvatarRegistration.#ctor(System.Func{MultiplayerLobbyAvatarController,MultiplayerLobbyAvatarController},System.Int32,System.Boolean)">
+            <summary>
+            Creates a new redecorator registration.
+            </summary>
+            <param name="redecorateCall">This is called when the object is being redecorated.</param>
+            <param name="priority">The redecoration priority.</param>
+            <param name="chain">Whether to chain this redecoration with others. Every redecoration is now aggregated.
+            The chain will start if the highest priority object has chaining enabled and will stop once a registration
+            in the aggregate has chaining disabled.</param>
+        </member>
+        <member name="T:SiraUtil.Objects.Multiplayer.LocalActivePlayerDuelRegistration">
+            <summary>
+            Registers a redecorator for the active local player in the duel environment.
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Objects.Multiplayer.LocalActivePlayerDuelRegistration.#ctor(System.Func{MultiplayerLocalActivePlayerFacade,MultiplayerLocalActivePlayerFacade},System.Int32,System.Boolean)">
+            <summary>
+            Creates a new redecorator registration.
+            </summary>
+            <param name="redecorateCall">This is called when the object is being redecorated.</param>
+            <param name="priority">The redecoration priority.</param>
+            <param name="chain">Whether to chain this redecoration with others. Every redecoration is now aggregated.
+            The chain will start if the highest priority object has chaining enabled and will stop once a registration
+            in the aggregate has chaining disabled.</param>
+        </member>
+        <member name="T:SiraUtil.Objects.Multiplayer.LocalActivePlayerRegistration">
+            <summary>
+            Registers a redecorator for the active local player.
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Objects.Multiplayer.LocalActivePlayerRegistration.#ctor(System.Func{MultiplayerLocalActivePlayerFacade,MultiplayerLocalActivePlayerFacade},System.Int32,System.Boolean)">
+            <summary>
+            Creates a new redecorator registration.
+            </summary>
+            <param name="redecorateCall">This is called when the object is being redecorated.</param>
+            <param name="priority">The redecoration priority.</param>
+            <param name="chain">Whether to chain this redecoration with others. Every redecoration is now aggregated.
+            The chain will start if the highest priority object has chaining enabled and will stop once a registration
+            in the aggregate has chaining disabled.</param>
+        </member>
+        <member name="T:SiraUtil.Objects.Multiplayer.LocalInactivePlayerRegistration">
+            <summary>
+            Registers a redecorator for the inactive local player.
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Objects.Multiplayer.LocalInactivePlayerRegistration.#ctor(System.Func{MultiplayerLocalInactivePlayerFacade,MultiplayerLocalInactivePlayerFacade},System.Int32,System.Boolean)">
+            <summary>
+            Creates a new redecorator registration.
+            </summary>
+            <param name="redecorateCall">This is called when the object is being redecorated.</param>
+            <param name="priority">The redecoration priority.</param>
+            <param name="chain">Whether to chain this redecoration with others. Every redecoration is now aggregated.
+            The chain will start if the highest priority object has chaining enabled and will stop once a registration
+            in the aggregate has chaining disabled.</param>
+        </member>
+        <member name="T:SiraUtil.Objects.ObjectState">
+            <summary>
+            A snapshot of an object.
+            </summary>
+        </member>
+        <member name="F:SiraUtil.Objects.ObjectState.Active">
+            <summary>
+            The activity of the object at a point in time.
+            </summary>
+        </member>
+        <member name="F:SiraUtil.Objects.ObjectState.pose">
+            <summary>
+            The position and rotation of the object at a point in time.
+            </summary>
+        </member>
+        <member name="F:SiraUtil.Objects.ObjectState.scale">
+            <summary>
+            The scale of the object at a point in time.
+            </summary>
+        </member>
+        <member name="F:SiraUtil.Objects.ObjectState.transform">
+            <summary>
+            The tranform of the object.
+            </summary>
+        </member>
+        <member name="F:SiraUtil.Objects.ObjectState.parent">
+            <summary>
+            The parent of the object at a point in time;
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Objects.ObjectState.#ctor(UnityEngine.Transform)">
+            <summary>
+            Initializes a new object state.
+            </summary>
+            <param name="transform">The transform of the object</param>
+        </member>
+        <member name="M:SiraUtil.Objects.ObjectState.Revert">
+            <summary>
+            If the object still exists, revert its position back to what it was before.
+            </summary>
+        </member>
+        <member name="T:SiraUtil.Objects.ObjectStateContainer">
+            <summary>
+            A container for object states.
+            </summary>
+        </member>
+        <member name="F:SiraUtil.Objects.ObjectStateContainer.objects">
+            <summary>
+            The objects in this container.
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Objects.ObjectStateContainer.#ctor(UnityEngine.GameObject)">
+            <summary>
+            Initializes a new object state container.
+            </summary>
+            <param name="mainParent">The object to snapshot.</param>
+        </member>
+        <member name="M:SiraUtil.Objects.ObjectStateContainer.Revert">
+            <summary>
+            Reverts all the objects into the container to their original position.
+            </summary>
+        </member>
+        <member name="T:SiraUtil.Objects.RedecoratorRegistration">
+            <summary>
+            Registers an object to be redecorated.
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Objects.RedecoratorRegistration.#ctor(System.String,System.Type,System.Type,System.Int32,System.Boolean)">
+            <summary>
+            Creates a new registration.
+            </summary>
+            <param name="contract">The prefab contract.</param>
+            <param name="prefabType">The type of the prefab.</param>
+            <param name="containerType">The parent of the prefab. This is usually an installer.</param>
+            <param name="priority">The redecoration priority.</param>
+            <param name="chain">Whether to chain this redecoration with others. Every redecoration is now aggregated.
+            The chain will start if the highest priority object has chaining enabled and will stop once a registration
+            in the aggregate has chaining disabled.</param>
+        </member>
+        <member name="M:SiraUtil.Objects.RedecoratorRegistration.Redecorate(System.Object)">
+            <summary>
+            Redecorates an object.
+            </summary>
+            <param name="value">The object to redecorate.</param>
+            <returns>The redecorated object.</returns>
+        </member>
+        <member name="T:SiraUtil.Objects.SiraPrefabContainer">
+            <summary>
+            A container to wrap a prefab into.
+            </summary>
+        </member>
+        <member name="P:SiraUtil.Objects.SiraPrefabContainer.Prefab">
+            <summary>
+            The prefab in this container.
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Objects.SiraPrefabContainer.Start">
+            <summary>
+            The start method.
+            </summary>
+        </member>
+        <member name="T:SiraUtil.Objects.SiraPrefabContainer.Pool">
+            <summary>
+            The Zenject pool used to create more prefabs.
+            </summary>
+        </member>
+        <member name="T:SiraUtil.Objects.TemplateRedecoratorRegistration`2">
+            <summary>
+            A templator for object redecorator registrators.
+            </summary>
+            <typeparam name="TPrefabType">The type of the prefab.</typeparam>
+            <typeparam name="TParentType">The type of the parent.</typeparam>
+        </member>
+        <member name="M:SiraUtil.Objects.TemplateRedecoratorRegistration`2.#ctor(System.String,System.Func{`0,`0},System.Int32,System.Boolean)">
+            <summary>
+            Creates a new templated redecorator.
+            </summary>
+            <param name="contract">The contract type of the redecorator.</param>
+            <param name="redecorateCall">The callback for redecoration.</param>
+            <param name="priority">The redecoration priority.</param>
+            <param name="chain">Whether to chain this redecoration with others. Every redecoration is now aggregated.
+            The chain will start if the highest priority object has chaining enabled and will stop once a registration
+            in the aggregate has chaining disabled.</param>
+        </member>
+        <member name="M:SiraUtil.Objects.TemplateRedecoratorRegistration`2.Redecorate(System.Object)">
+            <summary>
+            Redecorates through a template.
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="T:SiraUtil.Sabers.SaberModelManager">
+            <summary>
+            Manages sabers and their models
+            </summary>
+        </member>
+        <member name="E:SiraUtil.Sabers.SaberModelManager.ColorUpdated">
+            <summary>
+            Called when a saber's color has been changed.
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Sabers.SaberModelManager.GetSaberModelController(Saber)">
+            <summary>
+            Gets the saber model controller associated with a Saber, or null if it can't be found.
+            </summary>
+            <param name="saber">The saber to get the model for.</param>
+            <returns>The model controller of the saber, or null if it can't be found.</returns>
+        </member>
+        <member name="M:SiraUtil.Sabers.SaberModelManager.GetPhysicalSaberColor(Saber)">
+            <summary>
+            Gets the color of a saber.
+            </summary>
+            <param name="saber">The saber to get the color of.</param>
+            <returns>The color of the saber, or the color of the saber type if the saber's physical color can't be found.</returns>
+        </member>
+        <member name="M:SiraUtil.Sabers.SaberModelManager.SetColor(Saber,UnityEngine.Color)">
+            <summary>
+            Efficiently changes the color of a saber.
+            </summary>
+            <param name="saber">The saber to change the color of.</param>
+            <param name="color">The color to change the saber to.</param>
+        </member>
+        <member name="M:SiraUtil.Sabers.SaberModelManager.LateTick">
+            <summary>
+            Object tick loop.
+            </summary>
+            <remarks>
+            This is called by Zenject. Please don't call it manually.
+            </remarks>
+        </member>
+        <member name="M:SiraUtil.Sabers.SaberModelManager.Dispose">
+            <summary>
+            Disposes this object.
+            </summary>
+            <remarks>
+            This is called by Zenject. Please don't call it manually.
+            </remarks>
+        </member>
+        <member name="T:SiraUtil.Sabers.SaberModelProvider">
+            <summary>
+            Provides copies of the active saber model.
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Sabers.SaberModelProvider.NewModel(System.Nullable{SaberType})">
+            <summary>
+            Creates a new model of the saber.
+            </summary>
+            <param name="saberType">The type of the saber. Setting this to null will have the saber type be of the left saber, however its color will forcibly be set to white.</param>
+            <returns>A newly instantiated model of the saber.</returns>
+        </member>
+        <member name="T:SiraUtil.Sabers.SaberModelRegistration">
+            <summary>
+            Allows you to register a new saber model.
+            </summary>
+            <remarks>
+            If you bind this type in the game scene container, it will be picked up and the one with the highest
+            priority will be 
+            </remarks>
+        </member>
+        <member name="P:SiraUtil.Sabers.SaberModelRegistration.Priority">
+            <summary>
+            The priority at which this model is preferred. The highest priority will be used as the active saber model.
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Sabers.SaberModelRegistration.Create``1(System.Int32)">
+            <summary>
+            Creates a new saber model registration.
+            </summary>
+            <typeparam name="T">The type of the SaberModelController to make.</typeparam>
+            <param name="priority">The priority at which this model is preferred. The highest priority will be used as the active saber model.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SiraUtil.Sabers.SaberModelRegistration.#ctor(System.Type,System.Int32)">
+            <summary>
+            Creates a new registration.
+            </summary>
+            <param name="modelControllerType">The type of the model to use. This must inherit from <see cref="T:SaberModelController"/></param>
+            <param name="priority">The priority at which this model is preferred. The highest priority will be used as the active saber model.</param>
+        </member>
+        <member name="M:SiraUtil.Sabers.SaberModelRegistration.#ctor(System.Type,System.Type,System.Int32)">
+            <summary>
+            Creates a new registration.
+            </summary>
+            <param name="leftModelControllerType">The type to use for the left saber model. This must inherit from <see cref="T:SaberModelController"/>. This will be instantiated through Zenject.</param>
+            <param name="rightModelControllerType">The type to use for the right saber model. This must inherit from <see cref="T:SaberModelController"/>. This will be instantiated through Zenject.</param>
+            <param name="priority">The priority at which this model is preferred. The highest priority will be used as the active saber model.</param>
+        </member>
+        <member name="M:SiraUtil.Sabers.SaberModelRegistration.#ctor(SaberModelController,System.Int32)">
+            <summary>
+            Creates a new registration based on a prefab.
+            </summary>
+            <param name="prefab">The prefab to use for the saber models. This will be instantiated through Zenject.</param>
+            <param name="priority">The priority at which this model is preferred. The highest priority will be used as the active saber model.</param>
+        </member>
+        <member name="M:SiraUtil.Sabers.SaberModelRegistration.#ctor(SaberModelController,SaberModelController,System.Int32)">
+            <summary>
+            Creates a new registration based on a prefab.
+            </summary>
+            <param name="leftModelPrefab">The prefab to use for the left saber model. This will be instantiated through Zenject.</param>
+            <param name="rightModelPrefab">The prefab to use for the right saber model. This will be instantiated through Zenject.</param>
+            <param name="priority">The priority at which this model is preferred. The highest priority will be used as the active saber model.</param>
+        </member>
+        <member name="M:SiraUtil.Sabers.SaberModelRegistration.#ctor(System.Func{SaberModelController},System.Int32)">
+            <summary>
+            Creates a new registration based on an instruction.
+            </summary>
+            <param name="instruction">A function which is called when a new prefab instance needs to be created. This will be instantiated by you, but have its dependencies injected through the container.</param>
+            <param name="priority">The priority at which this model is preferred. The highest priority will be used as the active saber model.</param>
+        </member>
+        <member name="M:SiraUtil.Sabers.SaberModelRegistration.#ctor(System.Func{SaberModelController},System.Func{SaberModelController},System.Int32)">
+            <summary>
+            Creates a new registration based on instructions.
+            </summary>
+            <param name="leftModelInstruction">A function which is called when a new prefab instance needs to be created for the left saber. This will be instantiated by you, but have its dependencies injected through the container.</param>
+            <param name="rightModelInstruction">A function which is called when a new prefab instance needs to be created for the right saber. This will be instantiated by you, but have its dependencies injected through the container.</param>
+            <param name="priority">The priority at which this model is preferred. The highest priority will be used as the active saber model.</param>
+        </member>
+        <member name="T:SiraUtil.Sabers.SiraSaber">
+            <summary>
+            A SiraSaber is an extra saber with some useful extension methods. The SiraSaber object is on the same GameObject as the normal Saber object, it's not an overridden version of the default Saber class.
+            </summary>
+        </member>
+        <member name="P:SiraUtil.Sabers.SiraSaber.Saber">
+            <summary>
+            The saber this <see cref="T:SiraUtil.Sabers.SiraSaber"/> is referencing.
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Sabers.SiraSaber.SetType(SaberType)">
+            <summary>
+            Sets the type of the saber.
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Sabers.SiraSaber.SetColor(UnityEngine.Color)">
+            <summary>
+            Sets the color of the saber.
+            </summary>
+            <param name="newColor">The new color.</param>
+        </member>
+        <member name="T:SiraUtil.Sabers.SiraSaberFactory">
+            <summary>
+            A service responsible for creating new <see cref="T:SiraUtil.Sabers.SiraSaber"/>s.
+            </summary>
+        </member>
+        <member name="E:SiraUtil.Sabers.SiraSaberFactory.SaberCreated">
+            <summary>
+            Called when a new saber is created.
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Sabers.SiraSaberFactory.Spawn(SaberType)">
+            <summary>
+            Spawns in a new <see cref="T:SiraUtil.Sabers.SiraSaber"/>
+            </summary>
+            <param name="saberType">The type of the saber.</param>
+            <returns>The created saber.</returns>
+        </member>
+        <member name="M:SiraUtil.Sabers.SiraSaberFactory.Spawn``1(SaberType)">
+            <summary>
+            Spawns in a new <see cref="T:SiraUtil.Sabers.SiraSaber"/> with a custom backing saber type.
+            </summary>
+            <typeparam name="TBackingSaber">The custom type of the saber.</typeparam>
+            <param name="saberType">The type of the saber.</param>
+            <returns>The created saber.</returns>
+        </member>
+        <member name="T:SiraUtil.Services.Events.FinishEventDispatcher">
+            <summary>
+            A collection of events for when a level finishes. Avoid using this in the game scene.
+            </summary>
+        </member>
+        <member name="T:SiraUtil.Services.ILevelFinisher">
+            <summary>
+            A collection of events for when a level finishes. Avoid using this in the game scene.
+            </summary>
+        </member>
+        <member name="E:SiraUtil.Services.ILevelFinisher.StandardLevelDidFinish">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="E:SiraUtil.Services.ILevelFinisher.MissionLevelDidFinish">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="E:SiraUtil.Services.ILevelFinisher.MultiplayerLevelDidFinish">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="E:SiraUtil.Services.ILevelFinisher.LocalPlayerDidDisconnectFromMultiplayer">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="E:SiraUtil.Services.ILevelFinisher.MultiplayerLevelDisconnected">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="E:SiraUtil.Services.ILevelFinisher.StandardLevelFinished">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="E:SiraUtil.Services.ILevelFinisher.MissionLevelFinished">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="E:SiraUtil.Services.ILevelFinisher.MultiplayerLevelFinished">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:SiraUtil.Services.IMenuControllerAccessor">
+            <summary>
+            Gets the active menu controllers. This works while in the menu scene or the game scene (pause menu controllers).
+            </summary>
+        </member>
+        <member name="P:SiraUtil.Services.IMenuControllerAccessor.LeftController">
+            <summary>
+            The left VR controller.
+            </summary>
+        </member>
+        <member name="P:SiraUtil.Services.IMenuControllerAccessor.RightController">
+            <summary>
+            The right VR controller.
+            </summary>
+        </member>
+        <member name="P:SiraUtil.Services.IMenuControllerAccessor.Parent">
+            <summary>
+            The parent of the VRControllers
+            </summary>
+        </member>
+        <member name="T:SiraUtil.Submissions.Submission">
+            <summary>
+            A service for disabling and enabling score submission.
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Submissions.Submission.Dispose">
+            <summary>
+            The dispose method.
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Submissions.Submission.Tickets">
+            <summary>
+            Get all the currently active tickets.
+            </summary>
+            <returns>All the currently active tickets.</returns>
+        </member>
+        <member name="M:SiraUtil.Submissions.Submission.DisableScoreSubmission(System.String,System.String)">
+            <summary>
+            Disables score submission for the currently played level.
+            </summary>
+            <param name="source">The name of the entity that is disabling score submission.</param>
+            <param name="subsource">A secondary source that is disabling score submission. Use this to be more specific about why submission is being disabled (ex. specific modifier)</param>
+            <returns>A ticket which can be used to disable the disabling of score submission.</returns>
+        </member>
+        <member name="M:SiraUtil.Submissions.Submission.Remove(SiraUtil.Submissions.Ticket)">
+            <summary>
+            Reenables score submission for a ticket.
+            </summary>
+            <param name="ticket"></param>
+        </member>
+        <member name="M:SiraUtil.Submissions.Submission.Remove(System.String)">
+            <summary>
+            Reenables score submission from a source.
+            </summary>
+            <param name="source"></param>
+        </member>
+        <member name="T:SiraUtil.Submissions.Ticket">
+            <summary>
+            A ticket which contains details for a score submission disable event.
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Submissions.Ticket.AddReason(System.String)">
+            <summary>
+            Adds a reason to this.
+            </summary>
+            <param name="reason"></param>
+        </member>
+        <member name="M:SiraUtil.Submissions.Ticket.Reasons">
+            <summary>
+            All the reasons as to why this ticket disabled score submission.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SiraUtil.Submissions.Ticket.Copy">
+            <summary>
+            Copies a ticket.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:SiraUtil.Tools.FPFC.IFPFCSettings">
+            <summary>
+            Represents settings for FPFC. This is subject to changes in the future, so don't be surprised if I update it and you inherit this object.
+            </summary>
+        </member>
+        <member name="P:SiraUtil.Tools.FPFC.IFPFCSettings.FOV">
+            <summary>
+            The FOV for the camera. This doesn't work when a VR headset is active.
+            </summary>
+        </member>
+        <member name="P:SiraUtil.Tools.FPFC.IFPFCSettings.Enabled">
+            <summary>
+            Whether or not the controller is enabled.
+            </summary>
+        </member>
+        <member name="P:SiraUtil.Tools.FPFC.IFPFCSettings.MoveSensitivity">
+            <summary>
+            The arbituary move sensitivity.
+            </summary>
+        </member>
+        <member name="P:SiraUtil.Tools.FPFC.IFPFCSettings.MouseSensitivity">
+            <summary>
+            The arbituary mouse sensitivity.
+            </summary>
+        </member>
+        <member name="P:SiraUtil.Tools.FPFC.IFPFCSettings.Ignore">
+            <summary>
+            Ignores and inverts the default state of FPFC when changed.
+            </summary>
+        </member>
+        <member name="P:SiraUtil.Tools.FPFC.IFPFCSettings.LockViewOnDisable">
+            <summary>
+            Doesn't restore the camera back to the user when they toggle out of FPFC. Requested by Mawntee.
+            </summary>
+        </member>
+        <member name="P:SiraUtil.Tools.FPFC.IFPFCSettings.LimitFrameRate">
+            <summary>
+            Limit the frame rate to the current screen's refresh rate when FPFC is enabled. Can help prevent GPU coil whine.
+            </summary>
+        </member>
+        <member name="P:SiraUtil.Tools.FPFC.IFPFCSettings.VSyncCount">
+            <summary>
+            Enable VSync when FPFC is enabled. Can help prevent GPU coil whine.
+            </summary>
+        </member>
+        <member name="E:SiraUtil.Tools.FPFC.IFPFCSettings.Changed">
+            <summary>
+            Called when the object is changed.
+            </summary>
+        </member>
+        <member name="T:SiraUtil.Tools.SongControl.ISongControl">
+            <summary>
+            An interface to controlling the song state.
+            </summary>
+        </member>
+        <member name="P:SiraUtil.Tools.SongControl.ISongControl.IsPaused">
+            <summary>
+            Whether or not the game is paused (paused for standard/campaigns/tutorial, menu open for multiplayer).
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Tools.SongControl.ISongControl.Quit">
+            <summary>
+            Quits the song. In multiplayer this will make you give up and put you in spectator mode.
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Tools.SongControl.ISongControl.Pause">
+            <summary>
+            Pauses the song. In multiplayer, this only brings up the menu.
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Tools.SongControl.ISongControl.Restart">
+            <summary>
+            Restarts the song. In multiplayer, this will make you give up and put you into spectator mode.
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Tools.SongControl.ISongControl.Continue">
+            <summary>
+            Continues the song if already paused.
+            </summary>
+        </member>
+        <member name="T:SiraUtil.Tweaks.DisableOpenXRRecentering">
+            <summary>
+            This patch fixes an issue with SteamVR where Unity will decide to not use SteamVR's room center
+            and instead try to invent its own origin, often resulting in the headset being under the floor.
+            This tends to happen when using FPFCToggle.
+            </summary>
+            <remarks>
+            This post explains the various possible OpenXR tracking spaces: <see href="https://discussions.unity.com/t/how-to-recenter-in-openxr/935209/9"/>
+            </remarks>
+        </member>
+        <member name="T:SiraUtil.Tweaks.UnityXRHelperExceptionFixer">
+            <summary>
+            This patch prevents <see cref="M:UnityXRHelper.Start"/> from throwing an exception when no <see cref="T:UnityEngine.XR.XRInputSubsystem"/> is available (e.g. when in FPFC with no <see cref="T:UnityEngine.XR.Management.XRLoader"/> actively loaded).
+            </summary>
+        </member>
+        <member name="T:SiraUtil.Tweaks.TypeAnalyzerException">
+            <summary>
+            Exception thrown when an error occurs within <see cref="T:Zenject.TypeAnalyzer"/>.
+            </summary>
+        </member>
+        <member name="T:SiraUtil.Web.HTTPMethod">
+            <summary>
+            Represents the most common HTTP methods
+            </summary>
+        </member>
+        <member name="F:SiraUtil.Web.HTTPMethod.GET">
+            <summary>
+            HTTP GET Method
+            </summary>
+        </member>
+        <member name="F:SiraUtil.Web.HTTPMethod.POST">
+            <summary>
+            HTTP POST Method
+            </summary>
+        </member>
+        <member name="F:SiraUtil.Web.HTTPMethod.PUT">
+            <summary>
+            HTTP PUT Method
+            </summary>
+        </member>
+        <member name="F:SiraUtil.Web.HTTPMethod.PATCH">
+            <summary>
+            HTTP PATCH Method
+            </summary>
+        </member>
+        <member name="F:SiraUtil.Web.HTTPMethod.DELETE">
+            <summary>
+            HTTP DELETE Method
+            </summary>
+        </member>
+        <member name="T:SiraUtil.Web.HttpServiceType">
+            <summary>
+            Defines a type of HTTP Service
+            </summary>
+        </member>
+        <member name="F:SiraUtil.Web.HttpServiceType.UnityWebRequests">
+            <summary>
+            Uses UnityWebRequests to handle http calls.
+            </summary>
+        </member>
+        <member name="T:SiraUtil.Web.IHttpResponse">
+            <summary>
+            An interface which describes the stat of an HTTP response.
+            </summary>
+        </member>
+        <member name="P:SiraUtil.Web.IHttpResponse.Code">
+            <summary>
+            The HTTP status code of the response.
+            </summary>
+        </member>
+        <member name="P:SiraUtil.Web.IHttpResponse.Successful">
+            <summary>
+            Whether or not the reuqest was successful or not.
+            </summary>
+        </member>
+        <member name="P:SiraUtil.Web.IHttpResponse.Headers">
+            <summary>
+            The headers of the response.
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Web.IHttpResponse.ReadAsStreamAsync">
+            <summary>
+            Read the body as a stream.
+            </summary>
+            <returns>A stream of the response body.</returns>
+        </member>
+        <member name="M:SiraUtil.Web.IHttpResponse.ReadAsStringAsync">
+            <summary>
+            Read the body as a string.
+            </summary>
+            <returns>The body represented as a string.</returns>
+        </member>
+        <member name="M:SiraUtil.Web.IHttpResponse.ReadAsByteArrayAsync">
+            <summary>
+            Read the body as a byte array.
+            </summary>
+            <returns>The body represented as an array of bytes.</returns>
+        </member>
+        <member name="M:SiraUtil.Web.IHttpResponse.Error">
+            <summary>
+            The error of the response. This will first try to grab the error from an 'error' json field at the root, then go to the http response, and then will go to the native client. Will be null if the request was successful.
+            </summary>
+        </member>
+        <member name="T:SiraUtil.Web.IHttpService">
+            <summary>
+            An interface for making asynchronous HTTP calls to the internet.
+            </summary>
+            <remarks>
+            This is a warning. Although this class is public, it is not meant to be inherited normally. Please ONLY receive this through Zenject and do not create your own instance.
+            Future SiraUtil updates might add more to this interface.
+            </remarks>
+        </member>
+        <member name="P:SiraUtil.Web.IHttpService.Token">
+            <summary>
+            The Authroization Bearer token for your requests (primarily used for auth). Defaults to null.
+            </summary>
+        </member>
+        <member name="P:SiraUtil.Web.IHttpService.BaseURL">
+            <summary>
+            The base URL to prefix all requests with. Defaults to null.
+            </summary>
+        </member>
+        <member name="P:SiraUtil.Web.IHttpService.UserAgent">
+            <summary>
+            The user agent for your requests. By default, it will be set to: '[Mod Name]/[Mod Version] ([IHttpService Provider Name]; [SiraUtil Version]; Beat Saber; [Beat Saber Version])  
+            </summary>
+        </member>
+        <member name="P:SiraUtil.Web.IHttpService.Timeout">
+            <summary>
+            The default delay (in seconds) until a timeout is reached. Defaults to 60.
+            </summary>
+        </member>
+        <member name="P:SiraUtil.Web.IHttpService.Headers">
+            <summary>
+            The default headers for your requests. Token and UserAgent are synchronized with this.
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Web.IHttpService.GetAsync(System.String,System.IProgress{System.Single},System.Nullable{System.Threading.CancellationToken})">
+            <summary>
+            Creates a HTTP GET request.
+            </summary>
+            <param name="url">The URL to send the request to.</param>
+            <param name="progress"></param>
+            <param name="cancellationToken"></param>
+            <returns>The response.</returns>
+        </member>
+        <member name="M:SiraUtil.Web.IHttpService.GetAsync(System.String,System.Int32,System.IProgress{System.Single},System.Nullable{System.Threading.CancellationToken})">
+            <summary>
+            Creates a HTTP GET request.
+            </summary>
+            <param name="url">The URL to send the request to.</param>
+            <param name="timeout">The delay (in seconds) until a timeout is reached.</param>
+            <param name="progress"></param>
+            <param name="cancellationToken"></param>
+            <returns>The response.</returns>
+        </member>
+        <member name="M:SiraUtil.Web.IHttpService.PostAsync(System.String,System.Object,System.Nullable{System.Threading.CancellationToken})">
+            <summary>
+            Creates a HTTP POST request.
+            </summary>
+            <param name="url">The URL to send the request to.</param>
+            <param name="body">The content to include as a UTF-8 JSON body. The object put in here will be automatically serialized.</param>
+            <param name="cancellationToken"></param>
+            <returns>The response.</returns>
+        </member>
+        <member name="M:SiraUtil.Web.IHttpService.PostAsync(System.String,System.Int32,System.Object,System.Nullable{System.Threading.CancellationToken})">
+            <summary>
+            Creates a HTTP POST request.
+            </summary>
+            <param name="url">The URL to send the request to.</param>
+            <param name="timeout">The delay (in seconds) until a timeout is reached.</param>
+            <param name="body">The content to include as a UTF-8 JSON body. The object put in here will be automatically serialized.</param>
+            <param name="cancellationToken"></param>
+            <returns>The response.</returns>
+        </member>
+        <member name="M:SiraUtil.Web.IHttpService.PutAsync(System.String,System.Object,System.Nullable{System.Threading.CancellationToken})">
+            <summary>
+            Creates a HTTP PUT request.
+            </summary>
+            <param name="url">The URL to send the request to.</param>
+            <param name="body">The content to include as a UTF-8 JSON body. The object put in here will be automatically serialized.</param>
+            <param name="cancellationToken"></param>
+            <returns>The response.</returns>
+        </member>
+        <member name="M:SiraUtil.Web.IHttpService.PutAsync(System.String,System.Int32,System.Object,System.Nullable{System.Threading.CancellationToken})">
+            <summary>
+            Creates a HTTP PUT request.
+            </summary>
+            <param name="url">The URL to send the request to.</param>
+            <param name="timeout">The delay (in seconds) until a timeout is reached.</param>
+            <param name="body">The content to include as a UTF-8 JSON body. The object put in here will be automatically serialized.</param>
+            <param name="cancellationToken"></param>
+            <returns>The response.</returns>
+        </member>
+        <member name="M:SiraUtil.Web.IHttpService.PatchAsync(System.String,System.Object,System.Nullable{System.Threading.CancellationToken})">
+            <summary>
+            Creates a HTTP PATCH request.
+            </summary>
+            <param name="url">The URL to send the request to.</param>
+            <param name="body">The content to include as a UTF-8 JSON body. The object put in here will be automatically serialized.</param>
+            <param name="cancellationToken"></param>
+            <returns>The response.</returns>
+        </member>
+        <member name="M:SiraUtil.Web.IHttpService.PatchAsync(System.String,System.Int32,System.Object,System.Nullable{System.Threading.CancellationToken})">
+            <summary>
+            Creates a HTTP PATCH request.
+            </summary>
+            <param name="url">The URL to send the request to.</param>
+            <param name="timeout">The delay (in seconds) until a timeout is reached.</param>
+            <param name="body">The content to include as a UTF-8 JSON body. The object put in here will be automatically serialized.</param>
+            <param name="cancellationToken"></param>
+            <returns>The response.</returns>
+        </member>
+        <member name="M:SiraUtil.Web.IHttpService.DeleteAsync(System.String,System.Nullable{System.Threading.CancellationToken})">
+            <summary>
+            Creates a HTTP DELETE request.
+            </summary>
+            <param name="url">The URL to send the request to.</param>
+            <param name="cancellationToken"></param>
+            <returns>The response.</returns>
+        </member>
+        <member name="M:SiraUtil.Web.IHttpService.DeleteAsync(System.String,System.Int32,System.Nullable{System.Threading.CancellationToken})">
+            <summary>
+            Creates a HTTP DELETE request.
+            </summary>
+            <param name="url">The URL to send the request to.</param>
+            <param name="timeout">The delay (in seconds) until a timeout is reached.</param>
+            <param name="cancellationToken"></param>
+            <returns>The response.</returns>
+        </member>
+        <member name="M:SiraUtil.Web.IHttpService.SendAsync(SiraUtil.Web.HTTPMethod,System.String,System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.IProgress{System.Single},System.Nullable{System.Threading.CancellationToken})">
+            <summary>
+            Sends a message asynchronously.
+            </summary>
+            <param name="method">The HTTP method.</param>
+            <param name="url">The URL to send the request to.</param>
+            <param name="body">The body of the response. It will be application/json.</param>
+            <param name="withHeaders">Additional headers on top of the default headers. This will be combined with the default headers associated with this <see cref="T:SiraUtil.Web.IHttpService"/></param>
+            <param name="downloadProgress">The download progress of the request.</param>
+            <param name="cancellationToken">The cancellation token to cancel the token with.</param>
+            <returns></returns>
+        </member>
+        <member name="M:SiraUtil.Web.IHttpService.SendAsync(SiraUtil.Web.HTTPMethod,System.String,System.Int32,System.String,System.Collections.Generic.IDictionary{System.String,System.String},System.IProgress{System.Single},System.Nullable{System.Threading.CancellationToken})">
+            <summary>
+            Sends a message asynchronously.
+            </summary>
+            <param name="method">The HTTP method.</param>
+            <param name="url">The URL to send the request to.</param>
+            <param name="timeout">The delay (in seconds) until a timeout is reached.</param>
+            <param name="body">The body of the response. It will be application/json.</param>
+            <param name="withHeaders">Additional headers on top of the default headers. This will be combined with the default headers associated with this <see cref="T:SiraUtil.Web.IHttpService"/></param>
+            <param name="downloadProgress">The download progress of the request.</param>
+            <param name="cancellationToken">The cancellation token to cancel the token with.</param>
+            <returns></returns>
+        </member>
+        <member name="T:SiraUtil.Web.SiraSync.ISiraSyncService">
+            <summary>
+            Defines a way of getting mod info from an online service.
+            </summary>
+            <remarks>
+            This is a warning. Although this class is public, it is not meant to be inherited normally. Please ONLY receive this through Zenject and do not create your own instance.
+            Future SiraUtil updates might add more to this interface.
+            </remarks>
+        </member>
+        <member name="M:SiraUtil.Web.SiraSync.ISiraSyncService.LatestVersion">
+            <summary>
+            Gets the latest version value of your mod.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SiraUtil.Web.SiraSync.ISiraSyncService.LatestChangelog">
+            <summary>
+            Gets the latest changelog for your mod.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:SiraUtil.Web.SiraSync.SiraSyncServiceType">
+            <summary>
+            Defines a type of SiraSync service
+            </summary>
+        </member>
+        <member name="F:SiraUtil.Web.SiraSync.SiraSyncServiceType.GitHub">
+            <summary>
+            Uses GitHub to handle SiraSync requests.
+            </summary>
+        </member>
+        <member name="T:SiraUtil.Zenject.BindType">
+            <summary>
+            Zenject bind type.
+            </summary>
+        </member>
+        <member name="F:SiraUtil.Zenject.BindType.Single">
+            <summary>
+            AsSingle()
+            </summary>
+        </member>
+        <member name="F:SiraUtil.Zenject.BindType.Transient">
+            <summary>
+            AsTransient()
+            </summary>
+        </member>
+        <member name="F:SiraUtil.Zenject.BindType.Cached">
+            <summary>
+            AsCached()
+            </summary>
+        </member>
+        <member name="T:SiraUtil.Zenject.IAsyncInitializable">
+            <summary>
+            An interface for initializing an object asynchronously.
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Zenject.IAsyncInitializable.InitializeAsync(System.Threading.CancellationToken)">
+            <summary>
+            Initializees asynchronously.
+            </summary>
+            <returns>The task of the initialization.</returns>
+        </member>
+        <member name="T:SiraUtil.Zenject.Location">
+            <summary>
+            Beat Saber specific locations which point to a place to install Zenject bindings.
+            </summary>
+        </member>
+        <member name="F:SiraUtil.Zenject.Location.None">
+            <summary>
+            Represents no binding.
+            </summary>
+        </member>
+        <member name="F:SiraUtil.Zenject.Location.App">
+            <summary>
+            Installs your bindings in the app context. Anything installed here will be available in every container. The current backing installer is <see cref="T:BeatSaberInit" />
+            </summary>
+        </member>
+        <member name="F:SiraUtil.Zenject.Location.Menu">
+            <summary>
+            Installs your bindings onto the menu. The current backing installer is <see cref="T:MainSettingsMenuViewControllersInstaller" />
+            </summary>
+        </member>
+        <member name="F:SiraUtil.Zenject.Location.StandardPlayer">
+            <summary>
+            Installs your bindings onto the standard gameplay (Solo or Party) player. The current backing installer is <see cref="T:StandardGameplayInstaller" />
+            </summary>
+        </member>
+        <member name="F:SiraUtil.Zenject.Location.CampaignPlayer">
+            <summary>
+            Installs your bindings onto the campaign player. The current backing installer is <see cref="T:MissionGameplayInstaller" />
+            </summary>
+        </member>
+        <member name="F:SiraUtil.Zenject.Location.MultiPlayer">
+            <summary>
+            Installs your bindings onto the local active multi player. Think of this as when the local user is actively playing the song. The current backing installer is <see cref="T:MultiplayerLocalActivePlayerInstaller" />
+            </summary>
+        </member>
+        <member name="F:SiraUtil.Zenject.Location.Player">
+            <summary>
+            Installs your bindings onto any player location (Standard, Campaign, or Multiplayer).
+            </summary>
+        </member>
+        <member name="F:SiraUtil.Zenject.Location.Tutorial">
+            <summary>
+            Installs your bindings onto the tutorial. The current backing installer is <see cref="T:TutorialInstaller" />
+            </summary>
+        </member>
+        <member name="F:SiraUtil.Zenject.Location.GameCore">
+            <summary>
+            Installs your bindings onto GameCore. The current backing installer is <see cref="T:GameCoreSceneSetup" />
+            </summary>
+            <remarks>
+            Anything specific to the game level will be installed here. It does not necessarily guarantee that anything player specific (audio managers, saber stuff, note spawning stuff)
+            will be included. Some things you would expect to be in here would be the currently played map (difficulty beatmap).
+            </remarks>
+        </member>
+        <member name="F:SiraUtil.Zenject.Location.MultiplayerCore">
+            <summary>
+            Installs your bindings onto the Multiplayer Core. The current backing installer is <see cref="T:MultiplayerCoreInstaller" />
+            </summary>
+        </member>
+        <member name="F:SiraUtil.Zenject.Location.Singleplayer">
+            <summary>
+            Installs your bindings onto all Players related to singleplayer (Standard, Campaign, or Tutorial).
+            </summary>
+        </member>
+        <member name="F:SiraUtil.Zenject.Location.ConnectedPlayer">
+            <summary>
+            Installs your bindings onto every connected player in multiplayer. The current backing installer is <see cref="T:MultiplayerConnectedPlayerInstaller" />
+            </summary>
+        </member>
+        <member name="F:SiraUtil.Zenject.Location.AlwaysMultiPlayer">
+            <summary>
+            Installs your bindings onto the local active player in multiplayer. This is the current local player, no matter if they're spectating or not. The current backing installer is <see cref="T:MultiplayerLocalPlayerInstaller" />
+            </summary>
+        </member>
+        <member name="F:SiraUtil.Zenject.Location.InactiveMultiPlayer">
+            <summary>
+            Installs your bindings onto the local inactive player in multiplayer. Think of this as when the local user is spectating in multiplayer. The current backing installer is <see cref="T:MultiplayerLocalInactivePlayerInstaller" />
+            </summary>
+        </member>
+        <member name="T:SiraUtil.Zenject.UBinder`2">
+            <summary>
+            Type binder to make intermod container injection simpler.
+            </summary>
+            <typeparam name="T">The type of the host parent (key).</typeparam>
+            <typeparam name="U">The type of the shared service (value).</typeparam>
+        </member>
+        <member name="F:SiraUtil.Zenject.UBinder`2.Value">
+            <summary>
+            The binder value.
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Zenject.UBinder`2.#ctor(`1)">
+            <summary>
+            Create a type binder.
+            </summary>
+            <param name="value">The value for the binder.</param>
+        </member>
+        <member name="T:SiraUtil.Zenject.Zenjector">
+            <summary>
+            A constructor class for building Zenject installer registration events.
+            </summary>
+        </member>
+        <member name="M:SiraUtil.Zenject.Zenjector.Install``1(SiraUtil.Zenject.Location,System.Object[])">
+            <summary>
+            Installs a custom installer to a location with a backing installer(s).
+            </summary>
+            <typeparam name="T">The type of your custom installer.</typeparam>
+            <param name="location">The location to install it to.</param>
+            <param name="parameters">
+            Parameters for the constructor of the installer. This will override Zenject's constructor injection on this installer,
+            and the installer type cannot be a <see cref="T:Zenject.MonoInstaller" /> if using this.
+            </param>
+        </member>
+        <member name="M:SiraUtil.Zenject.Zenjector.Install``2(System.Object[])">
+            <summary>
+            Installs a custom installer alongside another installer.
+            </summary>
+            <typeparam name="TCustomInstaller">The new installer being installed.</typeparam>
+            <typeparam name="TBaseInstaller">The installer to install <typeparamref name="TCustomInstaller"/> with.</typeparam>
+            <param name="parameters">
+            Parameters for the constructor of the installer. This will override Zenject's constructor injection on this installer,
+            and the installer type cannot be a <see cref="T:Zenject.MonoInstaller" /> if using this.
+            </param>
+        </member>
+        <member name="M:SiraUtil.Zenject.Zenjector.Install(SiraUtil.Zenject.Location,System.Action{Zenject.DiContainer})">
+            <summary>
+            Install bindings to a custom location with a backing installer(s).
+            </summary>
+            <param name="location">The location to install it to.</param>
+            <param name="installCallback">The callback which is used to install custom bindings into the container.</param>
+        </member>
+        <member name="M:SiraUtil.Zenject.Zenjector.Install``1(System.Action{Zenject.DiContainer})">
+            <summary>
+            Install bindings alongsise another installer without a custom installer.
+            </summary>
+            <typeparam name="TBaseInstaller">The installer to install your bindings with.</typeparam>
+            <param name="installCallback">The callback which is used to install custom bindings into the container.</param>
+        </member>
+        <member name="M:SiraUtil.Zenject.Zenjector.Expose``1(System.String)">
+            <summary>
+            Searches a decorator context for the first instance that matches a type, then automatically binds them the the active container.
+            </summary>
+            <typeparam name="TExposeType">The type to expose.</typeparam>
+            <param name="contractName">The contract name of the <see cref="T:Zenject.SceneDecoratorContext"/> to search on.</param>
+        </member>
+        <member name="M:SiraUtil.Zenject.Zenjector.Mutate``1(System.String,System.Action{Zenject.SceneDecoratorContext,``0})">
+            <summary>
+            Searches a decorator context for the first instance that matches a type, then invokes a callback with that instance for it to be modified or mutated.
+            </summary>
+            <typeparam name="TMutateType">The type to mutate.</typeparam>
+            <param name="contractName">The contract name of the <see cref="T:Zenject.SceneDecoratorContext" /> to search on.</param>
+            <param name="mutationCallback">The callback used to mutate the object instance.</param>
+        </member>
+        <member name="M:SiraUtil.Zenject.Zenjector.UseLogger(IPA.Logging.Logger)">
+            <summary>
+            Sets up a logger to be used in Zenject.
+            </summary>
+            <param name="logger">The logger to use as a source. If nothing is put in here, a logger is generated automatically.</param>
+        </member>
+        <member name="M:SiraUtil.Zenject.Zenjector.UseMetadataBinder``1">
+            <summary>
+            Registers your metadata under a UBinder
+            </summary>
+            <typeparam name="TKey">The key to retrive it by. Make this a type that is in your assembly.</typeparam>
+            <remarks>
+            This allows you to retrieve your PluginMetadata through the container by requesting UBinder|TKey, PluginMetadata| and accessing .Value 
+            </remarks>
+        </member>
+        <member name="M:SiraUtil.Zenject.Zenjector.UseHttpService(SiraUtil.Web.HttpServiceType)">
+            <summary>
+            Allows you to use SiraUtil's HTTP service system.
+            </summary>
+            <param name="type"></param>
+        </member>
+        <member name="M:SiraUtil.Zenject.Zenjector.UseSiraSync(SiraUtil.Web.SiraSync.SiraSyncServiceType,System.String,System.String)">
+            <summary>
+            SiraSync allows you to get generic info about your mod from the internet like the latest version and changelog.
+            </summary>
+            <param name="type">The type of service to use under the hood.</param>
+            <param name="userID">The username/ID of the owner of the mod/repo in the SiraSync service.</param>
+            <param name="modID">The ID of your mod/repo in the SiraSync service.</param>
+            <remarks>
+            This will register this Zenjector into the Sira HttpService if it already isn't so.
+            </remarks>
+        </member>
+        <member name="M:SiraUtil.Zenject.Zenjector.UseAutoBinder">
+            <summary>
+            Registers autobinding support, which provides easy zenject binding installations through the <see cref="T:SiraUtil.Attributes.BindAttribute"/> attribute.
+            </summary>
+            <remarks>
+            This will scan all the types in your assembly, so if you're using strict optional dependencies, warnings will probably be thrown.
+            </remarks>
+        </member>
+        <member name="T:Zenject.ZenjectExtensions">
+            <summary>
+            Contains extensions for zenject related things.
+            </summary>
+        </member>
+        <member name="M:Zenject.ZenjectExtensions.FromNewComponentAsViewController(Zenject.FromBinder,System.Action{Zenject.InjectContext,System.Object})">
+            <summary>
+            Binds a view controller to the container.
+            </summary>
+            <param name="binder">The binder.</param>
+            <param name="onInstantiated">The callback when the view controller is instantiated.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Zenject.ZenjectExtensions.FromNewComponentOnNewGameObject(Zenject.FromBinder)">
+            <summary>
+            Creates a new component on a new GameObject
+            </summary>
+            <param name="fromBinder"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
